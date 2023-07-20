@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0cd88141798b384c947538fb4cfcbe8, type: 3}
+  m_Name: Gattling
+  m_EditorClassIdentifier: 
+  ItemID: 8
+  ItemName: Gattling Gun
+  ItemTitle: Gattling
+  ItemTotalTiers: 1
+  _itemTier: 0
+  ItemTextures:
+  - {fileID: 21300000, guid: 82e72e7428f50424aabeb93d19e73280, type: 3}
+  ItemDescription:
+  - Equipment from an Executioner Dalek, allows for a much higer fire rate at slightly
+    reduced damage
+  ItemModelTexture:
+  - {fileID: 21300000, guid: 8ed52f64ab20b5a44971798a4283fbb2, type: 3}
+  WorldModel: {fileID: 0}
+  isSelected: 0

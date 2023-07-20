@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/test.uss?fileID=7433441132597879392&amp;guid=3fde0ef02c9bf6246bb574da91c1909d&amp;type=3#test" />
+    <ui:VisualElement name="VisualElement" style="justify-content: center; align-items: flex-start; margin-left: 10%; height: 100%;">
+        <ui:Label text="The Last Dalek" display-tooltip-when-elided="true" name="Main-Title" style="font-size: 32px; color: rgb(255, 173, 0); -unity-text-align: upper-left; -unity-font: url(&apos;project://database/Assets/TextMesh%20Pro/Fonts/LiberationSans.ttf?fileID=12800000&amp;guid=e3265ab4bf004d28a9537516768c1c75&amp;type=3#LiberationSans&apos;); left: 0;" />
+        <ui:Button text="Start" display-tooltip-when-elided="true" name="Main_Btn_Start" style="-unity-text-align: middle-center; left: 0; right: auto; width: 128px;" />
+        <ui:Button text="Options" display-tooltip-when-elided="true" name="Main_Btn_Options" style="-unity-text-align: middle-center; left: 0; right: auto; width: 128px;" />
+        <ui:Button text="Extras" display-tooltip-when-elided="true" name="Main_Btn_Extras" style="-unity-text-align: middle-center; left: 0; right: auto; width: 128px;" />
+        <ui:Button text="Quit" display-tooltip-when-elided="true" name="Main_Btn_Quit" style="-unity-text-align: middle-center; left: 0; right: auto; width: 128px;" />
+    </ui:VisualElement>
+</ui:UXML>

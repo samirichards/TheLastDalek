@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0cd88141798b384c947538fb4cfcbe8, type: 3}
+  m_Name: Gun
+  m_EditorClassIdentifier: 
+  ItemID: 0
+  ItemName: Energy Weapon
+  ItemTitle: Gun
+  ItemTotalTiers: 3
+  _itemTier: 0
+  ItemTextures:
+  - {fileID: 21300000, guid: c5dc39f35fb540e439218d913723f3bc, type: 3}
+  - {fileID: 21300000, guid: 91645ebfdb8ad4943930af2ac172051d, type: 3}
+  - {fileID: 21300000, guid: 115835ebac33d5d43aab3e67c50d7f46, type: 3}
+  ItemDescription:
+  - Enables the Daleks Death Ray
+  - A more powerful Death Ray for faster dipatch of organic beings and inanimate
+    objects
+  - Taken from the Doctor, Allows the Dalek to blow holes in Blast Doors
+  ItemModelTexture:
+  - {fileID: 21300000, guid: 1372e1c5909016342acb076b1deb0d58, type: 3}
+  - {fileID: 21300000, guid: 02557eb7d430ee44eabef2b4e475cdb6, type: 3}
+  - {fileID: 21300000, guid: 98b3d9e355868a143a133779a4070f21, type: 3}
+  WorldModel: {fileID: 8026222352587398033, guid: 2a81169cba4194644af1cc8e44d5c6d4,
+    type: 3}
+  isSelected: 0
