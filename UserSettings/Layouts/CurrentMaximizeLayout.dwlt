@@ -225,10 +225,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 78}
-      m_SelectedIDs: 8cc4ffff
-      m_LastClickedID: -15220
-      m_ExpandedIDs: 029fffffdcc5fffff4ffffffa2a60000
+      scrollPos: {x: 0, y: 142}
+      m_SelectedIDs: 9e720000
+      m_LastClickedID: 29342
+      m_ExpandedIDs: 36fbfffff4ffffff9e720000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -572,9 +572,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 6.450201, y: 3.026554, z: -20.03977}
+    m_Target: {x: 4.7096686, y: -2.6368506, z: -17.691717}
     speed: 2
-    m_Value: {x: 6.450201, y: 3.026554, z: -20.03977}
+    m_Value: {x: 4.7096686, y: -2.6368506, z: -17.691717}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -621,9 +621,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.012729493, y: -0.92800975, z: -0.03172678, w: -0.37107906}
+    m_Target: {x: -0.026959136, y: -0.9692871, z: 0.12458493, w: -0.21055321}
     speed: 2
-    m_Value: {x: 0.011354985, y: -0.93137044, z: -0.029044915, w: -0.362735}
+    m_Value: {x: -0.026957812, y: -0.9692395, z: 0.12457881, w: -0.21054287}
   m_Size:
     m_Target: 10
     speed: 2
@@ -684,6 +684,7 @@ MonoBehaviour:
   m_ViewTransforms:
     m_KeySerializationHelper:
     - {fileID: 1959570269871543450, guid: 4fe8a65d7f65aec43a028f6ef85fc025, type: 2}
+    - {fileID: 8765544814062678441, guid: c6bb862ad287956418f81f5e1bf59d89, type: 2}
     m_ValueSerializationHelper:
     - e00: 1
       e01: 0
@@ -701,11 +702,27 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 4fe8a65d7f65aec43a028f6ef85fc025,
+  m_AnimatorController: {fileID: 9100000, guid: c6bb862ad287956418f81f5e1bf59d89,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 1959570269871543450, guid: 4fe8a65d7f65aec43a028f6ef85fc025,
+  - m_Target: {fileID: 8765544814062678441, guid: c6bb862ad287956418f81f5e1bf59d89,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -788,22 +805,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Entities/Dalek/Models
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Entities/Dalek/Models
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\samir\Documents\Game Projects\TheLastDalek
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 20b20000
-    m_LastClickedID: 45600
-    m_ExpandedIDs: 00000000a8b00000aab00000acb00000aeb00000b0b00000b2b00000b4b00000b6b00000b8b00000bab00000bcb00000cab0000020b20000f8b6000000ca9a3bffffff7f
+    m_SelectedIDs: b8850000
+    m_LastClickedID: 34232
+    m_ExpandedIDs: 00000000b8850000ba850000bc850000be850000c0850000c2850000c4850000c6850000c8850000ca850000cc8500005c870000b087000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -831,7 +848,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a8b00000aab00000acb00000aeb00000b0b00000b2b00000b4b00000b6b00000b8b00000bab00000bcb00000
+    m_ExpandedIDs: 00000000b8850000ba850000bc850000be850000c0850000c2850000c4850000c6850000c8850000ca850000cc850000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -856,9 +873,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 8cc4ffff
-    m_LastClickedInstanceID: -15220
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 9e720000
+    m_LastClickedInstanceID: 29342
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -875,7 +892,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 13}
+      m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
