@@ -197,19 +197,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b55cdcf214299a14f833e490da823dc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _inventoryManager: {fileID: 0}
-  _movement: {fileID: 0}
-  _collider: {fileID: 0}
-  _rb: {fileID: 0}
-  _speechController: {fileID: 0}
-  _lookAtAnimator: {fileID: 0}
-  _chestRotateController: {fileID: 0}
-  _attackController: {fileID: 0}
-  _playerComponent: {fileID: 0}
-  _animator: {fileID: 0}
-  _gameManager: {fileID: 0}
-  _cursorControl: {fileID: 0}
-  _interactionController: {fileID: 0}
 --- !u!114 &8384307792957376665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -222,20 +209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aae08e4ed7729e74585ba00453f6bc18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  InventorySlots:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  SelectedSlotA: {fileID: 0}
-  SelectedSlotB: {fileID: 0}
-  ItemModelDisplay: {fileID: 0}
-  IInventory: {fileID: 11400000, guid: ee7e7a1ae89db3548b4e10db4b061636, type: 2}
+  _InventoryObject: {fileID: 11400000, guid: ee7e7a1ae89db3548b4e10db4b061636, type: 2}
   ItemDatabase: {fileID: 11400000, guid: 52d8c5cc99f5d574ab4e10d566d46e6b, type: 2}
   EquippedItems: []
   ItemSelectionSound: {fileID: 8300000, guid: 8d160790ee2cc9f4cb5cf6cb3d5baef0, type: 3}
@@ -487,7 +461,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a774ba6a4ae676343897c67d6c26bb52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventory: {fileID: 11400000, guid: ee7e7a1ae89db3548b4e10db4b061636, type: 2}
   PickupCollider: {fileID: 9007432245857437209}
   Health: 0
   MaxHealth: 100
@@ -505,7 +478,6 @@ MonoBehaviour:
   DamageClip: {fileID: 8300000, guid: ff10af457df59a442b4f3946bd4e69c8, type: 3}
   HealthBar: {fileID: 0}
   ShieldBar: {fileID: 0}
-  shieldBarSlider: {fileID: 0}
 --- !u!65 &9007432245857437209
 BoxCollider:
   m_ObjectHideFlags: 0

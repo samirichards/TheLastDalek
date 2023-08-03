@@ -180,11 +180,9 @@ public class BaseAI : MonoBehaviour
             var direction = (target - transform.position).normalized;
 
 
-            Debug.Log("Dalek in range, checking for LOS");
-            Debug.DrawRay(origin, direction, Color.red, 1);
             if (Physics.Raycast(origin, direction, out hit, SightRange, TargetMask.value))
             {
-                Debug.Log(hit.collider.gameObject.tag);
+                
                 if (hit.collider.gameObject.tag == "Player" || hit.collider.gameObject.tag == "PlayerShield")
                 {
                     DalekInLOS = true;

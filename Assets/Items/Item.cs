@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.Rendering;
 using UnityEngine;
-using static UnityEditor.Progress;
 
 [CreateAssetMenu(menuName ="Artefact")]
 public class Item : ScriptableObject

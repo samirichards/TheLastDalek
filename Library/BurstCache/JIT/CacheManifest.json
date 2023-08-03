@@ -7,11 +7,7 @@
     },
     {
       "FullName": "Unity.RenderPipelines.HighDefinition.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2023-07-20T10:42:52.2480703Z"
-    },
-    {
-      "FullName": "mscorlib, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-11-23T03:23:44Z"
+      "LastWriteTime": "2023-08-03T23:08:25.9834773Z"
     },
     {
       "FullName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
@@ -23,11 +19,15 @@
     },
     {
       "FullName": "Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2023-07-20T10:42:52.184071Z"
+      "LastWriteTime": "2023-08-03T23:08:25.9719538Z"
     },
     {
       "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2023-07-20T10:42:52.1740691Z"
+      "LastWriteTime": "2023-08-03T23:08:25.9784682Z"
+    },
+    {
+      "FullName": "mscorlib, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2022-11-23T03:23:44Z"
     }
   ],
   "Functions": [
@@ -41,8 +41,7 @@
         1,
         2,
         3,
-        4,
-        5
+        4
       ]
     },
     {
@@ -51,9 +50,10 @@
       "ModuleHash": "e149df37821494b11ada4ebcd38ecf84",
       "LinkName": "801E9A000BB37B05",
       "AssemblyDependencyIndices": [
+        5,
         6,
-        4,
-        3
+        3,
+        2
       ]
     },
     {
@@ -64,9 +64,9 @@
       "AssemblyDependencyIndices": [
         0,
         1,
-        3,
-        5,
-        4
+        4,
+        2,
+        3
       ]
     },
     {
@@ -77,8 +77,8 @@
       "AssemblyDependencyIndices": [
         0,
         1,
-        3,
-        4
+        2,
+        3
       ]
     },
     {
@@ -87,9 +87,9 @@
       "ModuleHash": "449c9d372dc6d789b6fcf57321bc0f33",
       "LinkName": "CDCA4A5193BE5947",
       "AssemblyDependencyIndices": [
-        6,
-        4,
-        3
+        5,
+        3,
+        2
       ]
     }
   ]

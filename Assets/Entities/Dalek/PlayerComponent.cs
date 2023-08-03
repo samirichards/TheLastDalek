@@ -3,12 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
-using static UnityEditor.Progress;
 
 public class PlayerComponent : MonoBehaviour
 {
-    public InventoryObject inventory;
-
     public BoxCollider PickupCollider;
 
     public float Health;
@@ -22,8 +19,6 @@ public class PlayerComponent : MonoBehaviour
     private ShieldManager shieldManager;
     public GameObject HealthBar;
     public GameObject ShieldBar;
-    private Slider healthBarSlider;
-    public Slider shieldBarSlider;
 
     void Start()
     {
@@ -32,9 +27,9 @@ public class PlayerComponent : MonoBehaviour
 
     void FixedUpdate()
     {
-        healthBarSlider.value = Health * 0.01f;
-        shieldBarSlider.value = shieldManager.ShieldHealth * 0.01f;
-        ShieldBar.SetActive(shieldManager.ShieldEnabled);
+        //healthBarSlider.value = Health * 0.01f;
+        //shieldBarSlider.value = shieldManager.ShieldHealth * 0.01f;
+        //ShieldBar.SetActive(shieldManager.ShieldEnabled);
     }
 
     void OnCollisionEnter(Collision collision)
@@ -42,9 +37,12 @@ public class PlayerComponent : MonoBehaviour
         var item = collision.gameObject.GetComponent<GroundItem>();
         if (item)
         {
-            inventory.AddItem(item._item);
-            GetComponent<GameManager>().ShowUpgradeScreen(item._item.ItemID, inventory.Container.Items.First(a=>a.item.ItemTitle == item._item.ItemTitle).ItemTier);
-            Destroy(collision.gameObject);
+            if (GetComponent<InventoryManager>().AddItem(item._item))
+            {
+                GameManager.ShowUpgradeScreen(item._item.ItemID, GetComponent<InventoryManager>().GetItems().First(a=> a.item.ItemTitle == item._item.ItemTitle).ItemTier);
+                Destroy(collision.gameObject);
+            }
+            
         }
     }
     public void Damage(DamageInfo _damageInfo)
@@ -74,12 +72,12 @@ public class PlayerComponent : MonoBehaviour
     {
         audioSource = gameObject.AddComponent(typeof(AudioSource)) as AudioSource;
         shieldManager = ShieldObject.GetComponent<ShieldManager>();
-        healthBarSlider = HealthBar.GetComponent<Slider>();
-        shieldBarSlider = ShieldBar.GetComponent<Slider>();
+        //healthBarSlider = HealthBar.GetComponent<Slider>();
+        //shieldBarSlider = ShieldBar.GetComponent<Slider>();
     }
 
     private void OnApplicationQuit()
     {
-        inventory.Container.Items.Clear();
+        GetComponent<InventoryManager>().ClearInventory();
     }
 }
