@@ -12,6 +12,7 @@ using Random = UnityEngine.Random;
 
 public class BaseAI : MonoBehaviour
 {
+    private GameManager _gameManagerComponent;
     protected Animator CharacterAnimator;
 
     public float MaxHealth = 100f;
@@ -107,6 +108,7 @@ public class BaseAI : MonoBehaviour
 
     void Awake()
     {
+        _gameManagerComponent = DalekTarget.GetComponent<GameManager>();
         CharacterAnimator = GetComponentInChildren<Animator>();
         try
         {
@@ -208,7 +210,7 @@ public class BaseAI : MonoBehaviour
     {
         while (IsAlive)
         {
-            if (!GameManager.IsGamePaused)
+            if (!_gameManagerComponent.IsGamePaused)
             {
                 switch (AiState)
                 {

@@ -146,6 +146,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4645755809680772353}
+  - component: {fileID: 7983031951617160034}
   - component: {fileID: 9090812734087792655}
   - component: {fileID: 8384307792957376665}
   - component: {fileID: 4569004593978924019}
@@ -185,6 +186,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7983031951617160034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859279906901890729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5636d4705f88fe34b82a90cbdb250549, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PauseMenu: {fileID: 0}
+  ItemUpgradeScreen: {fileID: 0}
+  ArtifactScreen: {fileID: 0}
+  UpgradeAudioClip: {fileID: 8300000, guid: db9200280ebeb8f4b88a4d812a79756a, type: 3}
+  ArtifactScreenOpenClip: {fileID: 8300000, guid: 6e2dd4925c0f8d94891b3f9f8aeef2c7,
+    type: 3}
+  ArtifactScreenCloseClip: {fileID: 8300000, guid: b0cc194fb527d544781adcd9e3e5ddd9,
+    type: 3}
+  IsArtifactScreenShown: 0
+  InventoryManagerComponent: {fileID: 0}
+  UpgradeScreenTitle: {fileID: 0}
+  UpgradeScreenIcon: {fileID: 0}
 --- !u!114 &9090812734087792655
 MonoBehaviour:
   m_ObjectHideFlags: 0

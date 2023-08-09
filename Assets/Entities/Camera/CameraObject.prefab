@@ -220,7 +220,6 @@ GameObject:
   m_Component:
   - component: {fileID: 412181645742918091}
   - component: {fileID: -5614730578520680164}
-  - component: {fileID: 6423629880282214223}
   m_Layer: 0
   m_Name: CameraObject
   m_TagString: Untagged
@@ -258,28 +257,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LevelMusic: {fileID: 0}
---- !u!114 &6423629880282214223
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5529374609491440648}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5636d4705f88fe34b82a90cbdb250549, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PauseMenu: {fileID: 0}
-  ItemUpgradeScreen: {fileID: 0}
-  ArtifactScreen: {fileID: 0}
-  UpgradeAudioClip: {fileID: 0}
-  ArtifactScreenOpenClip: {fileID: 0}
-  ArtifactScreenCloseClip: {fileID: 0}
-  IsArtifactScreenShown: 0
-  InventoryManagerComponent: {fileID: 0}
-  UpgradeScreenTitle: {fileID: 0}
-  UpgradeScreenIcon: {fileID: 0}
 --- !u!1001 &1543739539518458388
 PrefabInstance:
   m_ObjectHideFlags: 0

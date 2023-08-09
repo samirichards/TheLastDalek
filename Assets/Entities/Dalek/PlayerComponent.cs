@@ -39,12 +39,12 @@ public class PlayerComponent : MonoBehaviour
         {
             if (GetComponent<InventoryManager>().AddItem(item._item))
             {
-                GameManager.ShowUpgradeScreen(item._item.ItemID, GetComponent<InventoryManager>().GetItems().First(a=> a.item.ItemTitle == item._item.ItemTitle).ItemTier);
+                GetComponent<GameManager>().ShowUpgradeScreen(item._item.ItemID, GetComponent<InventoryManager>().GetItems().First(a=> a.item.ItemTitle == item._item.ItemTitle).ItemTier);
                 Destroy(collision.gameObject);
             }
-            
         }
     }
+
     public void Damage(DamageInfo _damageInfo)
     {
         Health -= _damageInfo.DamageValue;

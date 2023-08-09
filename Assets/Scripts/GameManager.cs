@@ -9,40 +9,22 @@ using Image = UnityEngine.UI.Image;
 public class GameManager : MonoBehaviour
 {
     
-    public static bool IsGamePaused { get; set; } = false;
-    [SerializeField] public static GameObject PauseMenu;
-    [SerializeField] public static GameObject ItemUpgradeScreen;
-    [SerializeField] public static GameObject ArtifactScreen;
-    [SerializeField] public static AudioClip UpgradeAudioClip;
-    private static bool IsOnNormalPauseScreen = false;
+    public bool IsGamePaused { get; set; } = false;
+    [SerializeField] public GameObject PauseMenu;
+    [SerializeField] public GameObject ItemUpgradeScreen;
+    [SerializeField] public GameObject ArtifactScreen;
+    [SerializeField] public AudioClip UpgradeAudioClip;
+    private bool IsOnNormalPauseScreen = false;
     [SerializeField] public AudioClip ArtifactScreenOpenClip;
-    [SerializeField] public  AudioClip ArtifactScreenCloseClip;
-    public static bool IsArtifactScreenShown = false;
-    public static InventoryManager InventoryManagerComponent;
+    [SerializeField] public AudioClip ArtifactScreenCloseClip;
+    public bool IsArtifactScreenShown = false;
+    public InventoryManager InventoryManagerComponent;
 
-    [SerializeField] public static GameObject UpgradeScreenTitle;
-    [SerializeField] public static GameObject UpgradeScreenIcon;
-    private static InGameUI inGameUiRef;
+    [SerializeField] public GameObject UpgradeScreenTitle;
+    [SerializeField] public GameObject UpgradeScreenIcon;
+    private InGameUI inGameUiRef;
 
-    private static GameObject CameraObjectReference;
-
-    private static GameManager _Instance;
-    public static GameManager Instance
-    {
-        get
-        {
-            if (!_Instance)
-            {
-                _Instance = new GameManager();
-                CameraObjectReference = GameObject.Find("CameraObject");
-                _Instance = CameraObjectReference.GetComponentInChildren<GameManager>();
-                _Instance.name = _Instance.GetType().ToString();
-                // mark root as DontDestroyOnLoad();
-                DontDestroyOnLoad(CameraObjectReference);
-            }
-            return _Instance;
-        }
-    }
+    private GameObject CameraObjectReference;
 
     void Awake()
     {
@@ -58,6 +40,7 @@ public class GameManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
+            Debug.Log("ESC Key pressed");
             if (IsGamePaused)
             {
                 ResumeGame();
@@ -69,6 +52,8 @@ public class GameManager : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Tab))
         {
+            //TODO Fix this
+            Debug.Log("TAB Pressed");
             if (!IsOnNormalPauseScreen)
             {
                 if (IsGamePaused)
@@ -83,20 +68,13 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public static void ShowUpgradeScreen(int itemID, int itemTier)
+    public void ShowUpgradeScreen(int itemID, int itemTier)
     {
+        Debug.Log("Upgrade Screen show: " + InventoryManagerComponent.ItemDatabase.Items.First(a=>a.ItemID == itemID).ItemTitle);
         Player.GetMovementController().StopSound();
-        //CameraObjectReference.GetComponentInChildren<AudioSource>().PlayOneShot(UpgradeAudioClip);
         try
         {
-            var item = InventoryManagerComponent.ItemDatabase.Items.First(a => a.ItemID == itemID);
-            UpgradeScreenTitle.GetComponent<TextMeshProUGUI>().text = item.ItemName;
-            //TODO Fix this so that it shows the correct item Tier (Should be an easy fix I just can't be bothered right now
-            UpgradeScreenIcon.GetComponent<Image>().sprite = item.ItemTextures[itemTier];
             IsOnNormalPauseScreen = false;
-            PauseMenu.SetActive(false);
-            ItemUpgradeScreen.SetActive(true);
-            ArtifactScreen.SetActive(false);
             IsGamePaused = true;
             Time.timeScale = 0f;
         }
@@ -111,14 +89,9 @@ public class GameManager : MonoBehaviour
         try
         {
             GetComponent<Movement>().StopSound();
-            //InventoryManagerComponent.DrawInventory();
             IsArtifactScreenShown = true;
             IsOnNormalPauseScreen = false;
             GetComponent<AudioSource>().PlayOneShot(ArtifactScreenOpenClip);
-            PauseMenu.SetActive(false);
-            ItemUpgradeScreen.SetActive(false);
-            ArtifactScreen.SetActive(true);
-            IsGamePaused = true;
             Time.timeScale = 0f;
         }
         catch (Exception e)
@@ -132,9 +105,6 @@ public class GameManager : MonoBehaviour
         IsArtifactScreenShown = false;
         GetComponent<AudioSource>().PlayOneShot(ArtifactScreenCloseClip);
         IsOnNormalPauseScreen = false;
-        PauseMenu.SetActive(false);
-        ItemUpgradeScreen.SetActive(false);
-        ArtifactScreen.SetActive(false);
         IsGamePaused = false;
         Time.timeScale = 1.0f;
         GetComponent<InventoryManager>().UpdatePlayerAbilities();
@@ -143,7 +113,7 @@ public class GameManager : MonoBehaviour
     public void ResumeGame()
     {
         IsOnNormalPauseScreen = false;
-        PauseMenu.SetActive(false);
+        //PauseMenu.SetActive(false);
         IsGamePaused = false;
         Time.timeScale = 1.0f;
     }
@@ -152,7 +122,7 @@ public class GameManager : MonoBehaviour
     {
         GetComponent<Movement>().StopSound();
         IsOnNormalPauseScreen = true;
-        PauseMenu.SetActive(true);
+        //PauseMenu.SetActive(true);
         IsGamePaused = true;
         Time.timeScale = 0f;
     }

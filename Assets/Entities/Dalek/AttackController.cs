@@ -34,15 +34,18 @@ public class AttackController : MonoBehaviour
 
     private float inputTimer = 0.0f;
 
+    private GameManager _gameManagerComponent;
+
     void Start()
     {
         weaponSoundSource = gameObject.AddComponent<AudioSource>();
         GattlingGunEmitter.SetActive(false);
+        _gameManagerComponent = GetComponent<GameManager>();
     }
 
     void Update()
     {
-        if (GameManager.IsGamePaused)
+        if (_gameManagerComponent.IsGamePaused)
             return;
 
         if (WeaponCooldown > 0)
@@ -113,7 +116,7 @@ public class AttackController : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (!GameManager.IsGamePaused)
+        if (!_gameManagerComponent.IsGamePaused)
         {
             GattlingGunModel.SetActive(EnableGattlingGun);
         }
