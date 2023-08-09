@@ -1548,6 +1548,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: CameraObject
       objectReference: {fileID: 0}
+    - target: {fileID: 6423629880282214223, guid: 764919616fd183f4c901c5193976d616,
+        type: 3}
+      propertyPath: UpgradeAudioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: db9200280ebeb8f4b88a4d812a79756a, type: 3}
+    - target: {fileID: 6423629880282214223, guid: 764919616fd183f4c901c5193976d616,
+        type: 3}
+      propertyPath: ArtifactScreenOpenClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 6e2dd4925c0f8d94891b3f9f8aeef2c7, type: 3}
+    - target: {fileID: 6423629880282214223, guid: 764919616fd183f4c901c5193976d616,
+        type: 3}
+      propertyPath: ArtifactScreenCloseClip
+      value: 
+      objectReference: {fileID: 8300000, guid: b0cc194fb527d544781adcd9e3e5ddd9, type: 3}
     - target: {fileID: 7499860836543413984, guid: 764919616fd183f4c901c5193976d616,
         type: 3}
       propertyPath: m_HDR
@@ -1563,7 +1578,8 @@ PrefabInstance:
       propertyPath: LevelMusic
       value: 
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6423629880282214223, guid: 764919616fd183f4c901c5193976d616, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 764919616fd183f4c901c5193976d616, type: 3}
 --- !u!1001 &582118665
 PrefabInstance:
