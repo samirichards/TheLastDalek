@@ -1,81 +1,102 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using System.Linq;
 using TMPro;
 using UnityEngine;
-using Image = UnityEngine.UI.Image;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    
-    public bool IsGamePaused { get; set; } = false;
-    [SerializeField] public GameObject PauseMenu;
-    [SerializeField] public GameObject ItemUpgradeScreen;
-    [SerializeField] public GameObject ArtifactScreen;
-    [SerializeField] public AudioClip UpgradeAudioClip;
-    private bool IsOnNormalPauseScreen = false;
-    [SerializeField] public AudioClip ArtifactScreenOpenClip;
-    [SerializeField] public AudioClip ArtifactScreenCloseClip;
-    public bool IsArtifactScreenShown = false;
-    public InventoryManager InventoryManagerComponent;
+    public static bool IsGamePaused { get; private set; } = false;
+    public static bool IsOnNormalPauseScreen = false;
+    public static bool IsArtifactScreenShown = false;
+    private static InGameUI inGameUiRef;
+    private static GameObject CameraObjectReference;
+    public static AudioSource _audioSource;
+    private static int _TotalExterminations = 0;
+    [SerializeField] private ItemDatabaseObject itemDatabase;
+    private static ItemDatabaseObject _itemDatabase;
+
+    private static GameObject _UpgradeScreenTitle;
+    private static GameObject _UpgradeScreenIcon;
+    private static GameObject _PauseMenu;
+    private static GameObject _ItemUpgradeScreen;
+    private static GameObject _ArtifactScreen;
+    private static TextMeshProUGUI _TotalExterminationsCount;
 
     [SerializeField] public GameObject UpgradeScreenTitle;
     [SerializeField] public GameObject UpgradeScreenIcon;
-    private InGameUI inGameUiRef;
+    [SerializeField] public GameObject PauseMenu;
+    [SerializeField] public GameObject ItemUpgradeScreen;
+    [SerializeField] public GameObject ArtifactScreen;
+    [SerializeField] public GameObject TotalExterminationsCount;
 
-    private GameObject CameraObjectReference;
+
+    private static AudioClip _ArtifactScreenOpenClip;
+    private static AudioClip _ArtifactScreenCloseClip;
+    private static AudioClip _UpgradeAudioClip;
+
+    [SerializeField] public AudioClip ArtifactScreenOpenClip;
+    [SerializeField] public AudioClip ArtifactScreenCloseClip;
+    [SerializeField] public AudioClip UpgradeAudioClip;
+
+    private static GameManager _GameManagerInstance;
+
+    public static GameManager Instance
+    {
+        get
+        {
+            if (!_GameManagerInstance)
+            {
+                _GameManagerInstance = new GameManager();
+                // mark root as DontDestroyOnLoad();
+                DontDestroyOnLoad(_GameManagerInstance);
+            }
+            return _GameManagerInstance;
+        }
+    }
 
     void Awake()
     {
-        ResumeGame();
+        _audioSource = GetComponent<AudioSource>();
+        _UpgradeAudioClip = UpgradeAudioClip;
+        _ArtifactScreenCloseClip = ArtifactScreenCloseClip;
+        _ArtifactScreenOpenClip = ArtifactScreenOpenClip;
+
+        _UpgradeScreenTitle = UpgradeScreenTitle;
+        _UpgradeScreenIcon = UpgradeScreenIcon;
+        _PauseMenu = PauseMenu;
+        _ItemUpgradeScreen = ItemUpgradeScreen;
+        _ArtifactScreen = ArtifactScreen;
+        _TotalExterminationsCount = TotalExterminationsCount.GetComponent<TextMeshProUGUI>();
+        _itemDatabase = itemDatabase;
     }
 
-    void Start()
+    static GameManager()
     {
-        InventoryManagerComponent = GetComponent<InventoryManager>();
+        //ResumeGame();
     }
 
+    /*
+     Change this so that another script checks for which keys are being pressed, and then calls pause game and all that fun stuff in here
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            Debug.Log("ESC Key pressed");
-            if (IsGamePaused)
-            {
-                ResumeGame();
-            }
-            else
-            {
-                PauseGame();
-            }
-        }
-        if (Input.GetKeyDown(KeyCode.Tab))
-        {
-            //TODO Fix this
-            Debug.Log("TAB Pressed");
-            if (!IsOnNormalPauseScreen)
-            {
-                if (IsGamePaused)
-                {
-                    HideArtifactScreen();
-                }
-                else
-                {
-                    ShowArtifactScreen();
-                }
-            }
-        }
-    }
 
-    public void ShowUpgradeScreen(int itemID, int itemTier)
+    }
+    */
+
+    public static void ShowUpgradeScreen(int itemID, int itemTier)
     {
-        Debug.Log("Upgrade Screen show: " + InventoryManagerComponent.ItemDatabase.Items.First(a=>a.ItemID == itemID).ItemTitle);
-        Player.GetMovementController().StopSound();
+        Player._movement.StopSound();
         try
         {
             IsOnNormalPauseScreen = false;
             IsGamePaused = true;
+            _audioSource.PlayOneShot(_UpgradeAudioClip);
+            _ItemUpgradeScreen.SetActive(true);
+            _UpgradeScreenTitle.GetComponent<TextMeshProUGUI>().text =
+                _itemDatabase.Items.First(a => a.ItemID == itemID).ItemName;
+            _UpgradeScreenIcon.GetComponent<Image>().sprite =
+                _itemDatabase.Items.First(a => a.ItemID == itemID).ItemTextures[itemTier];
             Time.timeScale = 0f;
         }
         catch (Exception e)
@@ -84,50 +105,59 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void ShowArtifactScreen()
+    public static void ShowArtifactScreen()
     {
-        try
-        {
-            GetComponent<Movement>().StopSound();
-            IsArtifactScreenShown = true;
-            IsOnNormalPauseScreen = false;
-            GetComponent<AudioSource>().PlayOneShot(ArtifactScreenOpenClip);
-            Time.timeScale = 0f;
-        }
-        catch (Exception e)
-        {
-            Debug.LogError(e);
-        }
-    }
-
-    public void HideArtifactScreen()
-    {
-        IsArtifactScreenShown = false;
-        GetComponent<AudioSource>().PlayOneShot(ArtifactScreenCloseClip);
+        _ItemUpgradeScreen.SetActive(false);
+        Player._movement.StopSound();
+        IsArtifactScreenShown = true;
         IsOnNormalPauseScreen = false;
-        IsGamePaused = false;
-        Time.timeScale = 1.0f;
-        GetComponent<InventoryManager>().UpdatePlayerAbilities();
-    }
-
-    public void ResumeGame()
-    {
-        IsOnNormalPauseScreen = false;
-        //PauseMenu.SetActive(false);
-        IsGamePaused = false;
-        Time.timeScale = 1.0f;
-    }
-
-    public void PauseGame()
-    {
-        GetComponent<Movement>().StopSound();
-        IsOnNormalPauseScreen = true;
-        //PauseMenu.SetActive(true);
         IsGamePaused = true;
+        _audioSource.PlayOneShot(_ArtifactScreenOpenClip);
+        _ArtifactScreen.SetActive(true);
         Time.timeScale = 0f;
     }
 
-    public void QuitGame()
+    public static void HideArtifactScreen()
+    {
+        IsArtifactScreenShown = false;
+        _audioSource.PlayOneShot(_ArtifactScreenCloseClip);
+        IsOnNormalPauseScreen = false;
+        IsGamePaused = false;
+        Time.timeScale = 1.0f;
+        _ArtifactScreen.SetActive(false);
+        _ItemUpgradeScreen.SetActive(false);
+        Player._inventoryController.UpdateAbilities();
+    }
+
+    public static void ResumeGame()
+    {
+        IsOnNormalPauseScreen = false;
+        _PauseMenu.SetActive(false);
+        IsGamePaused = false;
+        Time.timeScale = 1.0f;
+    }
+
+    public static void PauseGame()
+    {
+        Player._movement.StopSound();
+        IsOnNormalPauseScreen = true;
+        _PauseMenu.SetActive(true);
+        IsGamePaused = true;
+        Time.timeScale = 0f;
+        _TotalExterminationsCount.text = _TotalExterminations.ToString();
+    }
+
+    public static void IncrementExterminations()
+    {
+        _TotalExterminations++;
+    }
+
+    public static int GetTotalExterminations()
+    {
+        return _TotalExterminations;
+    }
+
+    public static void QuitGame()
     {
         Application.Quit(0);
     }

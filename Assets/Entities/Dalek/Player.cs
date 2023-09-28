@@ -8,19 +8,19 @@ public class Player : MonoBehaviour
 {
     private static Player _Instance;
     private static GameObject playerObjectReference;
-    [SerializeField] private static InventoryManager _inventoryManager;
-    [SerializeField] private static Movement _movement;
-    [SerializeField] private static BoxCollider _collider;
-    [SerializeField] private static Rigidbody _rb;
-    [SerializeField] private static SpeechController _speechController;
-    [SerializeField] private static LookAtAnimator _lookAtAnimator;
-    [SerializeField] private static ChestRotateController _chestRotateController;
-    [SerializeField] private static AttackController _attackController;
-    [SerializeField] private static PlayerComponent _playerComponent;
-    [SerializeField] private static Animator _animator;
-    [SerializeField] private static GameManager _gameManager;
-    [SerializeField] private static CursorControl _cursorControl;
-    [SerializeField] private static InteractionController _interactionController;
+    //[SerializeField] private static InventoryManager _inventoryManager;
+    [SerializeField] public static Movement _movement;
+    [SerializeField] public static BoxCollider _collider;
+    [SerializeField] public static Rigidbody _rb;
+    [SerializeField] public static SpeechController _speechController;
+    [SerializeField] public static LookAtAnimator _lookAtAnimator;
+    [SerializeField] public static ChestRotateController _chestRotateController;
+    [SerializeField] public static AttackController _attackController;
+    [SerializeField] public static PlayerComponent _playerComponent;
+    [SerializeField] public static Animator _animator;
+    [SerializeField] public static CursorControl _cursorControl;
+    [SerializeField] public static InteractionController _interactionController;
+    [SerializeField] public static InventoryController _inventoryController;
     private static ShieldManager _shieldManager;
     public static Player Instance
     {
@@ -47,7 +47,7 @@ public class Player : MonoBehaviour
     void Awake()
     {
         playerObjectReference = GameObject.Find("Player");
-        _inventoryManager = playerObjectReference.GetComponent<InventoryManager>();
+        //_inventoryManager = playerObjectReference.GetComponent<InventoryManager>();
         _movement = playerObjectReference.GetComponent<Movement>();
         _collider = playerObjectReference.GetComponent<BoxCollider>();
         _rb = playerObjectReference.GetComponent<Rigidbody>();
@@ -57,20 +57,15 @@ public class Player : MonoBehaviour
         _attackController = playerObjectReference.GetComponent<AttackController>();
         _playerComponent = playerObjectReference.GetComponent<PlayerComponent>();
         _animator = playerObjectReference.GetComponent<Animator>();
-        _gameManager = playerObjectReference.GetComponent<GameManager>();
         _cursorControl = playerObjectReference.GetComponent<CursorControl>();
         _interactionController = playerObjectReference.GetComponent<InteractionController>();
         _shieldManager = playerObjectReference.GetComponentInChildren<ShieldManager>();
+        _inventoryController = playerObjectReference.GetComponentInChildren<InventoryController>();
     }
 
     public static ShieldManager GetShieldManagerReference()
     {
         return _shieldManager;
-    }
-
-    public static InventoryManager GetInventoryManagerReference()
-    {
-        return _inventoryManager;
     }
 
     public static Movement GetMovementController()

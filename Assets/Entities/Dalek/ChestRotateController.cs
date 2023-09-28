@@ -10,18 +10,16 @@ public class ChestRotateController : MonoBehaviour
     [SerializeField] private float rotationSpeed = 1f;
     private LookAtAnimator lookatAnimator;
     private bool LookAnimatorDisabled = false;
-    private GameManager _gameManagerComponent;
     // Start is called before the first frame update
     void Start()
     {
         lookatAnimator = GetComponent<LookAtAnimator>();
-        _gameManagerComponent = GetComponent<GameManager>();
     }
 
     // Update is called once per frame
     private void Update()
     {
-        if (!_gameManagerComponent.IsGamePaused)
+        if (!GameManager.IsGamePaused)
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;

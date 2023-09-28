@@ -9,16 +9,14 @@ public class GunStickAimController : MonoBehaviour
     [SerializeField] private GameObject BodyBase;
     [SerializeField] private float rotationSpeed = 1f;
     [SerializeField] private float maxRotationAngle = 20f;
-    private GameManager _gameManagerComponent;
     // Start is called before the first frame update
     void Start()
     {
-        _gameManagerComponent = GetComponent<GameManager>();
     }
 
     private void Update()
     {
-        if (!_gameManagerComponent.IsGamePaused)
+        if (!GameManager.IsGamePaused)
         {
             if (IsSwivelAllowed)
             {

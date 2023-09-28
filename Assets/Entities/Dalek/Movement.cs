@@ -17,11 +17,10 @@ public class Movement : MonoBehaviour
     private AudioSource audioSource;
     private AudioSource audioSource2;
     private Vector3 _input;
-    private GameManager _gameManagerComponent;
 
     private void Update()
     {
-        if (!_gameManagerComponent.IsGamePaused)
+        if (!GameManager.IsGamePaused)
         {
             GatherInput();
             Look();
@@ -32,12 +31,11 @@ public class Movement : MonoBehaviour
     {
         audioSource = gameObject.AddComponent(typeof(AudioSource)) as AudioSource;
         audioSource2 = gameObject.AddComponent(typeof(AudioSource)) as AudioSource;
-        _gameManagerComponent = GetComponent<GameManager>();
     }
 
     private void FixedUpdate()
     {
-        if (!_gameManagerComponent.IsGamePaused)
+        if (!GameManager.IsGamePaused)
         {
             Move();
             MovementAudio();
@@ -48,7 +46,7 @@ public class Movement : MonoBehaviour
     {
         audioSource.clip = MovementLoop;
         audioSource.loop = true;
-        if (IsMoving && _gameManagerComponent.IsGamePaused == false)
+        if (IsMoving && GameManager.IsGamePaused == false)
         {
             if (!audioSource.isPlaying)
             {

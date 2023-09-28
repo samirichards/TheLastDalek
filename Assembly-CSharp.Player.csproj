@@ -103,9 +103,10 @@
     <Compile Include="Assets\Entities\Dalek\Movement.cs" />
     <Compile Include="Assets\Items\InventoryObject.cs" />
     <Compile Include="Assets\Entities\Projecties\DalekGun\EnergyDischargeController.cs" />
-    <Compile Include="Assets\Entities\Dalek\Inventory\GroundItem.cs" />
+    <Compile Include="Assets\Items\GroundItem.cs" />
     <Compile Include="Assets\VolumetricLines\BuiltInRenderPipeline\ExampleScenes\ExampleScripts\VolumetricMultiLineBehavior.cs" />
     <Compile Include="Assets\Entities\Dalek\SpeechController.cs" />
+    <Compile Include="Assets\Entities\Dalek\Inventory\InventoryController.cs" />
     <Compile Include="Assets\Entities\Camera\CameraObject.cs" />
     <Compile Include="Assets\Scenes\Menus\MainMenu\Dalek_LookManager.cs" />
   </ItemGroup>

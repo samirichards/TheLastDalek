@@ -210,7 +210,7 @@ public class BaseAI : MonoBehaviour
     {
         while (IsAlive)
         {
-            if (!_gameManagerComponent.IsGamePaused)
+            if (!GameManager.IsGamePaused)
             {
                 switch (AiState)
                 {
@@ -592,6 +592,7 @@ public class BaseAI : MonoBehaviour
 
     void Die(DamageInfo _damageInfo)
     {
+        GameManager.IncrementExterminations();
         CharacterAnimator.SetBool("IsAlive", false);
         SoundSource.PlayOneShot(DeathSounds[Mathf.RoundToInt(Random.Range(0, DeathSounds.Length))]);
         agent.SetDestination(transform.position);

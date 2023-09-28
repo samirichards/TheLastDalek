@@ -32,19 +32,6 @@ public class PlayerComponent : MonoBehaviour
         //ShieldBar.SetActive(shieldManager.ShieldEnabled);
     }
 
-    void OnCollisionEnter(Collision collision)
-    {
-        var item = collision.gameObject.GetComponent<GroundItem>();
-        if (item)
-        {
-            if (GetComponent<InventoryManager>().AddItem(item._item))
-            {
-                GetComponent<GameManager>().ShowUpgradeScreen(item._item.ItemID, GetComponent<InventoryManager>().GetItems().First(a=> a.item.ItemTitle == item._item.ItemTitle).ItemTier);
-                Destroy(collision.gameObject);
-            }
-        }
-    }
-
     public void Damage(DamageInfo _damageInfo)
     {
         Health -= _damageInfo.DamageValue;
@@ -78,6 +65,6 @@ public class PlayerComponent : MonoBehaviour
 
     private void OnApplicationQuit()
     {
-        GetComponent<InventoryManager>().ClearInventory();
+
     }
 }

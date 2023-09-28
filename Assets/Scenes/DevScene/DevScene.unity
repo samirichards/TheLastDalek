@@ -1543,6 +1543,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 693838117211175336, guid: 764919616fd183f4c901c5193976d616,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 693838117211175336, guid: 764919616fd183f4c901c5193976d616,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5529374609491440648, guid: 764919616fd183f4c901c5193976d616,
         type: 3}
       propertyPath: m_Name
@@ -1577,6 +1587,16 @@ PrefabInstance:
         type: 3}
       propertyPath: LevelMusic
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8830321676341494736, guid: 764919616fd183f4c901c5193976d616,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8830321676341494736, guid: 764919616fd183f4c901c5193976d616,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6423629880282214223, guid: 764919616fd183f4c901c5193976d616, type: 3}

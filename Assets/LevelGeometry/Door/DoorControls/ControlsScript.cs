@@ -75,7 +75,7 @@ public class ControlsScript : InteractiveObject
     {
         DoorOpenProgressPanel.SetActive(true);
         GameObject player = GameObject.FindGameObjectWithTag("Player");
-        Hackable = player.GetComponent<InventoryManager>().EquippedItems.Count(a => a.ItemTitle == "Processor") > 0;
+        //Hackable = player.GetComponent<InventoryManager>().EquippedItems.Count(a => a.ItemTitle == "Processor") > 0;
         player.GetComponent<AttackController>().enabled = false;
         HackProgressBar.GetComponent<Slider>().value = 0.0f;
         HackProgressBarFillColor.GetComponent<Image>().color = Color.red;

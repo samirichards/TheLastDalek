@@ -5,6 +5,7 @@ using UnityEditor.Rendering;
 using UnityEngine;
 
 [CreateAssetMenu(menuName ="Artefact")]
+[Serializable]
 public class Item : ScriptableObject
 {
     [SerializeField] public int ItemID;

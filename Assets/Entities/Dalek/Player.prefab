@@ -146,9 +146,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4645755809680772353}
-  - component: {fileID: 7983031951617160034}
   - component: {fileID: 9090812734087792655}
-  - component: {fileID: 8384307792957376665}
+  - component: {fileID: 4483722355747716667}
   - component: {fileID: 4569004593978924019}
   - component: {fileID: 6624215610122483364}
   - component: {fileID: 1492598626876493796}
@@ -160,7 +159,6 @@ GameObject:
   - component: {fileID: 230184869409379678}
   - component: {fileID: 9007432245857437209}
   - component: {fileID: 2506670747834855061}
-  - component: {fileID: 4410686678636320847}
   - component: {fileID: 1714187230110471436}
   m_Layer: 7
   m_Name: Player
@@ -186,30 +184,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7983031951617160034
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 859279906901890729}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5636d4705f88fe34b82a90cbdb250549, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PauseMenu: {fileID: 0}
-  ItemUpgradeScreen: {fileID: 0}
-  ArtifactScreen: {fileID: 0}
-  UpgradeAudioClip: {fileID: 8300000, guid: db9200280ebeb8f4b88a4d812a79756a, type: 3}
-  ArtifactScreenOpenClip: {fileID: 8300000, guid: 6e2dd4925c0f8d94891b3f9f8aeef2c7,
-    type: 3}
-  ArtifactScreenCloseClip: {fileID: 8300000, guid: b0cc194fb527d544781adcd9e3e5ddd9,
-    type: 3}
-  IsArtifactScreenShown: 0
-  InventoryManagerComponent: {fileID: 0}
-  UpgradeScreenTitle: {fileID: 0}
-  UpgradeScreenIcon: {fileID: 0}
 --- !u!114 &9090812734087792655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -222,7 +196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b55cdcf214299a14f833e490da823dc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &8384307792957376665
+--- !u!114 &4483722355747716667
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -231,14 +205,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 859279906901890729}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aae08e4ed7729e74585ba00453f6bc18, type: 3}
+  m_Script: {fileID: 11500000, guid: 3b512bed3aec4714fa2e5e7ce452698a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _InventoryObject: {fileID: 11400000, guid: ee7e7a1ae89db3548b4e10db4b061636, type: 2}
-  ItemDatabase: {fileID: 11400000, guid: 52d8c5cc99f5d574ab4e10d566d46e6b, type: 2}
-  EquippedItems: []
-  ItemSelectionSound: {fileID: 8300000, guid: 8d160790ee2cc9f4cb5cf6cb3d5baef0, type: 3}
-  ItemHoverSound: {fileID: 8300000, guid: 33862a61d8c94084f81596f32680c206, type: 3}
+  equippedItems: []
 --- !u!114 &4569004593978924019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -536,21 +506,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &4410686678636320847
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 859279906901890729}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a3f8447340cdaa44ac91f0fd4370e46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MainCursor: {fileID: 2800000, guid: 82eadb166f479e34b993f7a171d0507e, type: 3}
-  CursorHighlight: {fileID: 2800000, guid: 735a963db18327145822f724c8b77644, type: 3}
-  CursorHighlightAlt: {fileID: 0}
 --- !u!114 &1714187230110471436
 MonoBehaviour:
   m_ObjectHideFlags: 0
