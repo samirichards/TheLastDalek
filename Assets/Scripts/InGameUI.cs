@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
@@ -21,6 +22,11 @@ public class InGameUI : MonoBehaviour
 
     [SerializeField] private GameObject ItemSelectionSlotA;
     [SerializeField] private GameObject ItemSelectionSlotB;
+    [SerializeField] private GameObject ItemModelDisplay;
+
+    [SerializeField] private GameObject ArtifactInfoPanel;
+    [SerializeField] private GameObject ArtifactInfoTitle;
+    [SerializeField] private GameObject ArtifactInfoDescription;
 
     [SerializeField] private AudioClip ItemHoverSound;
     [SerializeField] private AudioClip ItemSelectSound;
@@ -120,6 +126,9 @@ public class InGameUI : MonoBehaviour
 
     public void UpdateSelectedItems()
     {
+        ArtifactInfoPanel.SetActive(false);
+        ItemModelDisplay.GetComponent<Image>().sprite = null;
+        ItemModelDisplay.SetActive(false);
         if (Player._inventoryController.EquippedItems[0])
         {
             ItemSelectionSlotA.GetComponent<ItemSlot>().SetDisplayedImage(Player._inventoryController.EquippedItems[0].ItemTextures[Player._inventoryController.EquippedItems[0]._itemTier]);
@@ -158,15 +167,27 @@ public class InGameUI : MonoBehaviour
 
     public void OnArtifactHoverEnter(int index)
     {
-        if (ArtifactScreen.GetComponent<ArtifactScreen>().InventorySlots[index].GetComponent<ItemSlot>().IsOccupied)
+        //ArtifactScreen.GetComponent<ArtifactScreen>().InventorySlots[index].GetComponent<ItemSlot>().ShowSelectionGraphic();
+
+        if (Player._inventoryController.Unlocks.UnlockedItems[index])
         {
             GetComponent<AudioSource>().PlayOneShot(ItemHoverSound);
+            ItemModelDisplay.SetActive(false);
+            //This doesn't work, and tbh it's such a small detail it can wait until later in development, when I have actual models I want to show off lol
+            ItemModelDisplay.GetComponent<Image>().sprite = Player._inventoryController.Unlocks.UnlockedItems[index].ItemModelTexture[Player._inventoryController.Unlocks.UnlockedItems[index]._itemTier];
+            ArtifactInfoPanel.SetActive(true);
+            ArtifactInfoTitle.GetComponent<TextMeshProUGUI>().text =
+                Player._inventoryController.Unlocks.UnlockedItems[index].ItemName;
+            ArtifactInfoDescription.GetComponent<TextMeshProUGUI>().text =
+                Player._inventoryController.Unlocks.UnlockedItems[index].ItemDescription[Player._inventoryController.Unlocks.UnlockedItems[index]._itemTier];
         }
-        //ArtifactScreen.GetComponent<ArtifactScreen>().InventorySlots[index].GetComponent<ItemSlot>().ShowSelectionGraphic();
     }
 
     public void OnArtifactHoverExit(int index)
     {
         //ArtifactScreen.GetComponent<ArtifactScreen>().InventorySlots[index].GetComponent<ItemSlot>().HideSelecionGraphic();
+        ItemModelDisplay.SetActive(false);
+        ItemModelDisplay.GetComponent<Image>().sprite = null;
+        ArtifactInfoPanel.SetActive(false);
     }
 }

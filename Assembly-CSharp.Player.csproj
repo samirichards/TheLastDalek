@@ -84,6 +84,7 @@
     <Compile Include="Assets\VolumetricLines\BuiltInRenderPipeline\ExampleScenes\ExampleScripts\CannonBehavior.cs" />
     <Compile Include="Assets\Shared\Scripts\ProximityActivate.cs" />
     <Compile Include="Assets\Entities\Projecties\DalekGun\EnergyDischargeCollisionController.cs" />
+    <Compile Include="Assets\LevelGeometry\Door\SceneChange\SceneChangeDoorInteractionBehavior.cs" />
     <Compile Include="Assets\Entities\Humanoid\Guard\GuardAI.cs" />
     <Compile Include="Assets\Scripts\InteractiveObject.cs" />
     <Compile Include="Assets\LevelGeometry\Hole\Hole.cs" />
@@ -109,6 +110,7 @@
     <Compile Include="Assets\Entities\Dalek\Inventory\InventoryController.cs" />
     <Compile Include="Assets\Entities\Camera\CameraObject.cs" />
     <Compile Include="Assets\Scenes\Menus\MainMenu\Dalek_LookManager.cs" />
+    <Compile Include="Assets\Scripts\PlayerSpawner.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -759,6 +761,10 @@
     <ProjectReference Include="Unity.VisualScripting.Flow.Player.csproj">
       <Project>{DECFB523-C30F-76F1-CA2A-C20F757792F3}</Project>
       <Name>Unity.VisualScripting.Flow.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InputSystem.Player.csproj">
+      <Project>{D8D92DB2-B68A-6935-7DC8-608C80D1D7C9}</Project>
+      <Name>Unity.InputSystem.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.Player.csproj">
       <Project>{CA0C6AC7-8299-5974-DD58-E2FD78FEE69E}</Project>

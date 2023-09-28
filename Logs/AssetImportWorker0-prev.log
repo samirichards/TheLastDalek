@@ -15,7 +15,7 @@ C:/Users/samir/Documents/Game Projects/TheLastDalek
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61938
+64813
 Successfully changed project path to: C:/Users/samir/Documents/Game Projects/TheLastDalek
 C:/Users/samir/Documents/Game Projects/TheLastDalek
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/samir/Documents/Game Projects/TheLastDalek
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [54224] Host "[IP] 192.168.68.116 [Port] 0 [Flags] 2 [Guid] 2063312843 [EditorId] 2063312843 [Version] 1048832 [Id] WindowsEditor(7,Samis-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [76524] Host "[IP] 192.168.68.116 [Port] 0 [Flags] 2 [Guid] 1750749246 [EditorId] 1750749246 [Version] 1048832 [Id] WindowsEditor(7,Samis-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [54224] Host "[IP] 192.168.68.116 [Port] 0 [Flags] 2 [Guid] 2063312843 [EditorId] 2063312843 [Version] 1048832 [Id] WindowsEditor(7,Samis-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [76524] Host "[IP] 192.168.68.116 [Port] 0 [Flags] 2 [Guid] 1750749246 [EditorId] 1750749246 [Version] 1048832 [Id] WindowsEditor(7,Samis-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 125.34 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 146.52 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.15f1 (e8e88683f834)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
@@ -70,47 +70,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.007660 seconds.
+Registered in 0.005833 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 132.96 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 156.08 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.663 seconds
+- Completed reload, in  0.756 seconds
 Domain Reload Profiling:
-	ReloadAssembly (664ms)
-		BeginReloadAssembly (60ms)
+	ReloadAssembly (757ms)
+		BeginReloadAssembly (59ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (500ms)
+		EndReloadAssembly (598ms)
 			LoadAssemblies (58ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (95ms)
+			SetupTypeCache (103ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (327ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (411ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (133ms)
+				RefreshPlugins (156ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (137ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
+				ProcessInitializeOnLoadAttributes (140ms)
+				ProcessInitializeOnLoadMethodAttributes (103ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011210 seconds.
+Registered in 0.029907 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
@@ -119,46 +119,46 @@ This message parameter has to be of type: Collision
 The message will be ignored.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 141.63 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 263.32 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.556 seconds
+- Completed reload, in  2.652 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1557ms)
-		BeginReloadAssembly (93ms)
+	ReloadAssembly (2653ms)
+		BeginReloadAssembly (217ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (13ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (1352ms)
-			LoadAssemblies (71ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (2222ms)
+			LoadAssemblies (169ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (317ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (121ms)
-			SetupLoadedEditorAssemblies (791ms)
+			SetupTypeCache (533ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (183ms)
+			SetupLoadedEditorAssemblies (1251ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (142ms)
-				BeforeProcessingInitializeOnLoad (120ms)
-				ProcessInitializeOnLoadAttributes (327ms)
-				ProcessInitializeOnLoadMethodAttributes (190ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (263ms)
+				BeforeProcessingInitializeOnLoad (193ms)
+				ProcessInitializeOnLoadAttributes (558ms)
+				ProcessInitializeOnLoadMethodAttributes (216ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.30 ms, found 8 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.79 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6206 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 57 unused Assets / (1.3 MB). Loaded Objects now: 6718.
-Memory consumption went from 383.9 MB to 382.7 MB.
-Total: 4.076400 ms (FindLiveObjects: 0.577400 ms CreateObjectMapping: 0.176700 ms MarkObjects: 2.972400 ms  DeleteObjects: 0.349000 ms)
+Unloading 6552 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (1.2 MB). Loaded Objects now: 7064.
+Memory consumption went from 396.7 MB to 395.5 MB.
+Total: 10.388800 ms (FindLiveObjects: 0.896900 ms CreateObjectMapping: 0.246000 ms MarkObjects: 8.365400 ms  DeleteObjects: 0.879100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -172,59 +172,59 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 46226.472121 seconds.
-  path: Assets/Entities/Camera/CameraObject.prefab
-  artifactKey: Guid(764919616fd183f4c901c5193976d616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Camera/CameraObject.prefab using Guid(764919616fd183f4c901c5193976d616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdbb216095f6fa0909da0947a0c7f7d6') in 0.092466 seconds 
+  Time since last request: 60117.285971 seconds.
+  path: Assets/LevelGeometry/Door/Standard/DoorInteractionBehavior.cs
+  artifactKey: Guid(c4c32b9c9886a52418d98beed084ef53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelGeometry/Door/Standard/DoorInteractionBehavior.cs using Guid(c4c32b9c9886a52418d98beed084ef53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c2fdd13d6693436c812093d2970217') in 0.072619 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.012063 seconds.
+Registered in 0.013356 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.02 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 2.00 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.359 seconds
+- Completed reload, in  1.670 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1360ms)
-		BeginReloadAssembly (124ms)
+	ReloadAssembly (1671ms)
+		BeginReloadAssembly (140ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (1139ms)
-			LoadAssemblies (81ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1441ms)
+			LoadAssemblies (94ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (343ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (80ms)
-			SetupLoadedEditorAssemblies (485ms)
+			SetupTypeCache (395ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (136ms)
+			SetupLoadedEditorAssemblies (626ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (24ms)
+				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (2ms)
 				BeforeProcessingInitializeOnLoad (110ms)
-				ProcessInitializeOnLoadAttributes (304ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadAttributes (446ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (45ms)
+			AwakeInstancesAfterBackupRestoration (47ms)
 Platform modules already initialized, skipping
 Script error: OnCollisionEnter
 This message parameter has to be of type: Collision
 The message will be ignored.
-Refreshing native plugins compatible for Editor in 5.42 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 4.25 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5847 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 52 unused Assets / (1.2 MB). Loaded Objects now: 6723.
-Memory consumption went from 367.4 MB to 366.2 MB.
-Total: 3.610400 ms (FindLiveObjects: 0.501000 ms CreateObjectMapping: 0.163600 ms MarkObjects: 2.697900 ms  DeleteObjects: 0.246700 ms)
+Unloading 6192 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (1.2 MB). Loaded Objects now: 7067.
+Memory consumption went from 379.9 MB to 378.7 MB.
+Total: 4.222800 ms (FindLiveObjects: 0.545700 ms CreateObjectMapping: 0.173700 ms MarkObjects: 3.236000 ms  DeleteObjects: 0.266100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -239,38 +239,875 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.013380 seconds.
+Registered in 0.015510 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.36 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 1.96 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.416 seconds
+- Completed reload, in  1.459 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1416ms)
-		BeginReloadAssembly (135ms)
+	ReloadAssembly (1460ms)
+		BeginReloadAssembly (157ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (1187ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1191ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (321ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (553ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (382ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (42ms)
+Platform modules already initialized, skipping
+Script error: OnCollisionEnter
+This message parameter has to be of type: Collision
+The message will be ignored.
+Refreshing native plugins compatible for Editor in 5.41 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6192 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (1.2 MB). Loaded Objects now: 7070.
+Memory consumption went from 380.0 MB to 378.8 MB.
+Total: 3.928600 ms (FindLiveObjects: 0.669300 ms CreateObjectMapping: 0.204100 ms MarkObjects: 2.820700 ms  DeleteObjects: 0.233100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013718 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.10 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.281 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1281ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1057ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (301ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (479ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (328ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (41ms)
+Platform modules already initialized, skipping
+Script error: OnCollisionEnter
+This message parameter has to be of type: Collision
+The message will be ignored.
+Refreshing native plugins compatible for Editor in 4.60 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6192 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (1.2 MB). Loaded Objects now: 7073.
+Memory consumption went from 380.1 MB to 378.9 MB.
+Total: 3.897900 ms (FindLiveObjects: 0.560200 ms CreateObjectMapping: 0.175300 ms MarkObjects: 2.925900 ms  DeleteObjects: 0.235600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011497 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.264 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1265ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1027ms)
 			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (309ms)
+			SetupTypeCache (280ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (459ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (317ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (37ms)
+Platform modules already initialized, skipping
+Script error: OnCollisionEnter
+This message parameter has to be of type: Collision
+The message will be ignored.
+Refreshing native plugins compatible for Editor in 4.38 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6192 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (1.2 MB). Loaded Objects now: 7076.
+Memory consumption went from 382.2 MB to 381.0 MB.
+Total: 3.856900 ms (FindLiveObjects: 0.525700 ms CreateObjectMapping: 0.175700 ms MarkObjects: 2.900400 ms  DeleteObjects: 0.253400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 222.825068 seconds.
+  path: Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab
+  artifactKey: Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab using Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 5.602 ms.
+ -> (artifact id: 'a2fe3a722c2c9bab0145ba6ef8393e36') in 1.772926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.780276 seconds.
+  path: Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab
+  artifactKey: Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab using Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 2.743 ms.
+ -> (artifact id: 'e6596decc537779a25dd062b3601ef86') in 0.046829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.945042 seconds.
+  path: Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab
+  artifactKey: Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab using Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 2.991 ms.
+ -> (artifact id: 'b7980a497574ae967eae49b9fddd0b2d') in 0.043324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.263382 seconds.
+  path: Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab
+  artifactKey: Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab using Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 1.432 ms.
+ -> (artifact id: '2ca58f99f1a48ce3eb044f9d9e208830') in 0.049042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.441993 seconds.
+  path: Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab
+  artifactKey: Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab using Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 3.070 ms.
+ -> (artifact id: '7883a679909338fd1bc77f2726cdc92a') in 0.050433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.801059 seconds.
+  path: Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab
+  artifactKey: Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab using Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 2.828 ms.
+ -> (artifact id: 'd1880151c17cd5709e40e77543b5f8a1') in 0.041162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.599329 seconds.
+  path: Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab
+  artifactKey: Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab using Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 2.782 ms.
+ -> (artifact id: '2d65b1892608be4a1dd49e8ba5881d30') in 0.045568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.104727 seconds.
+  path: Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab
+  artifactKey: Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab using Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 2.749 ms.
+ -> (artifact id: 'af2d1ae7809ae7f26ad9a1516b6bed02') in 0.045646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.780200 seconds.
+  path: Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab
+  artifactKey: Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab using Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 5.508 ms.
+ -> (artifact id: '0ea4b5faedc609c038a01e5f1f8b254a') in 0.051072 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011513 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.16 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.548 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1549ms)
+		BeginReloadAssembly (174ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (31ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1273ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (336ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (105ms)
-			SetupLoadedEditorAssemblies (541ms)
+			RebuildScriptCaches (96ms)
+			SetupLoadedEditorAssemblies (567ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (397ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (44ms)
+Platform modules already initialized, skipping
+Script error: OnCollisionEnter
+This message parameter has to be of type: Collision
+The message will be ignored.
+Refreshing native plugins compatible for Editor in 4.24 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6193 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (1.2 MB). Loaded Objects now: 7196.
+Memory consumption went from 391.2 MB to 389.9 MB.
+Total: 5.313900 ms (FindLiveObjects: 0.715500 ms CreateObjectMapping: 0.176000 ms MarkObjects: 4.168800 ms  DeleteObjects: 0.252400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 142.845660 seconds.
+  path: Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab
+  artifactKey: Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab using Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 5.614 ms.
+ -> (artifact id: 'd72b13fb6215cf6d03f2effe042b06d5') in 0.799988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.014279 seconds.
+  path: Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab
+  artifactKey: Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab using Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 5.400 ms.
+ -> (artifact id: 'b2552c6b4bf23c07b16700375dce5089') in 0.054337 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015003 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.37 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.573 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1574ms)
+		BeginReloadAssembly (169ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (25ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1308ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (358ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (601ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (111ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (423ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (55ms)
+Platform modules already initialized, skipping
+Script error: OnCollisionEnter
+This message parameter has to be of type: Collision
+The message will be ignored.
+Refreshing native plugins compatible for Editor in 4.12 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6193 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (1.2 MB). Loaded Objects now: 7304.
+Memory consumption went from 389.3 MB to 388.1 MB.
+Total: 4.177100 ms (FindLiveObjects: 0.663800 ms CreateObjectMapping: 0.172400 ms MarkObjects: 3.098900 ms  DeleteObjects: 0.241000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011737 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.93 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.529 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1530ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1293ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (326ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (99ms)
+			SetupLoadedEditorAssemblies (578ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (403ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (49ms)
+Platform modules already initialized, skipping
+Script error: OnCollisionEnter
+This message parameter has to be of type: Collision
+The message will be ignored.
+Refreshing native plugins compatible for Editor in 5.45 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6193 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (1.2 MB). Loaded Objects now: 7307.
+Memory consumption went from 389.1 MB to 387.9 MB.
+Total: 4.556900 ms (FindLiveObjects: 0.585500 ms CreateObjectMapping: 0.182700 ms MarkObjects: 3.513400 ms  DeleteObjects: 0.274400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013369 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.326 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1327ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1103ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (294ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (472ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (336ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (52ms)
+Platform modules already initialized, skipping
+Script error: OnCollisionEnter
+This message parameter has to be of type: Collision
+The message will be ignored.
+Refreshing native plugins compatible for Editor in 5.81 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6193 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (1.2 MB). Loaded Objects now: 7310.
+Memory consumption went from 389.2 MB to 387.9 MB.
+Total: 4.225800 ms (FindLiveObjects: 0.582700 ms CreateObjectMapping: 0.177900 ms MarkObjects: 3.200700 ms  DeleteObjects: 0.263300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 243.457405 seconds.
+  path: Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab
+  artifactKey: Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab using Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 5.600 ms.
+ -> (artifact id: '23978c95282e965c71090ddb17d2b876') in 1.104351 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010551 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.40 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.653 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1654ms)
+		BeginReloadAssembly (184ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (32ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1322ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (335ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (606ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (452ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (51ms)
+Platform modules already initialized, skipping
+Script error: OnCollisionEnter
+This message parameter has to be of type: Collision
+The message will be ignored.
+Refreshing native plugins compatible for Editor in 3.80 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6193 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (1.2 MB). Loaded Objects now: 7418.
+Memory consumption went from 389.5 MB to 388.3 MB.
+Total: 4.691000 ms (FindLiveObjects: 0.529600 ms CreateObjectMapping: 0.170400 ms MarkObjects: 3.757400 ms  DeleteObjects: 0.232500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011403 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.409 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1410ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1142ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (314ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (101ms)
+			SetupLoadedEditorAssemblies (481ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (335ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (41ms)
+Platform modules already initialized, skipping
+Script error: OnCollisionEnter
+This message parameter has to be of type: Collision
+The message will be ignored.
+Refreshing native plugins compatible for Editor in 3.81 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6193 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (1.2 MB). Loaded Objects now: 7421.
+Memory consumption went from 389.4 MB to 388.1 MB.
+Total: 3.816200 ms (FindLiveObjects: 0.527200 ms CreateObjectMapping: 0.170700 ms MarkObjects: 2.890200 ms  DeleteObjects: 0.227100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013760 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.58 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.505 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1506ms)
+		BeginReloadAssembly (139ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1256ms)
+			LoadAssemblies (124ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (355ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (480ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (340ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (52ms)
+Platform modules already initialized, skipping
+Script error: OnCollisionEnter
+This message parameter has to be of type: Collision
+The message will be ignored.
+Refreshing native plugins compatible for Editor in 4.51 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6193 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (1.2 MB). Loaded Objects now: 7424.
+Memory consumption went from 389.4 MB to 388.2 MB.
+Total: 4.040000 ms (FindLiveObjects: 0.580700 ms CreateObjectMapping: 0.175300 ms MarkObjects: 3.046800 ms  DeleteObjects: 0.235900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010991 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.89 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.442 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1443ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1205ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (304ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (568ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (131ms)
 				ProcessInitializeOnLoadAttributes (375ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (48ms)
+Platform modules already initialized, skipping
+Script error: OnCollisionEnter
+This message parameter has to be of type: Collision
+The message will be ignored.
+Refreshing native plugins compatible for Editor in 5.59 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6193 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (1.2 MB). Loaded Objects now: 7427.
+Memory consumption went from 389.5 MB to 388.3 MB.
+Total: 4.311300 ms (FindLiveObjects: 0.802500 ms CreateObjectMapping: 0.192700 ms MarkObjects: 3.010500 ms  DeleteObjects: 0.304800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 398.251397 seconds.
+  path: Assets/Entities/Projecties/Bullet/Bullet.prefab
+  artifactKey: Guid(941d23c902e8eae4ba12ed8f81925a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Projecties/Bullet/Bullet.prefab using Guid(941d23c902e8eae4ba12ed8f81925a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38cedb23c4c1ef14710356fc2c25f37a') in 0.731565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Entities/Projecties/Bullet/Gold_1_faked ref.mat
+  artifactKey: Guid(d2f2e21964af02b4594633bb6e3f8327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Projecties/Bullet/Gold_1_faked ref.mat using Guid(d2f2e21964af02b4594633bb6e3f8327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6b0cf2d21864a7cbd490f3ed6e247c8') in 0.038680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.885340 seconds.
+  path: Assets/Entities/Dalek/Player.cs
+  artifactKey: Guid(b55cdcf214299a14f833e490da823dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Dalek/Player.cs using Guid(b55cdcf214299a14f833e490da823dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7856cf2e94de2a7705986d185bafa94') in 0.006308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 63.033229 seconds.
+  path: Assets/Entities/Dalek/Player.prefab
+  artifactKey: Guid(d1bfda65641f93f4bb35c608a9f883f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Dalek/Player.prefab using Guid(d1bfda65641f93f4bb35c608a9f883f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 1.225 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at InventoryController.ClearAllAbilities () [0x00001] in C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Inventory\InventoryController.cs:126 
+  at InventoryController.UpdateAbilities () [0x00001] in C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Inventory\InventoryController.cs:145 
+  at InventoryController.set_EquippedItems (System.Collections.Generic.List`1[T] value) [0x00008] in C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Inventory\InventoryController.cs:23 
+  at InventoryController.OnValidate () [0x00001] in C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Inventory\InventoryController.cs:35 
+
+(Filename: Assets/Entities/Dalek/Inventory/InventoryController.cs Line: 126)
+
+ -> (artifact id: '67b0c6eeb15284680c7e2b96515397f0') in 0.261228 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012242 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.98 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.621 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1622ms)
+		BeginReloadAssembly (189ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (26ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1328ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (382ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (568ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (400ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (60ms)
+Platform modules already initialized, skipping
+Script error: OnCollisionEnter
+This message parameter has to be of type: Collision
+The message will be ignored.
+Refreshing native plugins compatible for Editor in 5.92 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6193 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (1.2 MB). Loaded Objects now: 7569.
+Memory consumption went from 390.3 MB to 389.1 MB.
+Total: 4.456900 ms (FindLiveObjects: 0.675400 ms CreateObjectMapping: 0.201600 ms MarkObjects: 3.315100 ms  DeleteObjects: 0.263600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011421 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.50 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.365 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1366ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1139ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (284ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (522ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (366ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -279,12 +1116,429 @@ Platform modules already initialized, skipping
 Script error: OnCollisionEnter
 This message parameter has to be of type: Collision
 The message will be ignored.
-Refreshing native plugins compatible for Editor in 4.29 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 4.62 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5847 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (1.2 MB). Loaded Objects now: 6726.
-Memory consumption went from 369.7 MB to 368.4 MB.
-Total: 3.522800 ms (FindLiveObjects: 0.487300 ms CreateObjectMapping: 0.158900 ms MarkObjects: 2.637400 ms  DeleteObjects: 0.238400 ms)
+Unloading 6193 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (1.2 MB). Loaded Objects now: 7572.
+Memory consumption went from 390.2 MB to 388.9 MB.
+Total: 4.182400 ms (FindLiveObjects: 0.656100 ms CreateObjectMapping: 0.184300 ms MarkObjects: 3.086800 ms  DeleteObjects: 0.254000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 105.199662 seconds.
+  path: Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab
+  artifactKey: Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab using Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 3.131 ms.
+ -> (artifact id: '104889c9e0d1548622c3ed2997c21072') in 0.816771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.379405 seconds.
+  path: Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab
+  artifactKey: Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab using Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 1.482 ms.
+ -> (artifact id: '523ef45272107a17727a27a990f84976') in 0.047169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.421751 seconds.
+  path: Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab
+  artifactKey: Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab using Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 2.790 ms.
+ -> (artifact id: '01a2b8b4e059a81e0a16770ceb65af92') in 0.041567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.460369 seconds.
+  path: Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab
+  artifactKey: Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab using Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 1.412 ms.
+ -> (artifact id: 'd1278086196a1239101bb224d5ea5ad9') in 0.047858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.048020 seconds.
+  path: Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab
+  artifactKey: Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab using Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 2.778 ms.
+ -> (artifact id: '25b09de17f9346442e3010ed3be511cc') in 0.048019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.434723 seconds.
+  path: Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab
+  artifactKey: Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab using Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 2.811 ms.
+ -> (artifact id: '4c5285db01f1890d35e1042c6faa0c80') in 0.042913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.552209 seconds.
+  path: Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab
+  artifactKey: Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab using Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 2.939 ms.
+ -> (artifact id: '2da58f86c64acaf9c135d82dfd9c2724') in 0.044432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.787814 seconds.
+  path: Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab
+  artifactKey: Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab using Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 2.771 ms.
+ -> (artifact id: 'c313f90f2d93bbc8aa67875b1efbd265') in 0.044111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.035115 seconds.
+  path: Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab
+  artifactKey: Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab using Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 2.783 ms.
+ -> (artifact id: '4b3b13bdf9becfcfbb2887ae3d5f5ea2') in 0.050328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.705750 seconds.
+  path: Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab
+  artifactKey: Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab using Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 1.457 ms.
+ -> (artifact id: '60f3301090849e5101a30d67a26b5267') in 0.042559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.470477 seconds.
+  path: Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab
+  artifactKey: Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab using Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 2.918 ms.
+ -> (artifact id: 'a351f274fb76511e041b18d1606c4cec') in 0.044257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.769208 seconds.
+  path: Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab
+  artifactKey: Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab using Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 2.706 ms.
+ -> (artifact id: '468b7c4f14bcdd228d98dc85052ed846') in 0.119779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.360429 seconds.
+  path: Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab
+  artifactKey: Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab using Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 1.210 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 1.283 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 1.461 ms.
+ -> (artifact id: '9acee0694fc3a282cbbd688688ada049') in 0.081840 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012363 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.85 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.495 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1496ms)
+		BeginReloadAssembly (185ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (35ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1218ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (288ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (561ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (397ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (53ms)
+Platform modules already initialized, skipping
+Script error: OnCollisionEnter
+This message parameter has to be of type: Collision
+The message will be ignored.
+Refreshing native plugins compatible for Editor in 4.24 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6193 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (1.2 MB). Loaded Objects now: 7680.
+Memory consumption went from 390.6 MB to 389.4 MB.
+Total: 4.767400 ms (FindLiveObjects: 0.669800 ms CreateObjectMapping: 0.183600 ms MarkObjects: 3.632900 ms  DeleteObjects: 0.279800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 173.653466 seconds.
+  path: Assets/Entities/Humanoid/Base/BaseNPC.prefab
+  artifactKey: Guid(9faa53979bf2d604a935788b0ad89fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Humanoid/Base/BaseNPC.prefab using Guid(9faa53979bf2d604a935788b0ad89fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 1.212 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at InventoryController.ClearAllAbilities () [0x00001] in C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Inventory\InventoryController.cs:126 
+  at InventoryController.UpdateAbilities () [0x00001] in C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Inventory\InventoryController.cs:145 
+  at InventoryController.set_EquippedItems (System.Collections.Generic.List`1[T] value) [0x00008] in C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Inventory\InventoryController.cs:23 
+  at InventoryController.OnValidate () [0x00001] in C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Inventory\InventoryController.cs:35 
+
+(Filename: Assets/Entities/Dalek/Inventory/InventoryController.cs Line: 126)
+
+ -> (artifact id: '8e20dddcbab55d742148260a04e4e4e6') in 0.796818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.845073 seconds.
+  path: Assets/Entities/Humanoid/Guard/Guard.prefab
+  artifactKey: Guid(5c6d567c30fede148af8a0f3c12e211a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Humanoid/Guard/Guard.prefab using Guid(5c6d567c30fede148af8a0f3c12e211a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 1.385 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at InventoryController.ClearAllAbilities () [0x00001] in C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Inventory\InventoryController.cs:126 
+  at InventoryController.UpdateAbilities () [0x00001] in C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Inventory\InventoryController.cs:145 
+  at InventoryController.set_EquippedItems (System.Collections.Generic.List`1[T] value) [0x00008] in C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Inventory\InventoryController.cs:23 
+  at InventoryController.OnValidate () [0x00001] in C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Inventory\InventoryController.cs:35 
+
+(Filename: Assets/Entities/Dalek/Inventory/InventoryController.cs Line: 126)
+
+d3d12: upload buffer was full! Waited for COPY queue for 1.450 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 1.286 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 1.442 ms.
+ -> (artifact id: '6f5bcdc48a198c248bea0dd6321aee87') in 0.261134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.265138 seconds.
+  path: Assets/Entities/Humanoid/Guard/GuardAI.cs
+  artifactKey: Guid(6048d7547d3d83d4bb5f333d40007dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Humanoid/Guard/GuardAI.cs using Guid(6048d7547d3d83d4bb5f333d40007dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c843c3e6a50667f2fdd0a8da6ac54713') in 0.007241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.476168 seconds.
+  path: Assets/Entities/Humanoid/Base/BaseAI.cs
+  artifactKey: Guid(178453571aeb84746afa49064de4aba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Humanoid/Base/BaseAI.cs using Guid(178453571aeb84746afa49064de4aba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692038e57bfc3f8090acc8b9eca28bb9') in 0.007914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.878593 seconds.
+  path: Assets/Entities/Projecties/DalekGun/EnergyDischarge.prefab
+  artifactKey: Guid(2c63ab9a46b0b21489d16f9266e0adbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Projecties/DalekGun/EnergyDischarge.prefab using Guid(2c63ab9a46b0b21489d16f9266e0adbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 1.348 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at InventoryController.ClearAllAbilities () [0x00001] in C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Inventory\InventoryController.cs:126 
+  at InventoryController.UpdateAbilities () [0x00001] in C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Inventory\InventoryController.cs:145 
+  at InventoryController.set_EquippedItems (System.Collections.Generic.List`1[T] value) [0x00008] in C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Inventory\InventoryController.cs:23 
+  at InventoryController.OnValidate () [0x00001] in C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Inventory\InventoryController.cs:35 
+
+(Filename: Assets/Entities/Dalek/Inventory/InventoryController.cs Line: 126)
+
+ -> (artifact id: '714334ef86bfe8b03f365739ecdf6672') in 0.038967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 112.218462 seconds.
+  path: Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab
+  artifactKey: Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab using Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 5.349 ms.
+ -> (artifact id: '3b974e8a5d808de88db80bd9f8b72bb8') in 0.068294 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011824 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.03 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.472 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1472ms)
+		BeginReloadAssembly (172ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (27ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1197ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (308ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (527ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (362ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (50ms)
+Platform modules already initialized, skipping
+Script error: OnCollisionEnter
+This message parameter has to be of type: Collision
+The message will be ignored.
+Refreshing native plugins compatible for Editor in 5.99 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6193 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (1.2 MB). Loaded Objects now: 7788.
+Memory consumption went from 391.1 MB to 389.9 MB.
+Total: 5.538800 ms (FindLiveObjects: 0.796100 ms CreateObjectMapping: 0.197100 ms MarkObjects: 4.210900 ms  DeleteObjects: 0.333400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 246.779937 seconds.
+  path: Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab
+  artifactKey: Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab using Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 5.519 ms.
+ -> (artifact id: '3d1c14c7688e12801514cda2d036bc74') in 0.818622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.792150 seconds.
+  path: Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab
+  artifactKey: Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab using Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 4.483 ms.
+ -> (artifact id: 'afecdda31c66727d6d5814b5d88fb7df') in 0.066425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.512397 seconds.
+  path: Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab
+  artifactKey: Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab using Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 2.286 ms.
+ -> (artifact id: 'f58fcca463a6bf16f2b4228c6de46768') in 0.053888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.417346 seconds.
+  path: Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab
+  artifactKey: Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab using Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 2.175 ms.
+ -> (artifact id: 'e8cc4a4b54bf18ca1830a33a516661fc') in 0.073556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.036538 seconds.
+  path: Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab
+  artifactKey: Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab using Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 4.201 ms.
+ -> (artifact id: 'ee30ed9e0d7205870e3442619b9b5814') in 0.141996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.585595 seconds.
+  path: Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab
+  artifactKey: Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab using Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 2.215 ms.
+ -> (artifact id: '5437e3298d5f2a03481490b225d2626a') in 0.061402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.214284 seconds.
+  path: Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab
+  artifactKey: Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab using Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 4.457 ms.
+ -> (artifact id: '1fb3609104f11aa31a05cf3d47f90e40') in 0.061715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.340404 seconds.
+  path: Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab
+  artifactKey: Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab using Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 2.238 ms.
+ -> (artifact id: '36bf8368777f76914ae2379d57c7bf85') in 0.057707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.488882 seconds.
+  path: Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab
+  artifactKey: Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab using Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 4.775 ms.
+ -> (artifact id: 'a8be2f365be4e62da615f015a68e54ea') in 0.126968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.706201 seconds.
+  path: Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab
+  artifactKey: Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab using Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 1.133 ms.
+ -> (artifact id: '22fbfb69618a328a4759085076b80a1a') in 0.054966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.991479 seconds.
+  path: Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab
+  artifactKey: Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelGeometry/Door/SceneChange/SceneChangeBasic.prefab using Guid(ee928c5fcf6ceac4b849c54f6acd711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 4.136 ms.
+ -> (artifact id: '3102fffbfe2c76c72c3d012fba117317') in 0.075466 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012259 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.38 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.425 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1426ms)
+		BeginReloadAssembly (170ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (28ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1159ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (288ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (526ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (369ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (56ms)
+Platform modules already initialized, skipping
+Script error: OnCollisionEnter
+This message parameter has to be of type: Collision
+The message will be ignored.
+Refreshing native plugins compatible for Editor in 8.44 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6193 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (1.2 MB). Loaded Objects now: 7896.
+Memory consumption went from 391.3 MB to 390.1 MB.
+Total: 6.594200 ms (FindLiveObjects: 0.885800 ms CreateObjectMapping: 0.449000 ms MarkObjects: 4.759500 ms  DeleteObjects: 0.498100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -299,52 +1553,52 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.016686 seconds.
+Registered in 0.012597 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.57 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 1.75 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.908 seconds
+- Completed reload, in  1.671 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1908ms)
-		BeginReloadAssembly (150ms)
+	ReloadAssembly (1672ms)
+		BeginReloadAssembly (153ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (1617ms)
-			LoadAssemblies (110ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1419ms)
+			LoadAssemblies (86ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (431ms)
-			ReleaseScriptCaches (8ms)
-			RebuildScriptCaches (143ms)
-			SetupLoadedEditorAssemblies (631ms)
+			SetupTypeCache (407ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (585ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
+				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (132ms)
-				ProcessInitializeOnLoadAttributes (426ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (422ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (137ms)
+			AwakeInstancesAfterBackupRestoration (104ms)
 Platform modules already initialized, skipping
 Script error: OnCollisionEnter
 This message parameter has to be of type: Collision
 The message will be ignored.
-Refreshing native plugins compatible for Editor in 4.59 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 4.00 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5847 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (1.2 MB). Loaded Objects now: 6729.
-Memory consumption went from 367.6 MB to 366.3 MB.
-Total: 5.665400 ms (FindLiveObjects: 0.770600 ms CreateObjectMapping: 0.203600 ms MarkObjects: 4.261100 ms  DeleteObjects: 0.428500 ms)
+Unloading 6193 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (1.2 MB). Loaded Objects now: 7899.
+Memory consumption went from 391.2 MB to 389.9 MB.
+Total: 4.874800 ms (FindLiveObjects: 0.661500 ms CreateObjectMapping: 0.198500 ms MarkObjects: 3.611600 ms  DeleteObjects: 0.401800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 

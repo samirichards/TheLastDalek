@@ -21,6 +21,10 @@ public class Player : MonoBehaviour
     [SerializeField] public static CursorControl _cursorControl;
     [SerializeField] public static InteractionController _interactionController;
     [SerializeField] public static InventoryController _inventoryController;
+
+    [SerializeField] public GameObject _PlayerPrefab; 
+    private static GameObject PlayerPrefab;
+
     private static ShieldManager _shieldManager;
     public static Player Instance
     {
@@ -29,7 +33,17 @@ public class Player : MonoBehaviour
             if (!_Instance)
             {
                 _Instance = new Player();
-                playerObjectReference = GameObject.Find("Player");
+                playerObjectReference = GameObject.FindGameObjectWithTag("Player");
+
+                //I am very tired
+                //TODO make this do what you think you want it to do (idk anymore)
+                if (playerObjectReference == null)
+                {
+                    playerObjectReference = Instantiate(PlayerPrefab);
+                    playerObjectReference.name = PlayerPrefab.name;
+                }
+
+
                 _Instance = playerObjectReference.GetComponent<Player>();
                 _Instance.name = _Instance.GetType().ToString();
                 // mark root as DontDestroyOnLoad();
@@ -46,6 +60,7 @@ public class Player : MonoBehaviour
 
     void Awake()
     {
+        PlayerPrefab = _PlayerPrefab;
         playerObjectReference = GameObject.Find("Player");
         //_inventoryManager = playerObjectReference.GetComponent<InventoryManager>();
         _movement = playerObjectReference.GetComponent<Movement>();

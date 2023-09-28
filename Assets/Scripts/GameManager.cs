@@ -95,8 +95,8 @@ public class GameManager : MonoBehaviour
             _ItemUpgradeScreen.SetActive(true);
             _UpgradeScreenTitle.GetComponent<TextMeshProUGUI>().text =
                 _itemDatabase.Items.First(a => a.ItemID == itemID).ItemName;
-            _UpgradeScreenIcon.GetComponent<Image>().sprite =
-                _itemDatabase.Items.First(a => a.ItemID == itemID).ItemTextures[itemTier];
+            _UpgradeScreenIcon.GetComponent<Image>().sprite = 
+                _itemDatabase.Items.First(a=>a.ItemID == itemID).ItemTextures[itemTier];
             Time.timeScale = 0f;
         }
         catch (Exception e)

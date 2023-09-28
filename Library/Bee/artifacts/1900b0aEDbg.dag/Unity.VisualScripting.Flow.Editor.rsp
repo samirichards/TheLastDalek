@@ -118,6 +118,8 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CROSS_PLATFORM_INPUT
 -define:UNITY_POST_PROCESSING_STACK_V2
+-define:PACKAGE_INPUT_SYSTEM_EXISTS
+-define:PACKAGE_INPUT_SYSTEM_1_2_0_OR_NEWER_EXISTS
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"Assets/Cineware by Maxon/Plugins/Editor/C4D2UnityEditor.dll"
@@ -352,6 +354,7 @@
 -r:"C:/Users/samir/Documents/Game Projects/TheLastDalek/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
 -r:"C:/Users/samir/Documents/Game Projects/TheLastDalek/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
 -r:"C:/Users/samir/Documents/Game Projects/TheLastDalek/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.VisualScripting.Core.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.VisualScripting.Core.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.VisualScripting.Flow.ref.dll"

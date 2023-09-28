@@ -870,9 +870,9 @@
       <Project>{7E4A2F95-0C4B-7DF4-94C0-3DAC902A1B36}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
-      <Project>{1501BBE5-83EB-8035-6949-855BAE2F1FF9}</Project>
-      <Name>Unity.PlasticSCM.Editor</Name>
+    <ProjectReference Include="Unity.InputSystem.csproj">
+      <Project>{BA7049B9-0BA6-402A-3C94-CFFD13A7E810}</Project>
+      <Name>Unity.InputSystem</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Rider.Editor.csproj">
       <Project>{CD0EEBE0-2922-A916-40FA-28C3CF141679}</Project>
@@ -885,6 +885,10 @@
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{E3138DDB-38A5-FC8B-0C46-E42278FF4CE2}</Project>
       <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
+      <Project>{1501BBE5-83EB-8035-6949-855BAE2F1FF9}</Project>
+      <Name>Unity.PlasticSCM.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.csproj">
       <Project>{177FA0DA-DF34-2832-9A0F-FE026E82064D}</Project>
