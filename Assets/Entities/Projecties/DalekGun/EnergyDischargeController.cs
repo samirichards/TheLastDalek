@@ -128,10 +128,15 @@ public class EnergyDischargeController : MonoBehaviour
                     AudioSource.PlayClipAtPoint(ImpactSounds[RayType], transform.position);
                     other.gameObject.GetComponent<BaseAI>().Damage(new DamageInfo(_damageStat, gameObject, DamageType.DeathRay));
                 }
+
+                if (other.gameObject.GetComponent<DamageableComponent>())
+                {
+                    AudioSource.PlayClipAtPoint(RichochetClip, transform.position);
+                    other.gameObject.GetComponent<DamageableComponent>().Damage(new DamageInfo(_damageStat, gameObject, DamageType.DeathRay));
+                }
                 else
                 {
                     AudioSource.PlayClipAtPoint(RichochetClip, transform.position);
-                    //TODO Fix this, the reflection angle is all wrong
                     Instantiate(CollisionExplosionPrefab, transform.position, Quaternion.FromToRotation(transform.position, Vector3.Reflect(transform.position, other.contacts[0].normal)));
                     CollisionExplosionPrefab.GetComponent<EnergyDischargeCollisionController>().SetLightType(RayType);
                 }
@@ -139,9 +144,11 @@ public class EnergyDischargeController : MonoBehaviour
             }
             else
             {
+                return;
                 //GetComponent<Rigidbody>().velocity = Vector3.Reflect(GetComponent<Rigidbody>().velocity, other.contacts[0].normal);
                 //ReflectionCount++;
             }
+            Destroy(gameObject);
         }
     }
 }

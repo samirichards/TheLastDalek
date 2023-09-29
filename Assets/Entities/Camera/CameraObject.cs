@@ -45,14 +45,14 @@ public class CameraObject : MonoBehaviour
         }
         CameraObjectReference = gameObject;
         DontDestroyOnLoad(CameraObjectReference);
-        SceneManager.sceneLoaded += OnSceneLoaded;
+        UnityEngine.SceneManagement.SceneManager.sceneLoaded += OnSceneLoaded;
     }
     void Start()
     {
         MusicPlayer = CameraObjectReference.AddComponent(typeof(AudioSource)) as AudioSource;
         MusicPlayer.volume = MusicVolume;
         TrackerTarget = Player.GetPlayerReference();
-        PlayMusicForScene(SceneManager.GetActiveScene().name);
+        PlayMusicForScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
@@ -65,7 +65,7 @@ public class CameraObject : MonoBehaviour
     private void OnDestroy()
     {
         // Unsubscribe from the sceneLoaded event when the object is destroyed.
-        SceneManager.sceneLoaded -= OnSceneLoaded;
+        UnityEngine.SceneManagement.SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
     public void PlayMusicForScene(string sceneName)
@@ -89,7 +89,7 @@ public class CameraObject : MonoBehaviour
     {
         MusicPlayer.Stop();
         MusicPlayer.volume = MusicVolume;
-        PlayMusicForScene(SceneManager.GetActiveScene().name);
+        PlayMusicForScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
     }
 
     // Update is called once per frame
@@ -100,7 +100,7 @@ public class CameraObject : MonoBehaviour
         transform.position = newPosition;
         if (!MusicPlayer.isPlaying)
         {
-            PlayMusicForScene(SceneManager.GetActiveScene().name);
+            PlayMusicForScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
         }
     }
 }

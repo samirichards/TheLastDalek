@@ -36,7 +36,7 @@ public class Mainmenu : MonoBehaviour
 
     private void StartButton_clicked()
     {
-        SceneManager.LoadScene("DevScene");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("DevScene");
     }
 
     public void StartLevel(int levelID)
@@ -46,7 +46,7 @@ public class Mainmenu : MonoBehaviour
 
     public void LoadDevLevel()
     {
-        SceneManager.LoadScene("SampleScene");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("SampleScene");
     }
     
     public void QuitGame()

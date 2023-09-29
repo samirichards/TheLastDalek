@@ -32,7 +32,7 @@ public class LevelTransitionManager : MonoBehaviour
         Player._movement.StopSound();
         LevelTransitionUIPanel.SetActive(true);
         LevelTransitionUIPanel.GetComponent<Image>().color = new Color(0, 0, 0, 0);
-        var op = SceneManager.LoadSceneAsync(SceneName);
+        var op = UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(SceneName);
         op.allowSceneActivation = false;
 
         float t = 0;
@@ -45,7 +45,7 @@ public class LevelTransitionManager : MonoBehaviour
             //controller.fade = t;
             yield return null;
         }
-        SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene());
+        UnityEngine.SceneManagement.SceneManager.UnloadSceneAsync(UnityEngine.SceneManagement.SceneManager.GetActiveScene());
         op.allowSceneActivation = true;
         Player.GetPlayerReference().transform.position = newLocation;
         Player._movement.IsElevating = false;

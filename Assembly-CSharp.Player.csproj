@@ -96,8 +96,10 @@
     <Compile Include="Assets\VolumetricLines\Scripts\VolumetricLineStripBehavior.cs" />
     <Compile Include="Assets\LevelGeometry\Door\Standard\DoorInteractionBehavior.cs" />
     <Compile Include="Assets\Entities\Dalek\InteractionController.cs" />
+    <Compile Include="Assets\LevelGeometry\Terminal\Terminal.cs" />
     <Compile Include="Assets\Entities\Humanoid\Base\OnExterminated.cs" />
     <Compile Include="Assets\Entities\Dalek\ShieldManager.cs" />
+    <Compile Include="Assets\Scripts\DamageableComponent.cs" />
     <Compile Include="Assets\LevelGeometry\Door\DoorControls\ControlsScript.cs" />
     <Compile Include="Assets\VolumetricLines\BuiltInRenderPipeline\ExampleScenes\ExampleScripts\ShotBehavior.cs" />
     <Compile Include="Assets\Textures\Cursor\CursorControl.cs" />
@@ -115,6 +117,8 @@
     <Compile Include="Assets\Entities\Dalek\Inventory\InventoryController.cs" />
     <Compile Include="Assets\Entities\Camera\CameraObject.cs" />
     <Compile Include="Assets\Scenes\Menus\MainMenu\Dalek_LookManager.cs" />
+    <Compile Include="Assets\LevelGeometry\FireAlarm\FireAlarm.cs" />
+    <Compile Include="Assets\LevelGeometry\Barrel\ExplosiveBarrel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -126,6 +130,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\test.uxml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Shaders\DepthMask.shader" />
     <None Include="Assets\VolumetricLines\BuiltInRenderPipeline\Shaders\LineStrip-TextureAlphaBlended.shader" />
     <None Include="Assets\VolumetricLines\BuiltInRenderPipeline\Shaders\SingleLine-TextureAdditive.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />

@@ -5,16 +5,29 @@ using UnityEngine;
 public class Hole : MonoBehaviour
 {
     public GameObject HoleBase;
-    public GameObject HoleCollider;
-    // Start is called before the first frame update
+    public BoxCollider Collider;
+
+
+    void Awake()
+    {
+        Collider = GetComponent<BoxCollider>();
+    }
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.GetComponent<Movement>().IsElevating)
+        {
+            Physics.IgnoreCollision(collision.collider, Collider);
+        }
     }
 }

@@ -18,12 +18,13 @@ public class InteractionController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             RaycastHit hit;
+            Debug.DrawRay(InteractionPoint.transform.position, InteractionPoint.transform.forward * interactionDistance, Color.grey, 5);
             if (Physics.Raycast(InteractionPoint.transform.position, InteractionPoint.transform.forward, out hit, interactionDistance))
             {
                 InteractiveObject interactiveObject = hit.collider.GetComponent<InteractiveObject>();
                 if (interactiveObject != null)
                 {
-                    interactiveObject.Interact(this.gameObject);
+                    interactiveObject.Interact(gameObject);
                 }
                 else
                 {
