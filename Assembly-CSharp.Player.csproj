@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\DamageInfo.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\InGameUI.cs" />
+    <Compile Include="Assets\LevelGeometry\Door\ElevateSceneChange\ElevateSceneChangeDoorInteractionBehavior.cs" />
     <Compile Include="Assets\Entities\Dalek\Inventory\ItemSlot.cs" />
     <Compile Include="Assets\VolumetricLines\BuiltInRenderPipeline\ExampleScenes\ExampleScripts\CreateSinShapedLineStrip.cs" />
     <Compile Include="Assets\Scripts\ArtifactScreen.cs" />
@@ -69,6 +70,7 @@
     <Compile Include="Assets\Entities\Dalek\AttackController.cs" />
     <Compile Include="Assets\Shared\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\Entities\Dalek\PlayerComponent.cs" />
+    <Compile Include="Assets\Scripts\PlayerSpawner.cs" />
     <Compile Include="Assets\Shared\Scripts\SimpleCharacterMotor.cs" />
     <Compile Include="Assets\Entities\Dalek\Inventory\InventoryManager.cs" />
     <Compile Include="Assets\StarterParticles\RotateFlareHolder.cs" />
@@ -80,6 +82,7 @@
     <Compile Include="Assets\Scripts\Billboard.cs" />
     <Compile Include="Assets\Entities\Dalek\LockOnController.cs" />
     <Compile Include="Assets\Scenes\Menus\MainMenu\Mainmenu.cs" />
+    <Compile Include="Assets\Scripts\LevelTransitionManager.cs" />
     <Compile Include="Assets\Entities\Dalek\GunStickAimController.cs" />
     <Compile Include="Assets\VolumetricLines\BuiltInRenderPipeline\ExampleScenes\ExampleScripts\CannonBehavior.cs" />
     <Compile Include="Assets\Shared\Scripts\ProximityActivate.cs" />
@@ -103,14 +106,15 @@
     <Compile Include="Assets\Entities\Projecties\Bullet\Bullet.cs" />
     <Compile Include="Assets\Entities\Dalek\Movement.cs" />
     <Compile Include="Assets\Items\InventoryObject.cs" />
+    <Compile Include="Assets\Scripts\SceneManager.cs" />
     <Compile Include="Assets\Entities\Projecties\DalekGun\EnergyDischargeController.cs" />
     <Compile Include="Assets\Items\GroundItem.cs" />
     <Compile Include="Assets\VolumetricLines\BuiltInRenderPipeline\ExampleScenes\ExampleScripts\VolumetricMultiLineBehavior.cs" />
     <Compile Include="Assets\Entities\Dalek\SpeechController.cs" />
+    <Compile Include="Assets\Scripts\SceneMusicMapping.cs" />
     <Compile Include="Assets\Entities\Dalek\Inventory\InventoryController.cs" />
     <Compile Include="Assets\Entities\Camera\CameraObject.cs" />
     <Compile Include="Assets\Scenes\Menus\MainMenu\Dalek_LookManager.cs" />
-    <Compile Include="Assets\Scripts\PlayerSpawner.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

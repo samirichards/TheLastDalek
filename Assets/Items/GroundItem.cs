@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEditor;
 using UnityEditor.Rendering;
 using UnityEngine;
@@ -16,6 +17,12 @@ public class GroundItem : MonoBehaviour, ISerializationCallbackReceiver
     public void Start()
     {
         _item._itemTier = ItemTier;
+        //If the item is already in the players inventory then remove from the scene to prevent duplicates and stuff
+        bool temp = Player._inventoryController.Unlocks.UnlockedItems.Any(a => a.ItemTitle == _item.ItemTitle && a._itemTier >= ItemTier);
+        if (temp)
+        {
+            Destroy(gameObject);
+        }
     }
 
     public void OnBeforeSerialize()

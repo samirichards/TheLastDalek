@@ -13,9 +13,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2023-09-28T09:18:30.021+01:00
-  initializedAtString: 2023-09-28T08:51:24.141+01:00
+  lastUpdatedAtString: 2023-09-29T09:26:30.796+01:00
+  initializedAtString: 2023-09-29T09:19:03.591+01:00
   entries:
+  - path: .gitignore
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\.gitignore
+    projectPath: .gitignore
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assembly-CSharp.csproj
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assembly-CSharp.csproj
     projectPath: Assembly-CSharp.csproj
@@ -28,833 +34,213 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assembly-CSharp-Editor.csproj
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assembly-CSharp-Editor.csproj
-    projectPath: Assembly-CSharp-Editor.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assembly-CSharp-Editor-firstpass.csproj
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assembly-CSharp-Editor-firstpass.csproj
-    projectPath: Assembly-CSharp-Editor-firstpass.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Entities\Camera\CameraObject.prefab
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Camera\CameraObject.prefab
-    projectPath: Assets\Entities\Camera\CameraObject.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Entities\Camera\UI_Canvas.prefab
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Camera\UI_Canvas.prefab
-    projectPath: Assets\Entities\Camera\UI_Canvas.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Entities\Dalek\Player.cs
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Player.cs
-    projectPath: Assets\Entities\Dalek\Player.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Entities\Dalek\Player.prefab
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Player.prefab
-    projectPath: Assets\Entities\Dalek\Player.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Entities\Projecties\DalekGun\EnergyDischarge_Collision.prefab
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Projecties\DalekGun\EnergyDischarge_Collision.prefab
-    projectPath: Assets\Entities\Projecties\DalekGun\EnergyDischarge_Collision.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\InputSystem.inputsettings.asset
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\InputSystem.inputsettings.asset
-    projectPath: Assets\InputSystem.inputsettings.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\LevelGeometry\Door\SceneChange\DoorClose.anim
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\LevelGeometry\Door\SceneChange\DoorClose.anim
-    projectPath: Assets\LevelGeometry\Door\SceneChange\DoorClose.anim
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\LevelGeometry\Door\SceneChange\DoorOpen.anim
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\LevelGeometry\Door\SceneChange\DoorOpen.anim
-    projectPath: Assets\LevelGeometry\Door\SceneChange\DoorOpen.anim
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\LevelGeometry\Door\SceneChange\SceneChangeBasic.prefab
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\LevelGeometry\Door\SceneChange\SceneChangeBasic.prefab
-    projectPath: Assets\LevelGeometry\Door\SceneChange\SceneChangeBasic.prefab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\LevelGeometry\Door\SceneChange\SceneChangeDoorInteractionBehavior.cs
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\LevelGeometry\Door\SceneChange\SceneChangeDoorInteractionBehavior.cs
-    projectPath: Assets\LevelGeometry\Door\SceneChange\SceneChangeDoorInteractionBehavior.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\LevelGeometry\Door\SceneChange\Test.controller
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\LevelGeometry\Door\SceneChange\Test.controller
-    projectPath: Assets\LevelGeometry\Door\SceneChange\Test.controller
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scenes\DevScene\DevScene.unity
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Scenes\DevScene\DevScene.unity
-    projectPath: Assets\Scenes\DevScene\DevScene.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scenes\DevScene2\DevScene2.unity
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Scenes\DevScene2\DevScene2.unity
-    projectPath: Assets\Scenes\DevScene2\DevScene2.unity
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scripts\GameManager.cs
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Scripts\GameManager.cs
-    projectPath: Assets\Scripts\GameManager.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\InGameUI.cs
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Scripts\InGameUI.cs
-    projectPath: Assets\Scripts\InGameUI.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\PlayerSpawner.cs
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Scripts\PlayerSpawner.cs
-    projectPath: Assets\Scripts\PlayerSpawner.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF - Fallback.asset
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\TextMesh
-      Pro\Resources\Fonts & Materials\LiberationSans SDF - Fallback.asset
-    projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
-      - Fallback.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Textures\Concrete_Floor_01\Concrete_Floor_01.mat
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Textures\Concrete_Floor_01\Concrete_Floor_01.mat
-    projectPath: Assets\Textures\Concrete_Floor_01\Concrete_Floor_01.mat
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\ArtifactDB
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ArtifactDB
     projectPath: Library\ArtifactDB
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\Artifacts\23\23b45baa5fbbc1396a76a6a7d75a28df
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\23\23b45baa5fbbc1396a76a6a7d75a28df
-    projectPath: Library\Artifacts\23\23b45baa5fbbc1396a76a6a7d75a28df
+  - path: Library\Artifacts\07\07bbdf6f4b5368ba7cb4b84f5d69d786
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\07\07bbdf6f4b5368ba7cb4b84f5d69d786
+    projectPath: Library\Artifacts\07\07bbdf6f4b5368ba7cb4b84f5d69d786
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\65\65818a3e65c54f8a122794ec0bfe8103
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\65\65818a3e65c54f8a122794ec0bfe8103
-    projectPath: Library\Artifacts\65\65818a3e65c54f8a122794ec0bfe8103
+  - path: Library\Artifacts\0f\0f191d9d1f06bc20f69256306f6c8e49
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\0f\0f191d9d1f06bc20f69256306f6c8e49
+    projectPath: Library\Artifacts\0f\0f191d9d1f06bc20f69256306f6c8e49
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\78\7854da04e30b91a05576f212a0ecff2f
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\78\7854da04e30b91a05576f212a0ecff2f
-    projectPath: Library\Artifacts\78\7854da04e30b91a05576f212a0ecff2f
+  - path: Library\Artifacts\11\1185ffac2206b030aff0887f28422773
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\11\1185ffac2206b030aff0887f28422773
+    projectPath: Library\Artifacts\11\1185ffac2206b030aff0887f28422773
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Bee\1900b0aEDbg.dag
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\1900b0aEDbg.dag
-    projectPath: Library\Bee\1900b0aEDbg.dag
+  - path: Library\Artifacts\12\12e53629ce676c3692a8c18cd2c809ed
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\12\12e53629ce676c3692a8c18cd2c809ed
+    projectPath: Library\Artifacts\12\12e53629ce676c3692a8c18cd2c809ed
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\1900b0aEDbg.dag.json
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\1900b0aEDbg.dag.json
-    projectPath: Library\Bee\1900b0aEDbg.dag.json
+    workTreeStatus: 5
+  - path: Library\Artifacts\15\152618d37a86861ca99087383a9aee8c
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\15\152618d37a86861ca99087383a9aee8c
+    projectPath: Library\Artifacts\15\152618d37a86861ca99087383a9aee8c
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\1900b0aEDbg.dag.outputdata
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\1900b0aEDbg.dag.outputdata
-    projectPath: Library\Bee\1900b0aEDbg.dag.outputdata
+    workTreeStatus: 5
+  - path: Library\Artifacts\1c\1ca35ba9ded322c3b536fd1bd95f5869
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\1c\1ca35ba9ded322c3b536fd1bd95f5869
+    projectPath: Library\Artifacts\1c\1ca35ba9ded322c3b536fd1bd95f5869
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\1900b0aEDbg.dag_derived
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\1900b0aEDbg.dag_derived
-    projectPath: Library\Bee\1900b0aEDbg.dag_derived
+    workTreeStatus: 5
+  - path: Library\Artifacts\26\269615df4e8a45da8bc44bfeb55a5312
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\26\269615df4e8a45da8bc44bfeb55a5312
+    projectPath: Library\Artifacts\26\269615df4e8a45da8bc44bfeb55a5312
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\1900b0aEDbg-inputdata.json
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\1900b0aEDbg-inputdata.json
-    projectPath: Library\Bee\1900b0aEDbg-inputdata.json
+    workTreeStatus: 5
+  - path: Library\Artifacts\3a\3a17ba362249b321219b3e45285756e4
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\3a\3a17ba362249b321219b3e45285756e4
+    projectPath: Library\Artifacts\3a\3a17ba362249b321219b3e45285756e4
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.dll
+    workTreeStatus: 5
+  - path: Library\Artifacts\3a\3af1072601e5295936c2aa502ace1fc1
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\3a\3af1072601e5295936c2aa502ace1fc1
+    projectPath: Library\Artifacts\3a\3af1072601e5295936c2aa502ace1fc1
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.dll.mvfrm.rsp
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.dll.mvfrm.rsp
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.dll.mvfrm.rsp
+    workTreeStatus: 5
+  - path: Library\Artifacts\3b\3b5b65f0d33de587f05a99cb2235c66f
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\3b\3b5b65f0d33de587f05a99cb2235c66f
+    projectPath: Library\Artifacts\3b\3b5b65f0d33de587f05a99cb2235c66f
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.pdb
+    workTreeStatus: 5
+  - path: Library\Artifacts\3d\3d016b82a4b5f0ec7ce6e50963399e1b
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\3d\3d016b82a4b5f0ec7ce6e50963399e1b
+    projectPath: Library\Artifacts\3d\3d016b82a4b5f0ec7ce6e50963399e1b
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.ref.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.ref.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.ref.dll
+    workTreeStatus: 5
+  - path: Library\Artifacts\45\45855489a27cce948156f65dd1f5ef12
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\45\45855489a27cce948156f65dd1f5ef12
+    projectPath: Library\Artifacts\45\45855489a27cce948156f65dd1f5ef12
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.rsp
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.rsp
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.rsp
+    workTreeStatus: 5
+  - path: Library\Artifacts\4c\4c6304493dc6bbd6fb70f325eb85b99b
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\4c\4c6304493dc6bbd6fb70f325eb85b99b
+    projectPath: Library\Artifacts\4c\4c6304493dc6bbd6fb70f325eb85b99b
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor.dll
+    workTreeStatus: 5
+  - path: Library\Artifacts\66\66101b56c9ca8cc0f5b3f073192643cf
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\66\66101b56c9ca8cc0f5b3f073192643cf
+    projectPath: Library\Artifacts\66\66101b56c9ca8cc0f5b3f073192643cf
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor.dll.mvfrm.rsp
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor.dll.mvfrm.rsp
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor.dll.mvfrm.rsp
+    workTreeStatus: 5
+  - path: Library\Artifacts\79\7918eebb2159a9189aad93ab23546f65
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\79\7918eebb2159a9189aad93ab23546f65
+    projectPath: Library\Artifacts\79\7918eebb2159a9189aad93ab23546f65
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor.pdb
+    workTreeStatus: 5
+  - path: Library\Artifacts\8c\8cc7bd7d99a4a83a9ad26b46e47927a2
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\8c\8cc7bd7d99a4a83a9ad26b46e47927a2
+    projectPath: Library\Artifacts\8c\8cc7bd7d99a4a83a9ad26b46e47927a2
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor.rsp
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor.rsp
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor.rsp
+    workTreeStatus: 5
+  - path: Library\Artifacts\93\933b8309dab16509ef5dae8e0717ccb7
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\93\933b8309dab16509ef5dae8e0717ccb7
+    projectPath: Library\Artifacts\93\933b8309dab16509ef5dae8e0717ccb7
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor-firstpass.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor-firstpass.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor-firstpass.dll
+    workTreeStatus: 5
+  - path: Library\Artifacts\96\96d9c1f327ea4fa246854de127abbe4f
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\96\96d9c1f327ea4fa246854de127abbe4f
+    projectPath: Library\Artifacts\96\96d9c1f327ea4fa246854de127abbe4f
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor-firstpass.dll.mvfrm.rsp
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor-firstpass.dll.mvfrm.rsp
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor-firstpass.dll.mvfrm.rsp
+    workTreeStatus: 5
+  - path: Library\Artifacts\b2\b2fdd160bcff23e6c8ce6e8936e44151
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\b2\b2fdd160bcff23e6c8ce6e8936e44151
+    projectPath: Library\Artifacts\b2\b2fdd160bcff23e6c8ce6e8936e44151
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor-firstpass.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor-firstpass.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor-firstpass.pdb
+    workTreeStatus: 5
+  - path: Library\Artifacts\ba\bac3d57730de3e9238e0d5d03974449c
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\ba\bac3d57730de3e9238e0d5d03974449c
+    projectPath: Library\Artifacts\ba\bac3d57730de3e9238e0d5d03974449c
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor-firstpass.rsp
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor-firstpass.rsp
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor-firstpass.rsp
+    workTreeStatus: 5
+  - path: Library\Artifacts\bb\bbae6658c98b29ff9181b043676caddd
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\bb\bbae6658c98b29ff9181b043676caddd
+    projectPath: Library\Artifacts\bb\bbae6658c98b29ff9181b043676caddd
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Assembly-CSharp.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Assembly-CSharp.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Assembly-CSharp.dll
+    workTreeStatus: 5
+  - path: Library\Artifacts\c7\c7b082dc7ba050eb6976b74b7dd76550
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\c7\c7b082dc7ba050eb6976b74b7dd76550
+    projectPath: Library\Artifacts\c7\c7b082dc7ba050eb6976b74b7dd76550
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Assembly-CSharp.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Assembly-CSharp.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Assembly-CSharp.pdb
+    workTreeStatus: 5
+  - path: Library\Artifacts\cb\cb26e422b4083393c57d60b6d57a2aa6
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\cb\cb26e422b4083393c57d60b6d57a2aa6
+    projectPath: Library\Artifacts\cb\cb26e422b4083393c57d60b6d57a2aa6
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Assembly-CSharp-Editor.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Assembly-CSharp-Editor.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Assembly-CSharp-Editor.dll
+    workTreeStatus: 5
+  - path: Library\Artifacts\cd\cd23d568f5261ddb5e910d52c42a417f
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\cd\cd23d568f5261ddb5e910d52c42a417f
+    projectPath: Library\Artifacts\cd\cd23d568f5261ddb5e910d52c42a417f
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Assembly-CSharp-Editor.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Assembly-CSharp-Editor.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Assembly-CSharp-Editor.pdb
+    workTreeStatus: 5
+  - path: Library\Artifacts\db\db96c26ed6d69ebe398a4d1741979f16
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\db\db96c26ed6d69ebe398a4d1741979f16
+    projectPath: Library\Artifacts\db\db96c26ed6d69ebe398a4d1741979f16
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Assembly-CSharp-Editor-firstpass.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Assembly-CSharp-Editor-firstpass.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Assembly-CSharp-Editor-firstpass.dll
+    workTreeStatus: 5
+  - path: Library\Artifacts\de\de3c06b44c777d30f9272c3a72d932c0
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\de\de3c06b44c777d30f9272c3a72d932c0
+    projectPath: Library\Artifacts\de\de3c06b44c777d30f9272c3a72d932c0
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Assembly-CSharp-Editor-firstpass.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Assembly-CSharp-Editor-firstpass.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Assembly-CSharp-Editor-firstpass.pdb
+    workTreeStatus: 5
+  - path: Library\Artifacts\e2\e25fa769deb45ac17761cdf9f63e83bd
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\e2\e25fa769deb45ac17761cdf9f63e83bd
+    projectPath: Library\Artifacts\e2\e25fa769deb45ac17761cdf9f63e83bd
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.RenderPipelines.Core.Editor.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.RenderPipelines.Core.Editor.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.RenderPipelines.Core.Editor.dll
+    workTreeStatus: 5
+  - path: Library\Artifacts\e3\e306b7f24391dc0bd3f5a4a183d3559d
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\e3\e306b7f24391dc0bd3f5a4a183d3559d
+    projectPath: Library\Artifacts\e3\e306b7f24391dc0bd3f5a4a183d3559d
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.RenderPipelines.Core.Editor.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.RenderPipelines.Core.Editor.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.RenderPipelines.Core.Editor.pdb
+    workTreeStatus: 5
+  - path: Library\Artifacts\e6\e6460a2e4920e4c2acb1bc1e077ec61c
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\e6\e6460a2e4920e4c2acb1bc1e077ec61c
+    projectPath: Library\Artifacts\e6\e6460a2e4920e4c2acb1bc1e077ec61c
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.RenderPipelines.Core.Runtime.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.RenderPipelines.Core.Runtime.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.RenderPipelines.Core.Runtime.dll
+    workTreeStatus: 5
+  - path: Library\Artifacts\ef\ef4a4cae451cdc1614bcdf20ef410868
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\ef\ef4a4cae451cdc1614bcdf20ef410868
+    projectPath: Library\Artifacts\ef\ef4a4cae451cdc1614bcdf20ef410868
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.RenderPipelines.Core.Runtime.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.RenderPipelines.Core.Runtime.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.RenderPipelines.Core.Runtime.pdb
+    workTreeStatus: 5
+  - path: Library\Artifacts\f3\f302026d19456ece3ac1bd7ccc1db4ad
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\f3\f302026d19456ece3ac1bd7ccc1db4ad
+    projectPath: Library\Artifacts\f3\f302026d19456ece3ac1bd7ccc1db4ad
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll
+    workTreeStatus: 5
+  - path: Library\Artifacts\f3\f354bdf901dfaa89387992705b713227
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\f3\f354bdf901dfaa89387992705b713227
+    projectPath: Library\Artifacts\f3\f354bdf901dfaa89387992705b713227
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.RenderPipelines.HighDefinition.Config.Runtime.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.RenderPipelines.HighDefinition.Config.Runtime.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.RenderPipelines.HighDefinition.Config.Runtime.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.RenderPipelines.HighDefinition.Editor.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.RenderPipelines.HighDefinition.Editor.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.RenderPipelines.HighDefinition.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.RenderPipelines.HighDefinition.Editor.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.RenderPipelines.HighDefinition.Editor.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.RenderPipelines.HighDefinition.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.RenderPipelines.HighDefinition.Runtime.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.RenderPipelines.HighDefinition.Runtime.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.RenderPipelines.HighDefinition.Runtime.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.RenderPipelines.HighDefinition.Runtime.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.RenderPipelines.HighDefinition.Runtime.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.RenderPipelines.HighDefinition.Runtime.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.ShaderGraph.Editor.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.ShaderGraph.Editor.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.ShaderGraph.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.ShaderGraph.Editor.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.ShaderGraph.Editor.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.ShaderGraph.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualEffectGraph.Editor.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualEffectGraph.Editor.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualEffectGraph.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualEffectGraph.Editor.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualEffectGraph.Editor.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualEffectGraph.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualEffectGraph.Runtime.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualEffectGraph.Runtime.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualEffectGraph.Runtime.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualEffectGraph.Runtime.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualEffectGraph.Runtime.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualEffectGraph.Runtime.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.Core.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.Core.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.Core.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.Core.Editor.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.Core.Editor.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.Core.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.Core.Editor.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.Core.Editor.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.Core.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.Core.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.Core.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.Core.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.Flow.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.Flow.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.Flow.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.Flow.Editor.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.Flow.Editor.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.Flow.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.Flow.Editor.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.Flow.Editor.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.Flow.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.Flow.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.Flow.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.Flow.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.SettingsProvider.Editor.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.SettingsProvider.Editor.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.SettingsProvider.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.SettingsProvider.Editor.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.SettingsProvider.Editor.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.SettingsProvider.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.Shared.Editor.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.Shared.Editor.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.Shared.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.Shared.Editor.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.Shared.Editor.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.Shared.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.State.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.State.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.State.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.State.Editor.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.State.Editor.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.State.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.State.Editor.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.State.Editor.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.State.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.State.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.State.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Unity.VisualScripting.State.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.Core.Editor.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.Core.Editor.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.Core.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.Core.Editor.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.Core.Editor.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.Core.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.Core.Runtime.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.Core.Runtime.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.Core.Runtime.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.Core.Runtime.dll.mvfrm.rsp
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.Core.Runtime.dll.mvfrm.rsp
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.Core.Runtime.dll.mvfrm.rsp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.Core.Runtime.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.Core.Runtime.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.Core.Runtime.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.Core.Runtime.ref.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.Core.Runtime.ref.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.Core.Runtime.ref.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.Core.Runtime.rsp
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.Core.Runtime.rsp
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.Core.Runtime.rsp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.HighDefinition.Config.Runtime.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.HighDefinition.Config.Runtime.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.HighDefinition.Config.Runtime.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.HighDefinition.Editor.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.HighDefinition.Editor.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.HighDefinition.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.HighDefinition.Editor.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.HighDefinition.Editor.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.HighDefinition.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.HighDefinition.Runtime.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.HighDefinition.Runtime.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.HighDefinition.Runtime.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.HighDefinition.Runtime.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.HighDefinition.Runtime.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.RenderPipelines.HighDefinition.Runtime.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.ShaderGraph.Editor.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.ShaderGraph.Editor.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.ShaderGraph.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.ShaderGraph.Editor.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.ShaderGraph.Editor.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.ShaderGraph.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualEffectGraph.Editor.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualEffectGraph.Editor.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualEffectGraph.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualEffectGraph.Editor.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualEffectGraph.Editor.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualEffectGraph.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualEffectGraph.Runtime.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualEffectGraph.Runtime.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualEffectGraph.Runtime.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualEffectGraph.Runtime.dll.mvfrm.rsp
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualEffectGraph.Runtime.dll.mvfrm.rsp
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualEffectGraph.Runtime.dll.mvfrm.rsp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualEffectGraph.Runtime.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualEffectGraph.Runtime.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualEffectGraph.Runtime.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualEffectGraph.Runtime.ref.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualEffectGraph.Runtime.ref.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualEffectGraph.Runtime.ref.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualEffectGraph.Runtime.rsp
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualEffectGraph.Runtime.rsp
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualEffectGraph.Runtime.rsp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Core.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Core.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Core.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Core.dll.mvfrm.rsp
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Core.dll.mvfrm.rsp
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Core.dll.mvfrm.rsp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Core.Editor.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Core.Editor.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Core.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Core.Editor.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Core.Editor.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Core.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Core.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Core.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Core.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Core.ref.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Core.ref.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Core.ref.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Core.rsp
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Core.rsp
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Core.rsp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Flow.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Flow.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Flow.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Flow.dll.mvfrm.rsp
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Flow.dll.mvfrm.rsp
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Flow.dll.mvfrm.rsp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Flow.Editor.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Flow.Editor.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Flow.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Flow.Editor.dll.mvfrm.rsp
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Flow.Editor.dll.mvfrm.rsp
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Flow.Editor.dll.mvfrm.rsp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Flow.Editor.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Flow.Editor.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Flow.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Flow.Editor.ref.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Flow.Editor.ref.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Flow.Editor.ref.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Flow.Editor.rsp
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Flow.Editor.rsp
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Flow.Editor.rsp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Flow.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Flow.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Flow.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Flow.ref.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Flow.ref.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Flow.ref.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Flow.rsp
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Flow.rsp
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Flow.rsp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.SettingsProvider.Editor.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.SettingsProvider.Editor.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.SettingsProvider.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.SettingsProvider.Editor.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.SettingsProvider.Editor.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.SettingsProvider.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Shared.Editor.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Shared.Editor.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Shared.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Shared.Editor.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Shared.Editor.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.Shared.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.State.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.State.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.State.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.State.Editor.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.State.Editor.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.State.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.State.Editor.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.State.Editor.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.State.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.State.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.State.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Unity.VisualScripting.State.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\rsp\10540497235457876305.rsp
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\rsp\10540497235457876305.rsp
-    projectPath: Library\Bee\artifacts\rsp\10540497235457876305.rsp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\rsp\10756517099639384098.rsp
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\rsp\10756517099639384098.rsp
-    projectPath: Library\Bee\artifacts\rsp\10756517099639384098.rsp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\rsp\12244479590358847285.rsp
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\rsp\12244479590358847285.rsp
-    projectPath: Library\Bee\artifacts\rsp\12244479590358847285.rsp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\rsp\13279423640760612673.rsp
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\rsp\13279423640760612673.rsp
-    projectPath: Library\Bee\artifacts\rsp\13279423640760612673.rsp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\rsp\17206416036114848451.rsp
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\rsp\17206416036114848451.rsp
-    projectPath: Library\Bee\artifacts\rsp\17206416036114848451.rsp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\rsp\4082344215324493762.rsp
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\rsp\4082344215324493762.rsp
-    projectPath: Library\Bee\artifacts\rsp\4082344215324493762.rsp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\rsp\4172707023850728460.rsp
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\rsp\4172707023850728460.rsp
-    projectPath: Library\Bee\artifacts\rsp\4172707023850728460.rsp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\rsp\7429754328999314785.rsp
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\rsp\7429754328999314785.rsp
-    projectPath: Library\Bee\artifacts\rsp\7429754328999314785.rsp
+    workTreeStatus: 5
+  - path: Library\Bee\1900b0aEDbg.dag_fsmtime
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\1900b0aEDbg.dag_fsmtime
+    projectPath: Library\Bee\1900b0aEDbg.dag_fsmtime
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Library\Bee\backend_profiler0.traceevents
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\backend_profiler0.traceevents
     projectPath: Library\Bee\backend_profiler0.traceevents
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\backend_profiler1.traceevents
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\backend_profiler1.traceevents
-    projectPath: Library\Bee\backend_profiler1.traceevents
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\buildprogram0.traceevents
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\buildprogram0.traceevents
-    projectPath: Library\Bee\buildprogram0.traceevents
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -885,6 +271,18 @@ MonoBehaviour:
   - path: Library\Bee\TundraBuildState.state.map
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\TundraBuildState.state.map
     projectPath: Library\Bee\TundraBuildState.state.map
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\BurstCache\JIT\Hashes\Unity.Burst.bhc
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\BurstCache\JIT\Hashes\Unity.Burst.bhc
+    projectPath: Library\BurstCache\JIT\Hashes\Unity.Burst.bhc
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\BurstCache\JIT\Hashes\Unity.Mathematics.bhc
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\BurstCache\JIT\Hashes\Unity.Mathematics.bhc
+    projectPath: Library\BurstCache\JIT\Hashes\Unity.Mathematics.bhc
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -930,24 +328,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PackageManager\ProjectCache
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageManager\ProjectCache
-    projectPath: Library\PackageManager\ProjectCache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PackageManager\ProjectCache.md5
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageManager\ProjectCache.md5
-    projectPath: Library\PackageManager\ProjectCache.md5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\SceneVisibilityState.asset
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\SceneVisibilityState.asset
     projectPath: Library\SceneVisibilityState.asset
@@ -959,298 +339,34 @@ MonoBehaviour:
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
   - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Assembly-CSharp.pdb
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
   - path: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
     projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
   - path: Library\ScriptAssemblies\Assembly-CSharp-Editor.pdb
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Assembly-CSharp-Editor.pdb
     projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.pdb
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.pdb
-    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll
-    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Config.Runtime.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Config.Runtime.pdb
-    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Config.Runtime.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Editor.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Editor.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Runtime.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Runtime.dll
-    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Runtime.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Runtime.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Runtime.pdb
-    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Runtime.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.ShaderGraph.Editor.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.ShaderGraph.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.VisualEffectGraph.Editor.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Unity.VisualEffectGraph.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.VisualEffectGraph.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.VisualEffectGraph.Editor.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Unity.VisualEffectGraph.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.VisualEffectGraph.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll
-    projectPath: Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.pdb
-    projectPath: Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-    projectPath: Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.VisualScripting.Core.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Unity.VisualScripting.Core.pdb
-    projectPath: Library\ScriptAssemblies\Unity.VisualScripting.Core.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-    projectPath: Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.VisualScripting.Flow.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Unity.VisualScripting.Flow.pdb
-    projectPath: Library\ScriptAssemblies\Unity.VisualScripting.Flow.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-    projectPath: Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.VisualScripting.State.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Unity.VisualScripting.State.pdb
-    projectPath: Library\ScriptAssemblies\Unity.VisualScripting.State.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
   - path: Library\Search\transactions.db
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Search\transactions.db
     projectPath: Library\Search\transactions.db
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\ShaderCache\EditorEncounteredVariants
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\EditorEncounteredVariants
-    projectPath: Library\ShaderCache\EditorEncounteredVariants
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ShaderCache\shader\Lit6e4a\03\26f8924d08c0f48fa264880d9e8f1c54.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Lit6e4a\03\26f8924d08c0f48fa264880d9e8f1c54.bin
-    projectPath: Library\ShaderCache\shader\Lit6e4a\03\26f8924d08c0f48fa264880d9e8f1c54.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Lit6e4a\03\3b25c76d7d70d42c6657ab2d54d76e25.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Lit6e4a\03\3b25c76d7d70d42c6657ab2d54d76e25.bin
-    projectPath: Library\ShaderCache\shader\Lit6e4a\03\3b25c76d7d70d42c6657ab2d54d76e25.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Lit6e4a\03\9ba085a157aebc62273c4b5fba5db38e.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Lit6e4a\03\9ba085a157aebc62273c4b5fba5db38e.bin
-    projectPath: Library\ShaderCache\shader\Lit6e4a\03\9ba085a157aebc62273c4b5fba5db38e.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Lit6e4a\03\9cba23c2f92f8b56597d1fb2883676f8.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Lit6e4a\03\9cba23c2f92f8b56597d1fb2883676f8.bin
-    projectPath: Library\ShaderCache\shader\Lit6e4a\03\9cba23c2f92f8b56597d1fb2883676f8.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Library\SourceAssetDB
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\SourceAssetDB
     projectPath: Library\SourceAssetDB
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
-    projectPath: Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\StateCache\PrefabStageHierarchy\25\25abe9a4400218e632116493494960ff.json
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\StateCache\PrefabStageHierarchy\25\25abe9a4400218e632116493494960ff.json
-    projectPath: Library\StateCache\PrefabStageHierarchy\25\25abe9a4400218e632116493494960ff.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
-    projectPath: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\StateCache\SceneView\bc\bc59bc619f2a0f57c32cf9eddbfd6c5b.json
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\StateCache\SceneView\bc\bc59bc619f2a0f57c32cf9eddbfd6c5b.json
-    projectPath: Library\StateCache\SceneView\bc\bc59bc619f2a0f57c32cf9eddbfd6c5b.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\StateCache\SceneView\ef\ef186e35e3268d6fc289720abc160d80.json
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\StateCache\SceneView\ef\ef186e35e3268d6fc289720abc160d80.json
-    projectPath: Library\StateCache\SceneView\ef\ef186e35e3268d6fc289720abc160d80.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -1259,7 +375,7 @@ MonoBehaviour:
     projectPath: Logs\AssetImportWorker0.log
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
   - path: Logs\AssetImportWorker0-prev.log
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Logs\AssetImportWorker0-prev.log
     projectPath: Logs\AssetImportWorker0-prev.log
@@ -1271,7 +387,7 @@ MonoBehaviour:
     projectPath: Logs\AssetImportWorker1.log
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
   - path: Logs\AssetImportWorker1-prev.log
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Logs\AssetImportWorker1-prev.log
     projectPath: Logs\AssetImportWorker1-prev.log
@@ -1283,7 +399,7 @@ MonoBehaviour:
     projectPath: Logs\shadercompiler-AssetImportWorker0.log
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
   - path: Logs\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Logs\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Logs\shadercompiler-UnityShaderCompiler.exe0.log
@@ -1294,113 +410,65 @@ MonoBehaviour:
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Logs\shadercompiler-UnityShaderCompiler.exe1.log
     projectPath: Logs\shadercompiler-UnityShaderCompiler.exe1.log
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Packages\manifest.json
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Packages\manifest.json
-    projectPath: Packages\manifest.json
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe10.log
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Logs\shadercompiler-UnityShaderCompiler.exe10.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe10.log
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Packages\packages-lock.json
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Packages\packages-lock.json
-    projectPath: Packages\packages-lock.json
+    workTreeStatus: 5
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe11.log
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Logs\shadercompiler-UnityShaderCompiler.exe11.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe11.log
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: ProjectSettings\EditorBuildSettings.asset
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\ProjectSettings\EditorBuildSettings.asset
-    projectPath: ProjectSettings\EditorBuildSettings.asset
+    workTreeStatus: 5
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe2.log
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Logs\shadercompiler-UnityShaderCompiler.exe2.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe2.log
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: ProjectSettings\InputManager.asset
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\ProjectSettings\InputManager.asset
-    projectPath: ProjectSettings\InputManager.asset
+    workTreeStatus: 5
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe3.log
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Logs\shadercompiler-UnityShaderCompiler.exe3.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe3.log
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: TheLastDalek.sln
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\TheLastDalek.sln
-    projectPath: TheLastDalek.sln
+    workTreeStatus: 5
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe4.log
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Logs\shadercompiler-UnityShaderCompiler.exe4.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe4.log
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Unity.InputSystem.csproj
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.InputSystem.csproj
-    projectPath: Unity.InputSystem.csproj
+    workTreeStatus: 5
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe5.log
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Logs\shadercompiler-UnityShaderCompiler.exe5.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe5.log
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Unity.InputSystem.Player.csproj
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.InputSystem.Player.csproj
-    projectPath: Unity.InputSystem.Player.csproj
+    workTreeStatus: 5
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe6.log
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Logs\shadercompiler-UnityShaderCompiler.exe6.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe6.log
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Unity.RenderPipelines.Core.Runtime.csproj
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.RenderPipelines.Core.Runtime.csproj
-    projectPath: Unity.RenderPipelines.Core.Runtime.csproj
+    workTreeStatus: 5
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe7.log
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Logs\shadercompiler-UnityShaderCompiler.exe7.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe7.log
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Unity.RenderPipelines.Core.Runtime.Player.csproj
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.RenderPipelines.Core.Runtime.Player.csproj
-    projectPath: Unity.RenderPipelines.Core.Runtime.Player.csproj
+    workTreeStatus: 5
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe8.log
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Logs\shadercompiler-UnityShaderCompiler.exe8.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe8.log
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Unity.VisualEffectGraph.Runtime.csproj
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.VisualEffectGraph.Runtime.csproj
-    projectPath: Unity.VisualEffectGraph.Runtime.csproj
+    workTreeStatus: 5
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe9.log
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Logs\shadercompiler-UnityShaderCompiler.exe9.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe9.log
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Unity.VisualEffectGraph.Runtime.Player.csproj
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.VisualEffectGraph.Runtime.Player.csproj
-    projectPath: Unity.VisualEffectGraph.Runtime.Player.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Unity.VisualScripting.Core.csproj
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.VisualScripting.Core.csproj
-    projectPath: Unity.VisualScripting.Core.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Unity.VisualScripting.Core.Player.csproj
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.VisualScripting.Core.Player.csproj
-    projectPath: Unity.VisualScripting.Core.Player.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Unity.VisualScripting.Flow.csproj
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.VisualScripting.Flow.csproj
-    projectPath: Unity.VisualScripting.Flow.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Unity.VisualScripting.Flow.Editor.csproj
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.VisualScripting.Flow.Editor.csproj
-    projectPath: Unity.VisualScripting.Flow.Editor.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Unity.VisualScripting.Flow.Player.csproj
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.VisualScripting.Flow.Player.csproj
-    projectPath: Unity.VisualScripting.Flow.Player.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: UserSettings\EditorUserSettings.asset
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\UserSettings\EditorUserSettings.asset
-    projectPath: UserSettings\EditorUserSettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\UserSettings\Layouts\CurrentMaximizeLayout.dwlt
-    projectPath: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5

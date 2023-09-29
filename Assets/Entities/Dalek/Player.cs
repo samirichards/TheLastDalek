@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering;
+using static UnityEditor.Experimental.GraphView.GraphView;
 
 public class Player : MonoBehaviour
 {
@@ -21,6 +22,7 @@ public class Player : MonoBehaviour
     [SerializeField] public static CursorControl _cursorControl;
     [SerializeField] public static InteractionController _interactionController;
     [SerializeField] public static InventoryController _inventoryController;
+    public CameraObject cameraInstance;
 
     [SerializeField] public GameObject _PlayerPrefab; 
     private static GameObject PlayerPrefab;
@@ -32,18 +34,7 @@ public class Player : MonoBehaviour
         {
             if (!_Instance)
             {
-                _Instance = new Player();
                 playerObjectReference = GameObject.FindGameObjectWithTag("Player");
-
-                //I am very tired
-                //TODO make this do what you think you want it to do (idk anymore)
-                if (playerObjectReference == null)
-                {
-                    playerObjectReference = Instantiate(PlayerPrefab);
-                    playerObjectReference.name = PlayerPrefab.name;
-                }
-
-
                 _Instance = playerObjectReference.GetComponent<Player>();
                 _Instance.name = _Instance.GetType().ToString();
                 // mark root as DontDestroyOnLoad();
@@ -60,22 +51,32 @@ public class Player : MonoBehaviour
 
     void Awake()
     {
-        PlayerPrefab = _PlayerPrefab;
-        playerObjectReference = GameObject.Find("Player");
-        //_inventoryManager = playerObjectReference.GetComponent<InventoryManager>();
-        _movement = playerObjectReference.GetComponent<Movement>();
-        _collider = playerObjectReference.GetComponent<BoxCollider>();
-        _rb = playerObjectReference.GetComponent<Rigidbody>();
-        _speechController = playerObjectReference.GetComponent<SpeechController>();
-        _lookAtAnimator = playerObjectReference.GetComponent<LookAtAnimator>();
-        _chestRotateController = playerObjectReference.GetComponent<ChestRotateController>();
-        _attackController = playerObjectReference.GetComponent<AttackController>();
-        _playerComponent = playerObjectReference.GetComponent<PlayerComponent>();
-        _animator = playerObjectReference.GetComponent<Animator>();
-        _cursorControl = playerObjectReference.GetComponent<CursorControl>();
-        _interactionController = playerObjectReference.GetComponent<InteractionController>();
-        _shieldManager = playerObjectReference.GetComponentInChildren<ShieldManager>();
-        _inventoryController = playerObjectReference.GetComponentInChildren<InventoryController>();
+        if (_Instance == null)
+        {
+            DontDestroyOnLoad(gameObject);
+            _Instance = this;
+            cameraInstance = CameraObject.Instance;
+            PlayerPrefab = _PlayerPrefab;
+            playerObjectReference = GameObject.Find("Player");
+            //_inventoryManager = playerObjectReference.GetComponent<InventoryManager>();
+            _movement = playerObjectReference.GetComponent<Movement>();
+            _collider = playerObjectReference.GetComponent<BoxCollider>();
+            _rb = playerObjectReference.GetComponent<Rigidbody>();
+            _speechController = playerObjectReference.GetComponent<SpeechController>();
+            _lookAtAnimator = playerObjectReference.GetComponent<LookAtAnimator>();
+            _chestRotateController = playerObjectReference.GetComponent<ChestRotateController>();
+            _attackController = playerObjectReference.GetComponent<AttackController>();
+            _playerComponent = playerObjectReference.GetComponent<PlayerComponent>();
+            _animator = playerObjectReference.GetComponent<Animator>();
+            _cursorControl = playerObjectReference.GetComponent<CursorControl>();
+            _interactionController = playerObjectReference.GetComponent<InteractionController>();
+            _shieldManager = playerObjectReference.GetComponentInChildren<ShieldManager>();
+            _inventoryController = playerObjectReference.GetComponentInChildren<InventoryController>();
+        }
+        else if (_Instance != this)
+        {
+            Destroy(gameObject);
+        }
     }
 
     public static ShieldManager GetShieldManagerReference()
@@ -90,6 +91,6 @@ public class Player : MonoBehaviour
 
     void Start()
     {
-
+        _inventoryController.UpdateAbilities();
     }
 }

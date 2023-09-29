@@ -11,12 +11,19 @@ public class Movement : MonoBehaviour
     [SerializeField] private AudioClip MovementStart;
     [SerializeField] private AudioClip MovementLoop;
     [SerializeField] private AudioClip MovementEnd;
+    [SerializeField] private AudioClip ElevateStart;
+    [SerializeField] private AudioClip ElevateLoop;
+    [SerializeField] private AudioClip ElevateEnd;
     private bool IsMoving = false;
     [SerializeField] public bool IsMovementEnhanced = false;
-    [SerializeField] private float MovementVolume = 0.33f;
+    [SerializeField] public float MovementVolume = 0.33f;
+    [SerializeField] public float ElevateVolume = 0.45f;
     private AudioSource audioSource;
     private AudioSource audioSource2;
     private Vector3 _input;
+    public bool MovementEnabled = true;
+    public bool IsElevating;
+    private bool wasElevating = false;
 
     private void Update()
     {
@@ -39,15 +46,56 @@ public class Movement : MonoBehaviour
         {
             Move();
             MovementAudio();
+            HandleElevate();
         }
+    }
+
+    private void HandleElevate()
+    {
+        GetComponent<Animator>().SetBool("IsElevating", IsElevating);
+
+        // Check for transition from elevating to not elevating
+        if (wasElevating && !IsElevating)
+        {
+            // ElevateEnd sound should play here
+            audioSource2.volume = MovementVolume;
+            audioSource2.PlayOneShot(ElevateEnd);
+        }
+
+        wasElevating = IsElevating; // Update the previous state
     }
 
     private void MovementAudio()
     {
-        audioSource.clip = MovementLoop;
-        audioSource.loop = true;
-        if (IsMoving && GameManager.IsGamePaused == false)
+        if (IsElevating && GameManager.IsGamePaused == false)
         {
+            // Play Elevate sounds continuously
+            audioSource.clip = ElevateLoop;
+            audioSource.loop = true;
+            audioSource.volume = MovementVolume;
+
+            if (!audioSource.isPlaying)
+            {
+                audioSource.volume = ElevateVolume;
+                audioSource.PlayOneShot(ElevateStart);
+                audioSource.PlayDelayed(ElevateStart.length - 0.1f);
+                if (IsMovementEnhanced)
+                {
+                    audioSource.pitch = 1.2f;
+                }
+                else
+                {
+                    audioSource.pitch = 1f;
+                }
+            }
+        }
+        else if (IsMoving && GameManager.IsGamePaused == false)
+        {
+            // Play normal Movement sounds
+            audioSource.clip = MovementLoop;
+            audioSource.loop = true;
+            audioSource.volume = MovementVolume;
+
             if (!audioSource.isPlaying)
             {
                 audioSource.volume = MovementVolume;
@@ -65,11 +113,22 @@ public class Movement : MonoBehaviour
         }
         else
         {
+            // Stop all sounds when not moving or not elevating
             if (audioSource.isPlaying)
             {
                 audioSource.Stop();
-                audioSource2.volume = MovementVolume;
-                audioSource2.PlayOneShot(MovementEnd);
+                if (wasElevating)
+                {
+                    // ElevateEnd sound should play here
+                    audioSource2.volume = MovementVolume;
+                    audioSource2.PlayOneShot(ElevateEnd);
+                }
+                else
+                {
+                    // MovementEnd sound should play here if MovementLoop was playing
+                    audioSource2.volume = MovementVolume;
+                    audioSource2.PlayOneShot(MovementEnd);
+                }
             }
         }
     }
@@ -95,13 +154,20 @@ public class Movement : MonoBehaviour
 
     private void Move()
     {
-        float finalSpeed = _baseSpeed;
-        if (IsMovementEnhanced)
+        if (MovementEnabled)
         {
-            finalSpeed = _baseSpeed * EnhancedSpeedModifier;
+            float finalSpeed = _baseSpeed;
+            if (IsMovementEnhanced)
+            {
+                finalSpeed = _baseSpeed * EnhancedSpeedModifier;
+            }
+            _rb.MovePosition(transform.position + transform.forward * _input.normalized.magnitude * finalSpeed * Time.deltaTime);
+            IsMoving = _input.normalized.magnitude > 0.05f;
         }
-        _rb.MovePosition(transform.position + transform.forward * _input.normalized.magnitude * finalSpeed * Time.deltaTime);
-        IsMoving = _input.normalized.magnitude > 0.05f;
+        else
+        {
+            IsMoving = false;
+        }
     }
 }
 

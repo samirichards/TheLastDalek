@@ -4,6 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
+using static UnityEditor.Experimental.GraphView.GraphView;
 
 public class InGameUI : MonoBehaviour
 {
@@ -64,13 +65,21 @@ public class InGameUI : MonoBehaviour
 
     void Awake()
     {
-        UpgradeToArtifactButton.onClick.AddListener(()=>{GoToArtifactScreen();});
-        UICanvasRef = GameObject.FindWithTag("InGameUI");
-        //PauseMenu = GameObject.FindWithTag("PauseMenu");
-        //ItemUpgradeScreen = GameObject.FindWithTag("ItemUpgradeScreen");
-        //ArtifactScreen = GameObject.FindWithTag("ArtifactScreen");
-        DontDestroyOnLoad(UICanvasRef);
-
+        if (_inGameUiInstance == null)
+        {
+            _inGameUiInstance = this;
+            UpgradeToArtifactButton.onClick.AddListener(() => { GoToArtifactScreen(); });
+            UICanvasRef = GameObject.FindWithTag("InGameUI");
+            //PauseMenu = GameObject.FindWithTag("PauseMenu");
+            //ItemUpgradeScreen = GameObject.FindWithTag("ItemUpgradeScreen");
+            //ArtifactScreen = GameObject.FindWithTag("ArtifactScreen");
+            DontDestroyOnLoad(gameObject);
+            DontDestroyOnLoad(UICanvasRef);
+        }
+        else if (_inGameUiInstance != this)
+        {
+            Destroy(gameObject);
+        }
     }
 
     void Start()
@@ -82,7 +91,6 @@ public class InGameUI : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            Debug.Log("ESC Key pressed");
             if (GameManager.IsGamePaused)
             {
                 GameManager.ResumeGame();
@@ -94,7 +102,6 @@ public class InGameUI : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Tab))
         {
-            Debug.Log("TAB Pressed");
             if (!GameManager.IsOnNormalPauseScreen)
             {
                 if (GameManager.IsGamePaused)
@@ -129,7 +136,7 @@ public class InGameUI : MonoBehaviour
         ArtifactInfoPanel.SetActive(false);
         ItemModelDisplay.GetComponent<Image>().sprite = null;
         ItemModelDisplay.SetActive(false);
-        if (Player._inventoryController.EquippedItems[0])
+        if (Player._inventoryController.EquippedItems[0])   
         {
             ItemSelectionSlotA.GetComponent<ItemSlot>().SetDisplayedImage(Player._inventoryController.EquippedItems[0].ItemTextures[Player._inventoryController.EquippedItems[0]._itemTier]);
         }

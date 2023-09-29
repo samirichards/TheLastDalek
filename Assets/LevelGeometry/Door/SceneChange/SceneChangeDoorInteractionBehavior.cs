@@ -29,9 +29,7 @@ public class SceneChangeDoorInteractionBehavior : DoorInteractionBehavior
     {
         if (other.tag == "Player")
         {
-            SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene());
-            SceneManager.LoadScene(TargetSceneName);
-            other.transform.position = TargetSceneLoadLocation;
+            GameManager.GetLevelTransitionManager().ChangeScene(TargetSceneLoadLocation, TargetSceneName);
         }
     }
 }

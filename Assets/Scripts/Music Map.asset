@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fe0c3a06da7b3549bd8d09fa4eccc38, type: 3}
+  m_Name: Music Map
+  m_EditorClassIdentifier: 
+  sceneMusicPairs:
+  - sceneName: DevScene
+    musicClip: {fileID: 8300000, guid: e9c78c4f8ca3ba1479f4fc5f25198b44, type: 3}
+  - sceneName: DevScene2
+    musicClip: {fileID: 8300000, guid: b56fa9bf87593c54e9283ec9f692c28d, type: 3}

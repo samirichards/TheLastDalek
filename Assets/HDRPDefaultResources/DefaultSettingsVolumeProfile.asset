@@ -259,7 +259,7 @@ MonoBehaviour:
     m_Value: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.2
+    m_Value: 0.549
   scatter:
     m_OverrideState: 0
     m_Value: 0.7
@@ -330,7 +330,7 @@ MonoBehaviour:
   active: 1
   mode:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   meteringMode:
     m_OverrideState: 0
     m_Value: 2
@@ -338,8 +338,8 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 1
   fixedExposure:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 10
   compensation:
     m_OverrideState: 0
     m_Value: 0
@@ -381,18 +381,18 @@ MonoBehaviour:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: -10
-        value: -12
+        time: -0.45483398
+        value: 0.29104614
         inSlope: 0
-        outSlope: 1
+        outSlope: 0
         tangentMode: 0
         weightedMode: 0
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 20
-        value: 18
-        inSlope: 1
+        time: 1.1299591
+        value: 0.61665344
+        inSlope: 0
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
@@ -407,22 +407,22 @@ MonoBehaviour:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: -10
-        value: -8
-        inSlope: 0
-        outSlope: 1
+        time: -9.399999
+        value: 18.080448
+        inSlope: 0.35424384
+        outSlope: 0.35424384
         tangentMode: 0
         weightedMode: 0
         inWeight: 0
-        outWeight: 0
+        outWeight: 0.13966474
       - serializedVersion: 3
-        time: 20
-        value: 22
-        inSlope: 1
-        outSlope: 0
+        time: 18.875
+        value: 22.070755
+        inSlope: 0.04209674
+        outSlope: 0.04209674
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0
+        inWeight: 0.21982773
         outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2

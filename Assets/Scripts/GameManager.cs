@@ -3,6 +3,7 @@ using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using static UnityEditor.Experimental.GraphView.GraphView;
 
 public class GameManager : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class GameManager : MonoBehaviour
     private static int _TotalExterminations = 0;
     [SerializeField] private ItemDatabaseObject itemDatabase;
     private static ItemDatabaseObject _itemDatabase;
+    private static LevelTransitionManager _levelTransitionManager;
 
     private static GameObject _UpgradeScreenTitle;
     private static GameObject _UpgradeScreenIcon;
@@ -57,18 +59,29 @@ public class GameManager : MonoBehaviour
 
     void Awake()
     {
-        _audioSource = GetComponent<AudioSource>();
-        _UpgradeAudioClip = UpgradeAudioClip;
-        _ArtifactScreenCloseClip = ArtifactScreenCloseClip;
-        _ArtifactScreenOpenClip = ArtifactScreenOpenClip;
 
-        _UpgradeScreenTitle = UpgradeScreenTitle;
-        _UpgradeScreenIcon = UpgradeScreenIcon;
-        _PauseMenu = PauseMenu;
-        _ItemUpgradeScreen = ItemUpgradeScreen;
-        _ArtifactScreen = ArtifactScreen;
-        _TotalExterminationsCount = TotalExterminationsCount.GetComponent<TextMeshProUGUI>();
-        _itemDatabase = itemDatabase;
+        if (_GameManagerInstance == null)
+        {
+            DontDestroyOnLoad(gameObject);
+            _GameManagerInstance = this;
+            _levelTransitionManager = GetComponent<LevelTransitionManager>();
+            _audioSource = GetComponent<AudioSource>();
+            _UpgradeAudioClip = UpgradeAudioClip;
+            _ArtifactScreenCloseClip = ArtifactScreenCloseClip;
+            _ArtifactScreenOpenClip = ArtifactScreenOpenClip;
+
+            _UpgradeScreenTitle = UpgradeScreenTitle;
+            _UpgradeScreenIcon = UpgradeScreenIcon;
+            _PauseMenu = PauseMenu;
+            _ItemUpgradeScreen = ItemUpgradeScreen;
+            _ArtifactScreen = ArtifactScreen;
+            _TotalExterminationsCount = TotalExterminationsCount.GetComponent<TextMeshProUGUI>();
+            _itemDatabase = itemDatabase;
+        }
+        else if (_GameManagerInstance != this)
+        {
+            Destroy(gameObject);
+        }
     }
 
     static GameManager()
@@ -103,6 +116,11 @@ public class GameManager : MonoBehaviour
         {
             Debug.LogError(e);
         }
+    }
+
+    public static LevelTransitionManager GetLevelTransitionManager()
+    {
+        return _levelTransitionManager;
     }
 
     public static void ShowArtifactScreen()

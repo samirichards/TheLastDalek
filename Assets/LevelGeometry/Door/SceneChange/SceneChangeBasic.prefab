@@ -122,14 +122,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2276265504200074230}
-  m_LocalRotation: {x: 0.28871801, y: 0.4946388, z: -0.384111, w: 0.7241776}
-  m_LocalPosition: {x: 0.05, y: 1.912, z: 0.115}
+  m_LocalRotation: {x: -0.53069115, y: 0.52715385, z: 0.15148406, w: -0.64616436}
+  m_LocalPosition: {x: 2.797, y: 1.877, z: 0.025}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8210882230947189534}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 52.955, y: 55.186, z: -26.702}
+  m_LocalEulerAnglesHint: {x: 31.743, y: 261.953, z: -62.639}
 --- !u!108 &2809871411439100307
 Light:
   m_ObjectHideFlags: 0
@@ -143,7 +143,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 0.7232325, b: 0.21226418, a: 1}
   m_Intensity: 46479.37
-  m_Range: 2.99
+  m_Range: 5.02
   m_SpotAngle: 56.6
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -763,7 +763,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7884597477410440054}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.059, y: 1, z: 0.65}
+  m_LocalPosition: {x: 1.059, y: 1, z: -0.65}
   m_LocalScale: {x: 2, y: 2, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -907,6 +907,7 @@ MonoBehaviour:
   IsOpen: 0
   SceneChangeTrigger: {fileID: 8159557724396520417}
   TargetSceneName: 
+  TargetSceneLoadLocation: {x: 0, y: 0, z: 0}
 --- !u!65 &8159557724396520417
 BoxCollider:
   m_ObjectHideFlags: 0
