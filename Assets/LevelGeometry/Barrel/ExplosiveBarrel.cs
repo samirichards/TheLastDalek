@@ -1,9 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering.HighDefinition;
 
 public class ExplosiveBarrel : DamageableComponent
 {
+    [SerializeField]public bool LeaveHole = false;
+    [SerializeField] public GameObject HoleModel;
+    [SerializeField] public GameObject SmallExplosionPrefab;
+    [SerializeField] public GameObject LargeExplosionPrefab;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +23,15 @@ public class ExplosiveBarrel : DamageableComponent
 
     protected override void OnDestroy(DamageInfo damageInfo)
     {
+        if (LeaveHole)
+        {
+            Instantiate(HoleModel, transform.position, transform.rotation);
+            Instantiate(LargeExplosionPrefab, transform.position, transform.rotation);
+        }
+        else
+        {
+            Instantiate(SmallExplosionPrefab, transform.position, transform.rotation);
+        }
         Destroy(gameObject);
     }
 }

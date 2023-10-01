@@ -737,7 +737,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1788279992588320721
 Transform:
   m_ObjectHideFlags: 0
@@ -1558,16 +1558,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 229953713318243049, guid: 3732b4c58914f9442ade98ccb73a1a06,
         type: 3}
-      propertyPath: m_Type
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 229953713318243049, guid: 3732b4c58914f9442ade98ccb73a1a06,
-        type: 3}
-      propertyPath: m_Range
-      value: 0.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 229953713318243049, guid: 3732b4c58914f9442ade98ccb73a1a06,
-        type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
@@ -1575,11 +1565,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Intensity
       value: 1348.2408
-      objectReference: {fileID: 0}
-    - target: {fileID: 229953713318243049, guid: 3732b4c58914f9442ade98ccb73a1a06,
-        type: 3}
-      propertyPath: m_SpotAngle
-      value: 158.14
       objectReference: {fileID: 0}
     - target: {fileID: 229953713318243049, guid: 3732b4c58914f9442ade98ccb73a1a06,
         type: 3}
@@ -1595,11 +1580,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ShadowRadius
       value: 3.44
-      objectReference: {fileID: 0}
-    - target: {fileID: 229953713318243049, guid: 3732b4c58914f9442ade98ccb73a1a06,
-        type: 3}
-      propertyPath: m_BounceIntensity
-      value: 20.18
       objectReference: {fileID: 0}
     - target: {fileID: 229953713318243049, guid: 3732b4c58914f9442ade98ccb73a1a06,
         type: 3}
@@ -1655,16 +1635,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 1578308508820580099, guid: 3732b4c58914f9442ade98ccb73a1a06,
-        type: 3}
-      propertyPath: m_ShapeRadius
-      value: 3.44
-      objectReference: {fileID: 0}
-    - target: {fileID: 1578308508820580099, guid: 3732b4c58914f9442ade98ccb73a1a06,
-        type: 3}
-      propertyPath: m_InnerSpotPercent
-      value: 74.3
       objectReference: {fileID: 0}
     - target: {fileID: 1605824827125423019, guid: 3732b4c58914f9442ade98ccb73a1a06,
         type: 3}
@@ -1774,7 +1744,7 @@ PrefabInstance:
     - target: {fileID: 2765263899953439936, guid: 3732b4c58914f9442ade98ccb73a1a06,
         type: 3}
       propertyPath: m_Intensity
-      value: 3183.0989
+      value: 4.774648
       objectReference: {fileID: 0}
     - target: {fileID: 2765263899953439936, guid: 3732b4c58914f9442ade98ccb73a1a06,
         type: 3}
@@ -1833,18 +1803,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4268988540699321720, guid: 3732b4c58914f9442ade98ccb73a1a06,
         type: 3}
-      propertyPath: m_Color.b
-      value: 0.8666667
-      objectReference: {fileID: 0}
-    - target: {fileID: 4268988540699321720, guid: 3732b4c58914f9442ade98ccb73a1a06,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 0.41109216
-      objectReference: {fileID: 0}
-    - target: {fileID: 4268988540699321720, guid: 3732b4c58914f9442ade98ccb73a1a06,
-        type: 3}
       propertyPath: m_Intensity
-      value: 83633.16
+      value: 186833.44
       objectReference: {fileID: 0}
     - target: {fileID: 4268988540699321720, guid: 3732b4c58914f9442ade98ccb73a1a06,
         type: 3}
@@ -1989,7 +1949,7 @@ PrefabInstance:
     - target: {fileID: 5679096926692371214, guid: 3732b4c58914f9442ade98ccb73a1a06,
         type: 3}
       propertyPath: m_Intensity
-      value: 3183.0989
+      value: 4.774648
       objectReference: {fileID: 0}
     - target: {fileID: 5679096926692371214, guid: 3732b4c58914f9442ade98ccb73a1a06,
         type: 3}
@@ -2050,11 +2010,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7634989676615113465, guid: 3732b4c58914f9442ade98ccb73a1a06,
-        type: 3}
-      propertyPath: m_Intensity
-      value: 572.09
       objectReference: {fileID: 0}
     - target: {fileID: 7797257819686906988, guid: 3732b4c58914f9442ade98ccb73a1a06,
         type: 3}
@@ -2143,7 +2098,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 40000
+  m_Intensity: 60
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -2587,7 +2542,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 40000
+  m_Intensity: 60
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0

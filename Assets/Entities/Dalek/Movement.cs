@@ -21,9 +21,12 @@ public class Movement : MonoBehaviour
     private AudioSource audioSource;
     private AudioSource audioSource2;
     private Vector3 _input;
+    public bool CanElevate = false;
     public bool MovementEnabled = true;
     public bool IsElevating;
     private bool wasElevating = false;
+
+    //TODO Come back here and finish elevate behavior
 
     private void Update()
     {

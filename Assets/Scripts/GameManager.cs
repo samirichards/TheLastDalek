@@ -144,7 +144,7 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1.0f;
         _ArtifactScreen.SetActive(false);
         _ItemUpgradeScreen.SetActive(false);
-        Player._inventoryController.UpdateAbilities();
+        Player._inventoryController.RunUpdateAbilities();
     }
 
     public static void ResumeGame()

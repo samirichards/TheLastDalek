@@ -62,6 +62,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxHealth: 10
   Health: 10
+  LeaveHole: 0
+  HoleModel: {fileID: 6275477165561618324, guid: 06db38138baf0e74e8b84af3391a6683,
+    type: 3}
+  SmallExplosionPrefab: {fileID: 5238309018396283319, guid: c77af51f31c058a42b84651ba0edc43f,
+    type: 3}
+  LargeExplosionPrefab: {fileID: 5238309018396283319, guid: 0cf8c24c97720b64898fc466bb0cbe37,
+    type: 3}
 --- !u!1 &4714399403075557150
 GameObject:
   m_ObjectHideFlags: 0
@@ -79,7 +86,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7485023595985496113
 Transform:
   m_ObjectHideFlags: 0
@@ -180,7 +187,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 48c0dd9302eac764cb69019d8abda63a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.691
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 48c0dd9302eac764cb69019d8abda63a,
         type: 3}

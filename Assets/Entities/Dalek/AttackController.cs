@@ -137,9 +137,7 @@ public class AttackController : MonoBehaviour
             return;
         }
 
-        GattlingGunEmitter.SetActive(true);
         FireGunStick(LaserType);
-        GattlingGunModel.transform.Rotate(GattlingGunSpinSpeed, 0, 0 * Time.deltaTime);
     }
 
     void HandleGunStick()

@@ -20,6 +20,8 @@ public class ShieldManager : MonoBehaviour
     void Start()
     {
         ShieldHealth = ShieldMaxHealth;
+        ShieldAnimator.SetBool("IsActive", false);
+        ShieldAnimator.Play(Animator.StringToHash("CloseShield"));
     }
 
     // Update is called once per frame
@@ -37,7 +39,7 @@ public class ShieldManager : MonoBehaviour
                 RechargeDelayTimer -= Time.deltaTime;
             }
         }
-
+        ShieldAnimator.SetFloat("ShieldHealthPercent", ShieldHealth / ShieldMaxHealth);
         ShieldAnimator.SetBool("IsActive", ShieldHealth > 0 && ShieldEnabled);
     }
 
@@ -48,8 +50,8 @@ public class ShieldManager : MonoBehaviour
     /// </summary>
     public void ShieldSetActive()
     {
-        ShieldAnimator.Play(Animator.StringToHash("OpenShield"));
         ShieldAnimator.SetBool("IsActive", true);
+        ShieldAnimator.Play(Animator.StringToHash("OpenShield"));
         if (ShieldTier > 0)
         {
             //Enhanced Shield behavior
@@ -74,6 +76,7 @@ public class ShieldManager : MonoBehaviour
 
     public void ShieldSetInactive()
     {
+        ShieldAnimator.SetBool("IsActive", false);
         ShieldAnimator.Play(Animator.StringToHash("CloseShield"));
         ShieldEnabled = false;
         ShieldEffective = false;
@@ -81,6 +84,7 @@ public class ShieldManager : MonoBehaviour
 
     public void SetShieldDisabled()
     {
+        ShieldAnimator.SetBool("IsActive", false);
         ShieldAnimator.Play(Animator.StringToHash("CloseShield"));
         ShieldEffective = false;
     }

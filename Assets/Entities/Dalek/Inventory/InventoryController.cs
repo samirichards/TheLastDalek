@@ -117,7 +117,9 @@ public class InventoryController : MonoBehaviour
             Debug.Log(firstEquippedItem.ItemTitle + " has been unequipped.");
             Debug.Log(item.ItemTitle + " has been equipped.");
         }
-        UpdateAbilities();
+
+        StartCoroutine(UpdateAbilities());
+
     }
 
 
@@ -130,6 +132,9 @@ public class InventoryController : MonoBehaviour
         Player._attackController.EnableGattlingGun = false;
         Player.GetShieldManagerReference().ShieldSetInactive();
         Player.GetShieldManagerReference().ShieldTier = 0;
+        Player._playerComponent.CanSeeHiddenObjects = false;
+        Player._playerComponent.SetPrivileges(false);
+        Player._movement.CanElevate = false;
 
         //TODO add the rest of the conditions when the rest of the abilities are added
         //Namely checks for if the player is allowed to elevate, open doors, or see hidden enemies and stuff
@@ -140,7 +145,7 @@ public class InventoryController : MonoBehaviour
     /// Runs after equipping an item or closing the inventory UI
     /// Enables/Disables the various scripts governing behaviour based on which items are equipped or not
     /// </summary>
-    public void UpdateAbilities()
+    private IEnumerator UpdateAbilities()
     {
         ClearAllAbilities();
         foreach (Item equippedItem in EquippedItems)
@@ -155,7 +160,7 @@ public class InventoryController : MonoBehaviour
                     Player._attackController.GunStickEnabled = true;
                     break;
                 case "Processor":
-                    //TODO Add Processor behavior
+                    Player._playerComponent.SetPrivileges(true);
                     break;
                 case "Shield":
                     Player.GetShieldManagerReference().ShieldTier = equippedItem._itemTier;
@@ -168,10 +173,11 @@ public class InventoryController : MonoBehaviour
                     Player._chestRotateController.IsRotationAllowed = true;
                     break;
                 case "Elevate":
-                    //TODO Add Elevate behavior
+                    Player._movement.CanElevate = true;
+                    //TODO This isn't actually finished, make sure you come back and properly add this
                     break;
                 case "Vision":
-                    //TODO Add Vision behavior
+                    Player._playerComponent.CanSeeHiddenObjects = true;
                     break;
                 case "Gattling":
                     Player._attackController.EnableGattlingGun = true;
@@ -181,6 +187,13 @@ public class InventoryController : MonoBehaviour
                     break;
             }
         }
+
+        yield return null;
+    }
+
+    public void RunUpdateAbilities()
+    {
+        StartCoroutine(UpdateAbilities());
     }
 
 

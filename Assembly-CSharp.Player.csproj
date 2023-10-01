@@ -70,15 +70,20 @@
     <Compile Include="Assets\Entities\Dalek\AttackController.cs" />
     <Compile Include="Assets\Shared\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\Entities\Dalek\PlayerComponent.cs" />
+    <Compile Include="Assets\Entities\Turret\Turret.cs" />
     <Compile Include="Assets\Scripts\PlayerSpawner.cs" />
+    <Compile Include="Assets\LevelGeometry\FireAlarm\FireAlarm.cs" />
     <Compile Include="Assets\Shared\Scripts\SimpleCharacterMotor.cs" />
     <Compile Include="Assets\Entities\Dalek\Inventory\InventoryManager.cs" />
     <Compile Include="Assets\StarterParticles\RotateFlareHolder.cs" />
+    <Compile Include="Assets\LevelGeometry\Barrel\ExplosiveBarrel.cs" />
     <Compile Include="Assets\Entities\Humanoid\Base\BaseAI.cs" />
     <Compile Include="Assets\Items\ItemDatabaseObject.cs" />
     <Compile Include="Assets\Shared\Scripts\AdjustTimeScale.cs" />
+    <Compile Include="Assets\Scripts\ExplosionManager.cs" />
     <Compile Include="Assets\VolumetricLines\Scripts\VolumetricLineBehavior.cs" />
     <Compile Include="Assets\LevelGeometry\Door\DoorControls\ControlsInteractionBehaviour.cs" />
+    <Compile Include="Assets\Entities\Projecties\EnergyPellet\EnergyPelletController.cs" />
     <Compile Include="Assets\Scripts\Billboard.cs" />
     <Compile Include="Assets\Entities\Dalek\LockOnController.cs" />
     <Compile Include="Assets\Scenes\Menus\MainMenu\Mainmenu.cs" />
@@ -102,6 +107,8 @@
     <Compile Include="Assets\Scripts\DamageableComponent.cs" />
     <Compile Include="Assets\LevelGeometry\Door\DoorControls\ControlsScript.cs" />
     <Compile Include="Assets\VolumetricLines\BuiltInRenderPipeline\ExampleScenes\ExampleScripts\ShotBehavior.cs" />
+    <Compile Include="Assets\LevelGeometry\Mine\Mine.cs" />
+    <Compile Include="Assets\Particles\Explosion\Explosion.cs" />
     <Compile Include="Assets\Textures\Cursor\CursorControl.cs" />
     <Compile Include="Assets\Entities\Dalek\ChestRotateController.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
@@ -117,8 +124,6 @@
     <Compile Include="Assets\Entities\Dalek\Inventory\InventoryController.cs" />
     <Compile Include="Assets\Entities\Camera\CameraObject.cs" />
     <Compile Include="Assets\Scenes\Menus\MainMenu\Dalek_LookManager.cs" />
-    <Compile Include="Assets\LevelGeometry\FireAlarm\FireAlarm.cs" />
-    <Compile Include="Assets\LevelGeometry\Barrel\ExplosiveBarrel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -147,6 +152,7 @@
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\VolumetricLines\BuiltInRenderPipeline\Shaders\SingleLine-TextureAlphaBlended.shader" />
     <None Include="Assets\VolumetricLines\BuiltInRenderPipeline\Shaders\LineStrip-LightSaber.shader" />
+    <None Include="Assets\Shaders\idk.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\VolumetricLines\BuiltInRenderPipeline\Shaders\SingleLine-LightSaber.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />

@@ -17,6 +17,11 @@ public class Mainmenu : MonoBehaviour
         root.Query<UnityEngine.UIElements.Button>("Main_Btn_Options").First().clicked += OptionsButton_Clicked;
         root.Query<UnityEngine.UIElements.Button>("Main_Btn_Extras").First().clicked += ExtrasButton_Clicked;
         root.Query<UnityEngine.UIElements.Button>("Main_Btn_Quit").First().clicked += QuitButton_Clicked;
+
+        root.Query<UnityEngine.UIElements.Button>("Btn_Start_NewGame").First().clicked += Start_NewGameButton_Clicked;
+        root.Query<UnityEngine.UIElements.Button>("Btn_Start_LoadGame").First().clicked += Start_LoadGameButton_Clicked;
+        root.Query<UnityEngine.UIElements.Button>("Btn_Start_DevScene").First().clicked += Start_DevSceneButton_Clicked;
+        root.Query<UnityEngine.UIElements.Button>("Btn_Start_Back").First().clicked += Start_BackButton_Clicked;
     }
 
     private void QuitButton_Clicked()
@@ -36,7 +41,33 @@ public class Mainmenu : MonoBehaviour
 
     private void StartButton_clicked()
     {
+        _uiDocument.rootVisualElement.Query<UnityEngine.UIElements.GroupBox>("Main").First().style.display =
+            DisplayStyle.None;
+            _uiDocument.rootVisualElement.Query<UnityEngine.UIElements.GroupBox>("StartOptions").First().style.display =
+                DisplayStyle.Flex;
+    }
+
+    private void Start_NewGameButton_Clicked()
+    {
+
+    }
+
+    private void Start_LoadGameButton_Clicked()
+    {
+
+    }
+
+    private void Start_DevSceneButton_Clicked()
+    {
         UnityEngine.SceneManagement.SceneManager.LoadScene("DevScene");
+    }
+
+    private void Start_BackButton_Clicked()
+    {
+        _uiDocument.rootVisualElement.Query<UnityEngine.UIElements.GroupBox>("Main").First().style.display =
+            DisplayStyle.Flex;
+        _uiDocument.rootVisualElement.Query<UnityEngine.UIElements.GroupBox>("StartOptions").First().style.display =
+            DisplayStyle.None;
     }
 
     public void StartLevel(int levelID)
@@ -44,11 +75,6 @@ public class Mainmenu : MonoBehaviour
 
     }
 
-    public void LoadDevLevel()
-    {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("SampleScene");
-    }
-    
     public void QuitGame()
     {
 

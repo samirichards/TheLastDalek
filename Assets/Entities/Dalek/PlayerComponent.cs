@@ -19,6 +19,47 @@ public class PlayerComponent : MonoBehaviour
     private ShieldManager shieldManager;
     public GameObject HealthBar;
     public GameObject ShieldBar;
+    [SerializeField] private bool CanHackStuff = false;
+    private bool _canSeeStuff = false;
+    public bool CanSeeHiddenObjects
+    {
+        get
+        {
+            return _canSeeStuff;
+        }
+        set
+        {
+            _canSeeStuff = value;
+            StartCoroutine(SetHiddenObjectVisibility(_canSeeStuff));
+        }
+    }
+
+    public bool GetPrivileges()
+    {
+        return CanHackStuff;
+    }
+
+    public void SetPrivileges(bool b)
+    {
+        CanHackStuff = b;
+    }
+
+    private IEnumerator SetHiddenObjectVisibility(bool visible)
+    {
+        foreach (Mine _mine in Object.FindObjectsOfType<Mine>())
+        {
+            _mine.SetVisibility(visible);
+        }
+        //DO THE SAME FOR ENEMIES THAT CAN BE HIDDEN
+        //I would do it now but I haven't gotten round to doing that so... here we are
+        //TODO Add functionality to reveal enemies
+        yield return null;
+    }
+
+    private void OnValidate()
+    {
+        StartCoroutine(SetHiddenObjectVisibility(CanSeeHiddenObjects));
+    }
 
     void Start()
     {

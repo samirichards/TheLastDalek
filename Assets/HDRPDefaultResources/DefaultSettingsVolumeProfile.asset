@@ -113,7 +113,7 @@ MonoBehaviour:
   - {fileID: 7502528774814404555}
   - {fileID: 7542669330009093999}
   - {fileID: 1501199423866068322}
-  - {fileID: 5315503232242033309}
+  - {fileID: 7335696741138010595}
   - {fileID: 1932259527246508038}
   - {fileID: 448115243408767295}
   - {fileID: -7089757308646879465}
@@ -143,10 +143,10 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 1
   upperHemisphereLuxValue:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0.4660715
   upperHemisphereLuxColor:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: {x: 0.18750614, y: 0.29181972, z: 0.5}
   desiredLuxValue:
     m_OverrideState: 0
@@ -161,7 +161,7 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0
   hdriSky:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: {fileID: 8900000, guid: 8253d41e6e8b11a4cbe77a4f8f82934d, type: 3}
   distortionMode:
     m_OverrideState: 0
@@ -299,7 +299,7 @@ MonoBehaviour:
   active: 1
   skyType:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   cloudType:
     m_OverrideState: 0
     m_Value: 0
@@ -315,7 +315,7 @@ MonoBehaviour:
   fogType:
     m_OverrideState: 0
     m_Value: 0
---- !u!114 &5315503232242033309
+--- !u!114 &7335696741138010595
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -329,7 +329,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 1
   mode:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0
   meteringMode:
     m_OverrideState: 0
@@ -338,17 +338,17 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 1
   fixedExposure:
-    m_OverrideState: 1
-    m_Value: 10
+    m_OverrideState: 0
+    m_Value: 0
   compensation:
     m_OverrideState: 0
     m_Value: 0
   limitMin:
     m_OverrideState: 0
-    m_Value: -10
+    m_Value: -1
   limitMax:
     m_OverrideState: 0
-    m_Value: 10
+    m_Value: 14
   curveMap:
     m_OverrideState: 0
     m_Value:
@@ -381,18 +381,18 @@ MonoBehaviour:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: -0.45483398
-        value: 0.29104614
+        time: -10
+        value: -12
         inSlope: 0
-        outSlope: 0
+        outSlope: 1
         tangentMode: 0
         weightedMode: 0
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 1.1299591
-        value: 0.61665344
-        inSlope: 0
+        time: 20
+        value: 18
+        inSlope: 1
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
@@ -407,22 +407,22 @@ MonoBehaviour:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: -9.399999
-        value: 18.080448
-        inSlope: 0.35424384
-        outSlope: 0.35424384
+        time: -10
+        value: -8
+        inSlope: 0
+        outSlope: 1
         tangentMode: 0
         weightedMode: 0
         inWeight: 0
-        outWeight: 0.13966474
+        outWeight: 0
       - serializedVersion: 3
-        time: 18.875
-        value: 22.070755
-        inSlope: 0.04209674
-        outSlope: 0.04209674
+        time: 20
+        value: 22
+        inSlope: 1
+        outSlope: 0
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0.21982773
+        inWeight: 0
         outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2

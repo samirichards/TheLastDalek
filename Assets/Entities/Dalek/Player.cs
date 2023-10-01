@@ -91,6 +91,6 @@ public class Player : MonoBehaviour
 
     void Start()
     {
-        _inventoryController.UpdateAbilities();
+        _inventoryController.RunUpdateAbilities();
     }
 }
