@@ -17103,6 +17103,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8027295786777655860, guid: 87aca9db10df8594a9ef5eab899ef2ab,
+        type: 3}
+      propertyPath: TargetSceneName
+      value: F2_R2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8027295786777655860, guid: 87aca9db10df8594a9ef5eab899ef2ab,
+        type: 3}
+      propertyPath: TargetSceneLoadLocation.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8027295786777655860, guid: 87aca9db10df8594a9ef5eab899ef2ab,
+        type: 3}
+      propertyPath: TargetSceneLoadLocation.z
+      value: -2
+      objectReference: {fileID: 0}
     - target: {fileID: 8210882230947189534, guid: 87aca9db10df8594a9ef5eab899ef2ab,
         type: 3}
       propertyPath: m_RootOrder

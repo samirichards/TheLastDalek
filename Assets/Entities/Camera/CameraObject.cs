@@ -59,7 +59,7 @@ public class CameraObject : MonoBehaviour
     {
         // This method will be called whenever a new scene is loaded.
         // You can call your UpdateMusic function here.
-        UpdateMusic();
+        PlayMusicForScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
     }
 
     private void OnDestroy()
@@ -74,22 +74,20 @@ public class CameraObject : MonoBehaviour
         {
             if (mapping.sceneName == sceneName)
             {
-                MusicPlayer.clip = mapping.musicClip;
-                MusicPlayer.loop = true;
-                MusicPlayer.volume = MusicVolume;
-                MusicPlayer.Play();
+                if (MusicPlayer.clip != mapping.musicClip)
+                {
+                    //Continue the music if the new clip is the same clip (to stop the music stopping and starting as the player changes room)
+                    MusicPlayer.Stop();
+                    MusicPlayer.clip = mapping.musicClip;
+                    MusicPlayer.loop = true;
+                    MusicPlayer.volume = MusicVolume;
+                    MusicPlayer.Play();
+                }
                 return; // Exit the loop once a match is found
             }
         }
 
         Debug.LogWarning("Music track not found for scene: " + sceneName);
-    }
-
-    public void UpdateMusic()
-    {
-        MusicPlayer.Stop();
-        MusicPlayer.volume = MusicVolume;
-        PlayMusicForScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
     }
 
     // Update is called once per frame
