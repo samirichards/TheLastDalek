@@ -29,7 +29,10 @@ public class GroundItem : MonoBehaviour, ISerializationCallbackReceiver
     {
         _item._itemTier = ItemTier;
         GetComponentInChildren<SpriteRenderer>().sprite = _item.ItemModelTexture[_item._itemTier];
-        EditorUtility.SetDirty(GetComponentInChildren<SpriteRenderer>());
+        #if UNITY_EDITOR
+        EditorUtility.SetDirty(GetComponentInChildren<SpriteRenderer>());;
+        #endif
+
     }
 
     private void OnCollisionEnter(Collision collision)
