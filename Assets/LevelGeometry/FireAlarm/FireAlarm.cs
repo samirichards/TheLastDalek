@@ -22,7 +22,7 @@ public class FireAlarm : DamageableComponent
         
     }
 
-    protected override void OnDestroy(DamageInfo damageInfo)
+    protected override void OnBreak(DamageInfo damageInfo)
     {
         Debug.Log("Fire alarm destroyed, let's get wet");
     }

@@ -54,9 +54,9 @@ public class Bullet : MonoBehaviour
         defaultAttackStrength = attackStrengh;
     }
 
-    private void OnCollisionEnter(Collider other)
+    private void OnCollisionEnter(Collision other)
     {
-        Debug.Log("Bullet hit: " + other.tag);
+        Debug.Log("Bullet hit: " + other.gameObject.tag);
 
     }
 

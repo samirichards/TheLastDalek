@@ -53,9 +53,9 @@ public class EnergyPelletController : MonoBehaviour
         CalculateDistance();
     }
 
-    private void OnCollisionEnter(Collider other)
+    private void OnCollisionEnter(Collision other)
     {
-        Debug.Log("Energy pellet hit: " + other.tag);
+        Debug.Log("Energy pellet hit: " + other.gameObject.tag);
     }
 
     private void OnTriggerEnter(Collider other)

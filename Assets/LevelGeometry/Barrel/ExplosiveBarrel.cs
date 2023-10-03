@@ -21,7 +21,7 @@ public class ExplosiveBarrel : DamageableComponent
         
     }
 
-    protected override void OnDestroy(DamageInfo damageInfo)
+    protected override void OnBreak(DamageInfo damageInfo)
     {
         if (LeaveHole)
         {

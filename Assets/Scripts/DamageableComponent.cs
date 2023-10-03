@@ -20,7 +20,7 @@ public abstract class DamageableComponent : MonoBehaviour
         OnDamage(damageInfo);
         if (Health <= 0)
         {
-            OnDestroy(damageInfo);
+            OnBreak(damageInfo);
         }
     }
 
@@ -37,7 +37,7 @@ public abstract class DamageableComponent : MonoBehaviour
     /// Called at the same time as OnDamage if the health is less than or equal to 0
     /// </summary>
     /// <param name="damageInfo">This will be provided through calling of the Damage Function in the base class</param>
-    protected virtual void OnDestroy(DamageInfo damageInfo)
+    protected virtual void OnBreak(DamageInfo damageInfo)
     {
         Debug.Log("Default Destroy behavior, " + gameObject.name + " Destroyed");
         Destroy(gameObject);

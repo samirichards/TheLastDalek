@@ -160,7 +160,7 @@ public class Turret : DamageableComponent
         GetComponent<AudioSource>().PlayOneShot(DamageSounds[Random.Range(0, DamageSounds.Length)]);
     }
 
-    protected override void OnDestroy(DamageInfo damageInfo)
+    protected override void OnBreak(DamageInfo damageInfo)
     {
         DeathCooldown = DeathCooldownMinDuration;
         CurrentState = TurretState.OnCooldown;
