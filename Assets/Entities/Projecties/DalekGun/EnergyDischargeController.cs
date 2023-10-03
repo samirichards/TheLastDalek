@@ -17,7 +17,20 @@ public class EnergyDischargeController : MonoBehaviour
     private float TravelledDistance = 0.0f;
     [SerializeField] float Range = 300f;
     [SerializeField] float ProjectileSpeed = 50f;
-    private uint RayType;
+    private uint r;
+    private uint RayType { 
+        set{
+            if (value > 2)
+            {
+                r = 2;
+                return;
+            }
+
+            r = value;
+            return;
+        }
+        get { return r; }
+    }
     public AudioSource audioSource;
     private VolumetricLineBehavior lineBehavior;
     private MeshRenderer meshRenderer;

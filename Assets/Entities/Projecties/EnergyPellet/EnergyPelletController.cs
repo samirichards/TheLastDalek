@@ -31,7 +31,7 @@ public class EnergyPelletController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (TravelledDistance > 1)
+        if (TravelledDistance > 0.5)
         {
             GetComponent<SphereCollider>().enabled = true;
         }

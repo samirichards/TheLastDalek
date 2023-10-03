@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -49,7 +50,8 @@ public class Mainmenu : MonoBehaviour
 
     private void Start_NewGameButton_Clicked()
     {
-
+        WipeData();
+        UnityEngine.SceneManagement.SceneManager.LoadScene("F1_R0");
     }
 
     private void Start_LoadGameButton_Clicked()
@@ -60,6 +62,13 @@ public class Mainmenu : MonoBehaviour
     private void Start_DevSceneButton_Clicked()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("DevScene");
+    }
+
+    private void WipeData()
+    {
+        string jsonPath = Path.Combine(Application.persistentDataPath, "WeaponUnlocks.json");
+        File.Delete(jsonPath);
+        //TODO delete progress path as well when you make it
     }
 
     private void Start_BackButton_Clicked()

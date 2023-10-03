@@ -100,6 +100,7 @@ MonoBehaviour:
   patrolIsCyclical: 0
   walkPatrolPath: 0
   returnToPathWhenPossible: 0
+  HeadlessChickenFactor: 1
 --- !u!195 &533628594510818382
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -3437,8 +3438,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2396866110408635876, guid: 8d11729d6da93c14786437dbad642810,
-        type: 3}
+      objectReference: {fileID: 2100000, guid: 7dbc537dda5c66e47a25e0127e5791f7, type: 2}
     - target: {fileID: 17856900135852021, guid: 8d11729d6da93c14786437dbad642810,
         type: 3}
       propertyPath: m_Materials.Array.data[1]

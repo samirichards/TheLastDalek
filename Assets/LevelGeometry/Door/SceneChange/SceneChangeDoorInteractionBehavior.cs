@@ -8,10 +8,6 @@ public class SceneChangeDoorInteractionBehavior : DoorInteractionBehavior
     [SerializeField] public BoxCollider SceneChangeTrigger;
     [SerializeField] public string TargetSceneName;
     [SerializeField] public Vector3 TargetSceneLoadLocation;
-    public override void Interact(GameObject interactingCharacter)
-    {
-
-    }
 
     void FixedUpdate()
     {

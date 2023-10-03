@@ -10,12 +10,12 @@ NavMeshProjectSettings:
   - name: Not Walkable
     cost: 1
   - name: Jump
-    cost: 2
-  - name: 
+    cost: 10
+  - name: Door
     cost: 1
-  - name: 
-    cost: 1
-  - name: 
+  - name: Hole
+    cost: 0
+  - name: Breakable
     cost: 1
   - name: 
     cost: 1

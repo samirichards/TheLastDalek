@@ -14,10 +14,13 @@ public class ControlsScript : InteractiveObject
     public GameObject HackProgressBar;
     public GameObject HackProgressBarFillColor;
     public bool InteractionBlocked = false;
+    [SerializeField] private AudioClip HackingSound;
+    [SerializeField] private AudioClip DenySound;
 
     private bool isMouseDown = false;
     private bool timingActionStarted = false; // Flag to indicate if the timing action has started
     private float timer = 0.0f;
+    private bool IsHackAllowed = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,7 +30,7 @@ public class ControlsScript : InteractiveObject
     // Update is called once per frame
     void Update()
     {
-        if (isMouseDown && !timingActionStarted)
+        if (isMouseDown && !timingActionStarted && IsHackAllowed)
         {
             timingActionStarted = true; // Set flag to indicate timing action has started
         }
@@ -45,6 +48,7 @@ public class ControlsScript : InteractiveObject
                 HackProgress = 0.0f; // Reset timer when action is performed
                 timer = 0.0f;
                 interactionBehavior.Interact(this.gameObject);
+                HackProgressBar.GetComponent<Slider>().value = 100;
                 HackProgressBarFillColor.GetComponent<Image>().color = Color.green;
             }
         }
@@ -57,7 +61,20 @@ public class ControlsScript : InteractiveObject
 
     private void OnMouseDown()
     {
-        isMouseDown = true;
+        
+        if (Player._playerComponent.GetPrivileges())
+        {
+            isMouseDown = true;
+            IsHackAllowed = true;
+            GetComponent<AudioSource>().PlayOneShot(HackingSound);
+        }
+        else
+        {
+            IsHackAllowed = false;
+            GetComponent<AudioSource>().PlayOneShot(DenySound);
+            HackProgressBar.GetComponent<Slider>().value = 100;
+            HackProgressBarFillColor.GetComponent<Image>().color = Color.yellow;
+        }
     }
 
     private void OnMouseUp()

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DoorInteractionBehavior : InteractionBehavior
 {
-    public bool IsOpen = false;
+    [SerializeField]public bool IsOpen = false;
     public override void Interact(GameObject interactingCharacter)
     {
         IsOpen = !IsOpen;

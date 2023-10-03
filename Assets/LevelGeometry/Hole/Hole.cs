@@ -25,9 +25,27 @@ public class Hole : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.GetComponent<Movement>().IsElevating)
+
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.GetComponent<Movement>().CanElevate)
         {
-            Physics.IgnoreCollision(collision.collider, Collider);
+            other.gameObject.GetComponent<Movement>().ElevationTargets.Add(gameObject);
+            Collider.enabled = false;
+        }
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.GetComponent<Movement>())
+        {
+            if (other.gameObject.GetComponent<Movement>().ElevationTargets.Contains(gameObject))
+            {
+                other.gameObject.GetComponent<Movement>().ElevationTargets.Remove(gameObject);
+            }
+            Collider.enabled = true;
         }
     }
 }

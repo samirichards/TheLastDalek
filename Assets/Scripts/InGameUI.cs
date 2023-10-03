@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -196,5 +197,12 @@ public class InGameUI : MonoBehaviour
         ItemModelDisplay.SetActive(false);
         ItemModelDisplay.GetComponent<Image>().sprite = null;
         ArtifactInfoPanel.SetActive(false);
+    }
+
+    public void OnQuitButtonClicked()
+    {
+        Destroy(GameObject.FindGameObjectWithTag("CameraObject"));
+        Destroy(GameObject.FindGameObjectWithTag("Player"));
+        GameManager.QuitToMainMenu();
     }
 }

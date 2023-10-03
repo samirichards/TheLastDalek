@@ -25,7 +25,7 @@ public class BaseAI : MonoBehaviour
     [SerializeField] protected float speed = 0.0f;
     [SerializeField] protected NavMeshAgent agent;
     [SerializeField] protected CharacterController controller;
-    [SerializeField] protected bool IsAlive = true;
+    [SerializeField] public bool IsAlive = true;
     [SerializeField] protected float SightRange = 30.0f;
     [SerializeField] protected GameObject DalekTarget;
     [SerializeField] protected LayerMask TargetMask;
@@ -78,6 +78,11 @@ public class BaseAI : MonoBehaviour
     [SerializeField] protected bool walkPatrolPath;
     [SerializeField] protected bool returnToPathWhenPossible;
 
+    [SerializeField] protected float HeadlessChickenFactor = 1f;
+
+    public delegate void NPCDeathHandler(BaseAI npc);
+    public static event NPCDeathHandler OnNPCDeath;
+
     public enum State
     {
         Idle,
@@ -88,7 +93,8 @@ public class BaseAI : MonoBehaviour
         Attack,
         Investigate,
         Dead,
-        Stunned
+        Stunned,
+        HeadlessChicken
     }
 
     public enum EmotionState
@@ -240,6 +246,9 @@ public class BaseAI : MonoBehaviour
                         break;
                     case State.Stunned:
                         Stunned();
+                        break;
+                    case State.HeadlessChicken:
+                        HeadlessChicken();
                         break;
                     default:
                         Idle();
@@ -479,6 +488,11 @@ public class BaseAI : MonoBehaviour
 
     }
 
+    public virtual void HeadlessChicken()
+    {
+
+    }
+
     Vector3 GetFarthestPointFromDalek(float maxRange)
     {
         Vector3 farthestPoint = Vector3.zero;
@@ -606,8 +620,8 @@ public class BaseAI : MonoBehaviour
         AiState = State.Dead;
         IsAlive = false;
         CharacterAnimator.enabled = false;
+        OnNPCDeath?.Invoke(this);
         DeathBehaviour();
-        //TODO Make this add to a global counter of killed humans if the damage source was the player
         if (_damageInfo.DamageType == DamageType.DeathRay)
         {
             originalMaterial = MainBody.GetComponentInChildren<SkinnedMeshRenderer>().materials;

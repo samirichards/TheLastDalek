@@ -25,6 +25,8 @@ public class Movement : MonoBehaviour
     public bool MovementEnabled = true;
     public bool IsElevating;
     private bool wasElevating = false;
+    public List<GameObject> ElevationTargets;
+
 
     //TODO Come back here and finish elevate behavior
 
@@ -41,6 +43,7 @@ public class Movement : MonoBehaviour
     {
         audioSource = gameObject.AddComponent(typeof(AudioSource)) as AudioSource;
         audioSource2 = gameObject.AddComponent(typeof(AudioSource)) as AudioSource;
+        ElevationTargets = new List<GameObject>();
     }
 
     private void FixedUpdate()
@@ -55,6 +58,15 @@ public class Movement : MonoBehaviour
 
     private void HandleElevate()
     {
+        if (ElevationTargets.Count > 0 && CanElevate)
+        {
+            IsElevating = true;
+        }
+        else
+        {
+            IsElevating = false;
+        }
+
         GetComponent<Animator>().SetBool("IsElevating", IsElevating);
 
         // Check for transition from elevating to not elevating

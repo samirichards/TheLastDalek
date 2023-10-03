@@ -224,7 +224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rb: {fileID: 1492598626876493796}
-  _baseSpeed: 3
+  _baseSpeed: 4
   EnhancedSpeedModifier: 1.5
   _turnSpeed: 270
   MovementStart: {fileID: 8300000, guid: 76358eddeb4da5d409be78673d945fdf, type: 3}
@@ -236,8 +236,10 @@ MonoBehaviour:
   IsMovementEnhanced: 0
   MovementVolume: 0.15
   ElevateVolume: 0.45
+  CanElevate: 0
   MovementEnabled: 1
   IsElevating: 0
+  ElevationTargets: []
 --- !u!65 &6624215610122483364
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -481,6 +483,7 @@ MonoBehaviour:
   DamageClip: {fileID: 8300000, guid: ff10af457df59a442b4f3946bd4e69c8, type: 3}
   HealthBar: {fileID: 0}
   ShieldBar: {fileID: 0}
+  CanHackStuff: 0
 --- !u!65 &9007432245857437209
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1559,7 +1562,7 @@ PrefabInstance:
     - target: {fileID: 229953713318243049, guid: 3732b4c58914f9442ade98ccb73a1a06,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 229953713318243049, guid: 3732b4c58914f9442ade98ccb73a1a06,
         type: 3}
@@ -1840,6 +1843,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4283465891531639784, guid: 3732b4c58914f9442ade98ccb73a1a06,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4596072817023050352, guid: 3732b4c58914f9442ade98ccb73a1a06,
         type: 3}

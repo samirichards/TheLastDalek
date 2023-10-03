@@ -118,6 +118,11 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public static ItemDatabaseObject GetItemDatabase()
+    {
+        return _itemDatabase;
+    }
+
     public static LevelTransitionManager GetLevelTransitionManager()
     {
         return _levelTransitionManager;
@@ -173,6 +178,14 @@ public class GameManager : MonoBehaviour
     public static int GetTotalExterminations()
     {
         return _TotalExterminations;
+    }
+
+    public static void QuitToMainMenu()
+    {
+        Destroy(GameObject.FindGameObjectWithTag("Player"));
+        Destroy(GameObject.FindGameObjectWithTag("CameraObject"));
+        ResumeGame();
+        UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
     }
 
     public static void QuitGame()

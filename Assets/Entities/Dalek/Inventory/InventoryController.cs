@@ -10,6 +10,7 @@ public class InventoryController : MonoBehaviour
     [SerializeField] public WeaponUnlocks Unlocks;
 
     [SerializeField] private List<Item> equippedItems;
+    [SerializeField] private bool ForceUnlockAllWeapons = false;
     public List<Item> EquippedItems
     {
         get
@@ -48,6 +49,11 @@ public class InventoryController : MonoBehaviour
     void Update()
     {
         
+    }
+
+    void Awake()
+    {
+        Unlocks = new WeaponUnlocks(true);
     }
 
 
@@ -174,7 +180,6 @@ public class InventoryController : MonoBehaviour
                     break;
                 case "Elevate":
                     Player._movement.CanElevate = true;
-                    //TODO This isn't actually finished, make sure you come back and properly add this
                     break;
                 case "Vision":
                     Player._playerComponent.CanSeeHiddenObjects = true;
@@ -187,7 +192,7 @@ public class InventoryController : MonoBehaviour
                     break;
             }
         }
-
+        SaveWeaponUnlocks(Unlocks);
         yield return null;
     }
 
@@ -200,16 +205,29 @@ public class InventoryController : MonoBehaviour
     public void SaveWeaponUnlocks(WeaponUnlocks weaponUnlocks)
     {
         string json = JsonUtility.ToJson(weaponUnlocks);
-        System.IO.File.WriteAllText(Path.Combine(Application.dataPath, "WeaponUnlocks.json"), json);
+        string jsonPath = Path.Combine(Application.persistentDataPath, "WeaponUnlocks.json");
+        System.IO.File.WriteAllText(jsonPath, json);
     }
 
 
     public WeaponUnlocks LoadWeaponUnlocks()
     {
-        if (System.IO.File.Exists(Path.Combine(Application.dataPath, "WeaponUnlocks.json")))
+
+        if (ForceUnlockAllWeapons)
         {
-            string json = System.IO.File.ReadAllText(Path.Combine(Application.dataPath, "WeaponUnlocks.json"));
+            WeaponUnlocks unlocks = new WeaponUnlocks();
+            unlocks.UnlockedItems = GameManager.GetItemDatabase().Items;
+            return unlocks;
+        }
+
+        string jsonPath = Path.Combine(Application.persistentDataPath, "WeaponUnlocks.json");
+        if (System.IO.File.Exists(jsonPath))
+        {
+            string json = System.IO.File.ReadAllText(jsonPath);
             WeaponUnlocks weaponUnlocks = JsonUtility.FromJson<WeaponUnlocks>(json);
+            //This step is required to clean out any erroneous items which have wiggled their way into the file 
+            weaponUnlocks.UnlockedItems.RemoveAll(a=>a == null);
+            SaveWeaponUnlocks(weaponUnlocks);
 
             // Check if UnlockedItems is null and initialize it if needed
             if (weaponUnlocks.UnlockedItems == null)
@@ -222,7 +240,7 @@ public class InventoryController : MonoBehaviour
         else
         {
             // If the file doesn't exist, return a new WeaponUnlocks object with UnlockedItems initialized
-            return new WeaponUnlocks { UnlockedItems = new List<Item>() };
+            return new WeaponUnlocks(true);
         }
     }
 }
@@ -230,7 +248,7 @@ public class InventoryController : MonoBehaviour
 [System.Serializable]
 public class WeaponUnlocks
 {
-    public List<Item> UnlockedItems { get; set; }
+    [SerializeField] public List<Item> UnlockedItems;
 
     public WeaponUnlocks()
     {

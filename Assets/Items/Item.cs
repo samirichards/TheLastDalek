@@ -12,7 +12,7 @@ public class Item : ScriptableObject
     [SerializeField] public string ItemName;
     [SerializeField] public string ItemTitle;
     [SerializeField] public int ItemTotalTiers;
-    public int _itemTier;
+    [SerializeField] public int _itemTier;
     [SerializeField] public List<Sprite> ItemTextures;
     [SerializeField] public List<string> ItemDescription;
     [SerializeField] public List<Sprite> ItemModelTexture;
