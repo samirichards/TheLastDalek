@@ -28,9 +28,20 @@ public class AttackController : MonoBehaviour
     public uint LaserType = 0;
 
     [SerializeField] private float LockOnThreshold = 0.3f;
+    [SerializeField] private float LockOnBaseTime = 1.5f;
+    [SerializeField] private float LockOnProgress = 0f;
+    [SerializeField] private bool LockOnReady = false;
+    [SerializeField] private GameObject LockOnTarget = null;
     public float lockOnTime = 0.0f;
     public bool lockOnStarted = false;
     public bool LockOnEnabled = false;
+    [SerializeField] private AudioClip _lockOnEnableSound;
+    [SerializeField] private AudioClip _lockOnReadySound;
+    [SerializeField] private AudioClip _lockOnStartSound;
+    [SerializeField] private AudioClip _lockOnCancelSound;
+    [SerializeField] private GameObject _lockOnGlyphPrefab;
+    private bool hasPlayedLockOnReadySound = false;
+
 
     private float inputTimer = 0.0f;
 
@@ -68,6 +79,13 @@ public class AttackController : MonoBehaviour
                             lockOnStarted = true;
                             Debug.Log("Start Lock on");
                         }
+
+                        if (lockOnTime >= LockOnThreshold && !LockOnTarget)
+                        {
+                            Debug.Log("Lock on cancelled, no target");
+                            weaponSoundSource.PlayOneShot(_lockOnCancelSound);
+                            LockOnEnabled = false;
+                        }
                     }
                     else
                     {
@@ -85,29 +103,106 @@ public class AttackController : MonoBehaviour
             GattlingGunCurrentTime = 0.0f;
         }
 
+        if (LockOnEnabled)
+        {
+            if (Input.GetButtonDown("Fire1"))
+            {
+                lockOnStarted = false;
+                // Check if the mouse is over an NPC's collider
+                RaycastHit hit;
+                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+
+                if (Physics.Raycast(ray, out hit, Mathf.Infinity))
+                {
+                    if (hit.collider.CompareTag("NPC")) // Replace "NPC" with your NPC tag
+                    {
+                        lockOnStarted = true;
+                        LockOnTarget = hit.collider.gameObject;
+                        LockOnProgress = 0f;
+                    }
+                    else
+                    {
+                        // Handle the case when the mouse is not over an NPC
+                        LockOnProgress = 0f;
+                        lockOnTime = 0.0f;
+                        lockOnStarted = false;
+                        LockOnTarget = null;
+                    }
+                }
+            }
+
+            if (lockOnStarted && LockOnTarget)
+            {
+                LockOnProgress += Time.deltaTime;
+            }
+            else
+            {
+                LockOnProgress = 0.0f;
+                lockOnStarted = false;
+            }
+        }
+        else
+        {
+            LockOnProgress = 0.0f;
+            lockOnStarted = false;
+        }
+
+        if (lockOnStarted)
+        {
+            LockOnProgress += Time.deltaTime;
+            if (LockOnProgress >= LockOnBaseTime)
+            {
+                LockOnReady = true;
+                if (!hasPlayedLockOnReadySound)
+                {
+                    weaponSoundSource.PlayOneShot(_lockOnReadySound);
+                    hasPlayedLockOnReadySound = true; // Set the flag to true
+                }
+            }
+            else
+            {
+                LockOnReady = false;
+            }
+        }
+
         if (Input.GetButtonUp("Fire1"))
         {
-            Debug.Log("Fire button let go of");
-            if (GunStickEnabled)
+            if (LockOnEnabled)
             {
-                if (LockOnEnabled)
+                if (LockOnReady && LockOnTarget != null)
                 {
-                    if (lockOnTime < LockOnThreshold)
-                    {
-                        HandleGunStick();
-                        lockOnStarted = false;
-                        lockOnTime = 0.0f;
-                    }
+                    Debug.Log("Fire at locked on target, which is a " + LockOnTarget.name);
+                    GetComponent<GunStickAimController>().AimGunstickTowards(LockOnTarget.transform.position, 0.25f, 0.33f);
                 }
                 if (lockOnTime < LockOnThreshold)
                 {
+                    weaponSoundSource.PlayOneShot(_lockOnCancelSound);
                     HandleGunStick();
-                    lockOnStarted = false;
-                    lockOnTime = 0.0f;
                 }
             }
+
+            LockOnReady = false;
             lockOnStarted = false;
             lockOnTime = 0.0f;
+            LockOnProgress = 0f;
+            LockOnTarget = null;
+            hasPlayedLockOnReadySound = false;
+        }
+
+        if (Input.GetButtonDown("Fire2"))
+        {
+            LockOnEnabled = true;
+            weaponSoundSource.PlayOneShot(_lockOnEnableSound);
+            LockOnProgress = 0f;
+            LockOnReady = false;
+        }
+        if (Input.GetButtonUp("Fire2"))
+        {
+            LockOnEnabled = false;
+            weaponSoundSource.PlayOneShot(_lockOnCancelSound);
+            LockOnProgress = 0f;
+            LockOnReady = false;
+            LockOnTarget = null;
         }
     }
 
@@ -140,7 +235,7 @@ public class AttackController : MonoBehaviour
         FireGunStick(LaserType);
     }
 
-    void HandleGunStick()
+    public void HandleGunStick()
     {
         weaponSoundSource.volume = 0.8f;
         FireGunStick(LaserType);
