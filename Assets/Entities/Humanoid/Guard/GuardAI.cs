@@ -141,7 +141,15 @@ public class GuardAI : BaseAI
         else
         {
             DalekTarget = GameObject.Find("Player");
-            ShootAt(DalekTarget);
+            if (DalekTarget.GetComponent<PlayerComponent>().IsAlive == false)
+            {
+                this.AiState = State.Idle;
+                AttackInProgress = false;
+            }
+            else
+            {
+                ShootAt(DalekTarget);
+            }
         }
     }
 

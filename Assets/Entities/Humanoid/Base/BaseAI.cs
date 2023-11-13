@@ -272,7 +272,7 @@ public class BaseAI : MonoBehaviour
         }
         else
         {
-            if (DalekInLOS)
+            if (DalekInLOS && DalekTarget.GetComponent<PlayerComponent>().IsAlive)
             {
                 switch (npcType)
                 {

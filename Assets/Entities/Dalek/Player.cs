@@ -39,6 +39,7 @@ public class Player : MonoBehaviour
                 _Instance.name = _Instance.GetType().ToString();
                 // mark root as DontDestroyOnLoad();
                 DontDestroyOnLoad(playerObjectReference);
+                
             }
             return _Instance;
         }
@@ -55,7 +56,6 @@ public class Player : MonoBehaviour
         {
             DontDestroyOnLoad(gameObject);
             _Instance = this;
-            cameraInstance = CameraObject.Instance;
             PlayerPrefab = _PlayerPrefab;
             playerObjectReference = GameObject.Find("Player");
             //_inventoryManager = playerObjectReference.GetComponent<InventoryManager>();
@@ -92,5 +92,6 @@ public class Player : MonoBehaviour
     void Start()
     {
         _inventoryController.RunUpdateAbilities();
+        cameraInstance = GameObject.Find("CameraObject").GetComponent<CameraObject>();
     }
 }

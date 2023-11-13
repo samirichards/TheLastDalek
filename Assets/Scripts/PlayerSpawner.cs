@@ -11,7 +11,12 @@ public class PlayerSpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (!GameObject.Find("Player"))
+        {
+            GameObject temp = Instantiate(PlayerPrefab);
+            temp.transform.position = DefaultSpawnLocation;
+            temp.GetComponent<Player>().cameraInstance.SetTracker();
+        }
     }
 
     // Update is called once per frame
@@ -22,6 +27,6 @@ public class PlayerSpawner : MonoBehaviour
 
     void Awake()
     {
-        Player.Instance.transform.position = DefaultSpawnLocation;
+
     }
 }

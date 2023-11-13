@@ -5,14 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class CameraObject : MonoBehaviour
 {
-    GameObject TrackerTarget;
-    private static CameraObject _Instance;
+    public GameObject TrackerTarget;
+    public static CameraObject _Instance;
     [SerializeField] AudioClip LevelMusic;
     AudioSource MusicPlayer;
     [SerializeField]public SceneMusicMapping sceneMusicMapping;
     [SerializeField] public float MusicVolume = 0.75f;
 
-    private static GameObject CameraObjectReference;
+    public static GameObject CameraObjectReference;
     // Start is called before the first frame update
 
     public static CameraObject Instance
@@ -34,6 +34,10 @@ public class CameraObject : MonoBehaviour
 
     void Awake()
     {
+
+    }
+    void Start()
+    {
         if (_Instance == null)
         {
             DontDestroyOnLoad(gameObject);
@@ -46,13 +50,15 @@ public class CameraObject : MonoBehaviour
         CameraObjectReference = gameObject;
         DontDestroyOnLoad(CameraObjectReference);
         UnityEngine.SceneManagement.SceneManager.sceneLoaded += OnSceneLoaded;
-    }
-    void Start()
-    {
         MusicPlayer = CameraObjectReference.AddComponent(typeof(AudioSource)) as AudioSource;
         MusicPlayer.volume = MusicVolume;
         TrackerTarget = Player.GetPlayerReference();
         PlayMusicForScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+    }
+
+    public void SetTracker()
+    {
+        TrackerTarget = Player.GetPlayerReference();
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)

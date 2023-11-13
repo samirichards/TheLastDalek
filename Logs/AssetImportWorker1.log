@@ -15,7 +15,7 @@ C:/Users/samir/Documents/Game Projects/TheLastDalek
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-55718
+60236
 Successfully changed project path to: C:/Users/samir/Documents/Game Projects/TheLastDalek
 C:/Users/samir/Documents/Game Projects/TheLastDalek
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/samir/Documents/Game Projects/TheLastDalek
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [5208] Host "[IP] 192.168.68.116 [Port] 0 [Flags] 2 [Guid] 3427199112 [EditorId] 3427199112 [Version] 1048832 [Id] WindowsEditor(7,Samis-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [27624] Host "[IP] 192.168.68.116 [Port] 0 [Flags] 2 [Guid] 3574826854 [EditorId] 3574826854 [Version] 1048832 [Id] WindowsEditor(7,Samis-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [5208] Host "[IP] 192.168.68.116 [Port] 0 [Flags] 2 [Guid] 3427199112 [EditorId] 3427199112 [Version] 1048832 [Id] WindowsEditor(7,Samis-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [27624] Host "[IP] 192.168.68.116 [Port] 0 [Flags] 2 [Guid] 3574826854 [EditorId] 3574826854 [Version] 1048832 [Id] WindowsEditor(7,Samis-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 Setting a NavMeshArea cost less than one can give unexpected results.
-Refreshing native plugins compatible for Editor in 133.77 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 149.51 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.15f1 (e8e88683f834)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
@@ -71,93 +71,93 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.006264 seconds.
+Registered in 0.006798 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 141.66 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 166.31 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.645 seconds
+- Completed reload, in  0.746 seconds
 Domain Reload Profiling:
-	ReloadAssembly (646ms)
-		BeginReloadAssembly (65ms)
+	ReloadAssembly (747ms)
+		BeginReloadAssembly (74ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (477ms)
-			LoadAssemblies (63ms)
+		EndReloadAssembly (554ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (98ms)
+			SetupTypeCache (103ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (305ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (365ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (142ms)
+				RefreshPlugins (166ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (115ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
+				ProcessInitializeOnLoadAttributes (139ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010805 seconds.
+Registered in 0.012854 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 151.19 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 156.69 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.594 seconds
+- Completed reload, in  1.774 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1595ms)
-		BeginReloadAssembly (95ms)
+	ReloadAssembly (1775ms)
+		BeginReloadAssembly (104ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (1389ms)
-			LoadAssemblies (75ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1539ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (279ms)
+			SetupTypeCache (323ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (105ms)
-			SetupLoadedEditorAssemblies (885ms)
+			RebuildScriptCaches (126ms)
+			SetupLoadedEditorAssemblies (946ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (151ms)
-				BeforeProcessingInitializeOnLoad (142ms)
-				ProcessInitializeOnLoadAttributes (382ms)
-				ProcessInitializeOnLoadMethodAttributes (196ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (157ms)
+				BeforeProcessingInitializeOnLoad (146ms)
+				ProcessInitializeOnLoadAttributes (430ms)
+				ProcessInitializeOnLoadMethodAttributes (200ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Setting a NavMeshArea cost less than one can give unexpected results.
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.27 ms, found 8 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.58 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6574 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 60 unused Assets / (1.2 MB). Loaded Objects now: 7092.
-Memory consumption went from 408.6 MB to 407.4 MB.
-Total: 4.139500 ms (FindLiveObjects: 0.566000 ms CreateObjectMapping: 0.178800 ms MarkObjects: 3.014900 ms  DeleteObjects: 0.379300 ms)
+Memory consumption went from 409.8 MB to 408.5 MB.
+Total: 4.611400 ms (FindLiveObjects: 0.723100 ms CreateObjectMapping: 0.201200 ms MarkObjects: 3.245500 ms  DeleteObjects: 0.440200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -171,49 +171,55 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1306.881222 seconds.
-  path: Assets/Sounds/Explosion/explosion1.mp3
-  artifactKey: Guid(36b49e0441df01d4790dc28a7625a049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Explosion/explosion1.mp3 using Guid(36b49e0441df01d4790dc28a7625a049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d97972c09633c4801968218201f4c6') in 0.119026 seconds 
+  Time since last request: 190646.250594 seconds.
+  path: Assets/Entities/Projecties/EnergyPellet/EnergyPelletMaterial.mat
+  artifactKey: Guid(b3081209022d2764097f25fae4e0d2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Projecties/EnergyPellet/EnergyPelletMaterial.mat using Guid(b3081209022d2764097f25fae4e0d2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5147dde6dd2a7e3f0b40ddd4552a1c') in 1.526072 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sounds/Weapons/Rifle/Rifle_Shoot2.mp3
-  artifactKey: Guid(1253c83e96e0f4b41980f3655219f08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Weapons/Rifle/Rifle_Shoot2.mp3 using Guid(1253c83e96e0f4b41980f3655219f08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36d39ed6e7e88d70efa0f18d1c329ebd') in 0.063770 seconds 
+  Time since last request: 8073.555462 seconds.
+  path: Assets/Shared/Environment/Materials/ConcreteWall.mat
+  artifactKey: Guid(f9c717e11fb192c4aa958181f2ebc67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shared/Environment/Materials/ConcreteWall.mat using Guid(f9c717e11fb192c4aa958181f2ebc67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10df7e090a6eda427147bd98d2b32c0f') in 0.089422 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Sounds/Weapons/Sentry/PelletImpact.mp3
-  artifactKey: Guid(065cc7b1dff8fef45ab950ad51af4c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Weapons/Sentry/PelletImpact.mp3 using Guid(065cc7b1dff8fef45ab950ad51af4c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc4041246518429c7ac0bbded6519de') in 0.017623 seconds 
+  Time since last request: 3.755715 seconds.
+  path: Assets/Particles/Explosion/ExplosionSmall.vfx
+  artifactKey: Guid(a587ff884d5a1ab4f94e31e4548828d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particles/Explosion/ExplosionSmall.vfx using Guid(a587ff884d5a1ab4f94e31e4548828d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18bc135c4a581f13ae08803bcb33c6a4') in 0.158990 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sounds/NPC/Guard/gr_idle1.wav
-  artifactKey: Guid(e3571b14f09ecc9489c2dae58ed5da2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/NPC/Guard/gr_idle1.wav using Guid(e3571b14f09ecc9489c2dae58ed5da2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172f49079e8f33ed688d99625cceefb8') in 0.027781 seconds 
+  Time since last request: 99.466621 seconds.
+  path: Assets/Entities/Humanoid/Base/Skeleton/skeleton_static.FBX
+  artifactKey: Guid(c375a17f5f510d44c839b216989e242d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Humanoid/Base/Skeleton/skeleton_static.FBX using Guid(c375a17f5f510d44c839b216989e242d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac735e5d43263c20665c60be3a3b11d') in 0.191181 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sounds/NPC/Guard/gr_die3.wav
-  artifactKey: Guid(8ca7a310c018b0e44a8e8cd2a7ea8817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/NPC/Guard/gr_die3.wav using Guid(8ca7a310c018b0e44a8e8cd2a7ea8817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e39b7f5c2df2f57d08fb98419092bc') in 0.014422 seconds 
+  Time since last request: 115.909823 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Idles/BasicMotions@Idle01.fbx
+  artifactKey: Guid(a3422ad278cd9a94aa3da8e6bff9deea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Idles/BasicMotions@Idle01.fbx using Guid(a3422ad278cd9a94aa3da8e6bff9deea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd770a7b79b866690396299721b21145') in 0.017843 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sounds/Weapons/Pistol/Pistol_Shoot2.mp3
-  artifactKey: Guid(aa0301a9d1c640b4883ef8f71427e146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Weapons/Pistol/Pistol_Shoot2.mp3 using Guid(aa0301a9d1c640b4883ef8f71427e146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1cbdc9d523167cc83ec3e17c0628ac4') in 0.012812 seconds 
+  Time since last request: 0.000035 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Idles/BasicMotions@Idle02.fbx
+  artifactKey: Guid(69d59c13a83a7c74a8cc0607ded391ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Idles/BasicMotions@Idle02.fbx using Guid(69d59c13a83a7c74a8cc0607ded391ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d5b1ff68bb863c56701e69d638e671') in 0.021267 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sounds/NPC/Guard/gr_die2.wav
-  artifactKey: Guid(0cb0c0af294ada1459f9a0db3ae60ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/NPC/Guard/gr_die2.wav using Guid(0cb0c0af294ada1459f9a0db3ae60ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5225324b950d5897d18df91c5e9826c7') in 0.018763 seconds 
+  Time since last request: 0.000032 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Walk01.fbx
+  artifactKey: Guid(bd1c2e9064da28e4fb0fe4a3f6ff4e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Walk01.fbx using Guid(bd1c2e9064da28e4fb0fe4a3f6ff4e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a68ab846200d9ea73d7a538d02d34c') in 0.018768 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Sounds/NPC/Base/Death/NPC_Die.mp3
-  artifactKey: Guid(9cf385d1cc0338a4693a810664fee653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/NPC/Base/Death/NPC_Die.mp3 using Guid(9cf385d1cc0338a4693a810664fee653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587cb0ba75c1d87254c13603dfcdf118') in 0.011933 seconds 
+  Time since last request: 0.000029 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Run01.fbx
+  artifactKey: Guid(154a724602422044c91070a5f3c67c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Run01.fbx using Guid(154a724602422044c91070a5f3c67c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '708fb55c0b8646be83efb7d954741941') in 0.017626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Strafe01.fbx
+  artifactKey: Guid(965e8fa8f0644d741bc9baca0a3954fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Strafe01.fbx using Guid(965e8fa8f0644d741bc9baca0a3954fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3d52d60403537c66581ee369ce7876') in 0.017633 seconds 

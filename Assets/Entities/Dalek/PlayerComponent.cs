@@ -15,7 +15,8 @@ public class PlayerComponent : MonoBehaviour
     public AudioClip[] BulletImpactSounds;
     public AudioClip[] SteamReleaseSounds;
     public AudioClip DamageClip;
-    private bool IsAlive = true;
+    public AudioClip DeathClip;
+    public bool IsAlive = true;
     private ShieldManager shieldManager;
     public GameObject HealthBar;
     public GameObject ShieldBar;
@@ -64,6 +65,7 @@ public class PlayerComponent : MonoBehaviour
     void Start()
     {
         Health = MaxHealth;
+        GetComponent<Animator>().SetBool("IsAlive", true);
     }
 
     void FixedUpdate()
@@ -93,6 +95,12 @@ public class PlayerComponent : MonoBehaviour
     void Die(DamageInfo _damageInfo)
     {
         IsAlive = false;
+        audioSource.PlayOneShot(DeathClip);
+        GetComponent<Animator>().Play(Animator.StringToHash("Death"), -1, 0);
+        //GetComponent<Animator>().SetBool("IsAlive", false);
+        GetComponent<Movement>().MovementEnabled = false;
+        GetComponent<AttackController>().enabled = false;
+        GameManager.GetLevelTransitionManager().ReloadScene(3);
         //Implement death behaviour 
     }
 

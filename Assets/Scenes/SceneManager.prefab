@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2000421340826539535}
   - component: {fileID: -3628167217544726599}
+  - component: {fileID: 6131411535620503112}
   m_Layer: 0
   m_Name: SceneManager
   m_TagString: Untagged
@@ -44,3 +45,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817b874036a353e49933d4f004ea7394, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OpenDoorsOnRoomClear: 0
+  ControlledDoors: []
+  IsLevelWaterlogged: 0
+--- !u!114 &6131411535620503112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3780397023119085819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f85cbd0f837e03458283ab3a18fb7d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DefaultSpawnLocation: {x: 0, y: 0, z: 0}
+  PlayerPrefab: {fileID: 859279906901890729, guid: d1bfda65641f93f4bb35c608a9f883f4,
+    type: 3}
+  CameraPrefab: {fileID: 5529374609491440648, guid: 764919616fd183f4c901c5193976d616,
+    type: 3}
