@@ -1,192 +1,536 @@
 fileFormatVersion: 2
 guid: 39d03f82786b57d41af8bd27bce84402
 ModelImporter:
-  serializedVersion: 16
-  fileIDToRecycleName:
-    100000: Bip01
-    100002: Bip01_Head1
-    100004: Bip01_Head2
-    100006: Bip01_L_Calf
-    100008: Bip01_L_Clavicle
-    100010: Bip01_L_Finger0
-    100012: Bip01_L_Finger01
-    100014: Bip01_L_Finger02
-    100016: Bip01_L_Finger1
-    100018: Bip01_L_Finger11
-    100020: Bip01_L_Finger12
-    100022: Bip01_L_Finger2
-    100024: Bip01_L_Finger21
-    100026: Bip01_L_Finger22
-    100028: Bip01_L_Finger3
-    100030: Bip01_L_Finger31
-    100032: Bip01_L_Finger32
-    100034: Bip01_L_Finger4
-    100036: Bip01_L_Finger41
-    100038: Bip01_L_Finger42
-    100040: Bip01_L_Foot
-    100042: Bip01_L_Forearm
-    100044: Bip01_L_Hand
-    100046: Bip01_L_Thigh
-    100048: Bip01_L_Toe0
-    100050: Bip01_L_UpperArm
-    100052: Bip01_Neck1
-    100054: Bip01_Pelvis
-    100056: Bip01_R_Calf
-    100058: Bip01_R_Clavicle
-    100060: Bip01_R_Finger0
-    100062: Bip01_R_Finger01
-    100064: Bip01_R_Finger02
-    100066: Bip01_R_Finger1
-    100068: Bip01_R_Finger11
-    100070: Bip01_R_Finger12
-    100072: Bip01_R_Finger2
-    100074: Bip01_R_Finger21
-    100076: Bip01_R_Finger22
-    100078: Bip01_R_Finger3
-    100080: Bip01_R_Finger31
-    100082: Bip01_R_Finger32
-    100084: Bip01_R_Finger4
-    100086: Bip01_R_Finger41
-    100088: Bip01_R_Finger42
-    100090: Bip01_R_Foot
-    100092: Bip01_R_Forearm
-    100094: Bip01_R_Hand
-    100096: Bip01_R_Thigh
-    100098: Bip01_R_Toe0
-    100100: Bip01_R_UpperArm
-    100102: Bip01_Spine
-    100104: Bip01_Spine1
-    100106: Bip01_Spine2
-    100108: Bip01_Spine4
-    100110: LIndexeffector
-    100112: LMiddleeffector
-    100114: LPinkyeffector
-    100116: LRingeffector
-    100118: LThumbeffector
-    100120: LToeeff
-    100122: RIndexeffector
-    100124: RMiddleeffector
-    100126: RPinkyeffector
-    100128: RRingeffector
-    100130: RThumbeffector
-    100132: RToeeff
-    100134: //RootNode
-    100136: SM_Skeleton_Base
-    400000: Bip01
-    400002: Bip01_Head1
-    400004: Bip01_Head2
-    400006: Bip01_L_Calf
-    400008: Bip01_L_Clavicle
-    400010: Bip01_L_Finger0
-    400012: Bip01_L_Finger01
-    400014: Bip01_L_Finger02
-    400016: Bip01_L_Finger1
-    400018: Bip01_L_Finger11
-    400020: Bip01_L_Finger12
-    400022: Bip01_L_Finger2
-    400024: Bip01_L_Finger21
-    400026: Bip01_L_Finger22
-    400028: Bip01_L_Finger3
-    400030: Bip01_L_Finger31
-    400032: Bip01_L_Finger32
-    400034: Bip01_L_Finger4
-    400036: Bip01_L_Finger41
-    400038: Bip01_L_Finger42
-    400040: Bip01_L_Foot
-    400042: Bip01_L_Forearm
-    400044: Bip01_L_Hand
-    400046: Bip01_L_Thigh
-    400048: Bip01_L_Toe0
-    400050: Bip01_L_UpperArm
-    400052: Bip01_Neck1
-    400054: Bip01_Pelvis
-    400056: Bip01_R_Calf
-    400058: Bip01_R_Clavicle
-    400060: Bip01_R_Finger0
-    400062: Bip01_R_Finger01
-    400064: Bip01_R_Finger02
-    400066: Bip01_R_Finger1
-    400068: Bip01_R_Finger11
-    400070: Bip01_R_Finger12
-    400072: Bip01_R_Finger2
-    400074: Bip01_R_Finger21
-    400076: Bip01_R_Finger22
-    400078: Bip01_R_Finger3
-    400080: Bip01_R_Finger31
-    400082: Bip01_R_Finger32
-    400084: Bip01_R_Finger4
-    400086: Bip01_R_Finger41
-    400088: Bip01_R_Finger42
-    400090: Bip01_R_Foot
-    400092: Bip01_R_Forearm
-    400094: Bip01_R_Hand
-    400096: Bip01_R_Thigh
-    400098: Bip01_R_Toe0
-    400100: Bip01_R_UpperArm
-    400102: Bip01_Spine
-    400104: Bip01_Spine1
-    400106: Bip01_Spine2
-    400108: Bip01_Spine4
-    400110: LIndexeffector
-    400112: LMiddleeffector
-    400114: LPinkyeffector
-    400116: LRingeffector
-    400118: LThumbeffector
-    400120: LToeeff
-    400122: RIndexeffector
-    400124: RMiddleeffector
-    400126: RPinkyeffector
-    400128: RRingeffector
-    400130: RThumbeffector
-    400132: RToeeff
-    400134: //RootNode
-    400136: SM_Skeleton_Base
-    4300000: SM_Skeleton_Base
-    7400000: Death
-    7400002: Hit
-    7400004: Hit2
-    7400006: Idle
-    7400008: Idle2
-    7400010: IdleHoldSword
-    7400012: Jump
-    7400014: Resurrection
-    7400016: Run
-    7400018: StandUp01
-    7400020: StandUp02
-    7400022: StandUp03
-    7400024: SwingHeavy
-    7400026: SwingNormal
-    7400028: SwingQuick
-    7400030: Walk01
-    7400032: Walk02
-    7400034: WalkBack
-    7400036: WalkLeft
-    7400038: WalkRight
-    7400040: CastSpell
-    7400042: BeginJump
-    7400044: JumpLoop
-    7400046: LandFromJump
-    9500000: //RootNode
-    13700000: SM_Skeleton_Base
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Bip01
+  - first:
+      1: 100002
+    second: Bip01_Head1
+  - first:
+      1: 100004
+    second: Bip01_Head2
+  - first:
+      1: 100006
+    second: Bip01_L_Calf
+  - first:
+      1: 100008
+    second: Bip01_L_Clavicle
+  - first:
+      1: 100010
+    second: Bip01_L_Finger0
+  - first:
+      1: 100012
+    second: Bip01_L_Finger01
+  - first:
+      1: 100014
+    second: Bip01_L_Finger02
+  - first:
+      1: 100016
+    second: Bip01_L_Finger1
+  - first:
+      1: 100018
+    second: Bip01_L_Finger11
+  - first:
+      1: 100020
+    second: Bip01_L_Finger12
+  - first:
+      1: 100022
+    second: Bip01_L_Finger2
+  - first:
+      1: 100024
+    second: Bip01_L_Finger21
+  - first:
+      1: 100026
+    second: Bip01_L_Finger22
+  - first:
+      1: 100028
+    second: Bip01_L_Finger3
+  - first:
+      1: 100030
+    second: Bip01_L_Finger31
+  - first:
+      1: 100032
+    second: Bip01_L_Finger32
+  - first:
+      1: 100034
+    second: Bip01_L_Finger4
+  - first:
+      1: 100036
+    second: Bip01_L_Finger41
+  - first:
+      1: 100038
+    second: Bip01_L_Finger42
+  - first:
+      1: 100040
+    second: Bip01_L_Foot
+  - first:
+      1: 100042
+    second: Bip01_L_Forearm
+  - first:
+      1: 100044
+    second: Bip01_L_Hand
+  - first:
+      1: 100046
+    second: Bip01_L_Thigh
+  - first:
+      1: 100048
+    second: Bip01_L_Toe0
+  - first:
+      1: 100050
+    second: Bip01_L_UpperArm
+  - first:
+      1: 100052
+    second: Bip01_Neck1
+  - first:
+      1: 100054
+    second: Bip01_Pelvis
+  - first:
+      1: 100056
+    second: Bip01_R_Calf
+  - first:
+      1: 100058
+    second: Bip01_R_Clavicle
+  - first:
+      1: 100060
+    second: Bip01_R_Finger0
+  - first:
+      1: 100062
+    second: Bip01_R_Finger01
+  - first:
+      1: 100064
+    second: Bip01_R_Finger02
+  - first:
+      1: 100066
+    second: Bip01_R_Finger1
+  - first:
+      1: 100068
+    second: Bip01_R_Finger11
+  - first:
+      1: 100070
+    second: Bip01_R_Finger12
+  - first:
+      1: 100072
+    second: Bip01_R_Finger2
+  - first:
+      1: 100074
+    second: Bip01_R_Finger21
+  - first:
+      1: 100076
+    second: Bip01_R_Finger22
+  - first:
+      1: 100078
+    second: Bip01_R_Finger3
+  - first:
+      1: 100080
+    second: Bip01_R_Finger31
+  - first:
+      1: 100082
+    second: Bip01_R_Finger32
+  - first:
+      1: 100084
+    second: Bip01_R_Finger4
+  - first:
+      1: 100086
+    second: Bip01_R_Finger41
+  - first:
+      1: 100088
+    second: Bip01_R_Finger42
+  - first:
+      1: 100090
+    second: Bip01_R_Foot
+  - first:
+      1: 100092
+    second: Bip01_R_Forearm
+  - first:
+      1: 100094
+    second: Bip01_R_Hand
+  - first:
+      1: 100096
+    second: Bip01_R_Thigh
+  - first:
+      1: 100098
+    second: Bip01_R_Toe0
+  - first:
+      1: 100100
+    second: Bip01_R_UpperArm
+  - first:
+      1: 100102
+    second: Bip01_Spine
+  - first:
+      1: 100104
+    second: Bip01_Spine1
+  - first:
+      1: 100106
+    second: Bip01_Spine2
+  - first:
+      1: 100108
+    second: Bip01_Spine4
+  - first:
+      1: 100110
+    second: LIndexeffector
+  - first:
+      1: 100112
+    second: LMiddleeffector
+  - first:
+      1: 100114
+    second: LPinkyeffector
+  - first:
+      1: 100116
+    second: LRingeffector
+  - first:
+      1: 100118
+    second: LThumbeffector
+  - first:
+      1: 100120
+    second: LToeeff
+  - first:
+      1: 100122
+    second: RIndexeffector
+  - first:
+      1: 100124
+    second: RMiddleeffector
+  - first:
+      1: 100126
+    second: RPinkyeffector
+  - first:
+      1: 100128
+    second: RRingeffector
+  - first:
+      1: 100130
+    second: RThumbeffector
+  - first:
+      1: 100132
+    second: RToeeff
+  - first:
+      1: 100134
+    second: //RootNode
+  - first:
+      1: 100136
+    second: SM_Skeleton_Base
+  - first:
+      4: 400000
+    second: Bip01
+  - first:
+      4: 400002
+    second: Bip01_Head1
+  - first:
+      4: 400004
+    second: Bip01_Head2
+  - first:
+      4: 400006
+    second: Bip01_L_Calf
+  - first:
+      4: 400008
+    second: Bip01_L_Clavicle
+  - first:
+      4: 400010
+    second: Bip01_L_Finger0
+  - first:
+      4: 400012
+    second: Bip01_L_Finger01
+  - first:
+      4: 400014
+    second: Bip01_L_Finger02
+  - first:
+      4: 400016
+    second: Bip01_L_Finger1
+  - first:
+      4: 400018
+    second: Bip01_L_Finger11
+  - first:
+      4: 400020
+    second: Bip01_L_Finger12
+  - first:
+      4: 400022
+    second: Bip01_L_Finger2
+  - first:
+      4: 400024
+    second: Bip01_L_Finger21
+  - first:
+      4: 400026
+    second: Bip01_L_Finger22
+  - first:
+      4: 400028
+    second: Bip01_L_Finger3
+  - first:
+      4: 400030
+    second: Bip01_L_Finger31
+  - first:
+      4: 400032
+    second: Bip01_L_Finger32
+  - first:
+      4: 400034
+    second: Bip01_L_Finger4
+  - first:
+      4: 400036
+    second: Bip01_L_Finger41
+  - first:
+      4: 400038
+    second: Bip01_L_Finger42
+  - first:
+      4: 400040
+    second: Bip01_L_Foot
+  - first:
+      4: 400042
+    second: Bip01_L_Forearm
+  - first:
+      4: 400044
+    second: Bip01_L_Hand
+  - first:
+      4: 400046
+    second: Bip01_L_Thigh
+  - first:
+      4: 400048
+    second: Bip01_L_Toe0
+  - first:
+      4: 400050
+    second: Bip01_L_UpperArm
+  - first:
+      4: 400052
+    second: Bip01_Neck1
+  - first:
+      4: 400054
+    second: Bip01_Pelvis
+  - first:
+      4: 400056
+    second: Bip01_R_Calf
+  - first:
+      4: 400058
+    second: Bip01_R_Clavicle
+  - first:
+      4: 400060
+    second: Bip01_R_Finger0
+  - first:
+      4: 400062
+    second: Bip01_R_Finger01
+  - first:
+      4: 400064
+    second: Bip01_R_Finger02
+  - first:
+      4: 400066
+    second: Bip01_R_Finger1
+  - first:
+      4: 400068
+    second: Bip01_R_Finger11
+  - first:
+      4: 400070
+    second: Bip01_R_Finger12
+  - first:
+      4: 400072
+    second: Bip01_R_Finger2
+  - first:
+      4: 400074
+    second: Bip01_R_Finger21
+  - first:
+      4: 400076
+    second: Bip01_R_Finger22
+  - first:
+      4: 400078
+    second: Bip01_R_Finger3
+  - first:
+      4: 400080
+    second: Bip01_R_Finger31
+  - first:
+      4: 400082
+    second: Bip01_R_Finger32
+  - first:
+      4: 400084
+    second: Bip01_R_Finger4
+  - first:
+      4: 400086
+    second: Bip01_R_Finger41
+  - first:
+      4: 400088
+    second: Bip01_R_Finger42
+  - first:
+      4: 400090
+    second: Bip01_R_Foot
+  - first:
+      4: 400092
+    second: Bip01_R_Forearm
+  - first:
+      4: 400094
+    second: Bip01_R_Hand
+  - first:
+      4: 400096
+    second: Bip01_R_Thigh
+  - first:
+      4: 400098
+    second: Bip01_R_Toe0
+  - first:
+      4: 400100
+    second: Bip01_R_UpperArm
+  - first:
+      4: 400102
+    second: Bip01_Spine
+  - first:
+      4: 400104
+    second: Bip01_Spine1
+  - first:
+      4: 400106
+    second: Bip01_Spine2
+  - first:
+      4: 400108
+    second: Bip01_Spine4
+  - first:
+      4: 400110
+    second: LIndexeffector
+  - first:
+      4: 400112
+    second: LMiddleeffector
+  - first:
+      4: 400114
+    second: LPinkyeffector
+  - first:
+      4: 400116
+    second: LRingeffector
+  - first:
+      4: 400118
+    second: LThumbeffector
+  - first:
+      4: 400120
+    second: LToeeff
+  - first:
+      4: 400122
+    second: RIndexeffector
+  - first:
+      4: 400124
+    second: RMiddleeffector
+  - first:
+      4: 400126
+    second: RPinkyeffector
+  - first:
+      4: 400128
+    second: RRingeffector
+  - first:
+      4: 400130
+    second: RThumbeffector
+  - first:
+      4: 400132
+    second: RToeeff
+  - first:
+      4: 400134
+    second: //RootNode
+  - first:
+      4: 400136
+    second: SM_Skeleton_Base
+  - first:
+      43: 4300000
+    second: SM_Skeleton_Base
+  - first:
+      74: 7400000
+    second: Death
+  - first:
+      74: 7400002
+    second: Hit
+  - first:
+      74: 7400004
+    second: Hit2
+  - first:
+      74: 7400006
+    second: Idle
+  - first:
+      74: 7400008
+    second: Idle2
+  - first:
+      74: 7400010
+    second: IdleHoldSword
+  - first:
+      74: 7400012
+    second: Jump
+  - first:
+      74: 7400014
+    second: Resurrection
+  - first:
+      74: 7400016
+    second: Run
+  - first:
+      74: 7400018
+    second: StandUp01
+  - first:
+      74: 7400020
+    second: StandUp02
+  - first:
+      74: 7400022
+    second: StandUp03
+  - first:
+      74: 7400024
+    second: SwingHeavy
+  - first:
+      74: 7400026
+    second: SwingNormal
+  - first:
+      74: 7400028
+    second: SwingQuick
+  - first:
+      74: 7400030
+    second: Walk01
+  - first:
+      74: 7400032
+    second: Walk02
+  - first:
+      74: 7400034
+    second: WalkBack
+  - first:
+      74: 7400036
+    second: WalkLeft
+  - first:
+      74: 7400038
+    second: WalkRight
+  - first:
+      74: 7400040
+    second: CastSpell
+  - first:
+      74: 7400042
+    second: BeginJump
+  - first:
+      74: 7400044
+    second: JumpLoop
+  - first:
+      74: 7400046
+    second: LandFromJump
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: SM_Skeleton_Base
+  externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
-    animationCompression: 1
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
       name: Death
       takeName: Take 001
+      internalID: 0
       firstFrame: 0
       lastFrame: 48
       wrapMode: 0
@@ -194,6 +538,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -348,9 +693,11 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Hit
       takeName: Take 001
+      internalID: 0
       firstFrame: 48
       lastFrame: 98
       wrapMode: 0
@@ -358,6 +705,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -512,9 +860,11 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Hit2
       takeName: Take 001
+      internalID: 0
       firstFrame: 98
       lastFrame: 190
       wrapMode: 0
@@ -522,6 +872,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -676,9 +1027,11 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Idle
       takeName: Take 001
+      internalID: 0
       firstFrame: 190
       lastFrame: 460
       wrapMode: 0
@@ -686,6 +1039,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -840,9 +1194,11 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Idle2
       takeName: Take 001
+      internalID: 0
       firstFrame: 460
       lastFrame: 568
       wrapMode: 0
@@ -850,6 +1206,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -1004,9 +1361,11 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: IdleHoldSword
       takeName: Take 001
+      internalID: 0
       firstFrame: 568
       lastFrame: 627
       wrapMode: 0
@@ -1014,6 +1373,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -1168,9 +1528,11 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Jump
       takeName: Take 001
+      internalID: 0
       firstFrame: 627
       lastFrame: 640
       wrapMode: 0
@@ -1178,6 +1540,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -1332,9 +1695,11 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Resurrection
       takeName: Take 001
+      internalID: 0
       firstFrame: 640
       lastFrame: 814
       wrapMode: 0
@@ -1342,6 +1707,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -1496,9 +1862,11 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Run
       takeName: Take 001
+      internalID: 0
       firstFrame: 814
       lastFrame: 831
       wrapMode: 0
@@ -1506,6 +1874,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -1660,9 +2029,11 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: StandUp01
       takeName: Take 001
+      internalID: 0
       firstFrame: 831
       lastFrame: 891
       wrapMode: 0
@@ -1670,6 +2041,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -1824,9 +2196,11 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: StandUp02
       takeName: Take 001
+      internalID: 0
       firstFrame: 891
       lastFrame: 952
       wrapMode: 0
@@ -1834,6 +2208,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -1988,9 +2363,11 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: StandUp03
       takeName: Take 001
+      internalID: 0
       firstFrame: 952
       lastFrame: 981
       wrapMode: 0
@@ -1998,6 +2375,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -2152,9 +2530,11 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: SwingHeavy
       takeName: Take 001
+      internalID: 0
       firstFrame: 981
       lastFrame: 1013
       wrapMode: 0
@@ -2162,6 +2542,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -2316,9 +2697,11 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: SwingNormal
       takeName: Take 001
+      internalID: 0
       firstFrame: 1013
       lastFrame: 1103
       wrapMode: 0
@@ -2326,6 +2709,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -2480,9 +2864,11 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: SwingQuick
       takeName: Take 001
+      internalID: 0
       firstFrame: 1103
       lastFrame: 1143
       wrapMode: 0
@@ -2490,6 +2876,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -2644,9 +3031,11 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Walk01
       takeName: Take 001
+      internalID: 0
       firstFrame: 1143
       lastFrame: 1175
       wrapMode: 0
@@ -2654,6 +3043,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -2808,9 +3198,11 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Walk02
       takeName: Take 001
+      internalID: 0
       firstFrame: 1175
       lastFrame: 1204
       wrapMode: 0
@@ -2818,6 +3210,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -2972,9 +3365,11 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: WalkBack
       takeName: Take 001
+      internalID: 0
       firstFrame: 1204
       lastFrame: 1239
       wrapMode: 0
@@ -2982,6 +3377,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -3136,9 +3532,11 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: WalkLeft
       takeName: Take 001
+      internalID: 0
       firstFrame: 1239
       lastFrame: 1271
       wrapMode: 0
@@ -3146,6 +3544,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -3300,9 +3699,11 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: WalkRight
       takeName: Take 001
+      internalID: 0
       firstFrame: 1271
       lastFrame: 1303
       wrapMode: 0
@@ -3310,6 +3711,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -3464,9 +3866,11 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: CastSpell
       takeName: Take 001
+      internalID: 0
       firstFrame: 1303
       lastFrame: 1309
       wrapMode: 0
@@ -3474,6 +3878,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -3628,9 +4033,11 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: BeginJump
       takeName: Take 001
+      internalID: 0
       firstFrame: 1309
       lastFrame: 1316
       wrapMode: 0
@@ -3638,6 +4045,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -3792,9 +4200,11 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: JumpLoop
       takeName: Take 001
+      internalID: 0
       firstFrame: 1316
       lastFrame: 1318
       wrapMode: 0
@@ -3802,6 +4212,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -3956,9 +4367,11 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: LandFromJump
       takeName: Take 001
+      internalID: 0
       firstFrame: 1318
       lastFrame: 1322
       wrapMode: 0
@@ -3966,6 +4379,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -4120,41 +4534,76 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: .00999999978
+    globalScale: 0.01
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
+    keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
+    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 1
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
+    serializedVersion: 3
     human: []
     skeleton: []
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.01
     rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

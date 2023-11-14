@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(LineRenderer))]
 public class AttackController : MonoBehaviour
 {
     public bool GunStickEnabled = true;
@@ -12,6 +13,7 @@ public class AttackController : MonoBehaviour
     private float WeaponCooldown = 0.0f;
     public float PlungerAttackRange = 1f;
     public float PlungerDamage = 35f;
+    [SerializeField] private float DeathRayBeamMaxRange = 200f;
     [SerializeField] public GameObject GunStick;
     [SerializeField] public GameObject Plunger;
     [SerializeField] public GameObject LaserPrefab;
@@ -26,6 +28,10 @@ public class AttackController : MonoBehaviour
     private float GattlingGunCurrentTime = 0.0f;
     private AudioSource weaponSoundSource;
     public uint LaserType = 0;
+    private LineRenderer RaygunLine;
+    [SerializeField] private AudioClip RaygunBeamFireOpen;
+    [SerializeField] private AudioClip RaygunBeamFireLoop;
+    [SerializeField] private AudioClip RaygunBeamHit;
 
     [SerializeField] private float LockOnThreshold = 0.3f;
     [SerializeField] private float LockOnBaseTime = 1.5f;
@@ -45,8 +51,14 @@ public class AttackController : MonoBehaviour
 
     private float inputTimer = 0.0f;
 
+    void Awake()
+    {
+        RaygunLine = GetComponent<LineRenderer>();
+    }
+
     void Start()
     {
+        RaygunLine.enabled = false;
         weaponSoundSource = gameObject.AddComponent<AudioSource>();
         GattlingGunEmitter.SetActive(false);
     }
@@ -237,9 +249,61 @@ public class AttackController : MonoBehaviour
 
     public void HandleGunStick()
     {
-        weaponSoundSource.volume = 0.8f;
-        FireGunStick(LaserType);
-        GattlingGunEmitter.SetActive(false);
+        //weaponSoundSource.volume = 0.8f;
+        //FireGunStick(LaserType);
+        //GattlingGunEmitter.SetActive(false);
+        HandleGunStickBeam();
+    }
+
+    public void HandleGunStickBeam()
+    {
+        if (WeaponCooldown > 0)
+        {
+            return;
+        }
+        
+        weaponSoundSource.volume = 0.5f;
+        RaycastHit hit;
+        Vector3 fwd = GunStick.transform.TransformDirection(Vector3.right);
+        RaygunLine.SetPosition(0, GunStick.transform.position);
+        Debug.DrawRay(GunStick.transform.position, fwd, Color.green, 10f);
+        if (Physics.Raycast(GunStick.transform.position, fwd, out hit, DeathRayBeamMaxRange))
+        {
+            RaygunLine.SetPosition(1, hit.point);
+            RaygunLine.enabled = true;
+            weaponSoundSource.volume = 1f;
+            weaponSoundSource.PlayOneShot(RaygunBeamFireOpen);
+            StartCoroutine(HideDeathRayBeam(0.66f));
+            Debug.Log("Death ray beam hit: " + hit.collider.gameObject.name);
+            var npcAI = hit.collider.gameObject.GetComponent<BaseAI>();
+            if (npcAI != null)
+            {
+                DamageInfo info = new DamageInfo(npcAI.MaxHealth, gameObject, DamageType.DeathRay);
+                npcAI.Damage(info);
+                AudioSource.PlayClipAtPoint(RaygunBeamHit, hit.point, 1f);
+            }
+
+        }
+        else
+        {
+            RaygunLine.SetPosition(1, GunStick.transform.position + fwd*DeathRayBeamMaxRange);
+            StartCoroutine(HideDeathRayBeam(0.66f));
+        }
+
+        WeaponCooldown = 1f;
+    }
+
+    IEnumerator HideDeathRayBeam(float duration)
+    {
+        weaponSoundSource.clip = RaygunBeamFireLoop;
+        weaponSoundSource.loop = true;
+        weaponSoundSource.Play();
+        yield return new WaitForSeconds(duration);
+        RaygunLine.enabled = false;
+        RaygunLine.SetPosition(0, transform.position);
+        RaygunLine.SetPosition(1, transform.position);
+        weaponSoundSource.Stop();
+        weaponSoundSource.loop = false;
     }
 
     private void PlungerQuickAttack()

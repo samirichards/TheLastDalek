@@ -43,6 +43,7 @@ public class BaseAI : MonoBehaviour
     [SerializeField] protected GameObject MainBody;
     [SerializeField] protected Material SkinExterminationMaterial;
     private Material[] originalMaterial;
+    [SerializeField] public float SkeletonRevealTime = 0.666f;
 
 
     //Idle Variables
@@ -116,14 +117,6 @@ public class BaseAI : MonoBehaviour
     {
         _gameManagerComponent = DalekTarget.GetComponent<GameManager>();
         CharacterAnimator = GetComponentInChildren<Animator>();
-        try
-        {
-            SkeletonCollisionFix();
-        }
-        catch (Exception e)
-        {
-            Debug.Log(e.ToString());
-        }
     }
 
     /// <summary>
@@ -148,14 +141,6 @@ public class BaseAI : MonoBehaviour
         DalekTarget = Player.Instance.gameObject;
         SetDefaults();
         StartCoroutine("FSM");
-        try
-        {
-            SkeletonCollisionFix();
-        }
-        catch (Exception e)
-        {
-            Debug.Log(e.ToString());
-        }
     }
 
     Vector3 RandomNavMeshLocation(float radius)
@@ -588,14 +573,22 @@ public class BaseAI : MonoBehaviour
         CustomUpdateBehaviour();
     }
 
-    void SkeletonCollisionFix()
+    void RagdollFix()
     {
-        Collider npcCollider = MainBody.GetComponent<Collider>();
-        Collider[] skeletonColliders = SkeletonObject.GetComponentsInChildren<Collider>();
+        //Shifts the model up slightly, as well as quickly making the model kinematic then normal, which resets any momentum the rigidbodies have
+        Vector3 newTransform = MainBody.transform.position;
+        newTransform.y += 0.25f;
+        MainBody.transform.position = newTransform; 
+        Rigidbody[] npcRigid = MainBody.GetComponentsInChildren<Rigidbody>();
 
-        foreach (Collider skeletonCollider in skeletonColliders)
+        foreach (Rigidbody rigid in npcRigid)
         {
-            Physics.IgnoreCollision(skeletonCollider, npcCollider);
+            rigid.isKinematic = true;
+        }
+        CharacterAnimator.enabled = false;
+        foreach (Rigidbody rigid in npcRigid)
+        {
+            rigid.isKinematic = false;
         }
     }
 
@@ -619,7 +612,7 @@ public class BaseAI : MonoBehaviour
         GetComponent<Collider>().enabled = false;
         AiState = State.Dead;
         IsAlive = false;
-        CharacterAnimator.enabled = false;
+        //CharacterAnimator.enabled = false;
         OnNPCDeath?.Invoke(this);
         DeathBehaviour();
         if (_damageInfo.DamageType == DamageType.DeathRay)
@@ -630,21 +623,23 @@ public class BaseAI : MonoBehaviour
             {
                 SkeletonObject.SetActive(true);
                 CharacterAnimator.SetTrigger("Exterminate");
+                SkeletonObject.GetComponent<Animator>().SetTrigger("Exterminate");
+                StartCoroutine(GoLimpTimer(5));
             }
             catch (Exception e)
             {
                 Debug.Log(e.ToString());
             }
-            StartCoroutine(SwitchBackMaterials());
+            StartCoroutine(SwitchBackMaterials(SkeletonRevealTime));
         }
         CharacterAnimator.SetInteger("AnimationState", -1);
         //CharacterAnimator.Play(Animator.StringToHash("Exterminating"), -1, 0.125f);
     }
 
-    IEnumerator SwitchBackMaterials()
+    IEnumerator SwitchBackMaterials(float SkeletonRevealTime)
     {
         // Wait for a brief duration
-        yield return new WaitForSeconds(0.333f); // Adjust the duration as needed
+        yield return new WaitForSeconds(SkeletonRevealTime);
 
         // Switch back to the original materials
         MainBody.GetComponentInChildren<SkinnedMeshRenderer>().materials = originalMaterial;
@@ -658,5 +653,11 @@ public class BaseAI : MonoBehaviour
         {
             Debug.Log(e.ToString());
         }
+    }
+
+    IEnumerator GoLimpTimer(float time)
+    {
+        yield return new WaitForSeconds(time);
+        RagdollFix(); 
     }
 }
