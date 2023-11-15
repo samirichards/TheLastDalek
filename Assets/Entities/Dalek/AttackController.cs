@@ -33,6 +33,9 @@ public class AttackController : MonoBehaviour
     [SerializeField] private AudioClip RaygunBeamFireLoop;
     [SerializeField] private AudioClip RaygunBeamHit;
 
+    [SerializeField] private float GunTurnTime = 0.2f;
+    [SerializeField] private float LockOnBeamDuration = 0.66f;
+    [SerializeField] private LockOnReticle reticleObject;
     [SerializeField] private float LockOnThreshold = 0.3f;
     [SerializeField] private float LockOnBaseTime = 1.5f;
     [SerializeField] private float LockOnProgress = 0f;
@@ -131,6 +134,7 @@ public class AttackController : MonoBehaviour
                         lockOnStarted = true;
                         LockOnTarget = hit.collider.gameObject;
                         LockOnProgress = 0f;
+                        reticleObject.SetLockOnTarget(LockOnTarget);
                     }
                     else
                     {
@@ -151,12 +155,14 @@ public class AttackController : MonoBehaviour
             {
                 LockOnProgress = 0.0f;
                 lockOnStarted = false;
+                reticleObject.ClearLockOnTarget();
             }
         }
         else
         {
             LockOnProgress = 0.0f;
             lockOnStarted = false;
+            reticleObject.ClearLockOnTarget();
         }
 
         if (lockOnStarted)
@@ -165,6 +171,7 @@ public class AttackController : MonoBehaviour
             if (LockOnProgress >= LockOnBaseTime)
             {
                 LockOnReady = true;
+                reticleObject.LockOnValue = 1;
                 if (!hasPlayedLockOnReadySound)
                 {
                     weaponSoundSource.PlayOneShot(_lockOnReadySound);
@@ -174,6 +181,7 @@ public class AttackController : MonoBehaviour
             else
             {
                 LockOnReady = false;
+                reticleObject.LockOnValue = LockOnProgress / LockOnBaseTime;
             }
         }
 
@@ -184,7 +192,9 @@ public class AttackController : MonoBehaviour
                 if (LockOnReady && LockOnTarget != null)
                 {
                     Debug.Log("Fire at locked on target, which is a " + LockOnTarget.name);
-                    GetComponent<GunStickAimController>().AimGunstickTowards(LockOnTarget.transform.position, 0.25f, 0.33f);
+                    var targetPosition = LockOnTarget.transform.position;
+                    targetPosition.y++;
+                    GetComponent<GunStickAimController>().AimGunstickTowards(targetPosition, GunTurnTime, LockOnBeamDuration);
                 }
                 if (lockOnTime < LockOnThreshold)
                 {
@@ -199,6 +209,7 @@ public class AttackController : MonoBehaviour
             LockOnProgress = 0f;
             LockOnTarget = null;
             hasPlayedLockOnReadySound = false;
+            reticleObject.ClearLockOnTarget();
         }
 
         if (Input.GetButtonDown("Fire2"))
@@ -249,10 +260,9 @@ public class AttackController : MonoBehaviour
 
     public void HandleGunStick()
     {
-        //weaponSoundSource.volume = 0.8f;
-        //FireGunStick(LaserType);
-        //GattlingGunEmitter.SetActive(false);
-        HandleGunStickBeam();
+        weaponSoundSource.volume = 0.8f;
+        FireGunStick(LaserType);
+        GattlingGunEmitter.SetActive(false);
     }
 
     public void HandleGunStickBeam()
@@ -273,7 +283,7 @@ public class AttackController : MonoBehaviour
             RaygunLine.enabled = true;
             weaponSoundSource.volume = 1f;
             weaponSoundSource.PlayOneShot(RaygunBeamFireOpen);
-            StartCoroutine(HideDeathRayBeam(0.66f));
+            StartCoroutine(HideDeathRayBeam(LockOnBeamDuration));
             Debug.Log("Death ray beam hit: " + hit.collider.gameObject.name);
             var npcAI = hit.collider.gameObject.GetComponent<BaseAI>();
             if (npcAI != null)
@@ -287,7 +297,11 @@ public class AttackController : MonoBehaviour
         else
         {
             RaygunLine.SetPosition(1, GunStick.transform.position + fwd*DeathRayBeamMaxRange);
-            StartCoroutine(HideDeathRayBeam(0.66f));
+            RaygunLine.enabled = true;
+            weaponSoundSource.volume = 1f;
+            weaponSoundSource.PlayOneShot(RaygunBeamFireOpen);
+            StartCoroutine(HideDeathRayBeam(LockOnBeamDuration));
+            Debug.Log("Death ray beam hit nothing");
         }
 
         WeaponCooldown = 1f;
@@ -295,6 +309,7 @@ public class AttackController : MonoBehaviour
 
     IEnumerator HideDeathRayBeam(float duration)
     {
+        GetComponent<Movement>().MovementEnabled = false;
         weaponSoundSource.clip = RaygunBeamFireLoop;
         weaponSoundSource.loop = true;
         weaponSoundSource.Play();
@@ -304,6 +319,7 @@ public class AttackController : MonoBehaviour
         RaygunLine.SetPosition(1, transform.position);
         weaponSoundSource.Stop();
         weaponSoundSource.loop = false;
+        GetComponent<Movement>().MovementEnabled = true;
     }
 
     private void PlungerQuickAttack()

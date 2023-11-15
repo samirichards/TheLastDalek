@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2327193268499296234}
+  - component: {fileID: 6086074350698510020}
   - component: {fileID: 7499860836543413984}
   - component: {fileID: 2486698611210191073}
   - component: {fileID: 137016903041347468}
@@ -39,6 +40,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &6086074350698510020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4475718880981589932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70eb10a9f1516bc44a84fe106537c013, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 9344c96a2b310e346957d623885aa682, type: 2}
 --- !u!20 &7499860836543413984
 Camera:
   m_ObjectHideFlags: 0
@@ -269,6 +283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 820e77ee68e135146a4ac849bb46c3eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TrackerTarget: {fileID: 0}
   LevelMusic: {fileID: 0}
   sceneMusicMapping: {fileID: 11400000, guid: 53662017f7232aa4684055d5969c5a26, type: 2}
   MusicVolume: 0.66

@@ -7,7 +7,7 @@ public class GunStickAimController : MonoBehaviour
     [SerializeField] private GameObject GunStick;
     [SerializeField] private GameObject BodyBase;
     [SerializeField] private float maxRotationAngle = 20f;
-    [SerializeField] private float Offset = 180;
+    [SerializeField] private float Offset = 0;
     private Quaternion initialPosition;
 
     private bool isFiring = false;
@@ -25,20 +25,20 @@ public class GunStickAimController : MonoBehaviour
         if (!IsSwivelAllowed || isFiring)
             return;
 
-        // Gradually interpolate the rotation over the specified duration
-        Quaternion initialRotation = initialPosition;
-        Quaternion targetRotation = Quaternion.LookRotation(transform.position - target, transform.up);
-        targetRotation = Quaternion.Euler(targetRotation.eulerAngles.x, targetRotation.eulerAngles.y + Offset, targetRotation.eulerAngles.z);
-        targetRotation = LimitRotation(targetRotation, maxRotationAngle);
+        // Calculate the direction from the gun's position to the target
+        Vector3 directionToTarget = GunStick.transform.position - target;
 
-        Debug.Log("Initial Rotation: " + initialRotation.eulerAngles);
-        Debug.Log("Target Rotation: " + targetRotation.eulerAngles);
+        // Gradually interpolate the rotation over the specified duration
+        Quaternion initialRotation = GunStick.transform.rotation;
+        Quaternion targetRotation = Quaternion.LookRotation(directionToTarget, Vector3.up);
+        targetRotation *= Quaternion.Euler(0, Offset, 0); // Apply the offset
 
         StartCoroutine(AimGunstickCoroutine(initialRotation, targetRotation, duration, cooldown));
     }
 
     private IEnumerator AimGunstickCoroutine(Quaternion startRotation, Quaternion targetRotation, float duration, float cooldown)
     {
+        GetComponent<Animator>().enabled = false;
         float elapsedTime = 0f;
 
         while (elapsedTime < duration)
@@ -50,7 +50,7 @@ public class GunStickAimController : MonoBehaviour
 
         // Mark as firing and set cooldown time
         isFiring = true;
-        GetComponent<AttackController>().HandleGunStick();
+        GetComponent<AttackController>().HandleGunStickBeam();
         fireTime = Time.time;
 
         // Wait for the cooldown before resetting the gunstick
@@ -59,6 +59,7 @@ public class GunStickAimController : MonoBehaviour
         // Reset gunstick to its default position
         isFiring = false;
         GunStick.transform.localRotation = initialPosition;
+        GetComponent<Animator>().enabled = true;
     }
 
     private Quaternion LimitRotation(Quaternion rotation, float maxAngle)
