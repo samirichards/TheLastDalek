@@ -11,8 +11,12 @@ public class AttackController : MonoBehaviour
     [SerializeField] private float GattlingGunFireRateModifier = 0.2f;
     [SerializeField] float PlungerAttackRate = 1f;
     private float WeaponCooldown = 0.0f;
-    public float PlungerAttackRange = 1f;
+    public float PlungerAttackRange = 1.5f;
     public float PlungerDamage = 35f;
+    public float PlungerHealthRechargePercentage = 0.05f;
+    public GameObject PlungerInteractionPoint;
+    public float PlungerAttackConeSpread = 40;
+    public float PlungerAttackConeHitCount = 5;
     [SerializeField] private float DeathRayBeamMaxRange = 200f;
     [SerializeField] public GameObject GunStick;
     [SerializeField] public GameObject Plunger;
@@ -324,38 +328,69 @@ public class AttackController : MonoBehaviour
 
     private void PlungerQuickAttack()
     {
+        bool hasHitSomething = false;
+        RaycastHit HitTarget;
         if (WeaponCooldown > 0)
         {
             return;
         }
-        RaycastHit hit;
-        Vector3 fwd = Plunger.transform.TransformDirection(Vector3.forward);
+
         weaponSoundSource.PlayOneShot(PlungerQuickAttackClip);
         PlayerAnimator.Play(Animator.StringToHash("PlungerAttack"), -1, 0);
         WeaponCooldown = PlungerAttackRate;
-        if (Physics.Raycast(Plunger.transform.position, Plunger.transform.forward * -1, out hit, PlungerAttackRange))
+
+
+        float startAngle = - PlungerAttackConeSpread / 2f;
+        float angleIncrement = PlungerAttackConeSpread / (float)(PlungerAttackConeHitCount - 1);
+
+        for (int i = 0; i < PlungerAttackConeHitCount; i++)
         {
-            Debug.Log("Plunger hit: " + hit.collider.gameObject.name);
-            var npcAI = hit.collider.gameObject.GetComponent<BaseAI>();
-            if (npcAI != null)
+            // Calculate the current angle
+            float currentAngle = startAngle + i * angleIncrement;
+
+            // Calculate the direction of the ray
+            Vector3 rayDirection = Quaternion.Euler(0, currentAngle, 0) * PlungerInteractionPoint.transform.forward;
+
+            // Fire the raycast
+            Ray ray = new Ray(PlungerInteractionPoint.transform.position, rayDirection);
+            if (Physics.Raycast(ray, out HitTarget, PlungerAttackRange))
             {
-                DamageInfo info = new DamageInfo(PlungerDamage, gameObject, DamageType.Plunger);
-                npcAI.Damage(info);
-                var playerComponent = GetComponent<PlayerComponent>();
-                if (playerComponent.Health < playerComponent.MaxHealth)
+                if (HitTarget.collider.gameObject.GetComponent<BaseAI>() || HitTarget.collider.gameObject.GetComponent<DamageableComponent>())
                 {
-                    playerComponent.Health += ((playerComponent.MaxHealth - playerComponent.Health) * 0.05f);
-                    if (playerComponent.Health > playerComponent.MaxHealth)
+                    Debug.DrawRay(ray.origin, ray.direction * PlungerAttackRange, Color.red, 5f);
+                    hasHitSomething = true;
+                    Debug.Log("Plunger hit: " + HitTarget.collider.gameObject.name);
+                    var npcAI = HitTarget.collider.gameObject.GetComponent<BaseAI>();
+                    var turretAI = HitTarget.collider.GetComponent<Turret>();
+                    if (npcAI != null)
                     {
-                        playerComponent.Health = playerComponent.MaxHealth;
+                        DamageInfo info = new DamageInfo(PlungerDamage, gameObject, DamageType.Plunger);
+                        npcAI.Damage(info);
+                        var playerComponent = GetComponent<PlayerComponent>();
+                        if (playerComponent.Health < playerComponent.MaxHealth)
+                        {
+                            playerComponent.Health += ((playerComponent.MaxHealth - playerComponent.Health) * PlungerHealthRechargePercentage);
+                            if (playerComponent.Health > playerComponent.MaxHealth)
+                            {
+                                playerComponent.Health = playerComponent.MaxHealth;
+                            }
+                        }
+                        return;
                     }
+                    if (turretAI != null)
+                    {
+                        DamageInfo info = new DamageInfo(PlungerDamage * 4, gameObject, DamageType.Plunger);
+                        turretAI.Damage(info);
+                        return;
+                    }
+                }
+                else
+                {
+                    Debug.DrawRay(ray.origin, ray.direction * PlungerAttackRange, Color.white, 5f);
                 }
             }
         }
-        else
-        {
-            Debug.Log("Plunger hit nothing");
-        }
+        Debug.Log("Plunger hit nothing");
     }
 
     private void FireGunStick(uint AttackStrength)

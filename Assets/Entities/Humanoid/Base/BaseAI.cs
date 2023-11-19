@@ -573,7 +573,7 @@ public class BaseAI : MonoBehaviour
         CustomUpdateBehaviour();
     }
 
-    void RagdollFix()
+    void Ragdoll()
     {
         //Shifts the model up slightly, as well as quickly making the model kinematic then normal, which resets any momentum the rigidbodies have
         Vector3 newTransform = MainBody.transform.position;
@@ -624,15 +624,17 @@ public class BaseAI : MonoBehaviour
                 SkeletonObject.SetActive(true);
                 CharacterAnimator.SetTrigger("Exterminate");
                 SkeletonObject.GetComponent<Animator>().SetTrigger("Exterminate");
-                StartCoroutine(GoLimpTimer(5));
+                StartCoroutine(RagdollTimer(5));
             }
             catch (Exception e)
             {
                 Debug.Log(e.ToString());
             }
             StartCoroutine(SwitchBackMaterials(SkeletonRevealTime));
+            return;
         }
         CharacterAnimator.SetInteger("AnimationState", -1);
+        Ragdoll();
         //CharacterAnimator.Play(Animator.StringToHash("Exterminating"), -1, 0.125f);
     }
 
@@ -655,9 +657,9 @@ public class BaseAI : MonoBehaviour
         }
     }
 
-    IEnumerator GoLimpTimer(float time)
+    IEnumerator RagdollTimer(float time)
     {
         yield return new WaitForSeconds(time);
-        RagdollFix(); 
+        Ragdoll(); 
     }
 }

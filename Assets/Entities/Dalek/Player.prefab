@@ -182,7 +182,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3402668868839114745}
-  - {fileID: 1875293660906032800}
   - {fileID: 706085353126981651}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -439,8 +438,12 @@ MonoBehaviour:
   GunStickDefaultFireRate: 0.5
   GattlingGunFireRateModifier: 0.2
   PlungerAttackRate: 0.25
-  PlungerAttackRange: 1
+  PlungerAttackRange: 2
   PlungerDamage: 20
+  PlungerHealthRechargePercentage: 0.05
+  PlungerInteractionPoint: {fileID: 1978189894485189994}
+  PlungerAttackConeSpread: 60
+  PlungerAttackConeHitCount: 7
   DeathRayBeamMaxRange: 200
   GunStick: {fileID: 7475677083400126030}
   Plunger: {fileID: 2737576354521160609}
@@ -1490,12 +1493,12 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 4645755809680772353}
+    m_TransformParent: {fileID: 3402668868839114745}
     m_Modifications:
     - target: {fileID: 392894167913018863, guid: a2b09a61e9226d941ab06c6bb237c7dc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 392894167913018863, guid: a2b09a61e9226d941ab06c6bb237c7dc,
         type: 3}
@@ -1510,7 +1513,7 @@ PrefabInstance:
     - target: {fileID: 392894167913018863, guid: a2b09a61e9226d941ab06c6bb237c7dc,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 392894167913018863, guid: a2b09a61e9226d941ab06c6bb237c7dc,
         type: 3}
@@ -1579,12 +1582,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2b09a61e9226d941ab06c6bb237c7dc, type: 3}
---- !u!4 &1875293660906032800 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 392894167913018863, guid: a2b09a61e9226d941ab06c6bb237c7dc,
-    type: 3}
-  m_PrefabInstance: {fileID: 2266918700317653839}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &7485357931753473857 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8688820188718447630, guid: a2b09a61e9226d941ab06c6bb237c7dc,
@@ -1721,7 +1718,7 @@ PrefabInstance:
     - target: {fileID: 2832898657728674619, guid: e6b050943f440af4b86163c884faac42,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2832898657728674619, guid: e6b050943f440af4b86163c884faac42,
         type: 3}

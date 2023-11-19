@@ -511,6 +511,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: ee7e7a1ae89db3548b4e10db4b061636,
         type: 2}
+    - target: {fileID: 8888849918003067973, guid: d1bfda65641f93f4bb35c608a9f883f4,
+        type: 3}
+      propertyPath: m_DirtyAABB
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9029709974906793166, guid: d1bfda65641f93f4bb35c608a9f883f4,
         type: 3}
       propertyPath: m_IsActive
@@ -1076,6 +1081,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BaseNPC (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 596450777408471157, guid: 9faa53979bf2d604a935788b0ad89fa4,
+        type: 3}
+      propertyPath: AiState
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 596450777408471157, guid: 9faa53979bf2d604a935788b0ad89fa4,
+        type: 3}
+      propertyPath: Emotion
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 596450777408471157, guid: 9faa53979bf2d604a935788b0ad89fa4,
+        type: 3}
+      propertyPath: npcType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 596450777408471157, guid: 9faa53979bf2d604a935788b0ad89fa4,
+        type: 3}
+      propertyPath: MaxIdleTime
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 596450777408471157, guid: 9faa53979bf2d604a935788b0ad89fa4,
+        type: 3}
+      propertyPath: MaxFleeRadius
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 596450777408471157, guid: 9faa53979bf2d604a935788b0ad89fa4,
+        type: 3}
+      propertyPath: MaxWanderRadius
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 596450777408471157, guid: 9faa53979bf2d604a935788b0ad89fa4,
+        type: 3}
+      propertyPath: SkeletonRevealTime
+      value: 0.66
       objectReference: {fileID: 0}
     - target: {fileID: 3341516856370496133, guid: 9faa53979bf2d604a935788b0ad89fa4,
         type: 3}
