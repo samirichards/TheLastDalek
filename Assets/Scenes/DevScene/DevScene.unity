@@ -307,6 +307,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2626555030196444483, guid: d1bfda65641f93f4bb35c608a9f883f4,
         type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2626555030196444483, guid: d1bfda65641f93f4bb35c608a9f883f4,
+        type: 3}
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
@@ -338,7 +343,7 @@ PrefabInstance:
     - target: {fileID: 3087643790708667042, guid: d1bfda65641f93f4bb35c608a9f883f4,
         type: 3}
       propertyPath: m_Intensity
-      value: 0.7957747
+      value: 4.774648
       objectReference: {fileID: 0}
     - target: {fileID: 3087643790708667042, guid: d1bfda65641f93f4bb35c608a9f883f4,
         type: 3}
@@ -433,7 +438,7 @@ PrefabInstance:
     - target: {fileID: 4785505502183046508, guid: d1bfda65641f93f4bb35c608a9f883f4,
         type: 3}
       propertyPath: m_Intensity
-      value: 0.7957747
+      value: 4.774648
       objectReference: {fileID: 0}
     - target: {fileID: 4785505502183046508, guid: d1bfda65641f93f4bb35c608a9f883f4,
         type: 3}
@@ -444,6 +449,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: PlayerShield
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266226523696035887, guid: d1bfda65641f93f4bb35c608a9f883f4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5377828624881332643, guid: d1bfda65641f93f4bb35c608a9f883f4,
         type: 3}
@@ -478,12 +488,12 @@ PrefabInstance:
     - target: {fileID: 6861173895580040404, guid: d1bfda65641f93f4bb35c608a9f883f4,
         type: 3}
       propertyPath: m_Intensity
-      value: 7.0062537
+      value: 186833.44
       objectReference: {fileID: 0}
     - target: {fileID: 7438049467023897413, guid: d1bfda65641f93f4bb35c608a9f883f4,
         type: 3}
       propertyPath: m_Intensity
-      value: 8.28165
+      value: 1348.2408
       objectReference: {fileID: 0}
     - target: {fileID: 7485357931753473857, guid: d1bfda65641f93f4bb35c608a9f883f4,
         type: 3}
@@ -511,6 +521,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: ee7e7a1ae89db3548b4e10db4b061636,
         type: 2}
+    - target: {fileID: 8690234365019902389, guid: d1bfda65641f93f4bb35c608a9f883f4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8888849918003067973, guid: d1bfda65641f93f4bb35c608a9f883f4,
         type: 3}
       propertyPath: m_DirtyAABB
@@ -545,6 +560,16 @@ PrefabInstance:
         type: 3}
       propertyPath: UpgradeScreenTitle
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9090812734087792655, guid: d1bfda65641f93f4bb35c608a9f883f4,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9090812734087792655, guid: d1bfda65641f93f4bb35c608a9f883f4,
+        type: 3}
+      propertyPath: _selectedDalek
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9137758449307418215, guid: d1bfda65641f93f4bb35c608a9f883f4,
         type: 3}

@@ -3,7 +3,6 @@ using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using static UnityEditor.Experimental.GraphView.GraphView;
 
 public class GameManager : MonoBehaviour
 {
@@ -99,7 +98,7 @@ public class GameManager : MonoBehaviour
 
     public static void ShowUpgradeScreen(int itemID, int itemTier)
     {
-        Player._movement.StopSound();
+        Player._PropController.StopSound();
         try
         {
             IsOnNormalPauseScreen = false;
@@ -131,7 +130,7 @@ public class GameManager : MonoBehaviour
     public static void ShowArtifactScreen()
     {
         _ItemUpgradeScreen.SetActive(false);
-        Player._movement.StopSound();
+        Player._PropController.StopSound();
         IsArtifactScreenShown = true;
         IsOnNormalPauseScreen = false;
         IsGamePaused = true;
@@ -162,7 +161,7 @@ public class GameManager : MonoBehaviour
 
     public static void PauseGame()
     {
-        Player._movement.StopSound();
+        Player._PropController.StopSound();
         IsOnNormalPauseScreen = true;
         _PauseMenu.SetActive(true);
         IsGamePaused = true;

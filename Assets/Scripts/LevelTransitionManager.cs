@@ -33,7 +33,7 @@ public class LevelTransitionManager : MonoBehaviour
     IEnumerator _reloadScene(float delay)
     {
         yield return new WaitForSeconds(delay);
-        Player._movement.StopSound();
+        Player._PropController.StopSound();
         LevelTransitionUIPanel.SetActive(true);
         LevelTransitionUIPanel.GetComponent<Image>().color = new Color(0, 0, 0, 0);
         var op = UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
@@ -75,7 +75,7 @@ public class LevelTransitionManager : MonoBehaviour
     IEnumerator Activate(string SceneName, Vector3 newLocation)
     {
         Player._movement.MovementEnabled = false;
-        Player._movement.StopSound();
+        Player._PropController.StopSound();
         LevelTransitionUIPanel.SetActive(true);
         LevelTransitionUIPanel.GetComponent<Image>().color = new Color(0, 0, 0, 0);
         var op = UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(SceneName);

@@ -65,15 +65,6 @@ public class Bullet : MonoBehaviour
     {
         if (!(other.CompareTag("NPC")))
         {
-            if (other.tag == "PlayerShield")
-            {
-                if (other.GetComponent<ShieldManager>().ShieldEffective)
-                {
-                    other.GetComponent<ShieldManager>().DamageShield(new DamageInfo(defaultAttackStrength, gameObject, DamageType.Bullet));
-                    AudioSource.PlayClipAtPoint(RichochetClip, transform.position);
-                    Destroy(gameObject);
-                }
-            }
             if (other.tag == "Player")
             {
                 other.GetComponent<PlayerComponent>().Damage(new DamageInfo(defaultAttackStrength, gameObject, DamageType.Bullet));

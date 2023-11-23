@@ -60,15 +60,6 @@ public class EnergyPelletController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "PlayerShield")
-        {
-            if (other.GetComponent<ShieldManager>().ShieldEffective)
-            {
-                other.GetComponent<ShieldManager>().DamageShield(stats);
-                AudioSource.PlayClipAtPoint(HitSounds[Random.Range(0, HitSounds.Length)], transform.position);
-                Destroy(gameObject);
-            }
-        }
         if (other.gameObject.GetComponent<DamageableComponent>())
         {
             AudioSource.PlayClipAtPoint(HitSounds[Random.Range(0, HitSounds.Length)], transform.position);

@@ -4,18 +4,16 @@ using UnityEngine;
 public class GunStickAimController : MonoBehaviour
 {
     [SerializeField] public bool IsSwivelAllowed = true;
-    [SerializeField] private GameObject GunStick;
-    [SerializeField] private GameObject BodyBase;
     [SerializeField] private float maxRotationAngle = 20f;
-    [SerializeField] private float Offset = 0;
+    [SerializeField] private float Offset = 90;
     private Quaternion initialPosition;
 
     private bool isFiring = false;
     private float fireTime = 0;
 
-    void Awake()
+    void Start()
     {
-        initialPosition = GunStick.transform.localRotation;
+        initialPosition = Player._PropController.getGunStickObject.transform.localRotation;
     }
     //TODO just fucking redo all of this, I asked chatgpt to help and tbh it's wasted more time than if I just did it myself lol
 
@@ -26,11 +24,11 @@ public class GunStickAimController : MonoBehaviour
             return;
 
         // Calculate the direction from the gun's position to the target
-        Vector3 directionToTarget = GunStick.transform.position - target;
+        Vector3 directionToTarget = Player._PropController.getGunStickObject.transform.position - target;
 
         // Gradually interpolate the rotation over the specified duration
-        Quaternion initialRotation = GunStick.transform.rotation;
-        Quaternion targetRotation = Quaternion.LookRotation(directionToTarget, Vector3.up);
+        Quaternion initialRotation = Player._PropController.getGunStickObject.transform.rotation;
+        Quaternion targetRotation = Quaternion.LookRotation(directionToTarget, Player._PropController.getBodyBase.transform.up);
         targetRotation *= Quaternion.Euler(0, Offset, 0); // Apply the offset
 
         StartCoroutine(AimGunstickCoroutine(initialRotation, targetRotation, duration, cooldown));
@@ -43,7 +41,7 @@ public class GunStickAimController : MonoBehaviour
 
         while (elapsedTime < duration)
         {
-            GunStick.transform.rotation = Quaternion.Slerp(startRotation, targetRotation, elapsedTime / duration);
+            Player._PropController.getGunStickObject.transform.rotation = Quaternion.Slerp(startRotation, targetRotation, elapsedTime / duration);
             elapsedTime += Time.deltaTime;
             yield return null;
         }
@@ -58,7 +56,7 @@ public class GunStickAimController : MonoBehaviour
 
         // Reset gunstick to its default position
         isFiring = false;
-        GunStick.transform.localRotation = initialPosition;
+        Player._PropController.getGunStickObject.transform.localRotation = initialPosition;
         GetComponent<Animator>().enabled = true;
     }
 

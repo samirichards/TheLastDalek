@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\QuickOutline\Scripts\Outline.cs" />
     <Compile Include="Assets\VolumetricLines\Scripts\VolumetricLineVertexData.cs" />
+    <Compile Include="Assets\Entities\Dalek\Models\PropController.cs" />
     <Compile Include="Assets\Scripts\DamageInfo.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\InGameUI.cs" />
@@ -105,7 +106,6 @@
     <Compile Include="Assets\Entities\Dalek\InteractionController.cs" />
     <Compile Include="Assets\LevelGeometry\Terminal\Terminal.cs" />
     <Compile Include="Assets\Entities\Humanoid\Base\OnExterminated.cs" />
-    <Compile Include="Assets\Entities\Dalek\ShieldManager.cs" />
     <Compile Include="Assets\Scripts\DamageableComponent.cs" />
     <Compile Include="Assets\LevelGeometry\Door\DoorControls\ControlsScript.cs" />
     <Compile Include="Assets\VolumetricLines\BuiltInRenderPipeline\ExampleScenes\ExampleScripts\ShotBehavior.cs" />

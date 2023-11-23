@@ -1,10 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.Serialization;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering;
-using static UnityEditor.Experimental.GraphView.GraphView;
+using UnityEditor;
 
+[ExecuteInEditMode]
 public class Player : MonoBehaviour
 {
     private static Player _Instance;
@@ -22,12 +26,14 @@ public class Player : MonoBehaviour
     [SerializeField] public static CursorControl _cursorControl;
     [SerializeField] public static InteractionController _interactionController;
     [SerializeField] public static InventoryController _inventoryController;
+    [SerializeField] public static PropController _PropController;
+    [Header("Selected Dalek Model ---")]
+    [SerializeField] private SelectedDalek _selectedDalek = SelectedDalek.StandardDalek;
+    [SerializeField] private GameObject[] DalekModels;
     public CameraObject cameraInstance;
 
     [SerializeField] public GameObject _PlayerPrefab; 
     private static GameObject PlayerPrefab;
-
-    private static ShieldManager _shieldManager;
     public static Player Instance
     {
         get
@@ -45,10 +51,33 @@ public class Player : MonoBehaviour
         }
     }
 
+    public enum SelectedDalek
+    {
+        StandardDalek,
+        ImperialDalek,
+        ParadigmDalek
+    }
+
     public static GameObject GetPlayerReference()
     {
         return playerObjectReference;
     }
+
+    [ExecuteInEditMode]
+    private void OnValidate()
+    {
+        UpdateModel();
+    }
+    public void UpdateModel()
+    {
+        foreach (GameObject model in DalekModels)
+        {
+            model.SetActive(false);
+        }
+        DalekModels[(int)_selectedDalek].SetActive(true);
+    }
+
+    
 
     void Awake()
     {
@@ -56,6 +85,7 @@ public class Player : MonoBehaviour
         {
             DontDestroyOnLoad(gameObject);
             _Instance = this;
+
             PlayerPrefab = _PlayerPrefab;
             playerObjectReference = GameObject.Find("Player");
             //_inventoryManager = playerObjectReference.GetComponent<InventoryManager>();
@@ -70,18 +100,13 @@ public class Player : MonoBehaviour
             _animator = playerObjectReference.GetComponent<Animator>();
             _cursorControl = playerObjectReference.GetComponent<CursorControl>();
             _interactionController = playerObjectReference.GetComponent<InteractionController>();
-            _shieldManager = playerObjectReference.GetComponentInChildren<ShieldManager>();
             _inventoryController = playerObjectReference.GetComponentInChildren<InventoryController>();
+            _PropController = playerObjectReference.GetComponentInChildren<PropController>();
         }
         else if (_Instance != this)
         {
             Destroy(gameObject);
         }
-    }
-
-    public static ShieldManager GetShieldManagerReference()
-    {
-        return _shieldManager;
     }
 
     public static Movement GetMovementController()

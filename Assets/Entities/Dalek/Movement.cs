@@ -26,6 +26,7 @@ public class Movement : MonoBehaviour
     public bool IsElevating;
     private bool wasElevating = false;
     public List<GameObject> ElevationTargets;
+    private PropController propController;
 
 
     //TODO Come back here and finish elevate behavior
@@ -44,6 +45,12 @@ public class Movement : MonoBehaviour
         audioSource = gameObject.AddComponent(typeof(AudioSource)) as AudioSource;
         audioSource2 = gameObject.AddComponent(typeof(AudioSource)) as AudioSource;
         ElevationTargets = new List<GameObject>();
+        propController = GetComponentInChildren<PropController>();
+    }
+
+    void Start()
+    {
+        _baseSpeed = _baseSpeed * Player._PropController.getMovementSpeedMultiplier;
     }
 
     private void FixedUpdate()
@@ -51,7 +58,7 @@ public class Movement : MonoBehaviour
         if (!GameManager.IsGamePaused)
         {
             Move();
-            MovementAudio();
+            propController.MovementAudio(IsMoving, IsElevating, IsMovementEnhanced, wasElevating);
             HandleElevate();
         }
     }
@@ -80,83 +87,9 @@ public class Movement : MonoBehaviour
         wasElevating = IsElevating; // Update the previous state
     }
 
-    private void MovementAudio()
-    {
-        if (IsElevating && GameManager.IsGamePaused == false)
-        {
-            // Play Elevate sounds continuously
-            audioSource.clip = ElevateLoop;
-            audioSource.loop = true;
-            audioSource.volume = MovementVolume;
-
-            if (!audioSource.isPlaying)
-            {
-                audioSource.volume = ElevateVolume;
-                audioSource.PlayOneShot(ElevateStart);
-                audioSource.PlayDelayed(ElevateStart.length - 0.1f);
-                if (IsMovementEnhanced)
-                {
-                    audioSource.pitch = 1.2f;
-                }
-                else
-                {
-                    audioSource.pitch = 1f;
-                }
-            }
-        }
-        else if (IsMoving && GameManager.IsGamePaused == false)
-        {
-            // Play normal Movement sounds
-            audioSource.clip = MovementLoop;
-            audioSource.loop = true;
-            audioSource.volume = MovementVolume;
-
-            if (!audioSource.isPlaying)
-            {
-                audioSource.volume = MovementVolume;
-                audioSource.PlayOneShot(MovementStart);
-                audioSource.PlayDelayed(MovementStart.length - 0.1f);
-                if (IsMovementEnhanced)
-                {
-                    audioSource.pitch = 1.2f;
-                }
-                else
-                {
-                    audioSource.pitch = 1f;
-                }
-            }
-        }
-        else
-        {
-            // Stop all sounds when not moving or not elevating
-            if (audioSource.isPlaying)
-            {
-                audioSource.Stop();
-                if (wasElevating)
-                {
-                    // ElevateEnd sound should play here
-                    audioSource2.volume = MovementVolume;
-                    audioSource2.PlayOneShot(ElevateEnd);
-                }
-                else
-                {
-                    // MovementEnd sound should play here if MovementLoop was playing
-                    audioSource2.volume = MovementVolume;
-                    audioSource2.PlayOneShot(MovementEnd);
-                }
-            }
-        }
-    }
-
     private void GatherInput()
     {
         _input = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
-    }
-
-    public void StopSound()
-    {
-        audioSource.loop = false;
-        audioSource.Stop();
     }
 
     private void Look()

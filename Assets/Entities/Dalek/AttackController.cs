@@ -6,7 +6,6 @@ using UnityEngine;
 public class AttackController : MonoBehaviour
 {
     public bool GunStickEnabled = true;
-    public Animator PlayerAnimator;
     [SerializeField] float GunStickDefaultFireRate = 0.5f;
     [SerializeField] private float GattlingGunFireRateModifier = 0.2f;
     [SerializeField] float PlungerAttackRate = 1f;
@@ -14,28 +13,17 @@ public class AttackController : MonoBehaviour
     public float PlungerAttackRange = 1.5f;
     public float PlungerDamage = 35f;
     public float PlungerHealthRechargePercentage = 0.05f;
-    public GameObject PlungerInteractionPoint;
     public float PlungerAttackConeSpread = 40;
     public float PlungerAttackConeHitCount = 5;
     [SerializeField] private float DeathRayBeamMaxRange = 200f;
-    [SerializeField] public GameObject GunStick;
-    [SerializeField] public GameObject Plunger;
-    [SerializeField] public GameObject LaserPrefab;
-    [SerializeField] public AudioClip GunstickFireSound;
-    [SerializeField] public AudioClip PlungerQuickAttackClip;
     [SerializeField] public GameObject GattlingGunModel;
     [SerializeField] public AudioClip GattlingGunWindupSound;
     [SerializeField] public float GattlingGunWindupTime = 0.33f;
     [SerializeField] public bool EnableGattlingGun;
-    [SerializeField] public float GattlingGunSpinSpeed = 11.25f;
-    [SerializeField] public GameObject GattlingGunEmitter;
     private float GattlingGunCurrentTime = 0.0f;
     private AudioSource weaponSoundSource;
     public uint LaserType = 0;
     private LineRenderer RaygunLine;
-    [SerializeField] private AudioClip RaygunBeamFireOpen;
-    [SerializeField] private AudioClip RaygunBeamFireLoop;
-    [SerializeField] private AudioClip RaygunBeamHit;
 
     [SerializeField] private float GunTurnTime = 0.2f;
     [SerializeField] private float LockOnBeamDuration = 0.66f;
@@ -66,8 +54,7 @@ public class AttackController : MonoBehaviour
     void Start()
     {
         RaygunLine.enabled = false;
-        weaponSoundSource = gameObject.AddComponent<AudioSource>();
-        GattlingGunEmitter.SetActive(false);
+        weaponSoundSource = Player._PropController.getGeneralAudioSource;
     }
 
     void Update()
@@ -237,13 +224,13 @@ public class AttackController : MonoBehaviour
     {
         if (!GameManager.IsGamePaused)
         {
-            GattlingGunModel.SetActive(EnableGattlingGun);
+
         }
     }
 
     void HandleGattlingGunActions()
     {
-        weaponSoundSource.volume = 0.66f;
+        //weaponSoundSource.volume = 0.66f;
 
         if (GattlingGunCurrentTime == 0.0f)
             weaponSoundSource.PlayOneShot(GattlingGunWindupSound);
@@ -264,9 +251,7 @@ public class AttackController : MonoBehaviour
 
     public void HandleGunStick()
     {
-        weaponSoundSource.volume = 0.8f;
         FireGunStick(LaserType);
-        GattlingGunEmitter.SetActive(false);
     }
 
     public void HandleGunStickBeam()
@@ -276,17 +261,15 @@ public class AttackController : MonoBehaviour
             return;
         }
         
-        weaponSoundSource.volume = 0.5f;
+        //weaponSoundSource.volume = 0.5f;
         RaycastHit hit;
-        Vector3 fwd = GunStick.transform.TransformDirection(Vector3.right);
-        RaygunLine.SetPosition(0, GunStick.transform.position);
-        Debug.DrawRay(GunStick.transform.position, fwd, Color.green, 10f);
-        if (Physics.Raycast(GunStick.transform.position, fwd, out hit, DeathRayBeamMaxRange))
+        Vector3 fwd = Player._PropController.getGunStickObject.transform.TransformDirection(Vector3.right);
+        RaygunLine.SetPosition(0, Player._PropController.getGunStickObject.transform.position);
+        Debug.DrawRay(Player._PropController.getGunStickObject.transform.position, fwd, Color.green, 10f);
+        if (Physics.Raycast(Player._PropController.getGunStickObject.transform.position, fwd, out hit, DeathRayBeamMaxRange))
         {
             RaygunLine.SetPosition(1, hit.point);
             RaygunLine.enabled = true;
-            weaponSoundSource.volume = 1f;
-            weaponSoundSource.PlayOneShot(RaygunBeamFireOpen);
             StartCoroutine(HideDeathRayBeam(LockOnBeamDuration));
             Debug.Log("Death ray beam hit: " + hit.collider.gameObject.name);
             var npcAI = hit.collider.gameObject.GetComponent<BaseAI>();
@@ -294,16 +277,14 @@ public class AttackController : MonoBehaviour
             {
                 DamageInfo info = new DamageInfo(npcAI.MaxHealth, gameObject, DamageType.DeathRay);
                 npcAI.Damage(info);
-                AudioSource.PlayClipAtPoint(RaygunBeamHit, hit.point, 1f);
+                AudioSource.PlayClipAtPoint(Player._PropController.RaygunBeamHit, hit.point, 1f);
             }
 
         }
         else
         {
-            RaygunLine.SetPosition(1, GunStick.transform.position + fwd*DeathRayBeamMaxRange);
+            RaygunLine.SetPosition(1, Player._PropController.getGunStickObject.transform.position + fwd*DeathRayBeamMaxRange);
             RaygunLine.enabled = true;
-            weaponSoundSource.volume = 1f;
-            weaponSoundSource.PlayOneShot(RaygunBeamFireOpen);
             StartCoroutine(HideDeathRayBeam(LockOnBeamDuration));
             Debug.Log("Death ray beam hit nothing");
         }
@@ -314,15 +295,11 @@ public class AttackController : MonoBehaviour
     IEnumerator HideDeathRayBeam(float duration)
     {
         GetComponent<Movement>().MovementEnabled = false;
-        weaponSoundSource.clip = RaygunBeamFireLoop;
-        weaponSoundSource.loop = true;
-        weaponSoundSource.Play();
+        StartCoroutine(Player._PropController.PlayExterminationLoop(duration));
         yield return new WaitForSeconds(duration);
         RaygunLine.enabled = false;
         RaygunLine.SetPosition(0, transform.position);
         RaygunLine.SetPosition(1, transform.position);
-        weaponSoundSource.Stop();
-        weaponSoundSource.loop = false;
         GetComponent<Movement>().MovementEnabled = true;
     }
 
@@ -334,9 +311,7 @@ public class AttackController : MonoBehaviour
         {
             return;
         }
-
-        weaponSoundSource.PlayOneShot(PlungerQuickAttackClip);
-        PlayerAnimator.Play(Animator.StringToHash("PlungerAttack"), -1, 0);
+        Player._PropController.PlayAnimationClip(PropController.AnimationClips.PlungerAttack);
         WeaponCooldown = PlungerAttackRate;
 
 
@@ -349,10 +324,10 @@ public class AttackController : MonoBehaviour
             float currentAngle = startAngle + i * angleIncrement;
 
             // Calculate the direction of the ray
-            Vector3 rayDirection = Quaternion.Euler(0, currentAngle, 0) * PlungerInteractionPoint.transform.forward;
+            Vector3 rayDirection = Quaternion.Euler(0, currentAngle, 0) * Player._PropController.getInteractionPoint.transform.forward;
 
             // Fire the raycast
-            Ray ray = new Ray(PlungerInteractionPoint.transform.position, rayDirection);
+            Ray ray = new Ray(Player._PropController.getInteractionPoint.transform.position, rayDirection);
             if (Physics.Raycast(ray, out HitTarget, PlungerAttackRange))
             {
                 if (HitTarget.collider.gameObject.GetComponent<BaseAI>() || HitTarget.collider.gameObject.GetComponent<DamageableComponent>())
@@ -399,11 +374,10 @@ public class AttackController : MonoBehaviour
         {
             return;
         }
-        weaponSoundSource.volume = 0.5f;
-        weaponSoundSource.PlayOneShot(GunstickFireSound);
+        Player._PropController.PlaySoundClip(PropController.SoundClips.RaygunFire);
         WeaponCooldown = EnableGattlingGun ? GunStickDefaultFireRate * GattlingGunFireRateModifier : GunStickDefaultFireRate;
-        GameObject go = Instantiate(LaserPrefab, GunStick.transform.position, GunStick.transform.rotation);
-        go.transform.Rotate(0.0f, 90.0f, 0.0f, Space.Self);
+        GameObject go = Instantiate(Player._PropController.getRayGunDischargePrefab, Player._PropController.getGunStickObject.transform.position, Player._PropController.getGunStickObject.transform.rotation);
+        go.transform.Rotate(0.0f, 0, 0.0f, Space.Self);
         go.GetComponent<EnergyDischargeController>().SetData(AttackStrength);
         GameObject.Destroy(go, 3f);
     }

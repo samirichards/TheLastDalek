@@ -5,9 +5,6 @@ using UnityEngine;
 public class LookAtAnimator : MonoBehaviour
 {
     [SerializeField] Vector3? LookatTarget;
-    [SerializeField] GameObject HeadItem;
-    [SerializeField] GameObject EyeStalk;
-    [SerializeField] GameObject BodyBase;
     [SerializeField] float rotationSpeed = 180f;
     [SerializeField] float EyestalkMinAngle = -30;
     [SerializeField] float EyestalkMaxAngle = 150;
@@ -30,29 +27,29 @@ public class LookAtAnimator : MonoBehaviour
             Vector3 targetPos = (Vector3)LookatTarget;
 
             // turret control:
-            Vector3 targetPosTurret = new Vector3(targetPos.x, HeadItem.transform.position.y, targetPos.z);
+            Vector3 targetPosTurret = new Vector3(targetPos.x, Player._PropController.getHeadObject.transform.position.y, targetPos.z);
             Quaternion turretRotationFinal = Quaternion.LookRotation(
-                forward: targetPosTurret - HeadItem.transform.position,
-                upwards: BodyBase.transform.up
+                forward: targetPosTurret - Player._PropController.getHeadObject.transform.position,
+                upwards: Player._PropController.getBodyBase.transform.up
             );
-            float turretDegreesToFinal = Quaternion.Angle(HeadItem.transform.rotation, turretRotationFinal);
-            HeadItem.transform.rotation = Quaternion.Lerp(
-                HeadItem.transform.rotation, turretRotationFinal,
+            float turretDegreesToFinal = Quaternion.Angle(Player._PropController.getHeadObject.transform.rotation, turretRotationFinal);
+            Player._PropController.getHeadObject.transform.rotation = Quaternion.Lerp(
+                Player._PropController.getHeadObject.transform.rotation, turretRotationFinal,
                 (rotationSpeed / turretDegreesToFinal) * Time.deltaTime
             );
 
-            Vector3 targetPosEye = HeadItem.transform.InverseTransformPoint(targetPos);
+            Vector3 targetPosEye = Player._PropController.getHeadObject.transform.InverseTransformPoint(targetPos);
             float gunAngleFinal = -Mathf.Atan2(targetPosEye.y, targetPosEye.z) * Mathf.Rad2Deg;
             float gunAngleLimited = Mathf.Clamp(gunAngleFinal, EyestalkMinAngle, EyestalkMaxAngle);
-            EyeStalk.transform.localRotation = Quaternion.Lerp(
-                EyeStalk.transform.localRotation,
+            Player._PropController.getEyeStalkObject.transform.localRotation = Quaternion.Lerp(
+                Player._PropController.getEyeStalkObject.transform.localRotation,
                 Quaternion.Euler(gunAngleLimited, 0, 0),
                 Mathf.Abs(EyestalkMoveSpeed / gunAngleLimited) * Time.deltaTime
             );
         }
         else
         {
-            HeadItem.transform.rotation = BodyBase.transform.rotation;
+            Player._PropController.getHeadObject.transform.rotation = Player._PropController.getBodyBase.transform.rotation;
         }
     
 

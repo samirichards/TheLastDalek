@@ -24,13 +24,6 @@ public class Mine : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.GetComponent<ShieldManager>())
-        {
-            other.GetComponent<ShieldManager>().DamageShield(new DamageInfo(Damage, gameObject, DamageType.Point));
-            Instantiate(ExplosionPrefab, transform.position, transform.rotation);
-            Destroy(gameObject);
-        }
-
         if (other.GetComponent<PlayerComponent>())
         {
             other.GetComponent<PlayerComponent>().Damage(new DamageInfo(Damage, gameObject, DamageType.Point));

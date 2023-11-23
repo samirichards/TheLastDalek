@@ -118,12 +118,13 @@ public class InGameUI : MonoBehaviour
             }
         }
 
+        HealthBar.maxValue = Player._playerComponent.MaxHealth;
         HealthBar.value = Player._playerComponent.Health;
-        if (Player.GetShieldManagerReference().ShieldEnabled)
+        if (Player._playerComponent.ShieldEnabled)
         {
             ShieldHealthContainer.SetActive(true);
-            ShieldHealth.value = Player.GetShieldManagerReference().ShieldHealth;
-            ShieldHealth.maxValue = Player.GetShieldManagerReference().ShieldMaxHealth;
+            ShieldHealth.value = Player._playerComponent.ShieldHealth;
+            ShieldHealth.maxValue = Player._playerComponent.ShieldMaxHealth;
         }
         else
         {

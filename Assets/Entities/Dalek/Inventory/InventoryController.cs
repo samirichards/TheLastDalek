@@ -136,8 +136,8 @@ public class InventoryController : MonoBehaviour
         Player._attackController.GunStickEnabled = false;
         Player._attackController.LaserType = 0;
         Player._attackController.EnableGattlingGun = false;
-        Player.GetShieldManagerReference().ShieldSetInactive();
-        Player.GetShieldManagerReference().ShieldTier = 0;
+        Player._playerComponent.ShieldSetInactive();
+        Player._playerComponent.ShieldTier = 0;
         Player._playerComponent.CanSeeHiddenObjects = false;
         Player._playerComponent.SetPrivileges(false);
         Player._movement.CanElevate = false;
@@ -169,8 +169,8 @@ public class InventoryController : MonoBehaviour
                     Player._playerComponent.SetPrivileges(true);
                     break;
                 case "Shield":
-                    Player.GetShieldManagerReference().ShieldTier = equippedItem._itemTier;
-                    Player.GetShieldManagerReference().ShieldSetActive();
+                    Player._playerComponent.ShieldTier = equippedItem._itemTier;
+                    Player._playerComponent.ShieldSetActive();
                     break;
                 case "SpeedUp":
                     Player._movement.IsMovementEnhanced = true;
