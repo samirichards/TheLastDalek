@@ -72,6 +72,7 @@ public class PropController : MonoBehaviour
     [SerializeField] private float _damageMultiplier = 1.0f;
     [SerializeField] private float _stealthMultiplier = 1.0f;
     [SerializeField] private float MaxHealthMultiplier = 1.0f;
+    [SerializeField] private AttackController.AttackTypes _attackType = AttackController.AttackTypes.Standard;
 
     void Start()
     {
@@ -118,20 +119,6 @@ public class PropController : MonoBehaviour
         }
     }
 
-    void Update()
-    {
-        if (!GameManager.IsGamePaused)
-        {
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-                if (!SpeechAudioSource.isPlaying)
-                {
-                    PlaySoundClip(SoundClips.ChantVO);
-                }
-            }
-        }
-    }
-
     public void PlayAnimationClip(AnimationClips clip)
     {
         switch (clip)
@@ -149,6 +136,11 @@ public class PropController : MonoBehaviour
                 PlaySoundClip(SoundClips.DeathVO);
                 break;
         }
+    }
+
+    public void PlayHitSoundatPoint(Vector3 location)
+    {
+        AudioSource.PlayClipAtPoint(RaygunBeamHit, location);
     }
 
     public IEnumerator PlayExterminationLoop(float duration)
@@ -312,4 +304,5 @@ public class PropController : MonoBehaviour
     public float getDamageMultiplier => _damageMultiplier;
     public float getStealthMultiplier => _stealthMultiplier;
     public float getHealthMultiplier => MaxHealthMultiplier;
+    public AttackController.AttackTypes getAttackType => _attackType;
 }

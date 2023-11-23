@@ -184,6 +184,7 @@ Transform:
   - {fileID: 2720825850296717174}
   - {fileID: 706085353126981651}
   - {fileID: 4836195273609053358}
+  - {fileID: 6179536300821719374}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -199,11 +200,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b55cdcf214299a14f833e490da823dc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _selectedDalek: 2
+  _selectedDalek: 3
   DalekModels:
   - {fileID: 2626555030196444483}
   - {fileID: 8690234365019902389}
   - {fileID: 5266226523696035887}
+  - {fileID: 2046030938685387152}
   cameraInstance: {fileID: 0}
   _PlayerPrefab: {fileID: 859279906901890729}
 --- !u!114 &4483722355747716667
@@ -425,8 +427,8 @@ MonoBehaviour:
   PlungerAttackRange: 2
   PlungerDamage: 20
   PlungerHealthRechargePercentage: 0.05
-  PlungerAttackConeSpread: 60
-  PlungerAttackConeHitCount: 7
+  PlungerAttackConeSpread: 9
+  PlungerAttackConeHitCount: 5
   DeathRayBeamMaxRange: 200
   GattlingGunModel: {fileID: 3641545944469980428}
   GattlingGunWindupSound: {fileID: 8300000, guid: 7eac41f0f9e86ac44ba632f549e9680e,
@@ -434,6 +436,8 @@ MonoBehaviour:
   GattlingGunWindupTime: 0.45
   EnableGattlingGun: 0
   LaserType: 0
+  RaygunBroadBeamCastAngle: 12
+  RaygunBroadBeamRaycastCount: 5
   GunTurnTime: 0.2
   LockOnBeamDuration: 0.75
   reticleObject: {fileID: 5014804461522483714}
@@ -450,6 +454,7 @@ MonoBehaviour:
   _lockOnStartSound: {fileID: 8300000, guid: b390c3d2912365847b2da08ea6039452, type: 3}
   _lockOnCancelSound: {fileID: 8300000, guid: dbb98c58ea4513f41ba767b6f8ae444e, type: 3}
   _lockOnGlyphPrefab: {fileID: 0}
+  AttackType: 0
 --- !u!114 &4255033672329479532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1459,6 +1464,92 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &789486926476277741
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4645755809680772353}
+    m_Modifications:
+    - target: {fileID: 1625839466065413757, guid: 96162c6933812aa4386031a6e54aff07,
+        type: 3}
+      propertyPath: m_Name
+      value: GenesisDalek
+      objectReference: {fileID: 0}
+    - target: {fileID: 1625839466065413757, guid: 96162c6933812aa4386031a6e54aff07,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6860897218152554147, guid: 96162c6933812aa4386031a6e54aff07,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6860897218152554147, guid: 96162c6933812aa4386031a6e54aff07,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6860897218152554147, guid: 96162c6933812aa4386031a6e54aff07,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6860897218152554147, guid: 96162c6933812aa4386031a6e54aff07,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6860897218152554147, guid: 96162c6933812aa4386031a6e54aff07,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6860897218152554147, guid: 96162c6933812aa4386031a6e54aff07,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6860897218152554147, guid: 96162c6933812aa4386031a6e54aff07,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6860897218152554147, guid: 96162c6933812aa4386031a6e54aff07,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6860897218152554147, guid: 96162c6933812aa4386031a6e54aff07,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6860897218152554147, guid: 96162c6933812aa4386031a6e54aff07,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6860897218152554147, guid: 96162c6933812aa4386031a6e54aff07,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 96162c6933812aa4386031a6e54aff07, type: 3}
+--- !u!1 &2046030938685387152 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1625839466065413757, guid: 96162c6933812aa4386031a6e54aff07,
+    type: 3}
+  m_PrefabInstance: {fileID: 789486926476277741}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6179536300821719374 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6860897218152554147, guid: 96162c6933812aa4386031a6e54aff07,
+    type: 3}
+  m_PrefabInstance: {fileID: 789486926476277741}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2556960718987480631
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1822,7 +1913,7 @@ PrefabInstance:
     - target: {fileID: 2005364778633396902, guid: 729b2165cd2db47488c9c62c564ffeb3,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 729b2165cd2db47488c9c62c564ffeb3, type: 3}

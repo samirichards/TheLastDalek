@@ -225,10 +225,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 34ecffff3cecffff40ecffff90ecffff9eecffff2eeffffff4ffffffa68a0000
+      scrollPos: {x: 0, y: 302}
+      m_SelectedIDs: 44a90400
+      m_LastClickedID: 305476
+      m_ExpandedIDs: d887fbffe02afeff904bfeff60faffff6afaffff6efaffffc8faffff2efbfffff4ffffffb4750000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -563,7 +563,7 @@ MonoBehaviour:
       index: 13
       layout: 4
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
-  m_Gizmos: 0
+  m_Gizmos: 1
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
   m_SceneLighting: 1
@@ -572,9 +572,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.2304668, y: 2.9951138, z: -3.7933002}
+    m_Target: {x: 198.15378, y: 2.0831792, z: 33.65459}
     speed: 2
-    m_Value: {x: 2.2304668, y: 2.9951138, z: -3.7933002}
+    m_Value: {x: 198.15378, y: 2.0831792, z: 33.65459}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -621,20 +621,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.010818915, y: 0.7036776, z: 0.038564812, w: 0.7112636}
+    m_Target: {x: 0.013214718, y: 0.6481138, z: 0.018393334, w: 0.76313174}
     speed: 2
-    m_Value: {x: -0.011867201, y: 0.702684, z: 0.03957047, w: 0.71030164}
+    m_Value: {x: 0.013214718, y: 0.6481138, z: 0.018393334, w: 0.76313174}
   m_Size:
-    m_Target: 8.709839
+    m_Target: 100.74752
     speed: 2
-    m_Value: 10
+    m_Value: 100.74752
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 0.24087998
-    m_SpeedNormalized: 0.11999999
+    m_Speed: 0.20090088
+    m_SpeedNormalized: 0.10000044
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -645,7 +645,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 0
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.00013321424, y: -0.99986196, z: 0.009308483, w: -0.017699603}
+  m_LastSceneViewRotation: {x: -0.1149936, y: 0.5475452, z: -0.101949416, w: -0.8243183}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -848,7 +848,7 @@ MonoBehaviour:
   - {fileID: 12}
   - {fileID: 13}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 2
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -891,22 +891,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Entities/Dalek/Models/Paradigm
+    - Assets/Entities/Dalek
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Entities/Dalek/Models/Paradigm
+  - Assets/Entities/Dalek
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\samir\Documents\Game Projects\TheLastDalek
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 4a9d0000
-    m_LastClickedID: 40266
-    m_ExpandedIDs: 00000000169d0000189d00001a9d00001c9d00001e9d0000209d0000229d0000249d0000269d0000289d00002a9d00002c9d00002e9d0000309d000000ca9a3bffffff7f
+    m_SelectedIDs: 68960000
+    m_LastClickedID: 38504
+    m_ExpandedIDs: 0000000050960000529600005496000056960000589600005a9600005c9600005e96000060960000629600006496000066960000689600006a960000de96000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -934,7 +934,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000169d0000189d00001a9d00001c9d00001e9d0000209d0000229d0000249d0000269d0000289d00002a9d00002c9d00002e9d0000309d000000ca9a3bffffff7f
+    m_ExpandedIDs: 0000000050960000529600005496000056960000589600005a9600005c9600005e96000060960000629600006496000066960000689600006a96000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -959,9 +959,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 44a90400
+    m_LastClickedInstanceID: 305476
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000c2790000143b0600
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1050,7 +1050,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 250896
+  m_LastSelectedObjectID: -127800
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52

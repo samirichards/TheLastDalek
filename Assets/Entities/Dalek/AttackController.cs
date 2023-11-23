@@ -24,6 +24,8 @@ public class AttackController : MonoBehaviour
     private AudioSource weaponSoundSource;
     public uint LaserType = 0;
     private LineRenderer RaygunLine;
+    [SerializeField]private float RaygunBroadBeamCastAngle = 1f;
+    [SerializeField]private int RaygunBroadBeamRaycastCount = 9;
 
     [SerializeField] private float GunTurnTime = 0.2f;
     [SerializeField] private float LockOnBeamDuration = 0.66f;
@@ -42,6 +44,15 @@ public class AttackController : MonoBehaviour
     [SerializeField] private AudioClip _lockOnCancelSound;
     [SerializeField] private GameObject _lockOnGlyphPrefab;
     private bool hasPlayedLockOnReadySound = false;
+    [SerializeField] private AttackTypes AttackType = AttackTypes.Standard;
+
+    public enum AttackTypes
+    {
+        Standard,
+        HeavyOnly,
+        Raycast,
+        BeamOnly
+    }
 
 
     private float inputTimer = 0.0f;
@@ -55,6 +66,7 @@ public class AttackController : MonoBehaviour
     {
         RaygunLine.enabled = false;
         weaponSoundSource = Player._PropController.getGeneralAudioSource;
+        AttackType = Player._PropController.getAttackType;
     }
 
     void Update()
@@ -251,7 +263,99 @@ public class AttackController : MonoBehaviour
 
     public void HandleGunStick()
     {
-        FireGunStick(LaserType);
+        switch (AttackType)
+        {
+            case AttackTypes.Standard:
+                FireGunStick(LaserType);
+                break;
+            case AttackTypes.Raycast:
+                HandleGunStickBroadBeam(LaserType);
+                break;
+            case AttackTypes.HeavyOnly:
+                Debug.Log("Heavy only attack type not implemented");
+                break;
+            case AttackTypes.BeamOnly:
+                HandleGunStickBeam();
+                break;
+        }
+    }
+
+    public void HandleGunStickBroadBeam(uint AttackStrength)
+    {
+        RaycastHit HitTarget;
+        float furthestDistance = 0f;
+        if (WeaponCooldown > 0)
+        {
+            return;
+        }
+        WeaponCooldown = GunStickDefaultFireRate;
+
+        float verticalStartAngle = -RaygunBroadBeamCastAngle / 2f;
+        float horizontalStartAngle = -RaygunBroadBeamCastAngle / 2f;
+
+        float horizontalAngleIncrement = RaygunBroadBeamCastAngle / (float)(RaygunBroadBeamRaycastCount - 1);
+        float verticalAngleIncrement = RaygunBroadBeamCastAngle / (float)(RaygunBroadBeamRaycastCount - 1);
+
+        for (int y = 0; y < RaygunBroadBeamRaycastCount; y++)
+        {
+
+        }
+
+        for (int x = 0; x < RaygunBroadBeamRaycastCount; x++)
+        {
+            float currentHorizontalAngle = horizontalStartAngle + x * horizontalAngleIncrement;
+            //float currentVerticalAngle = verticalStartAngle + y * verticalAngleIncrement;
+            float currentVerticalAngle = 0f;
+
+            Vector3 rayDirection = Quaternion.Euler(currentVerticalAngle, currentHorizontalAngle, 0) *
+                                   Player._PropController.getGunStickObject.transform.forward;
+            Ray ray = new Ray(Player._PropController.getGunStickObject.transform.position, rayDirection);
+
+            if (Physics.Raycast(ray, out HitTarget, DeathRayBeamMaxRange))
+            {
+
+                if (HitTarget.collider.gameObject.GetComponent<BaseAI>() || HitTarget.collider.gameObject.GetComponent<DamageableComponent>())
+                {
+                    Debug.DrawRay(ray.origin, ray.direction * DeathRayBeamMaxRange, Color.red, 10f);
+                    if (HitTarget.collider.GetComponent<BaseAI>())
+                    {
+                        Player._PropController.PlayHitSoundatPoint(HitTarget.transform.position);
+                        HitTarget.collider.GetComponent<BaseAI>().Damage(new DamageInfo(50 + (50 * LaserType) * Player._PropController.getDamageMultiplier, gameObject, DamageType.DeathRay));
+                    }
+                    if (HitTarget.collider.GetComponent<DamageableComponent>())
+                    {
+                        Player._PropController.PlayHitSoundatPoint(HitTarget.transform.position);
+                        HitTarget.collider.GetComponent<DamageableComponent>().Damage(new DamageInfo(50 + (50 * LaserType) * Player._PropController.getDamageMultiplier, gameObject, DamageType.DeathRay));
+                    }
+                }
+                else
+                {
+                    Debug.DrawRay(ray.origin, ray.direction * DeathRayBeamMaxRange, Color.white, 10f);
+                }
+                if (Vector3.Distance(gameObject.transform.position, HitTarget.collider.transform.position) > furthestDistance)
+                {
+                    furthestDistance = Vector3.Distance(gameObject.transform.position, HitTarget.collider.transform.position);
+                }
+            }
+            else
+            {
+                Debug.DrawRay(ray.origin, ray.direction * DeathRayBeamMaxRange, Color.white, 10f);
+            }
+        }
+
+        Vector3 fwd = Player._PropController.getGunStickObject.transform.TransformDirection(Vector3.forward);
+        RaygunLine.SetPosition(0, Player._PropController.getGunStickObject.transform.position);
+        RaygunLine.endWidth = (RaygunBroadBeamCastAngle * 2) * (furthestDistance / DeathRayBeamMaxRange);
+        if (furthestDistance == 0f)
+        {
+            RaygunLine.SetPosition(1, Player._PropController.getGunStickObject.transform.position + fwd * DeathRayBeamMaxRange);
+        }
+        else
+        {
+            RaygunLine.SetPosition(1, Player._PropController.getGunStickObject.transform.position + fwd * furthestDistance);
+        }
+        RaygunLine.enabled = true;
+        StartCoroutine(HideDeathRayBeam(1f));
     }
 
     public void HandleGunStickBeam()
@@ -263,8 +367,9 @@ public class AttackController : MonoBehaviour
         
         //weaponSoundSource.volume = 0.5f;
         RaycastHit hit;
-        Vector3 fwd = Player._PropController.getGunStickObject.transform.TransformDirection(Vector3.right);
+        Vector3 fwd = Player._PropController.getGunStickObject.transform.TransformDirection(Vector3.forward);
         RaygunLine.SetPosition(0, Player._PropController.getGunStickObject.transform.position);
+        RaygunLine.endWidth = RaygunLine.startWidth;
         Debug.DrawRay(Player._PropController.getGunStickObject.transform.position, fwd, Color.green, 10f);
         if (Physics.Raycast(Player._PropController.getGunStickObject.transform.position, fwd, out hit, DeathRayBeamMaxRange))
         {

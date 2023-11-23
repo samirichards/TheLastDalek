@@ -9,7 +9,7 @@ public abstract class DamageableComponent : MonoBehaviour
     [SerializeField] protected float MaxHealth = 10;
     [SerializeField] protected float Health;
 
-    void Awake()
+    void Start()
     {
         Health = MaxHealth;
     }

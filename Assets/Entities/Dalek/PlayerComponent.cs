@@ -94,6 +94,14 @@ public class PlayerComponent : MonoBehaviour
                 ShieldRechargeDelayTimer -= Time.deltaTime;
             }
         }
+
+        if (!GameManager.IsGamePaused)
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                Player._PropController.PlaySoundClip(PropController.SoundClips.ExterminateVO);
+            }
+        }
     }
 
     /// <summary>
