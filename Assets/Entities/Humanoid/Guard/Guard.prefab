@@ -85,10 +85,10 @@ MonoBehaviour:
   Emotion: 0
   npcType: 0
   SkeletonObject: {fileID: 3732787100718631956}
-  MainBody: {fileID: 1660327444215978931}
+  MainBody: {fileID: 290802859227919922}
   SkinExterminationMaterial: {fileID: 2100000, guid: 98c1ff939380fc04a97ba470576a0e85,
     type: 2}
-  SkeletonRevealTime: 0.85
+  SkeletonRevealTime: 1
   MaxIdleTime: 10
   MaxWanderRadius: 30
   MaxWanderCooldown: 5
@@ -156,13 +156,13 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 0
-  m_Radius: 0
+  m_Height: 1.8
+  m_Radius: 0.4
   m_SlopeLimit: 45
-  m_StepOffset: 0.3
+  m_StepOffset: 1e+16
   m_SkinWidth: 0.0001
   m_MinMoveDistance: 0
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0.9, z: 0}
 --- !u!136 &3386075008422408092
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -829,9 +829,9 @@ Animator:
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 2fb6351cf1cbe1042b18f656e9c608a6, type: 3}
   m_Controller: {fileID: 9100000, guid: 4fe8a65d7f65aec43a028f6ef85fc025, type: 2}
-  m_CullingMode: 2
+  m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -961,12 +961,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.55781245, y: 0.57257247, z: 0.34250998}
   m_Center: {x: 0.000025779009, y: 0.20792007, z: 0.030158743}
---- !u!1 &1660327444215978931 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -6934732559868964656, guid: 2fb6351cf1cbe1042b18f656e9c608a6,
-    type: 3}
-  m_PrefabInstance: {fileID: 632837631331240803}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2076922135858853159 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7774620517717459388, guid: 2fb6351cf1cbe1042b18f656e9c608a6,

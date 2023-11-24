@@ -49,8 +49,6 @@ public class GameManager : MonoBehaviour
             if (!_GameManagerInstance)
             {
                 _GameManagerInstance = new GameManager();
-                // mark root as DontDestroyOnLoad();
-                DontDestroyOnLoad(_GameManagerInstance);
             }
             return _GameManagerInstance;
         }

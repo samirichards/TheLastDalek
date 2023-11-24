@@ -88,7 +88,7 @@ MonoBehaviour:
   MainBody: {fileID: 924124832298004938}
   SkinExterminationMaterial: {fileID: 2100000, guid: 98c1ff939380fc04a97ba470576a0e85,
     type: 2}
-  SkeletonRevealTime: 0.5
+  SkeletonRevealTime: 1
   MaxIdleTime: 10
   MaxWanderRadius: 50
   MaxWanderCooldown: 5
@@ -137,13 +137,13 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 0
-  m_Radius: 0
+  m_Height: 1.8
+  m_Radius: 0.4
   m_SlopeLimit: 45
-  m_StepOffset: 0.3
+  m_StepOffset: 1e+16
   m_SkinWidth: 0.0001
   m_MinMoveDistance: 0
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0.9, z: 0}
 --- !u!136 &3386075008422408092
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1443,7 +1443,7 @@ Animator:
   m_Avatar: {fileID: 9000000, guid: 8d11729d6da93c14786437dbad642810, type: 3}
   m_Controller: {fileID: 9100000, guid: 126c0e475edf1804e8c4d517435ca5f9, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 1
+  m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
@@ -2302,6 +2302,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 126c0e475edf1804e8c4d517435ca5f9, type: 2}
+    - target: {fileID: 9500000, guid: c375a17f5f510d44c839b216989e242d, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 13700000, guid: c375a17f5f510d44c839b216989e242d, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 

@@ -128,9 +128,9 @@
     <Compile Include="Assets\Entities\Dalek\Inventory\InventoryController.cs" />
     <Compile Include="Assets\Entities\Camera\CameraObject.cs" />
     <Compile Include="Assets\Scenes\Menus\MainMenu\Dalek_LookManager.cs" />
+    <Compile Include="Assets\Entities\Humanoid\Civilian\CivilianAI.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Documents\The Last Dalek Credits.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\VolumetricLines\BuiltInRenderPipeline\Shaders\_LineStripShader.cginc" />

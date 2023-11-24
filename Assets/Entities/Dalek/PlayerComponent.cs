@@ -86,9 +86,11 @@ public class PlayerComponent : MonoBehaviour
         if (ShieldHealth < ShieldMaxHealth && ShieldRechargeDelayTimer <= 0)
         {
             ShieldHealth += ShieldRechargeRate * Time.deltaTime;
+            ShieldIsRecharging = true;
         }
         else
         {
+            ShieldIsRecharging = false;
             if (ShieldRechargeDelayTimer > 0)
             {
                 ShieldRechargeDelayTimer -= Time.deltaTime;

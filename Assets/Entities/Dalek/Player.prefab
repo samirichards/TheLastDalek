@@ -200,7 +200,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b55cdcf214299a14f833e490da823dc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _selectedDalek: 3
+  _selectedDalek: 0
   DalekModels:
   - {fileID: 2626555030196444483}
   - {fileID: 8690234365019902389}
@@ -1479,7 +1479,7 @@ PrefabInstance:
     - target: {fileID: 1625839466065413757, guid: 96162c6933812aa4386031a6e54aff07,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6860897218152554147, guid: 96162c6933812aa4386031a6e54aff07,
         type: 3}
@@ -2344,7 +2344,7 @@ PrefabInstance:
     - target: {fileID: 4646257798248416495, guid: 3732b4c58914f9442ade98ccb73a1a06,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4646257798248416495, guid: 3732b4c58914f9442ade98ccb73a1a06,
         type: 3}

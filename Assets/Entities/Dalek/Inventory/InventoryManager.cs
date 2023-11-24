@@ -60,8 +60,6 @@ public class InventoryManager : MonoBehaviour
                 //IInventory.Save();
                 return _InventoryObject.HasItem(_item.ItemTitle);
             }
-
-            return false;
         }
         catch (Exception e)
         {

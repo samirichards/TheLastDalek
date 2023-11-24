@@ -54,9 +54,6 @@ public class AttackController : MonoBehaviour
         BeamOnly
     }
 
-
-    private float inputTimer = 0.0f;
-
     void Awake()
     {
         RaygunLine = GetComponent<LineRenderer>();

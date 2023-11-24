@@ -15,7 +15,7 @@ C:/Users/samir/Documents/Game Projects/TheLastDalek
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50485
+53792
 Successfully changed project path to: C:/Users/samir/Documents/Game Projects/TheLastDalek
 C:/Users/samir/Documents/Game Projects/TheLastDalek
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/samir/Documents/Game Projects/TheLastDalek
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [70976] Host "[IP] 192.168.68.116 [Port] 0 [Flags] 2 [Guid] 2661506255 [EditorId] 2661506255 [Version] 1048832 [Id] WindowsEditor(7,Samis-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [62640] Host "[IP] 192.168.68.116 [Port] 0 [Flags] 2 [Guid] 3594949219 [EditorId] 3594949219 [Version] 1048832 [Id] WindowsEditor(7,Samis-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [70976] Host "[IP] 192.168.68.116 [Port] 0 [Flags] 2 [Guid] 2661506255 [EditorId] 2661506255 [Version] 1048832 [Id] WindowsEditor(7,Samis-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [62640] Host "[IP] 192.168.68.116 [Port] 0 [Flags] 2 [Guid] 3594949219 [EditorId] 3594949219 [Version] 1048832 [Id] WindowsEditor(7,Samis-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 Setting a NavMeshArea cost less than one can give unexpected results.
-Refreshing native plugins compatible for Editor in 146.34 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 145.43 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.15f1 (e8e88683f834)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
@@ -71,78 +71,78 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.005500 seconds.
+Registered in 0.007250 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 142.38 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 141.79 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.667 seconds
+- Completed reload, in  0.636 seconds
 Domain Reload Profiling:
-	ReloadAssembly (667ms)
-		BeginReloadAssembly (60ms)
+	ReloadAssembly (636ms)
+		BeginReloadAssembly (57ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (484ms)
-			LoadAssemblies (57ms)
+		EndReloadAssembly (480ms)
+			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (90ms)
+			SetupTypeCache (87ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (322ms)
+			SetupLoadedEditorAssemblies (323ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (142ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (122ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
+				ProcessInitializeOnLoadAttributes (131ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011102 seconds.
+Registered in 0.011047 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 144.33 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 142.74 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.626 seconds
+- Completed reload, in  1.566 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1627ms)
-		BeginReloadAssembly (97ms)
+	ReloadAssembly (1567ms)
+		BeginReloadAssembly (98ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (1422ms)
-			LoadAssemblies (78ms)
+		EndReloadAssembly (1364ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (314ms)
+			SetupTypeCache (295ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (106ms)
-			SetupLoadedEditorAssemblies (877ms)
+			RebuildScriptCaches (113ms)
+			SetupLoadedEditorAssemblies (822ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (144ms)
-				BeforeProcessingInitializeOnLoad (135ms)
-				ProcessInitializeOnLoadAttributes (394ms)
-				ProcessInitializeOnLoadMethodAttributes (191ms)
+				RefreshPlugins (143ms)
+				BeforeProcessingInitializeOnLoad (123ms)
+				ProcessInitializeOnLoadAttributes (373ms)
+				ProcessInitializeOnLoadMethodAttributes (170ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -151,13 +151,13 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Setting a NavMeshArea cost less than one can give unexpected results.
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.53 ms, found 8 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.37 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6584 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 60 unused Assets / (1.3 MB). Loaded Objects now: 7103.
-Memory consumption went from 411.8 MB to 410.5 MB.
-Total: 4.844400 ms (FindLiveObjects: 0.677800 ms CreateObjectMapping: 0.190900 ms MarkObjects: 3.250100 ms  DeleteObjects: 0.723600 ms)
+Unloading 6585 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (1.2 MB). Loaded Objects now: 7104.
+Memory consumption went from 411.7 MB to 410.5 MB.
+Total: 4.371600 ms (FindLiveObjects: 0.656800 ms CreateObjectMapping: 0.189800 ms MarkObjects: 2.972000 ms  DeleteObjects: 0.552100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -171,2284 +171,244 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 161718.218143 seconds.
-  path: Assets/Entities/Dalek/Models/Paradigm/ParadigmDalek.prefab
-  artifactKey: Guid(729b2165cd2db47488c9c62c564ffeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Paradigm/ParadigmDalek.prefab using Guid(729b2165cd2db47488c9c62c564ffeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 4.920 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 4.273 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 3.228 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 4.451 ms.
- -> (artifact id: '18de8e00b82abbe5f46632ae34b8d507') in 1.762365 seconds 
-========================================================================
-Received Prepare
-Setting a NavMeshArea cost less than one can give unexpected results.
-Registering precompiled user dll's ...
-Registered in 0.015010 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.36 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.391 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1392ms)
-		BeginReloadAssembly (168ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (25ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (55ms)
-		EndReloadAssembly (1131ms)
-			LoadAssemblies (76ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (308ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (94ms)
-			SetupLoadedEditorAssemblies (491ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (107ms)
-				ProcessInitializeOnLoadAttributes (336ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (35ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.60 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6210 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 52 unused Assets / (1.2 MB). Loaded Objects now: 7223.
-Memory consumption went from 405.5 MB to 404.3 MB.
-Total: 4.165500 ms (FindLiveObjects: 0.567100 ms CreateObjectMapping: 0.181400 ms MarkObjects: 3.134300 ms  DeleteObjects: 0.281800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Setting a NavMeshArea cost less than one can give unexpected results.
-Registering precompiled user dll's ...
-Registered in 0.013261 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.71 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.391 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1392ms)
-		BeginReloadAssembly (132ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (1171ms)
-			LoadAssemblies (82ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (335ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (110ms)
-			SetupLoadedEditorAssemblies (491ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (330ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
-				AfterProcessingInitializeOnLoad (18ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (40ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.19 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6210 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (1.2 MB). Loaded Objects now: 7226.
-Memory consumption went from 405.4 MB to 404.2 MB.
-Total: 3.948900 ms (FindLiveObjects: 0.579000 ms CreateObjectMapping: 0.181000 ms MarkObjects: 2.924600 ms  DeleteObjects: 0.263300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 201058.512612 seconds.
+  path: Assets/Entities/Dalek/Models/Genesis/PlungerAttack.anim
+  artifactKey: Guid(b07eef1620100ce4fbb7f6fcc4625f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Dalek/Models/Genesis/PlungerAttack.anim using Guid(b07eef1620100ce4fbb7f6fcc4625f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '541b1be0d739ba4b001663ddf771afb3') in 0.075949 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 644.749560 seconds.
-  path: Assets/Entities/Dalek/Player.prefab
-  artifactKey: Guid(d1bfda65641f93f4bb35c608a9f883f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Player.prefab using Guid(d1bfda65641f93f4bb35c608a9f883f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 9.346 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 5.027 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 8.864 ms.
- -> (artifact id: '1ab1acd45c148312f303d4fd7036d17f') in 0.949314 seconds 
+  Time since last request: 22.801588 seconds.
+  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.controller
+  artifactKey: Guid(c74608c0f79ed0d479fad950557bdbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.controller using Guid(c74608c0f79ed0d479fad950557bdbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b411330201de7671d2be2003b1e14467') in 0.009990 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.413571 seconds.
-  path: Assets/Entities/Dalek/Models/Standard/StandardDalekProp.prefab
-  artifactKey: Guid(3732b4c58914f9442ade98ccb73a1a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Standard/StandardDalekProp.prefab using Guid(3732b4c58914f9442ade98ccb73a1a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 9.795 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 5.033 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 8.873 ms.
- -> (artifact id: 'ebfd434b7c5b322dd341fd171b7b33af') in 0.230854 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.904403 seconds.
-  path: Assets/Entities/Dalek/Models/Remembrence/RemembranceDalekPrefab.prefab
-  artifactKey: Guid(5b8bf7e2a1bac064998f2464f739fda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Remembrence/RemembranceDalekPrefab.prefab using Guid(5b8bf7e2a1bac064998f2464f739fda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 9.729 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 5.022 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 8.878 ms.
- -> (artifact id: '60e90da15f1ec488c02d37aaf8f33929') in 0.161654 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.197270 seconds.
-  path: Assets/Entities/Dalek/Models/Paradigm/ParadigmDalek.prefab
-  artifactKey: Guid(729b2165cd2db47488c9c62c564ffeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Paradigm/ParadigmDalek.prefab using Guid(729b2165cd2db47488c9c62c564ffeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 9.977 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 6.298 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 8.878 ms.
- -> (artifact id: '73b1c7be56c51b92f51eb00b5be4af46') in 0.180625 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 235.915010 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis
-  artifactKey: Guid(4f8a9c96d9dd20f4fbe512f283c58251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis using Guid(4f8a9c96d9dd20f4fbe512f283c58251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2447d7353376f41fbc9611cf423e75') in 0.006125 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1133.756709 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisRigged.blend
-  artifactKey: Guid(cbea7acf69607344d922a11dc6d8408b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisRigged.blend using Guid(cbea7acf69607344d922a11dc6d8408b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 2.229 ms.
+  Time since last request: 5.377331 seconds.
+  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
+  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 11.106 ms.
 d3d12: upload buffer was too small for the requested resource! Size: 16777216. Requested: 20558000.
-d3d12: upload buffer was full! Waited for COPY queue for 3.126 ms.
- -> (artifact id: 'f346b1cb9aa9f784b973a4832bc0cd5f') in 0.621281 seconds 
+d3d12: upload buffer was full! Waited for COPY queue for 17.396 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 12.855 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.035 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 12.185 ms.
+ -> (artifact id: '60b50cc12a041fd2e8d86e582827cee7') in 1.728051 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 60.197619 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisRigged.blend
-  artifactKey: Guid(cbea7acf69607344d922a11dc6d8408b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisRigged.blend using Guid(cbea7acf69607344d922a11dc6d8408b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 15.115 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 12.511 ms.
- -> (artifact id: '17ed3208ead0647ac9e81d9364c0ee03') in 0.799278 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.673953 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisRigged.blend
-  artifactKey: Guid(cbea7acf69607344d922a11dc6d8408b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisRigged.blend using Guid(cbea7acf69607344d922a11dc6d8408b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 12.308 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 12.241 ms.
- -> (artifact id: '63219c49fe2acfa77811d1d34562247b') in 0.435457 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.326751 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisRigged.blend
-  artifactKey: Guid(cbea7acf69607344d922a11dc6d8408b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisRigged.blend using Guid(cbea7acf69607344d922a11dc6d8408b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 14.691 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.313 ms.
- -> (artifact id: 'b1c8abb547f47e5906f72206a60c2d62') in 0.459606 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.708815 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/Source
-  artifactKey: Guid(0d552f9c3667d9b43824fe6b74d6d961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/Source using Guid(0d552f9c3667d9b43824fe6b74d6d961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd839ab5b39072332c8778a0148c4f9ed') in 0.006037 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.595297 seconds.
+  Time since last request: 300.305195 seconds.
   path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
   artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f558da80a21a8bb5ed95ced8d2d0cdb') in 0.007471 seconds 
+Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 3.169 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 1.129 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 3.133 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 3.263 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 1.294 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 3.144 ms.
+ -> (artifact id: '8bccf92fcf99d658e2e342a3ed86ff16') in 0.183073 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 223.495115 seconds.
+  Time since last request: 0.774925 seconds.
+  path: Assets/Entities/Dalek/Models/Genesis/GunstickFire.anim
+  artifactKey: Guid(a261a12b6d2ba954f995eac54f94f1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Dalek/Models/Genesis/GunstickFire.anim using Guid(a261a12b6d2ba954f995eac54f94f1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28efd1dda8ff92f660a8dcf5431743da') in 0.007605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.753445 seconds.
+  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.controller
+  artifactKey: Guid(c74608c0f79ed0d479fad950557bdbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.controller using Guid(c74608c0f79ed0d479fad950557bdbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08170c7f619fbd6e9daaaae3bae0f037') in 0.004278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.999074 seconds.
+  path: Assets/Entities/Dalek/Models/Genesis/PlungerAttack.anim
+  artifactKey: Guid(b07eef1620100ce4fbb7f6fcc4625f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Dalek/Models/Genesis/PlungerAttack.anim using Guid(b07eef1620100ce4fbb7f6fcc4625f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eed0b9cb927526c656dee7474113b85') in 0.002678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.039010 seconds.
   path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
   artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 5.240 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 2.327 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 6.134 ms.
- -> (artifact id: 'a0a5da0e8f4cafe1ec86ff96fcde3065') in 0.104793 seconds 
-========================================================================
-Received Prepare
-Setting a NavMeshArea cost less than one can give unexpected results.
-Registering precompiled user dll's ...
-Registered in 0.013943 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.73 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.968 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1969ms)
-		BeginReloadAssembly (203ms)
-			ExecutionOrderSort (1ms)
-			DisableScriptedObjects (43ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (1641ms)
-			LoadAssemblies (108ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (665ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (80ms)
-			SetupLoadedEditorAssemblies (493ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (99ms)
-				ProcessInitializeOnLoadAttributes (340ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (43ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.49 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6210 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 52 unused Assets / (6.4 MB). Loaded Objects now: 7370.
-Memory consumption went from 408.5 MB to 402.1 MB.
-Total: 63.752800 ms (FindLiveObjects: 0.615300 ms CreateObjectMapping: 0.183700 ms MarkObjects: 3.156900 ms  DeleteObjects: 59.795500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 5.970 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 2.173 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 6.117 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 6.295 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 2.572 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 6.109 ms.
+ -> (artifact id: 'fb4fece5a5f5c610baf2c6ad3340708e') in 0.220377 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 106.270253 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 5.323 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 2.441 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 6.379 ms.
- -> (artifact id: 'e44a0cb1dc5aebb4cd8a6ebebfec9732') in 0.716525 seconds 
+  Time since last request: 1353.328215 seconds.
+  path: Assets/Entities/Dalek/Models/Genesis/Materials/Eye Piece.mat
+  artifactKey: Guid(bca4241cb1b9ce44b868a0f20a739217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Dalek/Models/Genesis/Materials/Eye Piece.mat using Guid(bca4241cb1b9ce44b868a0f20a739217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34bb5e96dcf8dff89e87a8fc7fb83bdb') in 0.036455 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.371454 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 2.709 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 1.233 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 3.146 ms.
- -> (artifact id: '1d38727b00400d735858529111eec645') in 0.075971 seconds 
+  Time since last request: 0.000038 seconds.
+  path: Assets/Entities/Dalek/Models/Genesis/Materials/Material.001.mat
+  artifactKey: Guid(325d69fb4e86e9e4391cbe945d2b6d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Dalek/Models/Genesis/Materials/Material.001.mat using Guid(325d69fb4e86e9e4391cbe945d2b6d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6649d682feed41f92e045fd13e5991aa') in 0.021530 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.319878 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 10.447 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 5.085 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.269 ms.
- -> (artifact id: 'f2cb1c40b1755c5d9600c5b0a4c84293') in 0.100138 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.810529 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 10.453 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 5.865 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 13.131 ms.
- -> (artifact id: '5d604b74940df573dbcda691d2d85d3a') in 0.111553 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.231692 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 5.281 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 2.456 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 6.327 ms.
- -> (artifact id: '3c3e8bbfa505a69f6981673620afe42a') in 0.094113 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.080669 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 10.606 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 5.206 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.644 ms.
- -> (artifact id: 'c08abd274454740b4fabd04ec0336ccb') in 0.136590 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.438766 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 10.433 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 5.572 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.760 ms.
- -> (artifact id: 'c34b223f69b66cc84fe3e00ac59c2bb9') in 0.101560 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.963398 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 10.446 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 5.260 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 15.559 ms.
- -> (artifact id: 'a8a2c4ee738bbb1334d35f4b69cb78fb') in 0.113991 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 26.879059 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/Materials
-  artifactKey: Guid(7674989fa45c49147a42a6405e8b6c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/Materials using Guid(7674989fa45c49147a42a6405e8b6c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '496fdbd5b607678c9f9e620bc7b3a8b9') in 0.006756 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.048982 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/Materials/Body.001.mat
-  artifactKey: Guid(39efbd5e1b2d14540bb6e1a19d3353f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/Materials/Body.001.mat using Guid(39efbd5e1b2d14540bb6e1a19d3353f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a256651eeb4d3220f996c73b5cb57b') in 0.033019 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/Materials/Gun Part 3.001.mat
-  artifactKey: Guid(153849c16c3cb6d4a961142cb836eaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/Materials/Gun Part 3.001.mat using Guid(153849c16c3cb6d4a961142cb836eaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc76dbaf23379ea3919a9a0a6bd12d30') in 0.032580 seconds 
+  Time since last request: 0.000029 seconds.
+  path: Assets/Entities/Dalek/Models/Genesis/Materials/Gun Part 7.001.mat
+  artifactKey: Guid(b6ec7212a8589b84d953327dd0a10b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Dalek/Models/Genesis/Materials/Gun Part 7.001.mat using Guid(b6ec7212a8589b84d953327dd0a10b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a9c3e1ea9c8aff85d93c001117791fe') in 0.021605 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000034 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/Materials/Gun Part 7.001.mat
-  artifactKey: Guid(b6ec7212a8589b84d953327dd0a10b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/Materials/Gun Part 7.001.mat using Guid(b6ec7212a8589b84d953327dd0a10b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5338674d3ddc4d698861b74fdb0c87a5') in 0.024794 seconds 
+  path: Assets/Entities/Dalek/Models/Genesis/Materials/Lens.mat
+  artifactKey: Guid(96682ca7ae6814f44ac7cff67f1dae23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Dalek/Models/Genesis/Materials/Lens.mat using Guid(96682ca7ae6814f44ac7cff67f1dae23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65cb32f8a249fd6fe703702bffd2e802') in 0.020214 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/Materials/Bulb.mat
-  artifactKey: Guid(0f093393162c90941b288a3f5efc57f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/Materials/Bulb.mat using Guid(0f093393162c90941b288a3f5efc57f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af72dc526df3ba56b78b6a9b17749b9') in 0.026421 seconds 
+  Time since last request: 0.000041 seconds.
+  path: Assets/Entities/Dalek/Models/Genesis/Materials/Light Ring.mat
+  artifactKey: Guid(b807b9fd7e7a5dd4892d8116f94ab675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Dalek/Models/Genesis/Materials/Light Ring.mat using Guid(b807b9fd7e7a5dd4892d8116f94ab675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e3380afd7889e4b69552f5fe3488451') in 0.019592 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000033 seconds.
   path: Assets/Entities/Dalek/Models/Genesis/Materials/PLunge Head.mat
   artifactKey: Guid(559ec35b01fac814584c02a231acb29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/Materials/PLunge Head.mat using Guid(559ec35b01fac814584c02a231acb29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf05a6c4ef24d1b03dfe91a8941dbb5') in 0.023581 seconds 
+Start importing Assets/Entities/Dalek/Models/Genesis/Materials/PLunge Head.mat using Guid(559ec35b01fac814584c02a231acb29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e9cf498056d7bea62e5c02a6c48582') in 0.023087 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/Materials/Dalek Fender.mat
-  artifactKey: Guid(1aea50718c501c140b5b1af6e42fc0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/Materials/Dalek Fender.mat using Guid(1aea50718c501c140b5b1af6e42fc0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49bbd9d23eb00756a434b9e0052dff5c') in 0.028183 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
+  Time since last request: 0.000076 seconds.
   path: Assets/Entities/Dalek/Models/Genesis/Materials/Neck Screen.mat
   artifactKey: Guid(1b2870a52d2536a4180274e5d306a309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/Materials/Neck Screen.mat using Guid(1b2870a52d2536a4180274e5d306a309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fadaaeb4936a1b90e781e69af849e0e2') in 0.032580 seconds 
+Start importing Assets/Entities/Dalek/Models/Genesis/Materials/Neck Screen.mat using Guid(1b2870a52d2536a4180274e5d306a309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69a6ecffba990e60f155ce1de8374da') in 0.026707 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/Materials/PLunge Head.001.mat
+  Time since last request: 0.000030 seconds.
+  path: Assets/Entities/Dalek/Models/Genesis/Materials/Gunstick_Ball.mat
   artifactKey: Guid(1b96e8cb5696ba6488f3de9446046921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/Materials/PLunge Head.001.mat using Guid(1b96e8cb5696ba6488f3de9446046921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81366ef39d53a8459990bf0ef9f8883a') in 0.028952 seconds 
+Start importing Assets/Entities/Dalek/Models/Genesis/Materials/Gunstick_Ball.mat using Guid(1b96e8cb5696ba6488f3de9446046921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f44b5330598fab988aa9b3c71bb8ebb') in 0.024123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Entities/Dalek/Models/Genesis/Materials/Hemis.mat
+  artifactKey: Guid(c39d71fb82ab1f54e835263a33b04ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Dalek/Models/Genesis/Materials/Hemis.mat using Guid(c39d71fb82ab1f54e835263a33b04ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1daf9cfd53fa4e59995b0f4f1abef8') in 0.022820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Entities/Dalek/Models/Genesis/Materials/Eyestalk.mat
+  artifactKey: Guid(a51272a1c8d29de498850afb5e65ee41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Dalek/Models/Genesis/Materials/Eyestalk.mat using Guid(a51272a1c8d29de498850afb5e65ee41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e0dd1814ea44b9d21c5d64798c5770') in 0.023522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 116.985660 seconds.
+  path: Assets/Entities/Dalek/Models/Remembrence/RemembranceDalekPrefab.prefab
+  artifactKey: Guid(5b8bf7e2a1bac064998f2464f739fda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Dalek/Models/Remembrence/RemembranceDalekPrefab.prefab using Guid(5b8bf7e2a1bac064998f2464f739fda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 6.236 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 4.608 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 6.057 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 4.802 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 6.130 ms.
+ -> (artifact id: '99c6b7e4bfc2e1667b05a5ca482c767c') in 0.191407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1923.765552 seconds.
+  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
+  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 3.151 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 1.129 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 3.131 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 3.271 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 1.350 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 3.143 ms.
+ -> (artifact id: '33f56b908d258734add1f0a079591fd9') in 0.202362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.805886 seconds.
+  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.controller
+  artifactKey: Guid(c74608c0f79ed0d479fad950557bdbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.controller using Guid(c74608c0f79ed0d479fad950557bdbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f9704877a087409e5b6ea1687dea1b') in 0.004389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.153810 seconds.
+  path: Assets/Entities/Dalek/Models/Standard/StandardDalekProp.prefab
+  artifactKey: Guid(3732b4c58914f9442ade98ccb73a1a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Dalek/Models/Standard/StandardDalekProp.prefab using Guid(3732b4c58914f9442ade98ccb73a1a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 12.296 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 9.103 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 12.038 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 9.443 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 12.186 ms.
+ -> (artifact id: '0784f41945559f8e28854cfcb59b2fe9') in 0.248291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.084114 seconds.
+  path: Assets/Entities/Dalek/Models/Remembrence/Eye Lens.mat
+  artifactKey: Guid(92fafa29ecfc8d749afb642ddc53bb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Dalek/Models/Remembrence/Eye Lens.mat using Guid(92fafa29ecfc8d749afb642ddc53bb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce56482820e9c2a4c290a52f6a95118e') in 0.033979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Entities/Dalek/Models/Remembrence/Metalic Gold.mat
+  artifactKey: Guid(1d367db3e0c59e74899864d028b24610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Dalek/Models/Remembrence/Metalic Gold.mat using Guid(1d367db3e0c59e74899864d028b24610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b5674ef5de0bfeb6e3f35b7af61470') in 0.029066 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000047 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/Materials/Body.mat
-  artifactKey: Guid(2fdbd1214a15e214daa41b1bb64a84a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/Materials/Body.mat using Guid(2fdbd1214a15e214daa41b1bb64a84a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab6a8ef5a491efcf313ac5439aa30a3') in 0.024656 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/Materials/Gun Part 3.mat
-  artifactKey: Guid(a51272a1c8d29de498850afb5e65ee41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/Materials/Gun Part 3.mat using Guid(a51272a1c8d29de498850afb5e65ee41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d0b634b8340253b61b2e934bb3e4a3') in 0.021733 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 286.626249 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/Materials/Eyestalk.mat
-  artifactKey: Guid(a51272a1c8d29de498850afb5e65ee41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/Materials/Eyestalk.mat using Guid(a51272a1c8d29de498850afb5e65ee41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5af27a7f85a9e9dbbf87a6ed13a7c8c') in 0.023526 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 260.551121 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/Materials/Gunstick_Ball.mat
-  artifactKey: Guid(1b96e8cb5696ba6488f3de9446046921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/Materials/Gunstick_Ball.mat using Guid(1b96e8cb5696ba6488f3de9446046921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299106beabd25c3c1dddda702793334f') in 0.024286 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 51.555648 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 2.698 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 1.216 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 3.146 ms.
- -> (artifact id: '40f6f1ca11c9c9383cda9e3c245f8519') in 0.067967 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 261.778939 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 11.756 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 4.503 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 12.200 ms.
- -> (artifact id: '8d73843b2b498aa9b25b24c05d7f365f') in 0.102763 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.751836 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 12.763 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 5.281 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 13.304 ms.
- -> (artifact id: 'b523c64410dadd1527286d6ace2cf068') in 0.145444 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.257410 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 10.626 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 4.819 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 12.299 ms.
- -> (artifact id: '225ba82353326c11c7e5fe06755d022b') in 0.094948 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.129707 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 10.786 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 4.796 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.192 ms.
- -> (artifact id: '2680872ac326d67592b0f8e0b80cdf28') in 0.096522 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.755695 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 2.716 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 1.247 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 3.240 ms.
- -> (artifact id: 'f95876b16563c19dba5310eae214eb19') in 0.066791 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.525329 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 5.287 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 2.694 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 6.394 ms.
- -> (artifact id: 'b4fd2a6e2d4ace17193fe45bd00e6507') in 0.075670 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.412148 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 5.565 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 2.327 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 6.189 ms.
- -> (artifact id: 'a830b1087207e9dde2227b190d61e3ec') in 0.096597 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.844655 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 5.290 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 2.751 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 6.415 ms.
- -> (artifact id: '18ef1fd28602ab396dc28b672c1d0b8f') in 0.077374 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.012980 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 2.704 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 1.269 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 3.179 ms.
- -> (artifact id: '5dbce073a7e34fcab3fe1c3f779ce8bd') in 0.073292 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.911538 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 2.728 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 1.259 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 3.205 ms.
- -> (artifact id: '85a394c8f746bdb156dd7d27ff399ef1') in 0.067618 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.215679 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 10.454 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 5.498 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 12.876 ms.
- -> (artifact id: '99634a3276ac6294e54435f21827cc94') in 0.099921 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.184641 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 5.607 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 2.335 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 6.128 ms.
- -> (artifact id: '23554dbf4a627b1d67d20cc82b8d11f4') in 0.105308 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.319237 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 5.251 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 2.466 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 6.619 ms.
- -> (artifact id: '73ecaffe8a9ad3f61231111a953c3591') in 0.129832 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.859873 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 10.456 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 5.816 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 13.122 ms.
- -> (artifact id: '30c50cf415125a5a1eadb23dbdec937e') in 0.101234 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.823651 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 5.338 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 2.375 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 6.460 ms.
- -> (artifact id: 'e4be4fa7a12298af64128ecdad049099') in 0.083205 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.009292 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 5.285 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 2.369 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 6.510 ms.
- -> (artifact id: '552dab79ba1fe6960721a79a68835fd4') in 0.075760 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.377147 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 12.269 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 4.683 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.686 ms.
- -> (artifact id: '030788c7e03851ff9fde0b9c371754ae') in 0.130762 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.613912 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 5.290 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 2.457 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 6.845 ms.
- -> (artifact id: 'd83341860e3ad5977677f8fcd701b398') in 0.078993 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.571208 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 10.477 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 5.259 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 15.494 ms.
- -> (artifact id: '7e8063bb0f9a2ec98e9da64f30d4f48a') in 0.100038 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.232699 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 5.302 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 2.475 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 6.803 ms.
- -> (artifact id: '7e59b246b427874a7841541ef11f092b') in 0.076784 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.735885 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 5.288 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 2.506 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 6.641 ms.
- -> (artifact id: 'c7af4f9989ca32466fbc841b3fe78c77') in 0.076872 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.753545 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 18.610 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 5.878 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 16.444 ms.
- -> (artifact id: 'f566ad86c9df9bc4f535e3c2a0f8e3d6') in 0.150830 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.372850 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 12.481 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 6.260 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 17.165 ms.
- -> (artifact id: '79525087797b31798accd0b31aa50a02') in 0.136067 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.555303 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 12.493 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 6.405 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 17.425 ms.
- -> (artifact id: 'cbff280ddc9cf1062bf067cfb5681de0') in 0.145008 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.591697 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 24.135 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 6.639 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 16.095 ms.
- -> (artifact id: '47b26f6c9762a2fb375c7a9be8037b16') in 0.163619 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.440801 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 22.409 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 6.211 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 16.446 ms.
- -> (artifact id: '3b735edd4db821e8f33b92b06a434ba7') in 0.151926 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.973373 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 6.532 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 2.772 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 17.569 ms.
- -> (artifact id: 'f035a3720fa2aa0a343daa81b300d804') in 0.115410 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.030095 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 6.234 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 3.089 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 7.584 ms.
- -> (artifact id: 'cee1a9c46801c6500933cf639d6e75c1') in 0.094206 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.771387 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 6.261 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 2.945 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 7.877 ms.
- -> (artifact id: 'cd16922e2925dab0c9c698fa461e4ada') in 0.094098 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.662133 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 23.376 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 6.090 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 16.314 ms.
- -> (artifact id: 'cecf25134f393ed41d5c1dbd9142eab3') in 0.152070 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.544958 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 12.512 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 16.614 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.533 ms.
- -> (artifact id: 'c9d38f113f86b82aab8bedf5ae78cca7') in 0.190520 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.589526 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 6.871 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 2.744 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 17.730 ms.
- -> (artifact id: 'b3ff3f858b2cca04d93b66933804216a') in 0.123200 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.587082 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 12.511 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 6.241 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 16.670 ms.
- -> (artifact id: '24606266624375df1b53ba4b138007d2') in 0.142848 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1223.091974 seconds.
-  path: Assets/Entities/Dalek/Player.prefab
-  artifactKey: Guid(d1bfda65641f93f4bb35c608a9f883f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Player.prefab using Guid(d1bfda65641f93f4bb35c608a9f883f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 19.005 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 6.714 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 7.273 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 5.437 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 7.235 ms.
- -> (artifact id: '1ac993bda354de2b875928cdaf366a0e') in 0.326681 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.088344 seconds.
-  path: Assets/Sounds/DeathRay/Genesis
-  artifactKey: Guid(9f5c3fb303358304db01a21474098721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/DeathRay/Genesis using Guid(9f5c3fb303358304db01a21474098721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0180e28499e3eb7ffffb1c5ca0b5aabe') in 0.005973 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.708675 seconds.
-  path: Assets/Sounds/DeathRay/Genesis/Genesis_Fire.wav
-  artifactKey: Guid(ffcb5b1db33ce6d478d1bd273379e4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/DeathRay/Genesis/Genesis_Fire.wav using Guid(ffcb5b1db33ce6d478d1bd273379e4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b757ec9e0613cbc507f5767e6ff7829') in 0.090069 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.012051 seconds.
-  path: Assets/Sounds/VO/Dalek/Genesis
-  artifactKey: Guid(ef62c3816d8513e46be569aa14a20856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/VO/Dalek/Genesis using Guid(ef62c3816d8513e46be569aa14a20856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e4a86f24475dd757a11417ee75298d') in 0.001981 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.977314 seconds.
-  path: Assets/Sounds/VO/Dalek/Genesis/Genesis_Chant.wav
-  artifactKey: Guid(df64d84aedff2184c918f20b813f0139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/VO/Dalek/Genesis/Genesis_Chant.wav using Guid(df64d84aedff2184c918f20b813f0139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6c42cdda0d9e3e8915c4594820eb89') in 0.033649 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Sounds/VO/Dalek/Genesis/Genesis_Exterminate.wav
-  artifactKey: Guid(c6907a4be8f795b4f908cda273a4eadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/VO/Dalek/Genesis/Genesis_Exterminate.wav using Guid(c6907a4be8f795b4f908cda273a4eadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91628826d980fc29a4dad900bff4a6a2') in 0.029204 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 240.367689 seconds.
-  path: Assets/Entities/Projecties/DalekGun/Standard/EnergyDischarge.prefab
-  artifactKey: Guid(2c63ab9a46b0b21489d16f9266e0adbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Projecties/DalekGun/Standard/EnergyDischarge.prefab using Guid(2c63ab9a46b0b21489d16f9266e0adbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 24.390 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 13.466 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 13.528 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 9.156 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 12.258 ms.
- -> (artifact id: 'f826258ab2b07a1987720a27ce16a8d4') in 0.259479 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.824977 seconds.
-  path: Assets/Entities/Projecties/DalekGun/Standard/EnergyDischarge.prefab
-  artifactKey: Guid(2c63ab9a46b0b21489d16f9266e0adbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Projecties/DalekGun/Standard/EnergyDischarge.prefab using Guid(2c63ab9a46b0b21489d16f9266e0adbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 12.815 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 13.012 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 12.858 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 9.107 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 6.312 ms.
- -> (artifact id: '828aa48527134c8b18d715497a3f1ad6') in 0.306490 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.309399 seconds.
-  path: Assets/Entities/Projecties/DalekGun/Standard/EnergyDischarge.prefab
-  artifactKey: Guid(2c63ab9a46b0b21489d16f9266e0adbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Projecties/DalekGun/Standard/EnergyDischarge.prefab using Guid(2c63ab9a46b0b21489d16f9266e0adbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 12.258 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 11.307 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 12.074 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 9.069 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.559 ms.
- -> (artifact id: '5696706b1988b20854dd66299f543aa9') in 0.276235 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.826408 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/Materials/Body.mat
-  artifactKey: Guid(2fdbd1214a15e214daa41b1bb64a84a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/Materials/Body.mat using Guid(2fdbd1214a15e214daa41b1bb64a84a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8990c7e89d9e942a2faff3db220b5580') in 0.143197 seconds 
+  path: Assets/Entities/Dalek/Models/Remembrence/Remembrance Dalek Rigged.blend
+  artifactKey: Guid(ef60838eb7498de44bbd96fe7ce93a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Dalek/Models/Remembrence/Remembrance Dalek Rigged.blend using Guid(ef60838eb7498de44bbd96fe7ce93a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 19.009 ms.
+ -> (artifact id: '3d8fddb46f0a6f923df6a011ab1b3927') in 0.292523 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000034 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/Materials/Body.002.mat
-  artifactKey: Guid(9768c08667553c14392fda7a2e2c77ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/Materials/Body.002.mat using Guid(9768c08667553c14392fda7a2e2c77ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e888b0324c6ae0e48d4826b085188d97') in 0.030806 seconds 
+  path: Assets/Entities/Dalek/Models/Remembrence/Shell.mat
+  artifactKey: Guid(71908ec32b611b043863348c8e89caef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Dalek/Models/Remembrence/Shell.mat using Guid(71908ec32b611b043863348c8e89caef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2490b4d516d5710edb29a50a87f3e06') in 0.028106 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/Materials/Dalek Fender.mat
-  artifactKey: Guid(1aea50718c501c140b5b1af6e42fc0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/Materials/Dalek Fender.mat using Guid(1aea50718c501c140b5b1af6e42fc0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07360d841f5c7c0831937326465b4f27') in 0.032370 seconds 
+  Time since last request: 3.856163 seconds.
+  path: Assets/Entities/Dalek/Models/Genesis/Death.anim
+  artifactKey: Guid(dbfd749ff62b8ef4b9db8ab76fe660df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Dalek/Models/Genesis/Death.anim using Guid(dbfd749ff62b8ef4b9db8ab76fe660df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b669c959c86d3485eba2c27ce0756fc') in 0.008994 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.281790 seconds.
-  path: Assets/Entities/Projecties/DalekGun/Standard/EnergyDischarge.prefab
-  artifactKey: Guid(2c63ab9a46b0b21489d16f9266e0adbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Projecties/DalekGun/Standard/EnergyDischarge.prefab using Guid(2c63ab9a46b0b21489d16f9266e0adbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 14.254 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 13.646 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 16.000 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 10.865 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 7.547 ms.
- -> (artifact id: '92910a6a7380851f4554975d2147edae') in 0.269046 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 34.187731 seconds.
-  path: Assets/Entities/Dalek/Player.prefab
-  artifactKey: Guid(d1bfda65641f93f4bb35c608a9f883f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Player.prefab using Guid(d1bfda65641f93f4bb35c608a9f883f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 24.418 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 13.526 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.501 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 11.062 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.601 ms.
- -> (artifact id: '868f736a3a98b55f2c0abbc8a61ace11') in 0.361493 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.234496 seconds.
+  Time since last request: 19.231245 seconds.
   path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
   artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 14.635 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 13.505 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.984 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 9.541 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.562 ms.
- -> (artifact id: '8a110d59c86357c4164dc4b3390593d3') in 0.313466 seconds 
+Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 12.530 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 4.362 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 12.345 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 12.498 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.041 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 12.383 ms.
+ -> (artifact id: '05bf30a0dd6c4b5dcfe38fa75483d505') in 0.256624 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.273513 seconds.
+  Time since last request: 5.143936 seconds.
   path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
   artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 17.143 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 6.753 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 7.557 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 4.788 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 7.277 ms.
- -> (artifact id: '4287e1654558bcdfce78f9dfb5b9fa3c') in 0.273162 seconds 
+Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 13.408 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 4.893 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 12.966 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 12.520 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.025 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 12.148 ms.
+ -> (artifact id: 'f63278f53ad2191106344ab730a64806') in 0.239770 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.544472 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 14.634 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 13.658 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.982 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 9.525 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.552 ms.
- -> (artifact id: '7a1c2f67fdb37043df6b2e7f073def93') in 0.318253 seconds 
+  Time since last request: 44.611778 seconds.
+  path: Assets/Entities/Dalek/Models/Standard/StandardDalekProp.prefab
+  artifactKey: Guid(3732b4c58914f9442ade98ccb73a1a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Dalek/Models/Standard/StandardDalekProp.prefab using Guid(3732b4c58914f9442ade98ccb73a1a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 12.692 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 9.170 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 11.985 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 9.421 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 12.499 ms.
+ -> (artifact id: '8175bcc23d7b6284ac2ee1b5bbc0ce6c') in 0.235594 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.456593 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 7.321 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 6.731 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 7.500 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 4.752 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 7.273 ms.
- -> (artifact id: 'dea9d00a0a56b5662ffbf5fee09d4982') in 0.275277 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.843240 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 16.296 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.825 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.976 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 10.160 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 16.351 ms.
- -> (artifact id: '9a21e2efda188ce902173ae8bfe9ed49') in 0.425822 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.164613 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 14.655 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 13.498 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.979 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 9.522 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.558 ms.
- -> (artifact id: 'd093167e7c1f2e93b3f9eeb8604292a1') in 0.297301 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.621684 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 14.715 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 13.499 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.994 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 9.522 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.563 ms.
- -> (artifact id: '152a4c0e7c6511fc6039eb5182cf5f31') in 0.311316 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.010966 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 14.635 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 13.504 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.972 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 9.524 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.568 ms.
- -> (artifact id: '93712b25673bd45e14b107aca8432fb6') in 0.333299 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.851604 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 3.801 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 3.439 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 3.882 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 2.459 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 3.713 ms.
- -> (artifact id: 'f430263deee3ce8d8192ce5e7a5e0dbe') in 0.272974 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.732000 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 7.407 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 6.806 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 7.563 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 4.788 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 7.279 ms.
- -> (artifact id: 'e24ce7bcf60650ba82428aff31b21b46') in 0.294543 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.289172 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 14.963 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 13.499 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 15.035 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 9.518 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.556 ms.
- -> (artifact id: '3cc3d776fa91deea2d3b4cdf002a1c85') in 0.325235 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.328750 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 3.780 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 3.445 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 3.856 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 2.421 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 3.682 ms.
- -> (artifact id: 'fd44129dd994cf16d5d6d795622a1e0d') in 0.254964 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.696336 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 7.432 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 6.748 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 7.553 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 4.786 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 7.281 ms.
- -> (artifact id: 'fbad43d8c2ac3968e375ced17a70d4a4') in 0.276209 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.577765 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 14.640 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 13.489 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.985 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 9.518 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.555 ms.
- -> (artifact id: 'c3a4caa4cf6adc4d3dd49de7a56648ba') in 0.328705 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 96.060106 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 7.401 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 6.752 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 8.039 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 4.785 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 7.281 ms.
- -> (artifact id: '9eb80e03b9f94dd4b10a215813d78fcc') in 0.297585 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 36.169418 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 25.790 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 13.496 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.975 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 9.522 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.572 ms.
- -> (artifact id: 'abd6267492abc2aca8837eadad069c4f') in 0.352523 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.568758 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 24.273 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 13.490 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.973 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 9.526 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.537 ms.
- -> (artifact id: '457fadb02da1db43905fccbb6119508c') in 0.349990 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.955019 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 14.662 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 13.933 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 15.198 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 9.547 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 16.510 ms.
- -> (artifact id: '0c97194fb10810c494e3ad2f60395b58') in 0.345027 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.189562 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 14.681 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 13.493 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.979 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 9.543 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.558 ms.
- -> (artifact id: 'ec3c6ddaf22e5889176df5f11dedd749') in 0.359498 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.038698 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 21.728 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 13.227 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.971 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 9.511 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.551 ms.
- -> (artifact id: '3e6ba31b40cd29f043135b0bfda5c14f') in 0.329283 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.518525 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 14.638 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 13.502 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.976 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 9.521 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.548 ms.
- -> (artifact id: '53534f9edb99b8a8a41fc61d44525cc7') in 0.362352 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.516263 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 3.964 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 3.426 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 3.845 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 2.433 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 3.739 ms.
- -> (artifact id: 'c8b0ab5f8ac501afa9a9c3f18312b119') in 0.280927 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.006194 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 13.700 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 23.263 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.601 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 9.447 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.276 ms.
- -> (artifact id: '1c84cb43f9f4dfc64968519f70492e77') in 0.343166 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.269204 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 7.319 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 6.959 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 7.493 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 4.756 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 7.134 ms.
- -> (artifact id: '56ee0ee74cbbae7f0afeac96e91c35aa') in 0.312078 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.859025 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 3.725 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 3.372 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 3.808 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 2.420 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 3.603 ms.
- -> (artifact id: '1105e23c8c7e7318e36d86524b705514') in 0.275390 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.488892 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 7.484 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 6.676 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 7.518 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 4.851 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 7.108 ms.
- -> (artifact id: '07b0bb4ec44e6da70a41ba3598eca9b9') in 0.311977 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 412.869651 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 3.757 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 3.406 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 3.842 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 2.445 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 3.604 ms.
- -> (artifact id: 'a97a6eb45eb0e9e927dd3e6bcd99c399') in 0.268480 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.130628 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 3.753 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 6.660 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 7.619 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 4.744 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 7.133 ms.
- -> (artifact id: 'eaf298532895c4e0901ae1a1e078b00e') in 0.363113 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.710805 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 14.659 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 13.302 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.834 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 9.444 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.275 ms.
- -> (artifact id: '2c6594d0d82e87f339f38ae8558b13a0') in 0.326498 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 50.482537 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 3.787 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 3.359 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 3.795 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 2.398 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 3.605 ms.
- -> (artifact id: '84ed1fc5ed68e52ccaec7ea931d51faa') in 0.264952 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 25.808923 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 3.723 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 3.365 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 3.800 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 2.408 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 3.622 ms.
- -> (artifact id: 'd45ca1e948c1c92ba349539e4dac64c7') in 0.266208 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.117929 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 15.346 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 23.697 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 16.577 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 10.175 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 15.400 ms.
- -> (artifact id: 'faaa510c27468a8aeaf9336cf3ab3c3a') in 0.366995 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 48.857962 seconds.
-  path: Assets/Entities/Dalek/Player.prefab
-  artifactKey: Guid(d1bfda65641f93f4bb35c608a9f883f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Player.prefab using Guid(d1bfda65641f93f4bb35c608a9f883f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 14.546 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 13.297 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 23.894 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 10.779 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.278 ms.
- -> (artifact id: 'c70f2bbccd524838d66cae93a7c8a14c') in 0.344611 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.830217 seconds.
-  path: Assets/Entities/Dalek/Player.prefab
-  artifactKey: Guid(d1bfda65641f93f4bb35c608a9f883f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Player.prefab using Guid(d1bfda65641f93f4bb35c608a9f883f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 24.856 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 13.302 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.353 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 10.783 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 14.269 ms.
- -> (artifact id: 'c42d05b3d3d929c77cc801991ad92cfd') in 0.337618 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.013774 seconds.
-  path: Assets/Entities/Dalek/Player.prefab
-  artifactKey: Guid(d1bfda65641f93f4bb35c608a9f883f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Player.prefab using Guid(d1bfda65641f93f4bb35c608a9f883f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 3.737 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 3.358 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 3.679 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 2.748 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 3.603 ms.
- -> (artifact id: '9d9d98aa71c454ac04fa13829418075f') in 0.246075 seconds 
-========================================================================
-Received Prepare
-Setting a NavMeshArea cost less than one can give unexpected results.
-Registering precompiled user dll's ...
-Registered in 0.045118 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.44 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.425 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1426ms)
-		BeginReloadAssembly (203ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (56ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (56ms)
-		EndReloadAssembly (1098ms)
-			LoadAssemblies (83ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (294ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (84ms)
-			SetupLoadedEditorAssemblies (481ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (341ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (42ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.20 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6210 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 52 unused Assets / (6.4 MB). Loaded Objects now: 7480.
-Memory consumption went from 412.3 MB to 405.9 MB.
-Total: 58.755600 ms (FindLiveObjects: 0.600700 ms CreateObjectMapping: 0.174100 ms MarkObjects: 3.307000 ms  DeleteObjects: 54.672400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 630.044112 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 11.966 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 15.818 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 12.418 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 7.910 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 12.183 ms.
- -> (artifact id: 'd6112ce7c7a22136fe5e42fd05e9f764') in 1.992609 seconds 
-========================================================================
-Received Prepare
-Setting a NavMeshArea cost less than one can give unexpected results.
-Registering precompiled user dll's ...
-Registered in 0.013144 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.62 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.382 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1382ms)
-		BeginReloadAssembly (168ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (30ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (53ms)
-		EndReloadAssembly (1121ms)
-			LoadAssemblies (80ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (307ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (85ms)
-			SetupLoadedEditorAssemblies (475ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (329ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (56ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 6.09 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6210 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 52 unused Assets / (1.2 MB). Loaded Objects now: 7588.
-Memory consumption went from 411.1 MB to 409.8 MB.
-Total: 4.443700 ms (FindLiveObjects: 0.815100 ms CreateObjectMapping: 0.221400 ms MarkObjects: 3.086900 ms  DeleteObjects: 0.319300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 73.166936 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 22.585 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 11.287 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 12.443 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 7.937 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 12.199 ms.
- -> (artifact id: '1e0d315ef8bd5c849e3e87030ce67b94') in 0.996502 seconds 
-========================================================================
-Received Prepare
-Setting a NavMeshArea cost less than one can give unexpected results.
-Registering precompiled user dll's ...
-Registered in 0.012701 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.90 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.399 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1400ms)
-		BeginReloadAssembly (166ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (26ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (1131ms)
-			LoadAssemblies (76ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (348ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (79ms)
-			SetupLoadedEditorAssemblies (475ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (325ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (47ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.21 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6210 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 52 unused Assets / (1.2 MB). Loaded Objects now: 7696.
-Memory consumption went from 411.3 MB to 410.1 MB.
-Total: 4.668600 ms (FindLiveObjects: 0.647300 ms CreateObjectMapping: 0.177200 ms MarkObjects: 3.530000 ms  DeleteObjects: 0.312300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 221.881461 seconds.
-  path: Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab
-  artifactKey: Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Models/Genesis/GenesisDalek.prefab using Guid(96162c6933812aa4386031a6e54aff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 3.645 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 3.036 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 3.295 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 2.055 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 3.135 ms.
- -> (artifact id: 'cba8bfff7c93a3f14b7545897fc010b8') in 0.777244 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.188586 seconds.
-  path: Assets/Entities/Dalek/Player.prefab
-  artifactKey: Guid(d1bfda65641f93f4bb35c608a9f883f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Dalek/Player.prefab using Guid(d1bfda65641f93f4bb35c608a9f883f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 22.366 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 11.276 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 12.020 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 9.011 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 12.182 ms.
- -> (artifact id: '8b36fdea6bc3b5f1b613d55fefd72c2e') in 0.311788 seconds 
-========================================================================
-Received Prepare
-Setting a NavMeshArea cost less than one can give unexpected results.
-Registering precompiled user dll's ...
-Registered in 0.013029 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.14 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.340 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1340ms)
-		BeginReloadAssembly (160ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (26ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (1090ms)
-			LoadAssemblies (74ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (299ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (82ms)
-			SetupLoadedEditorAssemblies (484ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (339ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (42ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.98 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6210 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 52 unused Assets / (1.2 MB). Loaded Objects now: 7804.
-Memory consumption went from 411.6 MB to 410.4 MB.
-Total: 4.209600 ms (FindLiveObjects: 0.624400 ms CreateObjectMapping: 0.181700 ms MarkObjects: 3.137500 ms  DeleteObjects: 0.265000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Setting a NavMeshArea cost less than one can give unexpected results.
-Registering precompiled user dll's ...
-Registered in 0.013439 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.74 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.407 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1408ms)
-		BeginReloadAssembly (138ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (1170ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (315ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (83ms)
-			SetupLoadedEditorAssemblies (501ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (365ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (52ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.86 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6210 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (1.2 MB). Loaded Objects now: 7807.
-Memory consumption went from 411.5 MB to 410.2 MB.
-Total: 4.110100 ms (FindLiveObjects: 0.581700 ms CreateObjectMapping: 0.177100 ms MarkObjects: 3.062000 ms  DeleteObjects: 0.288500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Setting a NavMeshArea cost less than one can give unexpected results.
-Registering precompiled user dll's ...
-Registered in 0.014027 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.32 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.319 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1320ms)
-		BeginReloadAssembly (134ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (1094ms)
-			LoadAssemblies (77ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (320ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (75ms)
-			SetupLoadedEditorAssemblies (462ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (317ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (50ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.13 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6210 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (1.2 MB). Loaded Objects now: 7810.
-Memory consumption went from 411.2 MB to 410.0 MB.
-Total: 4.545900 ms (FindLiveObjects: 0.624800 ms CreateObjectMapping: 0.177900 ms MarkObjects: 3.479700 ms  DeleteObjects: 0.262600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Setting a NavMeshArea cost less than one can give unexpected results.
-Registering precompiled user dll's ...
-Registered in 0.015295 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.38 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.369 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1370ms)
-		BeginReloadAssembly (141ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (1115ms)
-			LoadAssemblies (81ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (332ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (102ms)
-			SetupLoadedEditorAssemblies (449ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (314ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (44ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.99 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6210 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (1.2 MB). Loaded Objects now: 7813.
-Memory consumption went from 411.6 MB to 410.4 MB.
-Total: 5.688000 ms (FindLiveObjects: 0.766800 ms CreateObjectMapping: 0.205500 ms MarkObjects: 4.339700 ms  DeleteObjects: 0.374100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Setting a NavMeshArea cost less than one can give unexpected results.
-Registering precompiled user dll's ...
-Registered in 0.013960 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.54 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.399 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1400ms)
-		BeginReloadAssembly (143ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (1151ms)
-			LoadAssemblies (97ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (315ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (506ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (104ms)
-				ProcessInitializeOnLoadAttributes (347ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (45ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.06 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6210 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (1.2 MB). Loaded Objects now: 7816.
-Memory consumption went from 411.4 MB to 410.2 MB.
-Total: 4.857100 ms (FindLiveObjects: 0.664000 ms CreateObjectMapping: 0.188600 ms MarkObjects: 3.725100 ms  DeleteObjects: 0.277900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Setting a NavMeshArea cost less than one can give unexpected results.
-Registering precompiled user dll's ...
-Registered in 0.012723 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.42 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.335 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1335ms)
-		BeginReloadAssembly (134ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (1105ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (336ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (459ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (328ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (42ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.62 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6210 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (1.2 MB). Loaded Objects now: 7819.
-Memory consumption went from 411.5 MB to 410.3 MB.
-Total: 4.041300 ms (FindLiveObjects: 0.577900 ms CreateObjectMapping: 0.176200 ms MarkObjects: 3.035800 ms  DeleteObjects: 0.250700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Setting a NavMeshArea cost less than one can give unexpected results.
-Registering precompiled user dll's ...
-Registered in 0.013882 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.49 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.344 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1345ms)
-		BeginReloadAssembly (131ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (1116ms)
-			LoadAssemblies (80ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (320ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (71ms)
-			SetupLoadedEditorAssemblies (485ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (337ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (50ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.50 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6210 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (1.2 MB). Loaded Objects now: 7822.
-Memory consumption went from 412.0 MB to 410.7 MB.
-Total: 4.637000 ms (FindLiveObjects: 0.692700 ms CreateObjectMapping: 0.184500 ms MarkObjects: 3.494400 ms  DeleteObjects: 0.263800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Setting a NavMeshArea cost less than one can give unexpected results.
-Registering precompiled user dll's ...
-Registered in 0.012924 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.42 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.339 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1340ms)
-		BeginReloadAssembly (134ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (1108ms)
-			LoadAssemblies (75ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (306ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (80ms)
-			SetupLoadedEditorAssemblies (471ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (334ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (50ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.83 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6210 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (1.2 MB). Loaded Objects now: 7825.
-Memory consumption went from 412.1 MB to 410.9 MB.
-Total: 4.139400 ms (FindLiveObjects: 0.623800 ms CreateObjectMapping: 0.178400 ms MarkObjects: 3.066100 ms  DeleteObjects: 0.270300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Setting a NavMeshArea cost less than one can give unexpected results.
-Registering precompiled user dll's ...
-Registered in 0.014674 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.54 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.317 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1317ms)
-		BeginReloadAssembly (126ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (1095ms)
-			LoadAssemblies (74ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (331ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (76ms)
-			SetupLoadedEditorAssemblies (446ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (309ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (56ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.27 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6210 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (1.2 MB). Loaded Objects now: 7828.
-Memory consumption went from 412.2 MB to 411.0 MB.
-Total: 4.042200 ms (FindLiveObjects: 0.592100 ms CreateObjectMapping: 0.176200 ms MarkObjects: 3.018100 ms  DeleteObjects: 0.254600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Setting a NavMeshArea cost less than one can give unexpected results.
-Registering precompiled user dll's ...
-Registered in 0.013917 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.38 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.265 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1265ms)
-		BeginReloadAssembly (127ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (1051ms)
-			LoadAssemblies (72ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (303ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (72ms)
-			SetupLoadedEditorAssemblies (444ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (310ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (43ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.98 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6210 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (1.2 MB). Loaded Objects now: 7831.
-Memory consumption went from 412.3 MB to 411.1 MB.
-Total: 4.644000 ms (FindLiveObjects: 0.620400 ms CreateObjectMapping: 0.190300 ms MarkObjects: 3.570300 ms  DeleteObjects: 0.261700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Setting a NavMeshArea cost less than one can give unexpected results.
-Registering precompiled user dll's ...
-Registered in 0.014086 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.59 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.304 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1305ms)
-		BeginReloadAssembly (133ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (1059ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (283ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (69ms)
-			SetupLoadedEditorAssemblies (473ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (103ms)
-				ProcessInitializeOnLoadAttributes (319ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (47ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.71 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6210 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (1.2 MB). Loaded Objects now: 7834.
-Memory consumption went from 412.4 MB to 411.2 MB.
-Total: 4.276500 ms (FindLiveObjects: 0.659200 ms CreateObjectMapping: 0.186000 ms MarkObjects: 3.151500 ms  DeleteObjects: 0.278400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Setting a NavMeshArea cost less than one can give unexpected results.
-Registering precompiled user dll's ...
-Registered in 0.013430 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.77 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.342 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1343ms)
-		BeginReloadAssembly (138ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (1090ms)
-			LoadAssemblies (93ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (284ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (72ms)
-			SetupLoadedEditorAssemblies (488ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (349ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (45ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.24 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6210 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (1.2 MB). Loaded Objects now: 7837.
-Memory consumption went from 412.5 MB to 411.3 MB.
-Total: 4.833900 ms (FindLiveObjects: 0.653500 ms CreateObjectMapping: 0.177700 ms MarkObjects: 3.747000 ms  DeleteObjects: 0.255000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 4364.998844 seconds.
-  path: Assets/LevelGeometry/Props/Tardis/Tardis.prefab
-  artifactKey: Guid(e9cc651bb79a1d74dba449c2ab30801c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LevelGeometry/Props/Tardis/Tardis.prefab using Guid(e9cc651bb79a1d74dba449c2ab30801c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c617a8e6112c85f43a6f3009a4b034') in 0.732027 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.423425 seconds.
-  path: Assets/LevelGeometry/Props/Tardis/Tardis.cs
-  artifactKey: Guid(02d1d996871dbed47b2caf00c54dd1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LevelGeometry/Props/Tardis/Tardis.cs using Guid(02d1d996871dbed47b2caf00c54dd1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de737eaac87e5f73139013916665418b') in 0.015326 seconds 
-========================================================================
-Received Prepare
-Setting a NavMeshArea cost less than one can give unexpected results.
-Registering precompiled user dll's ...
-Registered in 0.031442 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.62 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.990 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1992ms)
-		BeginReloadAssembly (339ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (67ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (91ms)
-		EndReloadAssembly (1529ms)
-			LoadAssemblies (225ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (407ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (93ms)
-			SetupLoadedEditorAssemblies (641ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (123ms)
-				ProcessInitializeOnLoadAttributes (451ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (59ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 6.37 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6211 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (1.2 MB). Loaded Objects now: 7946.
-Memory consumption went from 413.0 MB to 411.7 MB.
-Total: 5.435500 ms (FindLiveObjects: 0.735800 ms CreateObjectMapping: 0.392400 ms MarkObjects: 4.029700 ms  DeleteObjects: 0.276000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 48.649745 seconds.
-  path: Assets/LevelGeometry/Props/Tardis/Tardis.cs
-  artifactKey: Guid(02d1d996871dbed47b2caf00c54dd1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LevelGeometry/Props/Tardis/Tardis.cs using Guid(02d1d996871dbed47b2caf00c54dd1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3498e8fccbc50d0a27ad1c8033273c14') in 0.011721 seconds 
-========================================================================
-Received Prepare
-Setting a NavMeshArea cost less than one can give unexpected results.
-Registering precompiled user dll's ...
-Registered in 0.019214 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.79 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.949 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1950ms)
-		BeginReloadAssembly (159ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (1594ms)
-			LoadAssemblies (106ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (448ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (157ms)
-			SetupLoadedEditorAssemblies (647ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (109ms)
-				ProcessInitializeOnLoadAttributes (474ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (60ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.24 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6211 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (1.2 MB). Loaded Objects now: 7949.
-Memory consumption went from 412.9 MB to 411.6 MB.
-Total: 5.146600 ms (FindLiveObjects: 0.899400 ms CreateObjectMapping: 0.242400 ms MarkObjects: 3.742300 ms  DeleteObjects: 0.261200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 84.831638 seconds.
+  path: Assets/Entities/Dalek/Models/Remembrence/RemembranceDalekPrefab.prefab
+  artifactKey: Guid(5b8bf7e2a1bac064998f2464f739fda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Dalek/Models/Remembrence/RemembranceDalekPrefab.prefab using Guid(5b8bf7e2a1bac064998f2464f739fda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 12.714 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 9.165 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 12.227 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 9.432 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 12.180 ms.
+ -> (artifact id: 'f8a1aa45a432e633befa38200c09ac83') in 0.245198 seconds 

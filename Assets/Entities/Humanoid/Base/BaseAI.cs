@@ -115,8 +115,8 @@ public class BaseAI : MonoBehaviour
 
     void Awake()
     {
-        _gameManagerComponent = DalekTarget.GetComponent<GameManager>();
-        CharacterAnimator = GetComponentInChildren<Animator>();
+        _gameManagerComponent = GameManager.Instance;
+        CharacterAnimator = MainBody.GetComponent<Animator>();
     }
 
     /// <summary>
@@ -130,15 +130,15 @@ public class BaseAI : MonoBehaviour
 
     void Start()
     {
+        CharacterAnimator = MainBody.GetComponent<Animator>();
         CharacterAnimator.SetInteger("AnimationState", 0);
-        CharacterAnimator = GetComponentInChildren<Animator>();
         Health = MaxHealth;
         agent = GetComponent<NavMeshAgent>();
         controller = GetComponent<CharacterController>();
         controller.enabled = true;
         agent.updatePosition = true;
         agent.updateRotation = true;
-        DalekTarget = Player.Instance.gameObject;
+        DalekTarget = GameObject.FindWithTag("Player");
         SetDefaults();
         StartCoroutine("FSM");
     }
@@ -184,10 +184,6 @@ public class BaseAI : MonoBehaviour
                 {
                     DalekInLOS = false;
                 }
-            }
-            else
-            {
-                Debug.Log("Not that ig");
             }
         }
         else
@@ -319,7 +315,7 @@ public class BaseAI : MonoBehaviour
         FleeCooldown = 0;
         WanderLocationSet = false;
         FleeLocationSet = false;
-        agent.Stop();
+        agent.isStopped = true;
         agent.SetDestination(transform.position);
         if (npcType == NPCType.Passive)
         {

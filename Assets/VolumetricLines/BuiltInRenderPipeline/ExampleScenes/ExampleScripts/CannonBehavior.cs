@@ -7,13 +7,13 @@ public class CannonBehavior : MonoBehaviour {
 	public Transform m_muzzle;
 	public GameObject m_shotPrefab;
 	public Texture2D m_guiTexture;
-	[SerializeField] public AudioSource audio;
+	[SerializeField] public AudioSource audioSource;
 	[SerializeField] public AudioClip clip;
 
 	// Use this for initialization
 	void Start () 
 	{
-		audio.clip = clip;
+		audioSource.clip = clip;
 	}
 	
 	// Update is called once per frame

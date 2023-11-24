@@ -11,7 +11,7 @@ public class Turret : DamageableComponent
     [SerializeField] private GameObject SmallExplosionPrefab;
     [SerializeField] private float AttackRange;
     [SerializeField] private float WakeRange;
-    [SerializeField] private float Damage;
+    [SerializeField] private float DamageStat;
     [SerializeField] private float MaxFireRate;
     [SerializeField] private float ProjectileSpeed;
     [SerializeField] private bool BurstFire;
@@ -84,7 +84,7 @@ public class Turret : DamageableComponent
 
             if (CurrentState == TurretState.Attacking)
             {
-                Shoot(Damage);
+                Shoot(DamageStat);
                 _animator.Play("Alert");
             }
         }
@@ -143,7 +143,7 @@ public class Turret : DamageableComponent
         if (Cooldown <= 0)
         {
             GameObject go = Instantiate(Projectile, BarrelEnd.transform.position, BarrelEnd.transform.rotation);
-            go.GetComponent<EnergyPelletController>().SetData(new DamageInfo(Damage, this.gameObject, DamageType.EnergyDischarge), ProjectileSpeed);
+            go.GetComponent<EnergyPelletController>().SetData(new DamageInfo(DamageStat, this.gameObject, DamageType.EnergyDischarge), ProjectileSpeed);
             Cooldown = 1 / MaxFireRate;
             Destroy(go, 3f);
         }

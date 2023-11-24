@@ -88,6 +88,7 @@ public class Player : MonoBehaviour
             _Instance = this;
 
             PlayerPrefab = _PlayerPrefab;
+            UpdateModel();
             playerObjectReference = GameObject.Find("Player");
             //_inventoryManager = playerObjectReference.GetComponent<InventoryManager>();
             _movement = playerObjectReference.GetComponent<Movement>();
