@@ -636,7 +636,7 @@ MonoBehaviour:
   ElevateStart: {fileID: 8300000, guid: 6e0201081df011544926369c4e8514eb, type: 3}
   ElevateLoop: {fileID: 8300000, guid: efde4abf4f44205498ef27e18076dcfd, type: 3}
   ElevateEnd: {fileID: 8300000, guid: 762e0ac672b369a42ae062ebc1865979, type: 3}
-  MovementVolume: 1
+  MovementVolume: 0.5
   ElevateVolume: 1
   _animator: {fileID: 7424909566033796268}
   InteractionPoint: {fileID: 5606404102814894445}
@@ -650,6 +650,7 @@ MonoBehaviour:
   _stealthMultiplier: 1.333
   MaxHealthMultiplier: 0.8
   _attackType: 2
+  InDisplayMode: 0
 --- !u!82 &7652273629325276450
 AudioSource:
   m_ObjectHideFlags: 0

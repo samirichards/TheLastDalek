@@ -980,7 +980,7 @@ MonoBehaviour:
   ElevateStart: {fileID: 8300000, guid: 6e0201081df011544926369c4e8514eb, type: 3}
   ElevateLoop: {fileID: 8300000, guid: efde4abf4f44205498ef27e18076dcfd, type: 3}
   ElevateEnd: {fileID: 8300000, guid: 762e0ac672b369a42ae062ebc1865979, type: 3}
-  MovementVolume: 1
+  MovementVolume: 0.5
   ElevateVolume: 1
   _animator: {fileID: 8083103799038143244}
   InteractionPoint: {fileID: 6171794242469781127}
@@ -994,6 +994,7 @@ MonoBehaviour:
   _stealthMultiplier: 1
   MaxHealthMultiplier: 1.5
   _attackType: 0
+  InDisplayMode: 0
 --- !u!95 &8083103799038143244
 Animator:
   serializedVersion: 4

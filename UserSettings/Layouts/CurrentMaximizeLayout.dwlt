@@ -87,7 +87,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -225,10 +225,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: c468ffff
-      m_LastClickedID: -38716
-      m_ExpandedIDs: acdeffff2efbffff
+      scrollPos: {x: 0, y: 494}
+      m_SelectedIDs: b6d1feff
+      m_LastClickedID: -77386
+      m_ExpandedIDs: 4a8affff7a8affff74f0ffff32fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -563,7 +563,7 @@ MonoBehaviour:
       index: 13
       layout: 4
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
-  m_Gizmos: 0
+  m_Gizmos: 1
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
   m_SceneLighting: 1
@@ -572,9 +572,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -257.50415, y: -111.332306, z: -2.854254}
+    m_Target: {x: 104.62587, y: -94.713036, z: 244.87822}
     speed: 2
-    m_Value: {x: -257.50415, y: -111.332306, z: -2.854254}
+    m_Value: {x: 104.62587, y: -94.713036, z: 244.87822}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -621,9 +621,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.13083611, y: -0.69465435, z: 0.15952736, w: 0.6914194}
+    m_Target: {x: 0.173552, y: 0.20057848, z: -0.014715081, w: 0.9657302}
     speed: 2
-    m_Value: {x: 0.12983397, y: -0.69275737, z: 0.15803659, w: 0.69155973}
+    m_Value: {x: 0.17184998, y: 0.19883303, z: -0.014131572, w: 0.9647453}
   m_Size:
     m_Target: 142.1161
     speed: 2
@@ -645,7 +645,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 0
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.1149936, y: 0.5475452, z: -0.101949416, w: -0.8243183}
+  m_LastSceneViewRotation: {x: -0.5103541, y: 0.4593008, z: -0.43626183, w: -0.58433515}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -872,10 +872,10 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 4ca479bfdc8f8b143bd96291dc478f52,
+  m_AnimatorController: {fileID: 9100000, guid: 126c0e475edf1804e8c4d517435ca5f9,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 4320641183212973977, guid: 4ca479bfdc8f8b143bd96291dc478f52,
+  - m_Target: {fileID: 1959570269871543450, guid: 126c0e475edf1804e8c4d517435ca5f9,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -959,22 +959,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Entities/Dalek/Models/Standard
+    - Assets/Entities/Humanoid/Civilian
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Entities/Dalek/Models/Standard
+  - Assets/Entities/Humanoid/Civilian
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\samir\Documents\Game Projects\TheLastDalek
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 68970000
-    m_LastClickedID: 38760
-    m_ExpandedIDs: 00000000da960000dc960000de960000e0960000e2960000e4960000e6960000e8960000ea960000ec960000ee960000f0960000f2960000f496000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 122}
+    m_SelectedIDs: 82970000
+    m_LastClickedID: 38786
+    m_ExpandedIDs: 00000000e8960000ea960000ec960000ee960000f0960000f2960000f4960000f6960000f8960000fa960000fc960000fe960000009700000297000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1002,7 +1002,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000da960000dc960000de960000e0960000e2960000e4960000e6960000e8960000ea960000ec960000ee960000f0960000f2960000f496000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000e8960000ea960000ec960000ee960000f0960000f2960000f4960000f6960000f8960000fa960000fc960000fe960000009700000297000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1027,10 +1027,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: c468ffff
-    m_LastClickedInstanceID: -38716
+    m_SelectedInstanceIDs: b6d1feff
+    m_LastClickedInstanceID: -77386
     m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c6230000c2790000143b0600
+    m_ExpandedInstanceIDs: c6230000c2790000143b06000e8b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1118,7 +1118,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 48468
+  m_LastSelectedObjectID: -74838
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
