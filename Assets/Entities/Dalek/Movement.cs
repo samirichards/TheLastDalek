@@ -74,8 +74,6 @@ public class Movement : MonoBehaviour
             IsElevating = false;
         }
 
-        GetComponent<Animator>().SetBool("IsElevating", IsElevating);
-
         // Check for transition from elevating to not elevating
         if (wasElevating && !IsElevating)
         {

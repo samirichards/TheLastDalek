@@ -158,7 +158,6 @@ GameObject:
   - component: {fileID: 4255033672329479532}
   - component: {fileID: 230184869409379678}
   - component: {fileID: 9007432245857437209}
-  - component: {fileID: 2506670747834855061}
   - component: {fileID: 1714187230110471436}
   - component: {fileID: 5757361148257325186}
   m_Layer: 7
@@ -427,8 +426,8 @@ MonoBehaviour:
   PlungerAttackRange: 2
   PlungerDamage: 20
   PlungerHealthRechargePercentage: 0.05
-  PlungerAttackConeSpread: 9
-  PlungerAttackConeHitCount: 5
+  PlungerAttackConeSpread: 30
+  PlungerAttackConeHitCount: 7
   DeathRayBeamMaxRange: 200
   GattlingGunModel: {fileID: 3641545944469980428}
   GattlingGunWindupSound: {fileID: 8300000, guid: 7eac41f0f9e86ac44ba632f549e9680e,
@@ -469,7 +468,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsSwivelAllowed: 1
   maxRotationAngle: 10
-  Offset: -270
+  Offset: 180
 --- !u!114 &230184869409379678
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -517,26 +516,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 0.3, z: 1.75}
   m_Center: {x: 0, y: 0.15, z: 0.2}
---- !u!95 &2506670747834855061
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 859279906901890729}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ba1a88e2411b6c34d9870bdb75f8c95e, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &1714187230110471436
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1944,7 +1923,7 @@ PrefabInstance:
     - target: {fileID: 229953713318243049, guid: 3732b4c58914f9442ade98ccb73a1a06,
         type: 3}
       propertyPath: m_Intensity
-      value: 1348.2408
+      value: 8.28165
       objectReference: {fileID: 0}
     - target: {fileID: 229953713318243049, guid: 3732b4c58914f9442ade98ccb73a1a06,
         type: 3}
@@ -2219,7 +2198,7 @@ PrefabInstance:
     - target: {fileID: 4268988540699321720, guid: 3732b4c58914f9442ade98ccb73a1a06,
         type: 3}
       propertyPath: m_Intensity
-      value: 186833.44
+      value: 7.0062537
       objectReference: {fileID: 0}
     - target: {fileID: 4268988540699321720, guid: 3732b4c58914f9442ade98ccb73a1a06,
         type: 3}
@@ -2263,26 +2242,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4304891832285478501, guid: 3732b4c58914f9442ade98ccb73a1a06,
         type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4304891832285478501, guid: 3732b4c58914f9442ade98ccb73a1a06,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4304891832285478501, guid: 3732b4c58914f9442ade98ccb73a1a06,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4304891832285478501, guid: 3732b4c58914f9442ade98ccb73a1a06,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4304891832285478501, guid: 3732b4c58914f9442ade98ccb73a1a06,
-        type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
@@ -2294,26 +2253,6 @@ PrefabInstance:
     - target: {fileID: 4596072817023050352, guid: 3732b4c58914f9442ade98ccb73a1a06,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4631335825604587743, guid: 3732b4c58914f9442ade98ccb73a1a06,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4631335825604587743, guid: 3732b4c58914f9442ade98ccb73a1a06,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4631335825604587743, guid: 3732b4c58914f9442ade98ccb73a1a06,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4631335825604587743, guid: 3732b4c58914f9442ade98ccb73a1a06,
-        type: 3}
-      propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4631335825604587743, guid: 3732b4c58914f9442ade98ccb73a1a06,

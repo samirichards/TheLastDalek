@@ -95,6 +95,7 @@
     <Compile Include="Assets\VolumetricLines\BuiltInRenderPipeline\ExampleScenes\ExampleScripts\CannonBehavior.cs" />
     <Compile Include="Assets\Entities\Dalek\LockOn\LockOnReticle.cs" />
     <Compile Include="Assets\Shared\Scripts\ProximityActivate.cs" />
+    <Compile Include="Assets\Entities\Humanoid\Civilian\CivilianAI.cs" />
     <Compile Include="Assets\Entities\Projecties\DalekGun\EnergyDischargeCollisionController.cs" />
     <Compile Include="Assets\LevelGeometry\Door\SceneChange\SceneChangeDoorInteractionBehavior.cs" />
     <Compile Include="Assets\Entities\Humanoid\Guard\GuardAI.cs" />
@@ -128,7 +129,6 @@
     <Compile Include="Assets\Entities\Dalek\Inventory\InventoryController.cs" />
     <Compile Include="Assets\Entities\Camera\CameraObject.cs" />
     <Compile Include="Assets\Scenes\Menus\MainMenu\Dalek_LookManager.cs" />
-    <Compile Include="Assets\Entities\Humanoid\Civilian\CivilianAI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

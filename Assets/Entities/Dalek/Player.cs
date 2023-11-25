@@ -99,7 +99,6 @@ public class Player : MonoBehaviour
             _chestRotateController = playerObjectReference.GetComponent<ChestRotateController>();
             _attackController = playerObjectReference.GetComponent<AttackController>();
             _playerComponent = playerObjectReference.GetComponent<PlayerComponent>();
-            _animator = playerObjectReference.GetComponent<Animator>();
             _cursorControl = playerObjectReference.GetComponent<CursorControl>();
             _interactionController = playerObjectReference.GetComponent<InteractionController>();
             _inventoryController = playerObjectReference.GetComponentInChildren<InventoryController>();

@@ -36,7 +36,7 @@ public class GunStickAimController : MonoBehaviour
 
     private IEnumerator AimGunstickCoroutine(Quaternion startRotation, Quaternion targetRotation, float duration, float cooldown)
     {
-        GetComponent<Animator>().enabled = false;
+        Player._PropController.StopAnimator();
         float elapsedTime = 0f;
 
         while (elapsedTime < duration)
@@ -57,7 +57,7 @@ public class GunStickAimController : MonoBehaviour
         // Reset gunstick to its default position
         isFiring = false;
         Player._PropController.getGunStickObject.transform.localRotation = initialPosition;
-        GetComponent<Animator>().enabled = true;
+        Player._PropController.StartAnimator();
     }
 
     private Quaternion LimitRotation(Quaternion rotation, float maxAngle)

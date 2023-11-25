@@ -441,12 +441,12 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1821229250149971298}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.7957747
+  m_Intensity: 0
   m_Range: 0.33
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -508,7 +508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 10
+  m_Intensity: 0
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -1380,7 +1380,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 0ac15e47c386f234c9097ff35d6968ff, type: 3}
   _chantVO:
   - {fileID: 8300000, guid: 517854d85afd06f42b2cc1aafde7db8c, type: 3}
-  StartUpClip: {fileID: 0}
+  StartUpClip: {fileID: 8300000, guid: 29f6efa8bbfa7324dabd00063d757b82, type: 3}
   MovementStart: {fileID: 8300000, guid: 76358eddeb4da5d409be78673d945fdf, type: 3}
   MovementLoop: {fileID: 8300000, guid: 409853afe778e5b49b61db8edb0498ef, type: 3}
   MovementEnd: {fileID: 8300000, guid: 70295906c1a9dfc419a6f49fb15c0249, type: 3}
@@ -2185,12 +2185,12 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8398448280553837814}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.7957747
+  m_Intensity: 0
   m_Range: 0.33
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -2252,7 +2252,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 10
+  m_Intensity: 0
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0

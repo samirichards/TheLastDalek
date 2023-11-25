@@ -74,9 +74,16 @@ public class PropController : MonoBehaviour
     [SerializeField] private float MaxHealthMultiplier = 1.0f;
     [SerializeField] private AttackController.AttackTypes _attackType = AttackController.AttackTypes.Standard;
 
+    [Header("Static Display Settings")] 
+    [SerializeField] private bool InDisplayMode = false;
+
     void Start()
     {
-        PlaySoundClip(SoundClips.ExterminateVO);
+        if (InDisplayMode)
+        {
+            _animator.enabled = true;
+            _animator.SetBool("DisplayMode", true);
+        }
     }
 
 
@@ -124,11 +131,13 @@ public class PropController : MonoBehaviour
         switch (clip)
         {
             case AnimationClips.PlungerAttack:
+                _animator.enabled = true;
                 PlaySoundClip(SoundClips.PlungerAttack);
                 _animator.SetTrigger("PlungerAttack");
                 break;
             case AnimationClips.StartUp:
-                PlaySoundClip(SoundClips.StartUp);
+                _animator.enabled = true;
+                _animator.SetTrigger("StartUp");
                 break;
             case AnimationClips.Stun:
                 break;
@@ -136,6 +145,16 @@ public class PropController : MonoBehaviour
                 PlaySoundClip(SoundClips.DeathVO);
                 break;
         }
+    }
+
+    public void StopAnimator()
+    {
+        _animator.enabled = false;
+    }
+
+    public void StartAnimator()
+    {
+        _animator.enabled = true;
     }
 
     public void PlayHitSoundatPoint(Vector3 location)

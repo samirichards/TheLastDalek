@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2023-11-24T22:29:04.782+00:00
-  initializedAtString: 2023-11-24T15:40:23.153+00:00
+  lastUpdatedAtString: 2023-11-25T04:25:19.350+00:00
+  initializedAtString: 2023-11-25T03:14:11.757+00:00
   entries:
   - path: Assembly-CSharp.csproj
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assembly-CSharp.csproj
@@ -28,35 +28,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Documents\The Last Dalek Credits.md
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Documents\The
-      Last Dalek Credits.md
-    projectPath: Assets\Documents\The Last Dalek Credits.md
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Documents\The Last Dalek Credits.txt
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Documents\The
-      Last Dalek Credits.txt
-    projectPath: Assets\Documents\The Last Dalek Credits.txt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Entities\Dalek\AttackController.cs
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\AttackController.cs
-    projectPath: Assets\Entities\Dalek\AttackController.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Entities\Dalek\Inventory\InventoryManager.cs
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Inventory\InventoryManager.cs
-    projectPath: Assets\Entities\Dalek\Inventory\InventoryManager.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Entities\Dalek\Models\Genesis\GenesisDalek.controller
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Models\Genesis\GenesisDalek.controller
-    projectPath: Assets\Entities\Dalek\Models\Genesis\GenesisDalek.controller
+  - path: Assets\Entities\Dalek\GunStickAimController.cs
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\GunStickAimController.cs
+    projectPath: Assets\Entities\Dalek\GunStickAimController.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -66,51 +40,30 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Entities\Dalek\Models\Genesis\LookAround.anim
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Models\Genesis\LookAround.anim
-    projectPath: Assets\Entities\Dalek\Models\Genesis\LookAround.anim
+  - path: Assets\Entities\Dalek\Models\Paradigm\ParadigmDalek.prefab
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Models\Paradigm\ParadigmDalek.prefab
+    projectPath: Assets\Entities\Dalek\Models\Paradigm\ParadigmDalek.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Entities\Dalek\Models\PropController.cs
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Models\PropController.cs
+    projectPath: Assets\Entities\Dalek\Models\PropController.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Entities\Dalek\Models\Remembrence\RemembranceDalekPrefab.prefab
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Models\Remembrence\RemembranceDalekPrefab.prefab
+    projectPath: Assets\Entities\Dalek\Models\Remembrence\RemembranceDalekPrefab.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Entities\Dalek\Models\Standard\MainMenuAnimation.anim
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Models\Standard\MainMenuAnimation.anim
+    projectPath: Assets\Entities\Dalek\Models\Standard\MainMenuAnimation.anim
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Entities\Dalek\Models\Genesis\Materials\Lens.mat
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Models\Genesis\Materials\Lens.mat
-    projectPath: Assets\Entities\Dalek\Models\Genesis\Materials\Lens.mat
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Entities\Dalek\Models\Genesis\PlungerAttack.anim
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Models\Genesis\PlungerAttack.anim
-    projectPath: Assets\Entities\Dalek\Models\Genesis\PlungerAttack.anim
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Entities\Dalek\Models\Remembrence\Eye Lens.mat
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Models\Remembrence\Eye
-      Lens.mat
-    projectPath: Assets\Entities\Dalek\Models\Remembrence\Eye Lens.mat
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Entities\Dalek\Models\Remembrence\Metalic Gold Gloss.mat
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Models\Remembrence\Metalic
-      Gold Gloss.mat
-    projectPath: Assets\Entities\Dalek\Models\Remembrence\Metalic Gold Gloss.mat
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Entities\Dalek\Models\Remembrence\Metalic Gold.mat
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Models\Remembrence\Metalic
-      Gold.mat
-    projectPath: Assets\Entities\Dalek\Models\Remembrence\Metalic Gold.mat
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Entities\Dalek\Models\Remembrence\Shell.mat
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Models\Remembrence\Shell.mat
-    projectPath: Assets\Entities\Dalek\Models\Remembrence\Shell.mat
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Assets\Entities\Dalek\Models\Standard\StandardDalekProp 1.controller
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Models\Standard\StandardDalekProp
       1.controller
@@ -118,9 +71,33 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Assets\Entities\Dalek\Models\Standard\StandardDalekProp.prefab
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Models\Standard\StandardDalekProp.prefab
+    projectPath: Assets\Entities\Dalek\Models\Standard\StandardDalekProp.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Entities\Dalek\Models\Standard\StartUp.anim
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Models\Standard\StartUp.anim
+    projectPath: Assets\Entities\Dalek\Models\Standard\StartUp.anim
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Entities\Dalek\Movement.cs
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Movement.cs
+    projectPath: Assets\Entities\Dalek\Movement.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets\Entities\Dalek\Player.cs
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Player.cs
     projectPath: Assets\Entities\Dalek\Player.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Entities\Dalek\Player.prefab
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Player.prefab
+    projectPath: Assets\Entities\Dalek\Player.prefab
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -136,106 +113,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Entities\Humanoid\Base\BaseNPC.prefab
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Base\BaseNPC.prefab
-    projectPath: Assets\Entities\Humanoid\Base\BaseNPC.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Assets\Entities\Humanoid\Civilian\Civilian.prefab
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Civilian\Civilian.prefab
     projectPath: Assets\Entities\Humanoid\Civilian\Civilian.prefab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Entities\Humanoid\Civilian\CivilianAI.cs
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Civilian\CivilianAI.cs
-    projectPath: Assets\Entities\Humanoid\Civilian\CivilianAI.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Entities\Humanoid\Civilian\source\Hazmat02_blender.fbx
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Civilian\source\Hazmat02_blender.fbx
-    projectPath: Assets\Entities\Humanoid\Civilian\source\Hazmat02_blender.fbx
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Entities\Humanoid\Civilian\textures\8_meshes_Merge.mat
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Civilian\textures\8_meshes_Merge.mat
-    projectPath: Assets\Entities\Humanoid\Civilian\textures\8_meshes_Merge.mat
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Entities\Humanoid\Civilian\textures\8_meshes_Merge_Diffuse 1.png
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Civilian\textures\8_meshes_Merge_Diffuse
-      1.png
-    projectPath: Assets\Entities\Humanoid\Civilian\textures\8_meshes_Merge_Diffuse
-      1.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Entities\Humanoid\Civilian\textures\8_meshes_Merge_Diffuse.png
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Civilian\textures\8_meshes_Merge_Diffuse.png
-    projectPath: Assets\Entities\Humanoid\Civilian\textures\8_meshes_Merge_Diffuse.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Entities\Humanoid\Civilian\textures\8_meshes_Merge_Normal 1.png
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Civilian\textures\8_meshes_Merge_Normal
-      1.png
-    projectPath: Assets\Entities\Humanoid\Civilian\textures\8_meshes_Merge_Normal
-      1.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Entities\Humanoid\Civilian\textures\8_meshes_Merge_Normal.png
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Civilian\textures\8_meshes_Merge_Normal.png
-    projectPath: Assets\Entities\Humanoid\Civilian\textures\8_meshes_Merge_Normal.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Entities\Humanoid\Civilian\textures\8_meshes_Merge_Opacity.png
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Civilian\textures\8_meshes_Merge_Opacity.png
-    projectPath: Assets\Entities\Humanoid\Civilian\textures\8_meshes_Merge_Opacity.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Entities\Humanoid\Civilian\textures\8_meshes_Merge_Reflection.png
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Civilian\textures\8_meshes_Merge_Reflection.png
-    projectPath: Assets\Entities\Humanoid\Civilian\textures\8_meshes_Merge_Reflection.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Entities\Humanoid\Civilian\textures\8_meshes_Merge_Specular 1.png
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Civilian\textures\8_meshes_Merge_Specular
-      1.png
-    projectPath: Assets\Entities\Humanoid\Civilian\textures\8_meshes_Merge_Specular
-      1.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Entities\Humanoid\Civilian\textures\8_meshes_Merge_Specular.png
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Civilian\textures\8_meshes_Merge_Specular.png
-    projectPath: Assets\Entities\Humanoid\Civilian\textures\8_meshes_Merge_Specular.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Entities\Humanoid\Guard\Guard.prefab
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Guard\Guard.prefab
-    projectPath: Assets\Entities\Humanoid\Guard\Guard.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Entities\Turret\Turret.cs
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Turret\Turret.cs
-    projectPath: Assets\Entities\Turret\Turret.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Kevin Iglesias\Basic Motions\AnimationControllers\BasicMotions@Sprint.controller
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Kevin Iglesias\Basic
-      Motions\AnimationControllers\BasicMotions@Sprint.controller
-    projectPath: Assets\Kevin Iglesias\Basic Motions\AnimationControllers\BasicMotions@Sprint.controller
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -245,54 +125,43 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scenes\DevScene\DevScene\NavMesh.asset
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Scenes\DevScene\DevScene\NavMesh.asset
-    projectPath: Assets\Scenes\DevScene\DevScene\NavMesh.asset
+  - path: Assets\Scenes\Menus\MainMenu\MainMenu.unity
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Scenes\Menus\MainMenu\MainMenu.unity
+    projectPath: Assets\Scenes\Menus\MainMenu\MainMenu.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\VolumetricLines\BuiltInRenderPipeline\ExampleScenes\ExampleScripts\CannonBehavior.cs
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\VolumetricLines\BuiltInRenderPipeline\ExampleScenes\ExampleScripts\CannonBehavior.cs
-    projectPath: Assets\VolumetricLines\BuiltInRenderPipeline\ExampleScenes\ExampleScripts\CannonBehavior.cs
+  - path: Assets\Sounds\Music\Stingers\GenesisStinger1_mixdown.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\Music\Stingers\GenesisStinger1_mixdown.wav
+    projectPath: Assets\Sounds\Music\Stingers\GenesisStinger1_mixdown.wav
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\AnnotationManager
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\AnnotationManager
-    projectPath: Library\AnnotationManager
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\Music\Stingers\GenesisStinger2_mixdown.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\Music\Stingers\GenesisStinger2_mixdown.wav
+    projectPath: Assets\Sounds\Music\Stingers\GenesisStinger2_mixdown.wav
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\Music\Stingers\The Daleks Stinger.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\Music\Stingers\The
+      Daleks Stinger.wav
+    projectPath: Assets\Sounds\Music\Stingers\The Daleks Stinger.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\ArtifactDB
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ArtifactDB
     projectPath: Library\ArtifactDB
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\Bee\1900b0aEDbg.dag
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\1900b0aEDbg.dag
-    projectPath: Library\Bee\1900b0aEDbg.dag
+  - path: Library\Artifacts\12\1234a58ef7a4225551b86684527758fe
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\12\1234a58ef7a4225551b86684527758fe
+    projectPath: Library\Artifacts\12\1234a58ef7a4225551b86684527758fe
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\1900b0aEDbg.dag.json
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\1900b0aEDbg.dag.json
-    projectPath: Library\Bee\1900b0aEDbg.dag.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\1900b0aEDbg.dag_derived
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\1900b0aEDbg.dag_derived
-    projectPath: Library\Bee\1900b0aEDbg.dag_derived
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\1900b0aEDbg-inputdata.json
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\1900b0aEDbg-inputdata.json
-    projectPath: Library\Bee\1900b0aEDbg-inputdata.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
   - path: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.dll
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.dll
     projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.dll
@@ -308,12 +177,6 @@ MonoBehaviour:
   - path: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.ref.dll
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.ref.dll
     projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.ref.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.rsp
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.rsp
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.rsp
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -356,18 +219,6 @@ MonoBehaviour:
   - path: Library\Bee\backend_profiler0.traceevents
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\backend_profiler0.traceevents
     projectPath: Library\Bee\backend_profiler0.traceevents
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\backend_profiler1.traceevents
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\backend_profiler1.traceevents
-    projectPath: Library\Bee\backend_profiler1.traceevents
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\buildprogram0.traceevents
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\buildprogram0.traceevents
-    projectPath: Library\Bee\buildprogram0.traceevents
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -437,12 +288,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\SceneVisibilityState.asset
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\SceneVisibilityState.asset
     projectPath: Library\SceneVisibilityState.asset
@@ -479,33 +324,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\StateCache\PrefabStageHierarchy\15\154a8fe25117f34a0e0bfa43e8426077.json
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\StateCache\PrefabStageHierarchy\15\154a8fe25117f34a0e0bfa43e8426077.json
-    projectPath: Library\StateCache\PrefabStageHierarchy\15\154a8fe25117f34a0e0bfa43e8426077.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\StateCache\PrefabStageHierarchy\87\8762de6b51708e4fded1bc060baac34c.json
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\StateCache\PrefabStageHierarchy\87\8762de6b51708e4fded1bc060baac34c.json
-    projectPath: Library\StateCache\PrefabStageHierarchy\87\8762de6b51708e4fded1bc060baac34c.json
+  - path: Library\StateCache\PrefabStageHierarchy\c2\c264c43c60ed985a4a22bf7bf28e13b8.json
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\StateCache\PrefabStageHierarchy\c2\c264c43c60ed985a4a22bf7bf28e13b8.json
+    projectPath: Library\StateCache\PrefabStageHierarchy\c2\c264c43c60ed985a4a22bf7bf28e13b8.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
     projectPath: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\StateCache\SceneView\d6\d688e6389b359840ce1adc9e13cefa85.json
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\StateCache\SceneView\d6\d688e6389b359840ce1adc9e13cefa85.json
-    projectPath: Library\StateCache\SceneView\d6\d688e6389b359840ce1adc9e13cefa85.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\StateCache\SceneView\f0\f0898c16148f2a38caddad6632650c11.json
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\StateCache\SceneView\f0\f0898c16148f2a38caddad6632650c11.json
-    projectPath: Library\StateCache\SceneView\f0\f0898c16148f2a38caddad6632650c11.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -532,19 +359,19 @@ MonoBehaviour:
     projectPath: Logs\AssetImportWorker1-prev.log
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
   - path: Logs\AssetImportWorker2.log
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Logs\AssetImportWorker2.log
     projectPath: Logs\AssetImportWorker2.log
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Logs\AssetImportWorker3.log
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Logs\AssetImportWorker3.log
     projectPath: Logs\AssetImportWorker3.log
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Logs\shadercompiler-AssetImportWorker0.log
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Logs\shadercompiler-AssetImportWorker0.log
     projectPath: Logs\shadercompiler-AssetImportWorker0.log
@@ -562,82 +389,76 @@ MonoBehaviour:
     projectPath: Logs\shadercompiler-UnityShaderCompiler.exe1.log
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
   - path: Logs\shadercompiler-UnityShaderCompiler.exe10.log
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Logs\shadercompiler-UnityShaderCompiler.exe10.log
     projectPath: Logs\shadercompiler-UnityShaderCompiler.exe10.log
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Logs\shadercompiler-UnityShaderCompiler.exe11.log
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Logs\shadercompiler-UnityShaderCompiler.exe11.log
     projectPath: Logs\shadercompiler-UnityShaderCompiler.exe11.log
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Logs\shadercompiler-UnityShaderCompiler.exe2.log
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Logs\shadercompiler-UnityShaderCompiler.exe2.log
     projectPath: Logs\shadercompiler-UnityShaderCompiler.exe2.log
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Logs\shadercompiler-UnityShaderCompiler.exe3.log
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Logs\shadercompiler-UnityShaderCompiler.exe3.log
     projectPath: Logs\shadercompiler-UnityShaderCompiler.exe3.log
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Logs\shadercompiler-UnityShaderCompiler.exe4.log
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Logs\shadercompiler-UnityShaderCompiler.exe4.log
     projectPath: Logs\shadercompiler-UnityShaderCompiler.exe4.log
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Logs\shadercompiler-UnityShaderCompiler.exe5.log
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Logs\shadercompiler-UnityShaderCompiler.exe5.log
     projectPath: Logs\shadercompiler-UnityShaderCompiler.exe5.log
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Logs\shadercompiler-UnityShaderCompiler.exe6.log
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Logs\shadercompiler-UnityShaderCompiler.exe6.log
     projectPath: Logs\shadercompiler-UnityShaderCompiler.exe6.log
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Logs\shadercompiler-UnityShaderCompiler.exe7.log
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Logs\shadercompiler-UnityShaderCompiler.exe7.log
     projectPath: Logs\shadercompiler-UnityShaderCompiler.exe7.log
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Logs\shadercompiler-UnityShaderCompiler.exe8.log
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Logs\shadercompiler-UnityShaderCompiler.exe8.log
     projectPath: Logs\shadercompiler-UnityShaderCompiler.exe8.log
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Logs\shadercompiler-UnityShaderCompiler.exe9.log
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Logs\shadercompiler-UnityShaderCompiler.exe9.log
     projectPath: Logs\shadercompiler-UnityShaderCompiler.exe9.log
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectSettings\NavMeshAreas.asset
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\ProjectSettings\NavMeshAreas.asset
-    projectPath: ProjectSettings\NavMeshAreas.asset
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: UserSettings\EditorUserSettings.asset
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\UserSettings\EditorUserSettings.asset
+    projectPath: UserSettings\EditorUserSettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\UserSettings\Layouts\CurrentMaximizeLayout.dwlt
     projectPath: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: UserSettings\Layouts\default-2021.dwlt
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\UserSettings\Layouts\default-2021.dwlt
-    projectPath: UserSettings\Layouts\default-2021.dwlt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3

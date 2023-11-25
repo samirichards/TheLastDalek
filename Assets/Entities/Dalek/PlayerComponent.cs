@@ -69,7 +69,6 @@ public class PlayerComponent : MonoBehaviour
     {
         MaxHealth = MaxHealth * Player._PropController.getHealthMultiplier;
         Health = MaxHealth;
-        GetComponent<Animator>().SetBool("IsAlive", true);
         ShieldHealth = ShieldMaxHealth;
     }
 
@@ -91,6 +90,7 @@ public class PlayerComponent : MonoBehaviour
         else
         {
             ShieldIsRecharging = false;
+
             if (ShieldRechargeDelayTimer > 0)
             {
                 ShieldRechargeDelayTimer -= Time.deltaTime;

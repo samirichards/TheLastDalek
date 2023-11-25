@@ -608,12 +608,12 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3359939009507633636}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 0.9752239, b: 0.7122642, a: 1}
-  m_Intensity: 1.724974
+  m_Intensity: 0
   m_Range: 0.05
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -675,7 +675,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 21.676664
+  m_Intensity: 0
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -993,12 +993,12 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3817821237494069927}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 0.9752239, b: 0.7122642, a: 1}
-  m_Intensity: 1.724974
+  m_Intensity: 0
   m_Range: 0.05
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1060,7 +1060,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 21.676664
+  m_Intensity: 0
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -1353,6 +1353,7 @@ MonoBehaviour:
   _damageMultiplier: 0.95
   _stealthMultiplier: 1.25
   MaxHealthMultiplier: 0.9
+  _attackType: 0
 --- !u!82 &537355253223092832
 AudioSource:
   m_ObjectHideFlags: 0

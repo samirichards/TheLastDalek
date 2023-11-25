@@ -613,6 +613,7 @@ public class BaseAI : MonoBehaviour
         DeathBehaviour();
         if (_damageInfo.DamageType == DamageType.DeathRay)
         {
+            //TODO Make this work with things that have several skinned mesh renderers with lots of materials (just loop over and replace) cba doing it rn I'm tired
             originalMaterial = MainBody.GetComponentInChildren<SkinnedMeshRenderer>().materials;
             MainBody.GetComponentInChildren<SkinnedMeshRenderer>().materials = new Material[1]{ SkinExterminationMaterial };
             try
