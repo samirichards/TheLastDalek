@@ -86,7 +86,7 @@ MonoBehaviour:
   npcType: 0
   SkeletonObject: {fileID: 3732787100718631956}
   MainBody: {fileID: 290802859227919922}
-  SkinExterminationMaterial: {fileID: 2100000, guid: 98c1ff939380fc04a97ba470576a0e85,
+  SkinExterminationMaterial: {fileID: 2100000, guid: 8d45234155ecf48468d57430f8641700,
     type: 2}
   SkeletonRevealTime: 1
   MaxIdleTime: 10
@@ -1782,6 +1782,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 4fe8a65d7f65aec43a028f6ef85fc025, type: 2}
+    - target: {fileID: 9500000, guid: c375a17f5f510d44c839b216989e242d, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 13700000, guid: c375a17f5f510d44c839b216989e242d, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 

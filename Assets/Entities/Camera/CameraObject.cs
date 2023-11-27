@@ -11,6 +11,7 @@ public class CameraObject : MonoBehaviour
     AudioSource MusicPlayer;
     [SerializeField]public SceneMusicMapping sceneMusicMapping;
     [SerializeField] public float MusicVolume = 0.75f;
+    [SerializeField] public bool IsStaticCamera = false;
 
     public static GameObject CameraObjectReference;
     // Start is called before the first frame update
@@ -38,22 +39,28 @@ public class CameraObject : MonoBehaviour
     }
     void Start()
     {
-        if (_Instance == null)
+        if (!IsStaticCamera)
         {
-            DontDestroyOnLoad(gameObject);
-            _Instance = this;
+            if (_Instance == null)
+            {
+                DontDestroyOnLoad(gameObject);
+                _Instance = this;
+            }
+            else if (_Instance != this)
+            {
+                Destroy(gameObject);
+            }
+            CameraObjectReference = gameObject;
+            DontDestroyOnLoad(CameraObjectReference);
+            TrackerTarget = Player.GetPlayerReference();
         }
-        else if (_Instance != this)
-        {
-            Destroy(gameObject);
-        }
-        CameraObjectReference = gameObject;
-        DontDestroyOnLoad(CameraObjectReference);
+
         UnityEngine.SceneManagement.SceneManager.sceneLoaded += OnSceneLoaded;
-        MusicPlayer = CameraObjectReference.AddComponent(typeof(AudioSource)) as AudioSource;
-        MusicPlayer.volume = MusicVolume;
-        TrackerTarget = Player.GetPlayerReference();
+        MusicPlayer = gameObject.AddComponent(typeof(AudioSource)) as AudioSource;
+        MusicPlayer.volume = GameSettings.GetSettings().MusicVolume;
         PlayMusicForScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+        GameSettings.OnOptionsChanged += UpdateSettings;
+        UpdateSettings(GameSettings.GetSettings());
     }
 
     public void SetTracker()
@@ -99,12 +106,26 @@ public class CameraObject : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 newPosition = TrackerTarget.transform.position;
-        newPosition.y++;
-        transform.position = newPosition;
+        if (!IsStaticCamera)
+        {
+            Vector3 newPosition = TrackerTarget.transform.position;
+            newPosition.y++;
+            transform.position = newPosition;
+        }
         if (!MusicPlayer.isPlaying)
         {
             PlayMusicForScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
         }
+    }
+
+    public void UpdateSettings(Options options)
+    {
+        MusicVolume = options.MusicVolume;
+        MusicPlayer.volume = MusicVolume;
+    }
+
+    void OnApplicationQuit()
+    {
+        GameSettings.OnOptionsChanged -= UpdateSettings;
     }
 }

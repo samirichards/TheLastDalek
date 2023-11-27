@@ -1,5 +1,5 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
-    <Style src="project://database/Assets/test.uss?fileID=7433441132597879392&amp;guid=3fde0ef02c9bf6246bb574da91c1909d&amp;type=3#test" />
+    <Style src="project://database/Assets/Scenes/Menus/MainMenu/MainMenu.uss?fileID=7433441132597879392&amp;guid=3fde0ef02c9bf6246bb574da91c1909d&amp;type=3#MainMenu" />
     <ui:VisualElement name="Main" style="justify-content: center; align-items: flex-start; margin-left: 10%; height: 100%;">
         <ui:Label text="The Last Dalek" display-tooltip-when-elided="true" name="Main-Title" style="font-size: 32px; color: rgb(255, 173, 0); -unity-text-align: upper-left; -unity-font: url(&apos;project://database/Assets/TextMesh%20Pro/Fonts/LiberationSans.ttf?fileID=12800000&amp;guid=e3265ab4bf004d28a9537516768c1c75&amp;type=3#LiberationSans&apos;); left: 0;" />
         <ui:GroupBox name="Main" style="left: 0; width: auto; position: relative; max-width: 25%; min-width: 130px; display: flex;">
@@ -13,6 +13,12 @@
             <ui:Button text="Load Game" display-tooltip-when-elided="true" name="Btn_Start_LoadGame" />
             <ui:Button text="DevScene" display-tooltip-when-elided="true" name="Btn_Start_DevScene" />
             <ui:Button text="Back" display-tooltip-when-elided="true" name="Btn_Start_Back" />
+        </ui:GroupBox>
+        <ui:GroupBox name="OptionsMenu" style="left: 0; max-width: 40%; min-width: 200px; display: none; width: 30%;">
+            <ui:Slider picking-mode="Ignore" label="SFX Volume" value="100" high-value="100" name="Slider_SFXVolume" tooltip="Volume" style="color: rgb(255, 255, 255); -unity-text-outline-width: 0.1px;" />
+            <ui:Slider picking-mode="Ignore" label="Music Volume" value="100" high-value="100" name="Slider_MusicVolume" style="color: rgb(255, 255, 255); -unity-text-outline-width: 0.1px;" />
+            <ui:DropdownField label="Graphics" index="-1" choices="System.Collections.Generic.List`1[System.String]" name="DropDown_GraphicsPref" style="color: rgb(255, 255, 255); -unity-text-outline-width: 0.1px;" />
+            <ui:Button text="Back" display-tooltip-when-elided="true" name="Btn_Options_Back" style="width: 30%; min-width: 60px;" />
         </ui:GroupBox>
     </ui:VisualElement>
 </ui:UXML>

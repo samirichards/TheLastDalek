@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Music Map
   m_EditorClassIdentifier: 
   sceneMusicPairs:
+  - sceneName: MainMenu
+    musicClip: {fileID: 8300000, guid: f6bc0f8dc745b5e4fa477d90cf615880, type: 3}
   - sceneName: DevScene
     musicClip: {fileID: 8300000, guid: b443d44dc10dcaa4d807430051ddd973, type: 3}
   - sceneName: DevScene2

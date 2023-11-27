@@ -42,7 +42,6 @@ public class BaseAI : MonoBehaviour
     [SerializeField] protected GameObject SkeletonObject;
     [SerializeField] protected GameObject MainBody;
     [SerializeField] protected Material SkinExterminationMaterial;
-    private Material[] originalMaterial;
     [SerializeField] public float SkeletonRevealTime = 0.666f;
 
 
@@ -573,7 +572,7 @@ public class BaseAI : MonoBehaviour
     {
         //Shifts the model up slightly, as well as quickly making the model kinematic then normal, which resets any momentum the rigidbodies have
         Vector3 newTransform = MainBody.transform.position;
-        newTransform.y += 0.25f;
+        //newTransform.y += 0.1f;
         MainBody.transform.position = newTransform; 
         Rigidbody[] npcRigid = MainBody.GetComponentsInChildren<Rigidbody>();
 
@@ -613,9 +612,6 @@ public class BaseAI : MonoBehaviour
         DeathBehaviour();
         if (_damageInfo.DamageType == DamageType.DeathRay)
         {
-            //TODO Make this work with things that have several skinned mesh renderers with lots of materials (just loop over and replace) cba doing it rn I'm tired
-            originalMaterial = MainBody.GetComponentInChildren<SkinnedMeshRenderer>().materials;
-            MainBody.GetComponentInChildren<SkinnedMeshRenderer>().materials = new Material[1]{ SkinExterminationMaterial };
             try
             {
                 SkeletonObject.SetActive(true);
@@ -627,7 +623,7 @@ public class BaseAI : MonoBehaviour
             {
                 Debug.Log(e.ToString());
             }
-            StartCoroutine(SwitchBackMaterials(SkeletonRevealTime));
+            StartCoroutine(SkeletonReveal(SkeletonRevealTime));
             return;
         }
         CharacterAnimator.SetInteger("AnimationState", -1);
@@ -635,13 +631,26 @@ public class BaseAI : MonoBehaviour
         //CharacterAnimator.Play(Animator.StringToHash("Exterminating"), -1, 0.125f);
     }
 
-    IEnumerator SwitchBackMaterials(float SkeletonRevealTime)
+    IEnumerator SkeletonReveal(float SkeletonRevealTime)
     {
+        //This approach is done since some models can have several meshes with several materials, this prevents only part of the model showing the skeleton
+        List<Material> originalMaterials = new List<Material>();
+        foreach (SkinnedMeshRenderer meshRenderer in MainBody.GetComponentsInChildren<SkinnedMeshRenderer>())
+        {
+            originalMaterials.Add(meshRenderer.material);
+            meshRenderer.material = SkinExterminationMaterial;
+        }
+
         // Wait for a brief duration
         yield return new WaitForSeconds(SkeletonRevealTime);
 
         // Switch back to the original materials
-        MainBody.GetComponentInChildren<SkinnedMeshRenderer>().materials = originalMaterial;
+        foreach (SkinnedMeshRenderer meshRenderer in MainBody.GetComponentsInChildren<SkinnedMeshRenderer>())
+        {
+            meshRenderer.material = originalMaterials[0];
+            originalMaterials.RemoveAt(0);
+        }
+        originalMaterials.Clear();
 
         try
         {

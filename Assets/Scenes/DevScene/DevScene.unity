@@ -308,12 +308,17 @@ PrefabInstance:
     - target: {fileID: 2046030938685387152, guid: d1bfda65641f93f4bb35c608a9f883f4,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2615597831839295859, guid: d1bfda65641f93f4bb35c608a9f883f4,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2626555030196444483, guid: d1bfda65641f93f4bb35c608a9f883f4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2819306527617343632, guid: d1bfda65641f93f4bb35c608a9f883f4,
         type: 3}
@@ -520,6 +525,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9090812734087792655, guid: d1bfda65641f93f4bb35c608a9f883f4,
+        type: 3}
+      propertyPath: _selectedDalek
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9137758449307418215, guid: d1bfda65641f93f4bb35c608a9f883f4,
         type: 3}

@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -23,6 +24,8 @@ public class Mainmenu : MonoBehaviour
         root.Query<UnityEngine.UIElements.Button>("Btn_Start_LoadGame").First().clicked += Start_LoadGameButton_Clicked;
         root.Query<UnityEngine.UIElements.Button>("Btn_Start_DevScene").First().clicked += Start_DevSceneButton_Clicked;
         root.Query<UnityEngine.UIElements.Button>("Btn_Start_Back").First().clicked += Start_BackButton_Clicked;
+
+        root.Query<UnityEngine.UIElements.Button>("Btn_Options_Back").First().clicked += Options_BackButton_Clicked;
     }
 
     private void QuitButton_Clicked()
@@ -37,7 +40,16 @@ public class Mainmenu : MonoBehaviour
 
     private void OptionsButton_Clicked()
     {
-        Debug.Log("Options Button Clicked");
+        _uiDocument.rootVisualElement.Query<UnityEngine.UIElements.GroupBox>("Main").First().style.display =
+            DisplayStyle.None;
+        _uiDocument.rootVisualElement.Query<UnityEngine.UIElements.GroupBox>("OptionsMenu").First().style.display =
+            DisplayStyle.Flex;
+
+        Options options = GameSettings.GetSettings();
+        _uiDocument.rootVisualElement.Query<UnityEngine.UIElements.Slider>("Slider_MusicVolume").First().value =
+            options.MusicVolume * 100;
+        _uiDocument.rootVisualElement.Query<UnityEngine.UIElements.Slider>("Slider_SFXVolume").First().value =
+            options.SFXVolume * 100;
     }
 
     private void StartButton_clicked()
@@ -79,6 +91,19 @@ public class Mainmenu : MonoBehaviour
             DisplayStyle.None;
     }
 
+    private void Options_BackButton_Clicked()
+    {
+        _uiDocument.rootVisualElement.Query<UnityEngine.UIElements.GroupBox>("Main").First().style.display =
+            DisplayStyle.Flex;
+        _uiDocument.rootVisualElement.Query<UnityEngine.UIElements.GroupBox>("OptionsMenu").First().style.display =
+            DisplayStyle.None;
+
+        Options options = GameSettings.GetSettings();
+        options.MusicVolume = _uiDocument.rootVisualElement.Query<UnityEngine.UIElements.Slider>("Slider_MusicVolume").First().value / 100;
+        options.SFXVolume = _uiDocument.rootVisualElement.Query<UnityEngine.UIElements.Slider>("Slider_SFXVolume").First().value / 100;
+        GameSettings.SaveSettings(options);
+    }
+
     public void StartLevel(int levelID)
     {
 
@@ -87,5 +112,10 @@ public class Mainmenu : MonoBehaviour
     public void QuitGame()
     {
 
+    }
+
+    void OnApplicationQuit()
+    {
+        
     }
 }
