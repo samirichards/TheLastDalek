@@ -160,6 +160,7 @@ GameObject:
   - component: {fileID: 9007432245857437209}
   - component: {fileID: 1714187230110471436}
   - component: {fileID: 5757361148257325186}
+  - component: {fileID: 2444526429874483766}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -638,6 +639,23 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 1
   m_Loop: 0
+--- !u!114 &2444526429874483766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859279906901890729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 00a2d99eceec511458e48ccae04fb5e7, type: 2}
 --- !u!1 &965315291241390217
 GameObject:
   m_ObjectHideFlags: 0
@@ -2138,7 +2156,7 @@ PrefabInstance:
     - target: {fileID: 2765263899953439936, guid: 3732b4c58914f9442ade98ccb73a1a06,
         type: 3}
       propertyPath: m_Intensity
-      value: 0.7957747
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2765263899953439936, guid: 3732b4c58914f9442ade98ccb73a1a06,
         type: 3}
@@ -2408,7 +2426,7 @@ PrefabInstance:
     - target: {fileID: 5679096926692371214, guid: 3732b4c58914f9442ade98ccb73a1a06,
         type: 3}
       propertyPath: m_Intensity
-      value: 0.7957747
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5679096926692371214, guid: 3732b4c58914f9442ade98ccb73a1a06,
         type: 3}

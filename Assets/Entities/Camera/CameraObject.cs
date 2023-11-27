@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -79,6 +80,7 @@ public class CameraObject : MonoBehaviour
     {
         // Unsubscribe from the sceneLoaded event when the object is destroyed.
         UnityEngine.SceneManagement.SceneManager.sceneLoaded -= OnSceneLoaded;
+        GameSettings.OnOptionsChanged -= UpdateSettings;
     }
 
     public void PlayMusicForScene(string sceneName)
