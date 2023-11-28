@@ -786,10 +786,6 @@
       <Project>{D502928D-C59E-6196-7349-AD73F0DC8C20}</Project>
       <Name>Unity.RenderPipelines.Core.Runtime.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Flow.Player.csproj">
-      <Project>{DECFB523-C30F-76F1-CA2A-C20F757792F3}</Project>
-      <Name>Unity.VisualScripting.Flow.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.Player.csproj">
       <Project>{D8D92DB2-B68A-6935-7DC8-608C80D1D7C9}</Project>
       <Name>Unity.InputSystem.Player</Name>
@@ -797,6 +793,10 @@
     <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.Player.csproj">
       <Project>{CA0C6AC7-8299-5974-DD58-E2FD78FEE69E}</Project>
       <Name>Unity.RenderPipelines.Core.ShaderLibrary.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Flow.Player.csproj">
+      <Project>{DECFB523-C30F-76F1-CA2A-C20F757792F3}</Project>
+      <Name>Unity.VisualScripting.Flow.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
       <Project>{1CF18DA1-2D83-7218-5D37-B603CDFF956F}</Project>
@@ -822,6 +822,10 @@
       <Project>{3CF2500D-7477-007E-2C31-5FBA51CE36FD}</Project>
       <Name>Unity.Burst.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Postprocessing.Runtime.Player.csproj">
+      <Project>{310C7C7B-1728-87A1-889C-1DBB0AEF9E87}</Project>
+      <Name>Unity.Postprocessing.Runtime.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Environments.Player.csproj">
       <Project>{67AF716E-4E10-D0B6-33AF-980E9DC28E32}</Project>
       <Name>Unity.Services.Core.Environments.Player</Name>
@@ -837,10 +841,6 @@
     <ProjectReference Include="Unity.VisualScripting.State.Player.csproj">
       <Project>{35A44E20-6822-70F8-A84F-F03C3BD87F69}</Project>
       <Name>Unity.VisualScripting.State.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Postprocessing.Runtime.Player.csproj">
-      <Project>{310C7C7B-1728-87A1-889C-1DBB0AEF9E87}</Project>
-      <Name>Unity.Postprocessing.Runtime.Player</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

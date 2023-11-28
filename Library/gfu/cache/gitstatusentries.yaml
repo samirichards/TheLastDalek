@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2023-11-27T19:13:45.945+00:00
-  initializedAtString: 2023-11-27T16:48:03.821+00:00
+  lastUpdatedAtString: 2023-11-28T00:55:28.213+00:00
+  initializedAtString: 2023-11-28T00:46:12.518+00:00
   entries:
   - path: Assembly-CSharp.csproj
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assembly-CSharp.csproj
@@ -28,93 +28,69 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Entities\Camera\CameraObject.cs
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Camera\CameraObject.cs
-    projectPath: Assets\Entities\Camera\CameraObject.cs
+  - path: Assembly-CSharp-Editor.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assembly-CSharp-Editor.csproj
+    projectPath: Assembly-CSharp-Editor.csproj
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Entities\Camera\CameraObject.prefab
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Camera\CameraObject.prefab
-    projectPath: Assets\Entities\Camera\CameraObject.prefab
+  - path: Assembly-CSharp-Editor-firstpass.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assembly-CSharp-Editor-firstpass.csproj
+    projectPath: Assembly-CSharp-Editor-firstpass.csproj
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Entities\Camera\LockOnOverlay.asset
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Camera\LockOnOverlay.asset
-    projectPath: Assets\Entities\Camera\LockOnOverlay.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Entities\Humanoid\Base\ExterminationBoneEffect.mat
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Base\ExterminationBoneEffect.mat
-    projectPath: Assets\Entities\Humanoid\Base\ExterminationBoneEffect.mat
+  - path: Assets\Entities\Dalek\AttackController.cs
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\AttackController.cs
+    projectPath: Assets\Entities\Dalek\AttackController.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Entities\Humanoid\Base\ExterminationShaderGraph.shadergraph
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Base\ExterminationShaderGraph.shadergraph
-    projectPath: Assets\Entities\Humanoid\Base\ExterminationShaderGraph.shadergraph
+  - path: Assets\Entities\Dalek\DalekLockOnVolume.asset
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\DalekLockOnVolume.asset
+    projectPath: Assets\Entities\Dalek\DalekLockOnVolume.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scenes\DevScene\DevScene.unity
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Scenes\DevScene\DevScene.unity
-    projectPath: Assets\Scenes\DevScene\DevScene.unity
+  - path: Assets\Entities\Dalek\Player.prefab
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Player.prefab
+    projectPath: Assets\Entities\Dalek\Player.prefab
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scripts\GameSettings.cs
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Scripts\GameSettings.cs
-    projectPath: Assets\Scripts\GameSettings.cs
+  - path: Assets\HDRPAsset.asset
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\HDRPAsset.asset
+    projectPath: Assets\HDRPAsset.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Textures\hex.jpg.meta
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Textures\hex.jpg.meta
-    projectPath: Assets\Textures\hex.jpg.meta
+  - path: Library\Artifacts\5b\5bd3028045d0e682a8511246823f3043
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\5b\5bd3028045d0e682a8511246823f3043
+    projectPath: Library\Artifacts\5b\5bd3028045d0e682a8511246823f3043
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Textures\HexMask.png
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Textures\HexMask.png
-    projectPath: Assets\Textures\HexMask.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Bee\1900b0aEDbg.dag
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\1900b0aEDbg.dag
-    projectPath: Library\Bee\1900b0aEDbg.dag
+    workTreeStatus: 5
+  - path: Library\Artifacts\a2\a22f13b7a9bc6468a288490a617f9610
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\a2\a22f13b7a9bc6468a288490a617f9610
+    projectPath: Library\Artifacts\a2\a22f13b7a9bc6468a288490a617f9610
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\1900b0aEDbg.dag.json
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\1900b0aEDbg.dag.json
-    projectPath: Library\Bee\1900b0aEDbg.dag.json
+    workTreeStatus: 5
+  - path: Library\Artifacts\ae\aea3cbb9c55aee64a12f9858b97f97df
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\ae\aea3cbb9c55aee64a12f9858b97f97df
+    projectPath: Library\Artifacts\ae\aea3cbb9c55aee64a12f9858b97f97df
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\1900b0aEDbg.dag.outputdata
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\1900b0aEDbg.dag.outputdata
-    projectPath: Library\Bee\1900b0aEDbg.dag.outputdata
+    workTreeStatus: 5
+  - path: Library\Artifacts\d9\d925548ba1f95530f84695ea26b7404c
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\d9\d925548ba1f95530f84695ea26b7404c
+    projectPath: Library\Artifacts\d9\d925548ba1f95530f84695ea26b7404c
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\1900b0aEDbg.dag_derived
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\1900b0aEDbg.dag_derived
-    projectPath: Library\Bee\1900b0aEDbg.dag_derived
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
   - path: Library\Bee\1900b0aEDbg.dag_fsmtime
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\1900b0aEDbg.dag_fsmtime
     projectPath: Library\Bee\1900b0aEDbg.dag_fsmtime
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\1900b0aEDbg-inputdata.json
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\1900b0aEDbg-inputdata.json
-    projectPath: Library\Bee\1900b0aEDbg-inputdata.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -124,21 +100,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.dll.mvfrm.rsp
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.dll.mvfrm.rsp
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.dll.mvfrm.rsp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.pdb
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.pdb
     projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.rsp
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.rsp
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.rsp
+  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.ref.dll
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.ref.dll
+    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.ref.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -148,45 +118,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor.dll.mvfrm.rsp
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor.dll.mvfrm.rsp
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor.dll.mvfrm.rsp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor.pdb
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor.pdb
     projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor.rsp
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor.rsp
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor.rsp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor-firstpass.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor-firstpass.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor-firstpass.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor-firstpass.dll.mvfrm.rsp
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor-firstpass.dll.mvfrm.rsp
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor-firstpass.dll.mvfrm.rsp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor-firstpass.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor-firstpass.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor-firstpass.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor-firstpass.rsp
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor-firstpass.rsp
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp-Editor-firstpass.rsp
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -214,51 +148,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Assembly-CSharp-Editor-firstpass.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Assembly-CSharp-Editor-firstpass.dll
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Assembly-CSharp-Editor-firstpass.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Assembly-CSharp-Editor-firstpass.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Assembly-CSharp-Editor-firstpass.pdb
-    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\post-processed\Assembly-CSharp-Editor-firstpass.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\rsp\12244479590358847285.rsp
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\rsp\12244479590358847285.rsp
-    projectPath: Library\Bee\artifacts\rsp\12244479590358847285.rsp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\rsp\13279423640760612673.rsp
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\rsp\13279423640760612673.rsp
-    projectPath: Library\Bee\artifacts\rsp\13279423640760612673.rsp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\rsp\7429754328999314785.rsp
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\rsp\7429754328999314785.rsp
-    projectPath: Library\Bee\artifacts\rsp\7429754328999314785.rsp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\Bee\backend_profiler0.traceevents
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\backend_profiler0.traceevents
     projectPath: Library\Bee\backend_profiler0.traceevents
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\backend_profiler1.traceevents
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\backend_profiler1.traceevents
-    projectPath: Library\Bee\backend_profiler1.traceevents
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\buildprogram0.traceevents
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\buildprogram0.traceevents
-    projectPath: Library\Bee\buildprogram0.traceevents
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -328,45 +220,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\LastSceneManagerSetup.txt
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\LastSceneManagerSetup.txt
-    projectPath: Library\LastSceneManagerSetup.txt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PackageManager\ProjectCache
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageManager\ProjectCache
-    projectPath: Library\PackageManager\ProjectCache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PackageManager\ProjectCache.md5
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageManager\ProjectCache.md5
-    projectPath: Library\PackageManager\ProjectCache.md5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\SceneVisibilityState.asset
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\SceneVisibilityState.asset
     projectPath: Library\SceneVisibilityState.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -376,1386 +232,18 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\ShaderCache\compute\AutoExposure3484\00\a510b6d181c4895974ea8ec01f135cb5.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\compute\AutoExposure3484\00\a510b6d181c4895974ea8ec01f135cb5.bin
-    projectPath: Library\ShaderCache\compute\AutoExposure3484\00\a510b6d181c4895974ea8ec01f135cb5.bin
+  - path: Library\ShaderCache.db
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache.db
+    projectPath: Library\ShaderCache.db
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\compute\AutoExposure3484\00\fabb6a3cea19f394d8d6ff9fa7723f0c.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\compute\AutoExposure3484\00\fabb6a3cea19f394d8d6ff9fa7723f0c.bin
-    projectPath: Library\ShaderCache\compute\AutoExposure3484\00\fabb6a3cea19f394d8d6ff9fa7723f0c.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\compute\ExposureHistogram8c2f\00\13a5aafc0b33935620490faeeb01e2f6.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\compute\ExposureHistogram8c2f\00\13a5aafc0b33935620490faeeb01e2f6.bin
-    projectPath: Library\ShaderCache\compute\ExposureHistogram8c2f\00\13a5aafc0b33935620490faeeb01e2f6.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\compute\ExposureHistogram8c2f\00\8e72db130eca5beb2ec3ff34026ee377.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\compute\ExposureHistogram8c2f\00\8e72db130eca5beb2ec3ff34026ee377.bin
-    projectPath: Library\ShaderCache\compute\ExposureHistogram8c2f\00\8e72db130eca5beb2ec3ff34026ee377.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\compute\GaussianDownsample6dba\00\a75acb99d820d314e16e2c61deb9235b.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\compute\GaussianDownsample6dba\00\a75acb99d820d314e16e2c61deb9235b.bin
-    projectPath: Library\ShaderCache\compute\GaussianDownsample6dba\00\a75acb99d820d314e16e2c61deb9235b.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\compute\Histogram1818\00\0d4913c82d1a99ffa360046071b1276c.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\compute\Histogram1818\00\0d4913c82d1a99ffa360046071b1276c.bin
-    projectPath: Library\ShaderCache\compute\Histogram1818\00\0d4913c82d1a99ffa360046071b1276c.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\compute\Histogram1818\00\bd1a5e04a95ddf409cbacd10fe60987d.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\compute\Histogram1818\00\bd1a5e04a95ddf409cbacd10fe60987d.bin
-    projectPath: Library\ShaderCache\compute\Histogram1818\00\bd1a5e04a95ddf409cbacd10fe60987d.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\compute\Lut3DBaker4249\00\11b33eebf31c116eb13f77974baba6d5.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\compute\Lut3DBaker4249\00\11b33eebf31c116eb13f77974baba6d5.bin
-    projectPath: Library\ShaderCache\compute\Lut3DBaker4249\00\11b33eebf31c116eb13f77974baba6d5.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\compute\Lut3DBaker4249\00\2d5a2bb2de1423b31422b435ba8bce22.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\compute\Lut3DBaker4249\00\2d5a2bb2de1423b31422b435ba8bce22.bin
-    projectPath: Library\ShaderCache\compute\Lut3DBaker4249\00\2d5a2bb2de1423b31422b435ba8bce22.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\compute\Lut3DBaker4249\00\ea99ebe2e948db0e7b73454e6c853e44.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\compute\Lut3DBaker4249\00\ea99ebe2e948db0e7b73454e6c853e44.bin
-    projectPath: Library\ShaderCache\compute\Lut3DBaker4249\00\ea99ebe2e948db0e7b73454e6c853e44.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\compute\Lut3DBaker4249\00\f2ffb7e9cb04fe0f23d65125f02b93f4.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\compute\Lut3DBaker4249\00\f2ffb7e9cb04fe0f23d65125f02b93f4.bin
-    projectPath: Library\ShaderCache\compute\Lut3DBaker4249\00\f2ffb7e9cb04fe0f23d65125f02b93f4.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\compute\MultiScaleVODownsample14c63\00\788c8ab2c8a9de40aa830b659c98a40d.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\compute\MultiScaleVODownsample14c63\00\788c8ab2c8a9de40aa830b659c98a40d.bin
-    projectPath: Library\ShaderCache\compute\MultiScaleVODownsample14c63\00\788c8ab2c8a9de40aa830b659c98a40d.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\compute\MultiScaleVODownsample14c63\00\b8b8e6c4eb15101273e65098338a7d82.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\compute\MultiScaleVODownsample14c63\00\b8b8e6c4eb15101273e65098338a7d82.bin
-    projectPath: Library\ShaderCache\compute\MultiScaleVODownsample14c63\00\b8b8e6c4eb15101273e65098338a7d82.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\compute\MultiScaleVODownsample2e4d3\00\93fcedeb6c7a263c1f12c3fc39d6d261.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\compute\MultiScaleVODownsample2e4d3\00\93fcedeb6c7a263c1f12c3fc39d6d261.bin
-    projectPath: Library\ShaderCache\compute\MultiScaleVODownsample2e4d3\00\93fcedeb6c7a263c1f12c3fc39d6d261.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\compute\MultiScaleVODownsample2e4d3\00\c3c1ccf15e61681e19a6eaee21167dc5.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\compute\MultiScaleVODownsample2e4d3\00\c3c1ccf15e61681e19a6eaee21167dc5.bin
-    projectPath: Library\ShaderCache\compute\MultiScaleVODownsample2e4d3\00\c3c1ccf15e61681e19a6eaee21167dc5.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\compute\MultiScaleVORender34a4\00\122989e22eb21364fd228ca638bc899a.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\compute\MultiScaleVORender34a4\00\122989e22eb21364fd228ca638bc899a.bin
-    projectPath: Library\ShaderCache\compute\MultiScaleVORender34a4\00\122989e22eb21364fd228ca638bc899a.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\compute\MultiScaleVORender34a4\00\13de7d103ed3e450b5af4bd63b9475ca.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\compute\MultiScaleVORender34a4\00\13de7d103ed3e450b5af4bd63b9475ca.bin
-    projectPath: Library\ShaderCache\compute\MultiScaleVORender34a4\00\13de7d103ed3e450b5af4bd63b9475ca.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\compute\MultiScaleVORender34a4\00\3e07ab6012c29a0c4b91d8501257764d.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\compute\MultiScaleVORender34a4\00\3e07ab6012c29a0c4b91d8501257764d.bin
-    projectPath: Library\ShaderCache\compute\MultiScaleVORender34a4\00\3e07ab6012c29a0c4b91d8501257764d.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\compute\MultiScaleVORender34a4\00\fe086fc46bd4894440777842788ece74.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\compute\MultiScaleVORender34a4\00\fe086fc46bd4894440777842788ece74.bin
-    projectPath: Library\ShaderCache\compute\MultiScaleVORender34a4\00\fe086fc46bd4894440777842788ece74.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\compute\MultiScaleVOUpsample600d\00\1a0b2144836948525a431e1e1187e699.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\compute\MultiScaleVOUpsample600d\00\1a0b2144836948525a431e1e1187e699.bin
-    projectPath: Library\ShaderCache\compute\MultiScaleVOUpsample600d\00\1a0b2144836948525a431e1e1187e699.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\compute\MultiScaleVOUpsample600d\00\233888500b2943e1769b53702f61ce92.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\compute\MultiScaleVOUpsample600d\00\233888500b2943e1769b53702f61ce92.bin
-    projectPath: Library\ShaderCache\compute\MultiScaleVOUpsample600d\00\233888500b2943e1769b53702f61ce92.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\compute\MultiScaleVOUpsample600d\00\297d8c8dc7b781048bd40119a1515a5e.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\compute\MultiScaleVOUpsample600d\00\297d8c8dc7b781048bd40119a1515a5e.bin
-    projectPath: Library\ShaderCache\compute\MultiScaleVOUpsample600d\00\297d8c8dc7b781048bd40119a1515a5e.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\compute\MultiScaleVOUpsample600d\00\7aa2ae0c378df4e4317e2c2d872e43a7.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\compute\MultiScaleVOUpsample600d\00\7aa2ae0c378df4e4317e2c2d872e43a7.bin
-    projectPath: Library\ShaderCache\compute\MultiScaleVOUpsample600d\00\7aa2ae0c378df4e4317e2c2d872e43a7.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\compute\MultiScaleVOUpsample600d\00\7f364a4074d783a0966c74a8db10feff.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\compute\MultiScaleVOUpsample600d\00\7f364a4074d783a0966c74a8db10feff.bin
-    projectPath: Library\ShaderCache\compute\MultiScaleVOUpsample600d\00\7f364a4074d783a0966c74a8db10feff.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\compute\MultiScaleVOUpsample600d\00\90d73d82563479e0f58c2dbf5d2b3695.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\compute\MultiScaleVOUpsample600d\00\90d73d82563479e0f58c2dbf5d2b3695.bin
-    projectPath: Library\ShaderCache\compute\MultiScaleVOUpsample600d\00\90d73d82563479e0f58c2dbf5d2b3695.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\compute\MultiScaleVOUpsample600d\00\971f45f25aec06f910d858b91f2f9aad.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\compute\MultiScaleVOUpsample600d\00\971f45f25aec06f910d858b91f2f9aad.bin
-    projectPath: Library\ShaderCache\compute\MultiScaleVOUpsample600d\00\971f45f25aec06f910d858b91f2f9aad.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\compute\MultiScaleVOUpsample600d\00\9f456c5a90bad468b1b31d545483e742.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\compute\MultiScaleVOUpsample600d\00\9f456c5a90bad468b1b31d545483e742.bin
-    projectPath: Library\ShaderCache\compute\MultiScaleVOUpsample600d\00\9f456c5a90bad468b1b31d545483e742.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\compute\MultiScaleVOUpsample600d\00\bfefa40ab71818e665564ff624c28535.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\compute\MultiScaleVOUpsample600d\00\bfefa40ab71818e665564ff624c28535.bin
-    projectPath: Library\ShaderCache\compute\MultiScaleVOUpsample600d\00\bfefa40ab71818e665564ff624c28535.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\compute\MultiScaleVOUpsample600d\00\d98a12d26530b760ec3611a0146965b5.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\compute\MultiScaleVOUpsample600d\00\d98a12d26530b760ec3611a0146965b5.bin
-    projectPath: Library\ShaderCache\compute\MultiScaleVOUpsample600d\00\d98a12d26530b760ec3611a0146965b5.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\compute\Texture3DLerp31e9\00\0c33b3fbe26358960423fed244f12604.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\compute\Texture3DLerp31e9\00\0c33b3fbe26358960423fed244f12604.bin
-    projectPath: Library\ShaderCache\compute\Texture3DLerp31e9\00\0c33b3fbe26358960423fed244f12604.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\compute\Texture3DLerp31e9\00\9cddc1845cdd036b80cb9bb2becf11ea.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\compute\Texture3DLerp31e9\00\9cddc1845cdd036b80cb9bb2becf11ea.bin
-    projectPath: Library\ShaderCache\compute\Texture3DLerp31e9\00\9cddc1845cdd036b80cb9bb2becf11ea.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\compute\Vectorscopee1ef\00\070447c77c127000797cd30a2eecca2d.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\compute\Vectorscopee1ef\00\070447c77c127000797cd30a2eecca2d.bin
-    projectPath: Library\ShaderCache\compute\Vectorscopee1ef\00\070447c77c127000797cd30a2eecca2d.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\compute\Vectorscopee1ef\00\7027876d9f2d50d582ba9ba58bbaf4ea.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\compute\Vectorscopee1ef\00\7027876d9f2d50d582ba9ba58bbaf4ea.bin
-    projectPath: Library\ShaderCache\compute\Vectorscopee1ef\00\7027876d9f2d50d582ba9ba58bbaf4ea.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\compute\Waveform92c6\00\253dd479d9b31432387d50d756b2a4b3.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\compute\Waveform92c6\00\253dd479d9b31432387d50d756b2a4b3.bin
-    projectPath: Library\ShaderCache\compute\Waveform92c6\00\253dd479d9b31432387d50d756b2a4b3.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\compute\Waveform92c6\00\2cfdb6578d6042478462d396d27a20ea.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\compute\Waveform92c6\00\2cfdb6578d6042478462d396d27a20ea.bin
-    projectPath: Library\ShaderCache\compute\Waveform92c6\00\2cfdb6578d6042478462d396d27a20ea.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    workTreeStatus: 3
   - path: Library\ShaderCache\EditorEncounteredVariants
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\EditorEncounteredVariants
     projectPath: Library\ShaderCache\EditorEncounteredVariants
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\ShaderCache\shader\Bloomc1e1\00\00212ebd0b14cf69fa20b92af055e66d.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Bloomc1e1\00\00212ebd0b14cf69fa20b92af055e66d.bin
-    projectPath: Library\ShaderCache\shader\Bloomc1e1\00\00212ebd0b14cf69fa20b92af055e66d.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Bloomc1e1\00\053f446b618ca5c7b7a640c48e8d3e25.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Bloomc1e1\00\053f446b618ca5c7b7a640c48e8d3e25.bin
-    projectPath: Library\ShaderCache\shader\Bloomc1e1\00\053f446b618ca5c7b7a640c48e8d3e25.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Bloomc1e1\00\0b21121c350ae1d89e5c7e71ea9218fc.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Bloomc1e1\00\0b21121c350ae1d89e5c7e71ea9218fc.bin
-    projectPath: Library\ShaderCache\shader\Bloomc1e1\00\0b21121c350ae1d89e5c7e71ea9218fc.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Bloomc1e1\00\339eb995f6df403e772cab31715d1479.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Bloomc1e1\00\339eb995f6df403e772cab31715d1479.bin
-    projectPath: Library\ShaderCache\shader\Bloomc1e1\00\339eb995f6df403e772cab31715d1479.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Bloomc1e1\00\354b7b31545e3a428daf6319483605d3.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Bloomc1e1\00\354b7b31545e3a428daf6319483605d3.bin
-    projectPath: Library\ShaderCache\shader\Bloomc1e1\00\354b7b31545e3a428daf6319483605d3.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Bloomc1e1\00\5bcfb723b0f207adbd17ca0d7093d70f.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Bloomc1e1\00\5bcfb723b0f207adbd17ca0d7093d70f.bin
-    projectPath: Library\ShaderCache\shader\Bloomc1e1\00\5bcfb723b0f207adbd17ca0d7093d70f.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Bloomc1e1\00\6de42de3da13fa72812baac84ec31a7d.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Bloomc1e1\00\6de42de3da13fa72812baac84ec31a7d.bin
-    projectPath: Library\ShaderCache\shader\Bloomc1e1\00\6de42de3da13fa72812baac84ec31a7d.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Bloomc1e1\00\9fafeef51f7db3f1faaac88f7debe4dd.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Bloomc1e1\00\9fafeef51f7db3f1faaac88f7debe4dd.bin
-    projectPath: Library\ShaderCache\shader\Bloomc1e1\00\9fafeef51f7db3f1faaac88f7debe4dd.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Bloomc1e1\00\a28e733bcfa728a9ec4e7f45c0ab236f.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Bloomc1e1\00\a28e733bcfa728a9ec4e7f45c0ab236f.bin
-    projectPath: Library\ShaderCache\shader\Bloomc1e1\00\a28e733bcfa728a9ec4e7f45c0ab236f.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Bloomc1e1\00\a62583d1677ec6e09e331bd161564c2f.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Bloomc1e1\00\a62583d1677ec6e09e331bd161564c2f.bin
-    projectPath: Library\ShaderCache\shader\Bloomc1e1\00\a62583d1677ec6e09e331bd161564c2f.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Bloomc1e1\00\b08c1a772ed7ecc13798921a6f531969.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Bloomc1e1\00\b08c1a772ed7ecc13798921a6f531969.bin
-    projectPath: Library\ShaderCache\shader\Bloomc1e1\00\b08c1a772ed7ecc13798921a6f531969.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Bloomc1e1\00\b56ee8227d1f594d34827d59260f723f.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Bloomc1e1\00\b56ee8227d1f594d34827d59260f723f.bin
-    projectPath: Library\ShaderCache\shader\Bloomc1e1\00\b56ee8227d1f594d34827d59260f723f.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Bloomc1e1\00\b96a5f19e0a5e1212a4af3b694113b9f.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Bloomc1e1\00\b96a5f19e0a5e1212a4af3b694113b9f.bin
-    projectPath: Library\ShaderCache\shader\Bloomc1e1\00\b96a5f19e0a5e1212a4af3b694113b9f.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Bloomc1e1\00\ca6ac0cfd000166fd231ede8d4fd9c52.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Bloomc1e1\00\ca6ac0cfd000166fd231ede8d4fd9c52.bin
-    projectPath: Library\ShaderCache\shader\Bloomc1e1\00\ca6ac0cfd000166fd231ede8d4fd9c52.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Bloomc1e1\00\df7c5496668ef9c82033925c67ea4dc9.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Bloomc1e1\00\df7c5496668ef9c82033925c67ea4dc9.bin
-    projectPath: Library\ShaderCache\shader\Bloomc1e1\00\df7c5496668ef9c82033925c67ea4dc9.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Bloomc1e1\00\e4999dcde283ceea3bca1ae273cf831f.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Bloomc1e1\00\e4999dcde283ceea3bca1ae273cf831f.bin
-    projectPath: Library\ShaderCache\shader\Bloomc1e1\00\e4999dcde283ceea3bca1ae273cf831f.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Bloomc1e1\00\eec8f8e721420dbff51534362c8e7b13.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Bloomc1e1\00\eec8f8e721420dbff51534362c8e7b13.bin
-    projectPath: Library\ShaderCache\shader\Bloomc1e1\00\eec8f8e721420dbff51534362c8e7b13.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Bloomc1e1\00\f787325756d2f3a8ca1c60be28c6c32c.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Bloomc1e1\00\f787325756d2f3a8ca1c60be28c6c32c.bin
-    projectPath: Library\ShaderCache\shader\Bloomc1e1\00\f787325756d2f3a8ca1c60be28c6c32c.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\ConvertToLogfe14\00\02e483659bac3977f8f2ffe8e7982841.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\ConvertToLogfe14\00\02e483659bac3977f8f2ffe8e7982841.bin
-    projectPath: Library\ShaderCache\shader\ConvertToLogfe14\00\02e483659bac3977f8f2ffe8e7982841.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\ConvertToLogfe14\00\cd4575ce13af7460f87293c5fe918e22.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\ConvertToLogfe14\00\cd4575ce13af7460f87293c5fe918e22.bin
-    projectPath: Library\ShaderCache\shader\ConvertToLogfe14\00\cd4575ce13af7460f87293c5fe918e22.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Copycdbd\00\47d361e7768bdd2ff22db44c81ef624c.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Copycdbd\00\47d361e7768bdd2ff22db44c81ef624c.bin
-    projectPath: Library\ShaderCache\shader\Copycdbd\00\47d361e7768bdd2ff22db44c81ef624c.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Copycdbd\00\5b8b4a998282e663ac58e6fd8183d8de.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Copycdbd\00\5b8b4a998282e663ac58e6fd8183d8de.bin
-    projectPath: Library\ShaderCache\shader\Copycdbd\00\5b8b4a998282e663ac58e6fd8183d8de.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Copycdbd\00\7e64e0d1deddb64477631e8f7ffc5304.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Copycdbd\00\7e64e0d1deddb64477631e8f7ffc5304.bin
-    projectPath: Library\ShaderCache\shader\Copycdbd\00\7e64e0d1deddb64477631e8f7ffc5304.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Copycdbd\00\dbb92db66db045aeda6aa95e0786a83e.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Copycdbd\00\dbb92db66db045aeda6aa95e0786a83e.bin
-    projectPath: Library\ShaderCache\shader\Copycdbd\00\dbb92db66db045aeda6aa95e0786a83e.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\CopyStd4bf4\00\196635da5e7cb7a9aba002869ab67c98.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\CopyStd4bf4\00\196635da5e7cb7a9aba002869ab67c98.bin
-    projectPath: Library\ShaderCache\shader\CopyStd4bf4\00\196635da5e7cb7a9aba002869ab67c98.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\CopyStd4bf4\00\3a797abeecfb83e97fbebbb16e7af4ad.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\CopyStd4bf4\00\3a797abeecfb83e97fbebbb16e7af4ad.bin
-    projectPath: Library\ShaderCache\shader\CopyStd4bf4\00\3a797abeecfb83e97fbebbb16e7af4ad.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\CopyStd4bf4\00\d983bf1ab147561ccbf417cc112b9472.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\CopyStd4bf4\00\d983bf1ab147561ccbf417cc112b9472.bin
-    projectPath: Library\ShaderCache\shader\CopyStd4bf4\00\d983bf1ab147561ccbf417cc112b9472.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\CopyStd4bf4\00\f5a3252dcdf2bbf309dedaf874214758.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\CopyStd4bf4\00\f5a3252dcdf2bbf309dedaf874214758.bin
-    projectPath: Library\ShaderCache\shader\CopyStd4bf4\00\f5a3252dcdf2bbf309dedaf874214758.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\CopyStdFromDoubleWidee8ce\00\00d0e910788320ace8c81d9b0236332c.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\CopyStdFromDoubleWidee8ce\00\00d0e910788320ace8c81d9b0236332c.bin
-    projectPath: Library\ShaderCache\shader\CopyStdFromDoubleWidee8ce\00\00d0e910788320ace8c81d9b0236332c.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\CopyStdFromDoubleWidee8ce\00\188889bf2f6380aa1b3d484c5ac32924.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\CopyStdFromDoubleWidee8ce\00\188889bf2f6380aa1b3d484c5ac32924.bin
-    projectPath: Library\ShaderCache\shader\CopyStdFromDoubleWidee8ce\00\188889bf2f6380aa1b3d484c5ac32924.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\CopyStdFromDoubleWidee8ce\00\624db6962759d6e9acc446506b3c734d.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\CopyStdFromDoubleWidee8ce\00\624db6962759d6e9acc446506b3c734d.bin
-    projectPath: Library\ShaderCache\shader\CopyStdFromDoubleWidee8ce\00\624db6962759d6e9acc446506b3c734d.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\CopyStdFromDoubleWidee8ce\00\8c3678f092e877a3bb3d3cc2974e1f6b.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\CopyStdFromDoubleWidee8ce\00\8c3678f092e877a3bb3d3cc2974e1f6b.bin
-    projectPath: Library\ShaderCache\shader\CopyStdFromDoubleWidee8ce\00\8c3678f092e877a3bb3d3cc2974e1f6b.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\CopyStdFromTexArray02d2\00\0c9f85044e0068166b70fa753465a57a.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\CopyStdFromTexArray02d2\00\0c9f85044e0068166b70fa753465a57a.bin
-    projectPath: Library\ShaderCache\shader\CopyStdFromTexArray02d2\00\0c9f85044e0068166b70fa753465a57a.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\CopyStdFromTexArray02d2\00\0dd13ef004a969e154aa57f7146f9a1b.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\CopyStdFromTexArray02d2\00\0dd13ef004a969e154aa57f7146f9a1b.bin
-    projectPath: Library\ShaderCache\shader\CopyStdFromTexArray02d2\00\0dd13ef004a969e154aa57f7146f9a1b.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\CopyStdFromTexArray02d2\00\553fa3364310b81e156130725b4a3776.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\CopyStdFromTexArray02d2\00\553fa3364310b81e156130725b4a3776.bin
-    projectPath: Library\ShaderCache\shader\CopyStdFromTexArray02d2\00\553fa3364310b81e156130725b4a3776.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\CopyStdFromTexArray02d2\00\f1e717b001079cb1d92559fbc190c882.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\CopyStdFromTexArray02d2\00\f1e717b001079cb1d92559fbc190c882.bin
-    projectPath: Library\ShaderCache\shader\CopyStdFromTexArray02d2\00\f1e717b001079cb1d92559fbc190c882.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\CurveGrid5bb6\00\2c2c9a483f9edfbf3415d0872ea86611.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\CurveGrid5bb6\00\2c2c9a483f9edfbf3415d0872ea86611.bin
-    projectPath: Library\ShaderCache\shader\CurveGrid5bb6\00\2c2c9a483f9edfbf3415d0872ea86611.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\CurveGrid5bb6\00\6fe708d1ef413608d63874688a3578f5.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\CurveGrid5bb6\00\6fe708d1ef413608d63874688a3578f5.bin
-    projectPath: Library\ShaderCache\shader\CurveGrid5bb6\00\6fe708d1ef413608d63874688a3578f5.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\CurveGrid5bb6\00\b5493fd2c7af6f54603ca400917753d8.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\CurveGrid5bb6\00\b5493fd2c7af6f54603ca400917753d8.bin
-    projectPath: Library\ShaderCache\shader\CurveGrid5bb6\00\b5493fd2c7af6f54603ca400917753d8.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\CurveGrid5bb6\00\e53305065812bde0430f94a8d88c8b9d.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\CurveGrid5bb6\00\e53305065812bde0430f94a8d88c8b9d.bin
-    projectPath: Library\ShaderCache\shader\CurveGrid5bb6\00\e53305065812bde0430f94a8d88c8b9d.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DeferredFog4117\00\1a3e3baee754580d12ddf16497954166.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DeferredFog4117\00\1a3e3baee754580d12ddf16497954166.bin
-    projectPath: Library\ShaderCache\shader\DeferredFog4117\00\1a3e3baee754580d12ddf16497954166.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DeferredFog4117\00\37a9b03367a0d2853832b62bdfed7b5c.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DeferredFog4117\00\37a9b03367a0d2853832b62bdfed7b5c.bin
-    projectPath: Library\ShaderCache\shader\DeferredFog4117\00\37a9b03367a0d2853832b62bdfed7b5c.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DeferredFog4117\00\46821fd4c058ea94ee279d7416898aad.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DeferredFog4117\00\46821fd4c058ea94ee279d7416898aad.bin
-    projectPath: Library\ShaderCache\shader\DeferredFog4117\00\46821fd4c058ea94ee279d7416898aad.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DeferredFog4117\00\634d33a15b1ed0d548362426d8807f3b.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DeferredFog4117\00\634d33a15b1ed0d548362426d8807f3b.bin
-    projectPath: Library\ShaderCache\shader\DeferredFog4117\00\634d33a15b1ed0d548362426d8807f3b.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\01b3866653316eaeba3457143b0bd21a.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\01b3866653316eaeba3457143b0bd21a.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\01b3866653316eaeba3457143b0bd21a.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\03a07a3445ac7727b976bd0df1b3f131.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\03a07a3445ac7727b976bd0df1b3f131.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\03a07a3445ac7727b976bd0df1b3f131.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\082271357b70cd391e19a4062956bdde.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\082271357b70cd391e19a4062956bdde.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\082271357b70cd391e19a4062956bdde.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\17028af93d76d87a41da9467dd3b8546.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\17028af93d76d87a41da9467dd3b8546.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\17028af93d76d87a41da9467dd3b8546.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\1cf9012a6b61f4edce5c40b77ae0e458.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\1cf9012a6b61f4edce5c40b77ae0e458.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\1cf9012a6b61f4edce5c40b77ae0e458.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\2757db78530582cc10d66b50be34ee04.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\2757db78530582cc10d66b50be34ee04.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\2757db78530582cc10d66b50be34ee04.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\31620eb8725dcdbf9f288aa6f5717869.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\31620eb8725dcdbf9f288aa6f5717869.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\31620eb8725dcdbf9f288aa6f5717869.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\376f94a707d1290193bf6d45dd0d3ec5.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\376f94a707d1290193bf6d45dd0d3ec5.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\376f94a707d1290193bf6d45dd0d3ec5.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\41af9ce70b4a5a71b190a82616b8ec68.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\41af9ce70b4a5a71b190a82616b8ec68.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\41af9ce70b4a5a71b190a82616b8ec68.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\43116cd5e746f2588b82ebb0fcd7132d.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\43116cd5e746f2588b82ebb0fcd7132d.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\43116cd5e746f2588b82ebb0fcd7132d.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\4595e1ca20a239337b9e36484a666beb.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\4595e1ca20a239337b9e36484a666beb.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\4595e1ca20a239337b9e36484a666beb.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\45b928fe8a3668f26dbc122cf75358b3.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\45b928fe8a3668f26dbc122cf75358b3.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\45b928fe8a3668f26dbc122cf75358b3.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\5fc161b13f18ce4fa992b82d2f385532.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\5fc161b13f18ce4fa992b82d2f385532.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\5fc161b13f18ce4fa992b82d2f385532.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\654b4945017a39bb9c9f77e6abcf5ca7.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\654b4945017a39bb9c9f77e6abcf5ca7.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\654b4945017a39bb9c9f77e6abcf5ca7.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\6d5c1748689dd71d68785b7d1f4445df.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\6d5c1748689dd71d68785b7d1f4445df.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\6d5c1748689dd71d68785b7d1f4445df.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\70dd3e1a5e67da17ca62329ad75efa71.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\70dd3e1a5e67da17ca62329ad75efa71.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\70dd3e1a5e67da17ca62329ad75efa71.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\71cde57d08d55b212c7c510a1913893f.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\71cde57d08d55b212c7c510a1913893f.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\71cde57d08d55b212c7c510a1913893f.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\73eeffd77d23dd5ec382f2b31466bfc0.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\73eeffd77d23dd5ec382f2b31466bfc0.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\73eeffd77d23dd5ec382f2b31466bfc0.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\79f86aa5ed70c3889e8f11e583b47156.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\79f86aa5ed70c3889e8f11e583b47156.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\79f86aa5ed70c3889e8f11e583b47156.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\8420f080cb86dab9aa96336a4b9d777e.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\8420f080cb86dab9aa96336a4b9d777e.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\8420f080cb86dab9aa96336a4b9d777e.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\86dfe21128d041cc316f3271f33e022b.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\86dfe21128d041cc316f3271f33e022b.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\86dfe21128d041cc316f3271f33e022b.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\93d172bf36163b9b14f4f46050cf12fb.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\93d172bf36163b9b14f4f46050cf12fb.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\93d172bf36163b9b14f4f46050cf12fb.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\94c7ed3c1d0fc738212510b681c96e47.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\94c7ed3c1d0fc738212510b681c96e47.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\94c7ed3c1d0fc738212510b681c96e47.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\961a4ae6efb990a3001ce4df33bdff83.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\961a4ae6efb990a3001ce4df33bdff83.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\961a4ae6efb990a3001ce4df33bdff83.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\a3fbf695ec707921350b2385a4ec259e.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\a3fbf695ec707921350b2385a4ec259e.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\a3fbf695ec707921350b2385a4ec259e.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\a7fa63577dc718ff898a48ce0f59a060.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\a7fa63577dc718ff898a48ce0f59a060.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\a7fa63577dc718ff898a48ce0f59a060.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\aaed02d5dd8d56951eb624d52a3c6f44.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\aaed02d5dd8d56951eb624d52a3c6f44.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\aaed02d5dd8d56951eb624d52a3c6f44.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\b3729b8d969c1ebb35d7c7abdf9dae60.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\b3729b8d969c1ebb35d7c7abdf9dae60.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\b3729b8d969c1ebb35d7c7abdf9dae60.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\c67d589f4c7c87d842e1bff5d2b4fce9.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\c67d589f4c7c87d842e1bff5d2b4fce9.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\c67d589f4c7c87d842e1bff5d2b4fce9.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\c80497c9be71e988e38d1da07fe069c1.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\c80497c9be71e988e38d1da07fe069c1.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\c80497c9be71e988e38d1da07fe069c1.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\d6e35d5cb967d8f21189667ac2eb8b58.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\d6e35d5cb967d8f21189667ac2eb8b58.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\d6e35d5cb967d8f21189667ac2eb8b58.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\e0938ffe175cf2880d8eec2bee925808.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\e0938ffe175cf2880d8eec2bee925808.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\e0938ffe175cf2880d8eec2bee925808.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\e658d549bfa2eef7848d3163be71d7d6.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\e658d549bfa2eef7848d3163be71d7d6.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\e658d549bfa2eef7848d3163be71d7d6.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\e6e8293c41ceaacb8d35ef823e6e6dca.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\e6e8293c41ceaacb8d35ef823e6e6dca.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\e6e8293c41ceaacb8d35ef823e6e6dca.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\e8d841d135a8ad448e3b02c029d4d2ce.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\e8d841d135a8ad448e3b02c029d4d2ce.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\e8d841d135a8ad448e3b02c029d4d2ce.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\ec7a7b21026e6e3a258dc36c77534d4a.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\ec7a7b21026e6e3a258dc36c77534d4a.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\ec7a7b21026e6e3a258dc36c77534d4a.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\ef158d7201f32b315e24197aaceae01f.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\ef158d7201f32b315e24197aaceae01f.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\ef158d7201f32b315e24197aaceae01f.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\f515b6d0ae98f5b25442044b0b3385e2.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\f515b6d0ae98f5b25442044b0b3385e2.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\f515b6d0ae98f5b25442044b0b3385e2.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\fbfb669338382a201593ea2450b29ec4.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\fbfb669338382a201593ea2450b29ec4.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\fbfb669338382a201593ea2450b29ec4.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DepthOfField0ef7\00\fcd1ddfe70365849e17faf03030df565.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DepthOfField0ef7\00\fcd1ddfe70365849e17faf03030df565.bin
-    projectPath: Library\ShaderCache\shader\DepthOfField0ef7\00\fcd1ddfe70365849e17faf03030df565.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DiscardAlpha5ab0\00\788a96572ebaf8252aee01165b35ae20.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DiscardAlpha5ab0\00\788a96572ebaf8252aee01165b35ae20.bin
-    projectPath: Library\ShaderCache\shader\DiscardAlpha5ab0\00\788a96572ebaf8252aee01165b35ae20.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\DiscardAlpha5ab0\00\83c9cadda6dcaf428bdcefbdc06120f6.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\DiscardAlpha5ab0\00\83c9cadda6dcaf428bdcefbdc06120f6.bin
-    projectPath: Library\ShaderCache\shader\DiscardAlpha5ab0\00\83c9cadda6dcaf428bdcefbdc06120f6.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\FinalPassf750\00\1eeb6d50351c11a21a3b5de8390b2327.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\FinalPassf750\00\1eeb6d50351c11a21a3b5de8390b2327.bin
-    projectPath: Library\ShaderCache\shader\FinalPassf750\00\1eeb6d50351c11a21a3b5de8390b2327.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\FinalPassf750\00\5dbb3f791cc9f2417a23674b7a65fcde.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\FinalPassf750\00\5dbb3f791cc9f2417a23674b7a65fcde.bin
-    projectPath: Library\ShaderCache\shader\FinalPassf750\00\5dbb3f791cc9f2417a23674b7a65fcde.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\FinalPassf750\00\85c2e44732beac46cbbcc39def3adecc.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\FinalPassf750\00\85c2e44732beac46cbbcc39def3adecc.bin
-    projectPath: Library\ShaderCache\shader\FinalPassf750\00\85c2e44732beac46cbbcc39def3adecc.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\FinalPassf750\00\8d8bae3cf3679e12acf52dfea9253077.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\FinalPassf750\00\8d8bae3cf3679e12acf52dfea9253077.bin
-    projectPath: Library\ShaderCache\shader\FinalPassf750\00\8d8bae3cf3679e12acf52dfea9253077.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\GrainBaker0d8a\00\c5b4fcf13975de11f5297639cf406120.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\GrainBaker0d8a\00\c5b4fcf13975de11f5297639cf406120.bin
-    projectPath: Library\ShaderCache\shader\GrainBaker0d8a\00\c5b4fcf13975de11f5297639cf406120.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\GrainBaker0d8a\00\cf86f869acdf2ea3b94f3ebb3b34020b.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\GrainBaker0d8a\00\cf86f869acdf2ea3b94f3ebb3b34020b.bin
-    projectPath: Library\ShaderCache\shader\GrainBaker0d8a\00\cf86f869acdf2ea3b94f3ebb3b34020b.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\GrainBaker0d8a\00\cfdc89f720a1f7153f7acead8f1f5c36.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\GrainBaker0d8a\00\cfdc89f720a1f7153f7acead8f1f5c36.bin
-    projectPath: Library\ShaderCache\shader\GrainBaker0d8a\00\cfdc89f720a1f7153f7acead8f1f5c36.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\GrainBaker0d8a\00\f4e0e2259458378f27692a89b3ea0944.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\GrainBaker0d8a\00\f4e0e2259458378f27692a89b3ea0944.bin
-    projectPath: Library\ShaderCache\shader\GrainBaker0d8a\00\f4e0e2259458378f27692a89b3ea0944.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Histogramf7ea\00\2e2abe36c3c8d09089af5c5270bd3404.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Histogramf7ea\00\2e2abe36c3c8d09089af5c5270bd3404.bin
-    projectPath: Library\ShaderCache\shader\Histogramf7ea\00\2e2abe36c3c8d09089af5c5270bd3404.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Histogramf7ea\00\59ecf4a06ad74c7bee8f9fe124dcd9bd.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Histogramf7ea\00\59ecf4a06ad74c7bee8f9fe124dcd9bd.bin
-    projectPath: Library\ShaderCache\shader\Histogramf7ea\00\59ecf4a06ad74c7bee8f9fe124dcd9bd.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\LightMeterb34a\00\69f3f978ca9206a87af0cf00afbe2347.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\LightMeterb34a\00\69f3f978ca9206a87af0cf00afbe2347.bin
-    projectPath: Library\ShaderCache\shader\LightMeterb34a\00\69f3f978ca9206a87af0cf00afbe2347.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\LightMeterb34a\00\707215e2b30def3370896c2b3a78bee8.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\LightMeterb34a\00\707215e2b30def3370896c2b3a78bee8.bin
-    projectPath: Library\ShaderCache\shader\LightMeterb34a\00\707215e2b30def3370896c2b3a78bee8.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Lut2DBaker7ad1\00\5d502638e1141fc3bd9f7ad34c13ffae.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Lut2DBaker7ad1\00\5d502638e1141fc3bd9f7ad34c13ffae.bin
-    projectPath: Library\ShaderCache\shader\Lut2DBaker7ad1\00\5d502638e1141fc3bd9f7ad34c13ffae.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Lut2DBaker7ad1\00\8601ba8816c9a73b40d42a60869efd38.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Lut2DBaker7ad1\00\8601ba8816c9a73b40d42a60869efd38.bin
-    projectPath: Library\ShaderCache\shader\Lut2DBaker7ad1\00\8601ba8816c9a73b40d42a60869efd38.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Lut2DBaker7ad1\00\b42fd532098179f18223dcb7f638af2d.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Lut2DBaker7ad1\00\b42fd532098179f18223dcb7f638af2d.bin
-    projectPath: Library\ShaderCache\shader\Lut2DBaker7ad1\00\b42fd532098179f18223dcb7f638af2d.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Lut2DBaker7ad1\00\bf179d00148128169db4f21a60c0cebf.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Lut2DBaker7ad1\00\bf179d00148128169db4f21a60c0cebf.bin
-    projectPath: Library\ShaderCache\shader\Lut2DBaker7ad1\00\bf179d00148128169db4f21a60c0cebf.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Lut2DBaker7ad1\00\fc909c9c915fe4a623996b219784ab83.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Lut2DBaker7ad1\00\fc909c9c915fe4a623996b219784ab83.bin
-    projectPath: Library\ShaderCache\shader\Lut2DBaker7ad1\00\fc909c9c915fe4a623996b219784ab83.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Lut2DBaker7ad1\00\fec1e79a440f36066903c297174efbe5.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Lut2DBaker7ad1\00\fec1e79a440f36066903c297174efbe5.bin
-    projectPath: Library\ShaderCache\shader\Lut2DBaker7ad1\00\fec1e79a440f36066903c297174efbe5.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\MotionBlur2c45\00\042f4eb5cc2f6ad4886237e4e3c6cd28.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\MotionBlur2c45\00\042f4eb5cc2f6ad4886237e4e3c6cd28.bin
-    projectPath: Library\ShaderCache\shader\MotionBlur2c45\00\042f4eb5cc2f6ad4886237e4e3c6cd28.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\MotionBlur2c45\00\06513b5da0933a7327d71e772da63b71.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\MotionBlur2c45\00\06513b5da0933a7327d71e772da63b71.bin
-    projectPath: Library\ShaderCache\shader\MotionBlur2c45\00\06513b5da0933a7327d71e772da63b71.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\MotionBlur2c45\00\24cfe4c9f8b5237740193704c4e11c94.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\MotionBlur2c45\00\24cfe4c9f8b5237740193704c4e11c94.bin
-    projectPath: Library\ShaderCache\shader\MotionBlur2c45\00\24cfe4c9f8b5237740193704c4e11c94.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\MotionBlur2c45\00\25fa48d47b0595ac0b260dd46e3e3387.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\MotionBlur2c45\00\25fa48d47b0595ac0b260dd46e3e3387.bin
-    projectPath: Library\ShaderCache\shader\MotionBlur2c45\00\25fa48d47b0595ac0b260dd46e3e3387.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\MotionBlur2c45\00\2c39a8cd6405fceede6d2c416db9f355.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\MotionBlur2c45\00\2c39a8cd6405fceede6d2c416db9f355.bin
-    projectPath: Library\ShaderCache\shader\MotionBlur2c45\00\2c39a8cd6405fceede6d2c416db9f355.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\MotionBlur2c45\00\4c8caf02e0f8dc72883184888541eca8.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\MotionBlur2c45\00\4c8caf02e0f8dc72883184888541eca8.bin
-    projectPath: Library\ShaderCache\shader\MotionBlur2c45\00\4c8caf02e0f8dc72883184888541eca8.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\MotionBlur2c45\00\732916847675f78c77d3be6c3a8c4003.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\MotionBlur2c45\00\732916847675f78c77d3be6c3a8c4003.bin
-    projectPath: Library\ShaderCache\shader\MotionBlur2c45\00\732916847675f78c77d3be6c3a8c4003.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\MotionBlur2c45\00\7628c0753c0b2d3b4fd20b8cefaad5c8.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\MotionBlur2c45\00\7628c0753c0b2d3b4fd20b8cefaad5c8.bin
-    projectPath: Library\ShaderCache\shader\MotionBlur2c45\00\7628c0753c0b2d3b4fd20b8cefaad5c8.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\MotionBlur2c45\00\a23c922109f4808d741ff3f933439a4c.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\MotionBlur2c45\00\a23c922109f4808d741ff3f933439a4c.bin
-    projectPath: Library\ShaderCache\shader\MotionBlur2c45\00\a23c922109f4808d741ff3f933439a4c.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\MotionBlur2c45\00\add011223e2adc41bd605c9be3a01ebc.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\MotionBlur2c45\00\add011223e2adc41bd605c9be3a01ebc.bin
-    projectPath: Library\ShaderCache\shader\MotionBlur2c45\00\add011223e2adc41bd605c9be3a01ebc.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\MotionBlur2c45\00\d7b1a7f715eb899a21851b057261d184.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\MotionBlur2c45\00\d7b1a7f715eb899a21851b057261d184.bin
-    projectPath: Library\ShaderCache\shader\MotionBlur2c45\00\d7b1a7f715eb899a21851b057261d184.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\MotionBlur2c45\00\e3bac55ac1ff37f7d69ffa38bbc4e60c.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\MotionBlur2c45\00\e3bac55ac1ff37f7d69ffa38bbc4e60c.bin
-    projectPath: Library\ShaderCache\shader\MotionBlur2c45\00\e3bac55ac1ff37f7d69ffa38bbc4e60c.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\MultiScaleVO67f9\00\0850a7f7d5c6d17de19d4948c179aa85.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\MultiScaleVO67f9\00\0850a7f7d5c6d17de19d4948c179aa85.bin
-    projectPath: Library\ShaderCache\shader\MultiScaleVO67f9\00\0850a7f7d5c6d17de19d4948c179aa85.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\MultiScaleVO67f9\00\093724b209912901019dd4b93ab9d16f.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\MultiScaleVO67f9\00\093724b209912901019dd4b93ab9d16f.bin
-    projectPath: Library\ShaderCache\shader\MultiScaleVO67f9\00\093724b209912901019dd4b93ab9d16f.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\MultiScaleVO67f9\00\1c605fedbeb38329532c7884ee8ed158.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\MultiScaleVO67f9\00\1c605fedbeb38329532c7884ee8ed158.bin
-    projectPath: Library\ShaderCache\shader\MultiScaleVO67f9\00\1c605fedbeb38329532c7884ee8ed158.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\MultiScaleVO67f9\00\27cf7060c7eaf0c275473f5a76799618.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\MultiScaleVO67f9\00\27cf7060c7eaf0c275473f5a76799618.bin
-    projectPath: Library\ShaderCache\shader\MultiScaleVO67f9\00\27cf7060c7eaf0c275473f5a76799618.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\MultiScaleVO67f9\00\49b1ffc77d4886d77056b823a8d9c12a.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\MultiScaleVO67f9\00\49b1ffc77d4886d77056b823a8d9c12a.bin
-    projectPath: Library\ShaderCache\shader\MultiScaleVO67f9\00\49b1ffc77d4886d77056b823a8d9c12a.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\MultiScaleVO67f9\00\5afcbb89df95603f6ccabee3b1d2caaa.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\MultiScaleVO67f9\00\5afcbb89df95603f6ccabee3b1d2caaa.bin
-    projectPath: Library\ShaderCache\shader\MultiScaleVO67f9\00\5afcbb89df95603f6ccabee3b1d2caaa.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\MultiScaleVO67f9\00\b88171e660b9510ba62358c726497d1d.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\MultiScaleVO67f9\00\b88171e660b9510ba62358c726497d1d.bin
-    projectPath: Library\ShaderCache\shader\MultiScaleVO67f9\00\b88171e660b9510ba62358c726497d1d.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\MultiScaleVO67f9\00\df1c3eb96c8b64e58aed9ff434ce4dd5.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\MultiScaleVO67f9\00\df1c3eb96c8b64e58aed9ff434ce4dd5.bin
-    projectPath: Library\ShaderCache\shader\MultiScaleVO67f9\00\df1c3eb96c8b64e58aed9ff434ce4dd5.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Overlaysb958\00\3bdd34f1392adb1b4a84c53715952965.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Overlaysb958\00\3bdd34f1392adb1b4a84c53715952965.bin
-    projectPath: Library\ShaderCache\shader\Overlaysb958\00\3bdd34f1392adb1b4a84c53715952965.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Overlaysb958\00\579c1280ca79aa1062a742e77dcd05e1.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Overlaysb958\00\579c1280ca79aa1062a742e77dcd05e1.bin
-    projectPath: Library\ShaderCache\shader\Overlaysb958\00\579c1280ca79aa1062a742e77dcd05e1.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Overlaysb958\00\60b78d2c032baa118a79fdf25433fdee.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Overlaysb958\00\60b78d2c032baa118a79fdf25433fdee.bin
-    projectPath: Library\ShaderCache\shader\Overlaysb958\00\60b78d2c032baa118a79fdf25433fdee.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Overlaysb958\00\633f9f5eed9c9d23cbbd171487ad5eb8.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Overlaysb958\00\633f9f5eed9c9d23cbbd171487ad5eb8.bin
-    projectPath: Library\ShaderCache\shader\Overlaysb958\00\633f9f5eed9c9d23cbbd171487ad5eb8.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Overlaysb958\00\6c9b490e21b3aed35ac978b7f5700769.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Overlaysb958\00\6c9b490e21b3aed35ac978b7f5700769.bin
-    projectPath: Library\ShaderCache\shader\Overlaysb958\00\6c9b490e21b3aed35ac978b7f5700769.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Overlaysb958\00\790c6f32bd687b6fa469ec5c1375061b.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Overlaysb958\00\790c6f32bd687b6fa469ec5c1375061b.bin
-    projectPath: Library\ShaderCache\shader\Overlaysb958\00\790c6f32bd687b6fa469ec5c1375061b.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Overlaysb958\00\79c0923e43d193def55a5d4bf4949586.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Overlaysb958\00\79c0923e43d193def55a5d4bf4949586.bin
-    projectPath: Library\ShaderCache\shader\Overlaysb958\00\79c0923e43d193def55a5d4bf4949586.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Overlaysb958\00\7c4a98b9f23e344910b55facc5d2a38c.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Overlaysb958\00\7c4a98b9f23e344910b55facc5d2a38c.bin
-    projectPath: Library\ShaderCache\shader\Overlaysb958\00\7c4a98b9f23e344910b55facc5d2a38c.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Overlaysb958\00\916863db49fcca2e5181eec9e83dd953.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Overlaysb958\00\916863db49fcca2e5181eec9e83dd953.bin
-    projectPath: Library\ShaderCache\shader\Overlaysb958\00\916863db49fcca2e5181eec9e83dd953.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Overlaysb958\00\9fc2d98e146f5f863fb8ee2353beb77d.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Overlaysb958\00\9fc2d98e146f5f863fb8ee2353beb77d.bin
-    projectPath: Library\ShaderCache\shader\Overlaysb958\00\9fc2d98e146f5f863fb8ee2353beb77d.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Overlaysb958\00\a487ce833117c3dfb3d7acec9f3e4631.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Overlaysb958\00\a487ce833117c3dfb3d7acec9f3e4631.bin
-    projectPath: Library\ShaderCache\shader\Overlaysb958\00\a487ce833117c3dfb3d7acec9f3e4631.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Overlaysb958\00\a5003a377962de62b0d3dc8b97ff92d4.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Overlaysb958\00\a5003a377962de62b0d3dc8b97ff92d4.bin
-    projectPath: Library\ShaderCache\shader\Overlaysb958\00\a5003a377962de62b0d3dc8b97ff92d4.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Overlaysb958\00\c8e4e024401df377250cd7641f015ffd.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Overlaysb958\00\c8e4e024401df377250cd7641f015ffd.bin
-    projectPath: Library\ShaderCache\shader\Overlaysb958\00\c8e4e024401df377250cd7641f015ffd.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Overlaysb958\00\e5ae5e8e1420313953a14a7d44fd68c8.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Overlaysb958\00\e5ae5e8e1420313953a14a7d44fd68c8.bin
-    projectPath: Library\ShaderCache\shader\Overlaysb958\00\e5ae5e8e1420313953a14a7d44fd68c8.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\ScalableAOd764\00\0e19f721a424cfbb9d6566a347a97947.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\ScalableAOd764\00\0e19f721a424cfbb9d6566a347a97947.bin
-    projectPath: Library\ShaderCache\shader\ScalableAOd764\00\0e19f721a424cfbb9d6566a347a97947.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\ScalableAOd764\00\29fd5d358da65d683b55866683d28b2d.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\ScalableAOd764\00\29fd5d358da65d683b55866683d28b2d.bin
-    projectPath: Library\ShaderCache\shader\ScalableAOd764\00\29fd5d358da65d683b55866683d28b2d.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\ScalableAOd764\00\3904fc9d59c3fd90a2e65ff3f899a711.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\ScalableAOd764\00\3904fc9d59c3fd90a2e65ff3f899a711.bin
-    projectPath: Library\ShaderCache\shader\ScalableAOd764\00\3904fc9d59c3fd90a2e65ff3f899a711.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\ScalableAOd764\00\47f522c24154a4ce84ff2606ef3f59b6.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\ScalableAOd764\00\47f522c24154a4ce84ff2606ef3f59b6.bin
-    projectPath: Library\ShaderCache\shader\ScalableAOd764\00\47f522c24154a4ce84ff2606ef3f59b6.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\ScalableAOd764\00\4da713efab183d1b53b59c3f826589a1.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\ScalableAOd764\00\4da713efab183d1b53b59c3f826589a1.bin
-    projectPath: Library\ShaderCache\shader\ScalableAOd764\00\4da713efab183d1b53b59c3f826589a1.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\ScalableAOd764\00\503acad1e73ce69c3e30e2646b2ea914.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\ScalableAOd764\00\503acad1e73ce69c3e30e2646b2ea914.bin
-    projectPath: Library\ShaderCache\shader\ScalableAOd764\00\503acad1e73ce69c3e30e2646b2ea914.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\ScalableAOd764\00\563c3a6b3a832021553dc414efaa069f.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\ScalableAOd764\00\563c3a6b3a832021553dc414efaa069f.bin
-    projectPath: Library\ShaderCache\shader\ScalableAOd764\00\563c3a6b3a832021553dc414efaa069f.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\ScalableAOd764\00\5fe4f0ad8085a48e54f8dceb73ce6db9.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\ScalableAOd764\00\5fe4f0ad8085a48e54f8dceb73ce6db9.bin
-    projectPath: Library\ShaderCache\shader\ScalableAOd764\00\5fe4f0ad8085a48e54f8dceb73ce6db9.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\ScalableAOd764\00\787e7c44a09ce0ff737cdc740c0b00f9.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\ScalableAOd764\00\787e7c44a09ce0ff737cdc740c0b00f9.bin
-    projectPath: Library\ShaderCache\shader\ScalableAOd764\00\787e7c44a09ce0ff737cdc740c0b00f9.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\ScalableAOd764\00\845b9a33af4454c988f4c5e7e22d5e77.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\ScalableAOd764\00\845b9a33af4454c988f4c5e7e22d5e77.bin
-    projectPath: Library\ShaderCache\shader\ScalableAOd764\00\845b9a33af4454c988f4c5e7e22d5e77.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\ScalableAOd764\00\a0169c91770d36e482525031ee7b2d87.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\ScalableAOd764\00\a0169c91770d36e482525031ee7b2d87.bin
-    projectPath: Library\ShaderCache\shader\ScalableAOd764\00\a0169c91770d36e482525031ee7b2d87.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\ScalableAOd764\00\a7eea9d29fa66db4c0a4c936962b267f.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\ScalableAOd764\00\a7eea9d29fa66db4c0a4c936962b267f.bin
-    projectPath: Library\ShaderCache\shader\ScalableAOd764\00\a7eea9d29fa66db4c0a4c936962b267f.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\ScalableAOd764\00\db3064ac139ff92677908fcfef343893.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\ScalableAOd764\00\db3064ac139ff92677908fcfef343893.bin
-    projectPath: Library\ShaderCache\shader\ScalableAOd764\00\db3064ac139ff92677908fcfef343893.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\ScalableAOd764\00\e1dd7c3ad67e915c647395885d118f61.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\ScalableAOd764\00\e1dd7c3ad67e915c647395885d118f61.bin
-    projectPath: Library\ShaderCache\shader\ScalableAOd764\00\e1dd7c3ad67e915c647395885d118f61.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\ScalableAOd764\00\f30de72115bf5e9df37507e5ec77740b.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\ScalableAOd764\00\f30de72115bf5e9df37507e5ec77740b.bin
-    projectPath: Library\ShaderCache\shader\ScalableAOd764\00\f30de72115bf5e9df37507e5ec77740b.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\ScalableAOd764\00\f7d7d013242b56a7eb4c2d10dec9d45a.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\ScalableAOd764\00\f7d7d013242b56a7eb4c2d10dec9d45a.bin
-    projectPath: Library\ShaderCache\shader\ScalableAOd764\00\f7d7d013242b56a7eb4c2d10dec9d45a.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\ScreenSpaceReflectionsf997\00\06e1ef911504a3d9d3022e2567a8e52a.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\ScreenSpaceReflectionsf997\00\06e1ef911504a3d9d3022e2567a8e52a.bin
-    projectPath: Library\ShaderCache\shader\ScreenSpaceReflectionsf997\00\06e1ef911504a3d9d3022e2567a8e52a.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\ScreenSpaceReflectionsf997\00\0a9ea4af6717c2170ebb7b4dcf2d8ddc.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\ScreenSpaceReflectionsf997\00\0a9ea4af6717c2170ebb7b4dcf2d8ddc.bin
-    projectPath: Library\ShaderCache\shader\ScreenSpaceReflectionsf997\00\0a9ea4af6717c2170ebb7b4dcf2d8ddc.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\ScreenSpaceReflectionsf997\00\176ffb1b5102f96ac4afe38f751fd3c4.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\ScreenSpaceReflectionsf997\00\176ffb1b5102f96ac4afe38f751fd3c4.bin
-    projectPath: Library\ShaderCache\shader\ScreenSpaceReflectionsf997\00\176ffb1b5102f96ac4afe38f751fd3c4.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\ScreenSpaceReflectionsf997\00\6ae67efaf9dfc25013e5f757d400a147.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\ScreenSpaceReflectionsf997\00\6ae67efaf9dfc25013e5f757d400a147.bin
-    projectPath: Library\ShaderCache\shader\ScreenSpaceReflectionsf997\00\6ae67efaf9dfc25013e5f757d400a147.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\ScreenSpaceReflectionsf997\00\884ecd66b2cdd25696bdf9e61317e096.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\ScreenSpaceReflectionsf997\00\884ecd66b2cdd25696bdf9e61317e096.bin
-    projectPath: Library\ShaderCache\shader\ScreenSpaceReflectionsf997\00\884ecd66b2cdd25696bdf9e61317e096.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\ScreenSpaceReflectionsf997\00\a74f8f9e53f82e4243760f9c9e12f494.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\ScreenSpaceReflectionsf997\00\a74f8f9e53f82e4243760f9c9e12f494.bin
-    projectPath: Library\ShaderCache\shader\ScreenSpaceReflectionsf997\00\a74f8f9e53f82e4243760f9c9e12f494.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\ScreenSpaceReflectionsf997\00\b47a6f80e165c9b0fece11554f964af4.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\ScreenSpaceReflectionsf997\00\b47a6f80e165c9b0fece11554f964af4.bin
-    projectPath: Library\ShaderCache\shader\ScreenSpaceReflectionsf997\00\b47a6f80e165c9b0fece11554f964af4.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\ScreenSpaceReflectionsf997\00\b7550372110bb14eefb5820004eae677.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\ScreenSpaceReflectionsf997\00\b7550372110bb14eefb5820004eae677.bin
-    projectPath: Library\ShaderCache\shader\ScreenSpaceReflectionsf997\00\b7550372110bb14eefb5820004eae677.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\02e813b414f0fb5d469912698732d364.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\02e813b414f0fb5d469912698732d364.bin
-    projectPath: Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\02e813b414f0fb5d469912698732d364.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\0e098478ef1cb85d640cea4d329bff91.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\0e098478ef1cb85d640cea4d329bff91.bin
-    projectPath: Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\0e098478ef1cb85d640cea4d329bff91.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\14bfc1904bb6b6753d8fbf97656f645f.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\14bfc1904bb6b6753d8fbf97656f645f.bin
-    projectPath: Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\14bfc1904bb6b6753d8fbf97656f645f.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\282cc9c7fa3e95984c98880b0a6b81b5.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\282cc9c7fa3e95984c98880b0a6b81b5.bin
-    projectPath: Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\282cc9c7fa3e95984c98880b0a6b81b5.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\561f838229d66fa13a28e11ffe789e0b.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\561f838229d66fa13a28e11ffe789e0b.bin
-    projectPath: Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\561f838229d66fa13a28e11ffe789e0b.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\7721006af9eb88a70ff454147684601c.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\7721006af9eb88a70ff454147684601c.bin
-    projectPath: Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\7721006af9eb88a70ff454147684601c.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\887593486a3cef62f8f76b765169efe8.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\887593486a3cef62f8f76b765169efe8.bin
-    projectPath: Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\887593486a3cef62f8f76b765169efe8.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\9c2a4847d2f76ed9982bc2a6933c7597.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\9c2a4847d2f76ed9982bc2a6933c7597.bin
-    projectPath: Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\9c2a4847d2f76ed9982bc2a6933c7597.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\a2bec707d83ae0203d9f0b95106969e0.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\a2bec707d83ae0203d9f0b95106969e0.bin
-    projectPath: Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\a2bec707d83ae0203d9f0b95106969e0.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\bb21fd850570c551b076da2086f80e5f.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\bb21fd850570c551b076da2086f80e5f.bin
-    projectPath: Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\bb21fd850570c551b076da2086f80e5f.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\ed1e7f7c1bdb5442322a3171220ccfee.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\ed1e7f7c1bdb5442322a3171220ccfee.bin
-    projectPath: Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\ed1e7f7c1bdb5442322a3171220ccfee.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\f12c3d2063666af8c478658355472b25.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\f12c3d2063666af8c478658355472b25.bin
-    projectPath: Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\f12c3d2063666af8c478658355472b25.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\f1ea4e87930486c89782c7ccc4165b2e.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\f1ea4e87930486c89782c7ccc4165b2e.bin
-    projectPath: Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\f1ea4e87930486c89782c7ccc4165b2e.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\f94df0143df92c63620b5c6c0bf0151b.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\f94df0143df92c63620b5c6c0bf0151b.bin
-    projectPath: Library\ShaderCache\shader\SubpixelMorphologicalAntialiasing81af\00\f94df0143df92c63620b5c6c0bf0151b.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\TemporalAntialiasing51bc\00\44ad9eb10782f94d41a70afbc0c56664.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\TemporalAntialiasing51bc\00\44ad9eb10782f94d41a70afbc0c56664.bin
-    projectPath: Library\ShaderCache\shader\TemporalAntialiasing51bc\00\44ad9eb10782f94d41a70afbc0c56664.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\TemporalAntialiasing51bc\00\65391b887aa480124f1b429c1cfccb3d.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\TemporalAntialiasing51bc\00\65391b887aa480124f1b429c1cfccb3d.bin
-    projectPath: Library\ShaderCache\shader\TemporalAntialiasing51bc\00\65391b887aa480124f1b429c1cfccb3d.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\TemporalAntialiasing51bc\00\cedb5fe0a05bb467dcba2a5dafdc66c6.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\TemporalAntialiasing51bc\00\cedb5fe0a05bb467dcba2a5dafdc66c6.bin
-    projectPath: Library\ShaderCache\shader\TemporalAntialiasing51bc\00\cedb5fe0a05bb467dcba2a5dafdc66c6.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\TemporalAntialiasing51bc\00\d079af4755c621dec0439790c51626ba.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\TemporalAntialiasing51bc\00\d079af4755c621dec0439790c51626ba.bin
-    projectPath: Library\ShaderCache\shader\TemporalAntialiasing51bc\00\d079af4755c621dec0439790c51626ba.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Texture2DLerp34a8\00\3b0396dba513a2d8d868b861fb4e6fd7.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Texture2DLerp34a8\00\3b0396dba513a2d8d868b861fb4e6fd7.bin
-    projectPath: Library\ShaderCache\shader\Texture2DLerp34a8\00\3b0396dba513a2d8d868b861fb4e6fd7.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Texture2DLerp34a8\00\65bf5a506d92862bbe5be2c745b90248.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Texture2DLerp34a8\00\65bf5a506d92862bbe5be2c745b90248.bin
-    projectPath: Library\ShaderCache\shader\Texture2DLerp34a8\00\65bf5a506d92862bbe5be2c745b90248.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Texture2DLerp34a8\00\acb8c4c552d1bf7e876a65e1536d9c16.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Texture2DLerp34a8\00\acb8c4c552d1bf7e876a65e1536d9c16.bin
-    projectPath: Library\ShaderCache\shader\Texture2DLerp34a8\00\acb8c4c552d1bf7e876a65e1536d9c16.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Texture2DLerp34a8\00\d5f98390dbddeb5819d01117450eb567.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Texture2DLerp34a8\00\d5f98390dbddeb5819d01117450eb567.bin
-    projectPath: Library\ShaderCache\shader\Texture2DLerp34a8\00\d5f98390dbddeb5819d01117450eb567.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Trackballde7f\00\352c7e765d2e53d98e781ec7954eb2b0.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Trackballde7f\00\352c7e765d2e53d98e781ec7954eb2b0.bin
-    projectPath: Library\ShaderCache\shader\Trackballde7f\00\352c7e765d2e53d98e781ec7954eb2b0.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Trackballde7f\00\cb6020d875eb90148386453d3fc8d3e5.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Trackballde7f\00\cb6020d875eb90148386453d3fc8d3e5.bin
-    projectPath: Library\ShaderCache\shader\Trackballde7f\00\cb6020d875eb90148386453d3fc8d3e5.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Trackballde7f\00\ed421b0cef16d470d3170d900cdff307.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Trackballde7f\00\ed421b0cef16d470d3170d900cdff307.bin
-    projectPath: Library\ShaderCache\shader\Trackballde7f\00\ed421b0cef16d470d3170d900cdff307.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Trackballde7f\00\f020b35a85d99605742db909abd742ba.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Trackballde7f\00\f020b35a85d99605742db909abd742ba.bin
-    projectPath: Library\ShaderCache\shader\Trackballde7f\00\f020b35a85d99605742db909abd742ba.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Uber3821\00\be573047c8620c6426e4602f163f2fe5.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Uber3821\00\be573047c8620c6426e4602f163f2fe5.bin
-    projectPath: Library\ShaderCache\shader\Uber3821\00\be573047c8620c6426e4602f163f2fe5.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Uber3821\00\d9131e271e6101322d0853cf53e4bae4.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Uber3821\00\d9131e271e6101322d0853cf53e4bae4.bin
-    projectPath: Library\ShaderCache\shader\Uber3821\00\d9131e271e6101322d0853cf53e4bae4.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Vectorscopea710\00\a53b96921f9b9fae4e86c62563f3c669.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Vectorscopea710\00\a53b96921f9b9fae4e86c62563f3c669.bin
-    projectPath: Library\ShaderCache\shader\Vectorscopea710\00\a53b96921f9b9fae4e86c62563f3c669.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Vectorscopea710\00\ad616d7dc069ab75634b04369b0a50d5.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Vectorscopea710\00\ad616d7dc069ab75634b04369b0a50d5.bin
-    projectPath: Library\ShaderCache\shader\Vectorscopea710\00\ad616d7dc069ab75634b04369b0a50d5.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Waveform3020\00\23bae51d781ae58242dc3726ed7548c4.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Waveform3020\00\23bae51d781ae58242dc3726ed7548c4.bin
-    projectPath: Library\ShaderCache\shader\Waveform3020\00\23bae51d781ae58242dc3726ed7548c4.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\shader\Waveform3020\00\c2a6f1dcb807269d388f1d0b4efd1b79.bin
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\shader\Waveform3020\00\c2a6f1dcb807269d388f1d0b4efd1b79.bin
-    projectPath: Library\ShaderCache\shader\Waveform3020\00\c2a6f1dcb807269d388f1d0b4efd1b79.bin
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Library\SourceAssetDB
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\SourceAssetDB
     projectPath: Library\SourceAssetDB
@@ -1768,33 +256,33 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\StateCache\PrefabStageHierarchy\c2\c264c43c60ed985a4a22bf7bf28e13b8.json
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\StateCache\PrefabStageHierarchy\c2\c264c43c60ed985a4a22bf7bf28e13b8.json
+    projectPath: Library\StateCache\PrefabStageHierarchy\c2\c264c43c60ed985a4a22bf7bf28e13b8.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
     projectPath: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\UIElements\EditorWindows\UnityEditor.ShaderGraph.Drawing.MaterialGraphEditWindow.pref
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\UIElements\EditorWindows\UnityEditor.ShaderGraph.Drawing.MaterialGraphEditWindow.pref
-    projectPath: Library\UIElements\EditorWindows\UnityEditor.ShaderGraph.Drawing.MaterialGraphEditWindow.pref
+  - path: Logs\AssetImportWorker0-prev.log
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Logs\AssetImportWorker0-prev.log
+    projectPath: Logs\AssetImportWorker0-prev.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Logs\AssetImportWorker1-prev.log
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Logs\AssetImportWorker1-prev.log
+    projectPath: Logs\AssetImportWorker1-prev.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Logs\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Logs\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Logs\shadercompiler-UnityShaderCompiler.exe0.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Packages\manifest.json
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Packages\manifest.json
-    projectPath: Packages\manifest.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Packages\packages-lock.json
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Packages\packages-lock.json
-    projectPath: Packages\packages-lock.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -1822,9 +310,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: UserSettings\EditorUserSettings.asset
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\UserSettings\EditorUserSettings.asset
-    projectPath: UserSettings\EditorUserSettings.asset
+  - path: Unity.RenderPipelines.HighDefinition.Runtime.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.RenderPipelines.HighDefinition.Runtime.csproj
+    projectPath: Unity.RenderPipelines.HighDefinition.Runtime.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.RenderPipelines.HighDefinition.Runtime.Player.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.RenderPipelines.HighDefinition.Runtime.Player.csproj
+    projectPath: Unity.RenderPipelines.HighDefinition.Runtime.Player.csproj
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3

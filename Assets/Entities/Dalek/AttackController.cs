@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 [RequireComponent(typeof(LineRenderer))]
 public class AttackController : MonoBehaviour
@@ -46,6 +47,8 @@ public class AttackController : MonoBehaviour
     private bool hasPlayedLockOnReadySound = false;
     [SerializeField] private AttackTypes AttackType = AttackTypes.Standard;
 
+    private Volume lockOnVolume;
+
     public enum AttackTypes
     {
         Standard,
@@ -64,6 +67,7 @@ public class AttackController : MonoBehaviour
         RaygunLine.enabled = false;
         weaponSoundSource = Player._PropController.getGeneralAudioSource;
         AttackType = Player._PropController.getAttackType;
+        lockOnVolume = GetComponent<Volume>();
     }
 
     void Update()
@@ -120,6 +124,7 @@ public class AttackController : MonoBehaviour
 
         if (LockOnEnabled)
         {
+            lockOnVolume.enabled = true;
             if (Input.GetButtonDown("Fire1"))
             {
                 lockOnStarted = false;
@@ -160,6 +165,7 @@ public class AttackController : MonoBehaviour
         }
         else
         {
+            lockOnVolume.enabled = false;
             LockOnProgress = 0.0f;
             lockOnStarted = false;
             reticleObject.ClearLockOnTarget();

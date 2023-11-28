@@ -862,9 +862,9 @@
       <Project>{4D3A5E9C-BB54-4D62-C961-F214C9130B48}</Project>
       <Name>Unity.RenderPipelines.HighDefinition.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
-      <Project>{655E8258-5095-FD26-B651-F50A81702613}</Project>
-      <Name>Unity.VisualScripting.Flow</Name>
+    <ProjectReference Include="Unity.Postprocessing.Editor.csproj">
+      <Project>{BFC9AF9F-2409-5A64-676E-A5F3E13BF30A}</Project>
+      <Name>Unity.Postprocessing.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{7E4A2F95-0C4B-7DF4-94C0-3DAC902A1B36}</Project>
@@ -881,6 +881,10 @@
     <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
       <Project>{FFE93CFF-2BCA-D43B-6357-2A7CFE781D01}</Project>
       <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
+      <Project>{655E8258-5095-FD26-B651-F50A81702613}</Project>
+      <Name>Unity.VisualScripting.Flow</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{E3138DDB-38A5-FC8B-0C46-E42278FF4CE2}</Project>
@@ -913,6 +917,10 @@
     <ProjectReference Include="Unity.Burst.csproj">
       <Project>{73878D80-3589-78EE-B75C-275B73C79E0A}</Project>
       <Name>Unity.Burst</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Postprocessing.Runtime.csproj">
+      <Project>{C96BA9CF-A7E6-30E7-D20C-C7286E333D91}</Project>
+      <Name>Unity.Postprocessing.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
       <Project>{DE06EF37-E141-BB55-BFC2-DFBFA03DD4BF}</Project>
