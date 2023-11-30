@@ -87,7 +87,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -226,9 +226,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: d0790000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 68faffff06fbffff
+      m_ExpandedIDs: eeb8ffff1eb9ffff4cbaffffb0c8ffff8cd8ffff3ad9ffff8edcffff56e0ffff58faffff06fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -244,7 +244,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 5}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -569,16 +569,16 @@ MonoBehaviour:
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
   m_Gizmos: 0
   m_OverrideSceneCullingMask: 6917529027641081856
-  m_SceneIsLit: 1
+  m_SceneIsLit: 0
   m_SceneLighting: 1
   m_2DMode: 0
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -23.39864, y: -6.5594907, z: 17.2619}
+    m_Target: {x: 4.6752877, y: -2.1705463, z: 3.0326223}
     speed: 2
-    m_Value: {x: -23.39864, y: -6.5594907, z: 17.2619}
+    m_Value: {x: 4.6752877, y: -2.1705463, z: 3.0326223}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -625,9 +625,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.23040298, y: -0.64258206, z: 0.1769056, w: -0.7116704}
+    m_Target: {x: -0.14628434, y: -0.45382655, z: 0.051245265, w: -0.8796652}
     speed: 2
-    m_Value: {x: 0.23040299, y: 0.6425821, z: -0.17690562, w: 0.71167046}
+    m_Value: {x: -0.14608416, y: -0.45165047, z: 0.05092925, w: -0.87867945}
   m_Size:
     m_Target: 8.154261
     speed: 2
@@ -2797,22 +2797,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Entities/Dalek
+    - Assets/Entities/Humanoid/Civilian
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Entities/Dalek
+  - Assets/Entities/Humanoid/Civilian
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\samir\Documents\Game Projects\TheLastDalek
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: c8830000
-    m_LastClickedID: 33736
-    m_ExpandedIDs: 00000000b0830000b2830000b4830000b6830000b8830000ba830000bc830000be830000c0830000c2830000c4830000c6830000c8830000ca83000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 122}
+    m_SelectedIDs: 48860000
+    m_LastClickedID: 34376
+    m_ExpandedIDs: 00000000a0850000a2850000a4850000a6850000a8850000aa850000ac850000ae850000b0850000b2850000b4850000b6850000b8850000ba85000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2840,7 +2840,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b0830000b2830000b4830000b6830000b8830000ba830000bc830000be830000c0830000c2830000c4830000c6830000c8830000ca83000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000a0850000a2850000a4850000a6850000a8850000aa850000ac850000ae850000b0850000b2850000b4850000b6850000b8850000ba85000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2865,9 +2865,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: d0790000
-    m_LastClickedInstanceID: 31184
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000c2790000143b06000e8b0000c88a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -2956,7 +2956,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -16432
+  m_LastSelectedObjectID: -22746
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
