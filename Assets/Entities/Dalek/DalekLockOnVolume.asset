@@ -55,7 +55,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c1be1b6c95cd2e41b27903b9270817f, type: 3}
   m_Name: Vignette
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   mode:
     m_OverrideState: 1
     m_Value: 0
@@ -95,22 +95,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c1bfcd0f0fa7b8468f281d6bbbaf320, type: 3}
   m_Name: LensDistortion
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   intensity:
     m_OverrideState: 1
     m_Value: -0.33
   xMultiplier:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   yMultiplier:
-    m_OverrideState: 0
-    m_Value: 0.7
+    m_OverrideState: 1
+    m_Value: 0
   center:
     m_OverrideState: 0
     m_Value: {x: 0.5, y: 0.5}
   scale:
-    m_OverrideState: 1
-    m_Value: 1.05
+    m_OverrideState: 0
+    m_Value: 1
 --- !u!114 &4891545633128480882
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -157,7 +157,7 @@ MonoBehaviour:
     m_Value: 26
   colorFilter:
     m_OverrideState: 1
-    m_Value: {r: 1.0466359, g: 1.0766321, b: 1.509434, a: 1}
+    m_Value: {r: 0.39517805, g: 0.87927115, b: 1.8869752, a: 1}
   hueShift:
     m_OverrideState: 0
     m_Value: 0
