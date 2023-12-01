@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Music Map
   m_EditorClassIdentifier: 
   sceneMusicPairs:
-  - sceneName: MainMenu
+  - sceneName: MainMenu_1
     musicClip: {fileID: 8300000, guid: f6bc0f8dc745b5e4fa477d90cf615880, type: 3}
   - sceneName: DevScene
     musicClip: {fileID: 8300000, guid: b443d44dc10dcaa4d807430051ddd973, type: 3}
@@ -49,3 +49,5 @@ MonoBehaviour:
     musicClip: {fileID: 8300000, guid: ec523cbf4f5d1a347844d9a28d0fc0bf, type: 3}
   - sceneName: F3_R0
     musicClip: {fileID: 8300000, guid: f492ad1beee6a394794045b27b391065, type: 3}
+  - sceneName: MainMenu_2
+    musicClip: {fileID: 8300000, guid: 9b9eaedc15b8c8945b4acd848a79a153, type: 3}
