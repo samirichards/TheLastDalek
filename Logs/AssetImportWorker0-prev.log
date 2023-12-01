@@ -15,7 +15,7 @@ C:/Users/samir/Documents/Game Projects/TheLastDalek
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53630
+63320
 Successfully changed project path to: C:/Users/samir/Documents/Game Projects/TheLastDalek
 C:/Users/samir/Documents/Game Projects/TheLastDalek
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/samir/Documents/Game Projects/TheLastDalek
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [5288] Host "[IP] 192.168.68.116 [Port] 0 [Flags] 2 [Guid] 958216631 [EditorId] 958216631 [Version] 1048832 [Id] WindowsEditor(7,Samis-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [32816] Host "[IP] 192.168.68.116 [Port] 0 [Flags] 2 [Guid] 3721731196 [EditorId] 3721731196 [Version] 1048832 [Id] WindowsEditor(7,Samis-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [5288] Host "[IP] 192.168.68.116 [Port] 0 [Flags] 2 [Guid] 958216631 [EditorId] 958216631 [Version] 1048832 [Id] WindowsEditor(7,Samis-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [32816] Host "[IP] 192.168.68.116 [Port] 0 [Flags] 2 [Guid] 3721731196 [EditorId] 3721731196 [Version] 1048832 [Id] WindowsEditor(7,Samis-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 Setting a NavMeshArea cost less than one can give unexpected results.
-Refreshing native plugins compatible for Editor in 144.65 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 163.86 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.15f1 (e8e88683f834)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
@@ -71,151 +71,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.005269 seconds.
+Registered in 0.090625 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 142.69 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 147.31 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.786 seconds
+- Completed reload, in  5.520 seconds
 Domain Reload Profiling:
-	ReloadAssembly (787ms)
-		BeginReloadAssembly (90ms)
+	ReloadAssembly (5520ms)
+		BeginReloadAssembly (4051ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (577ms)
-			LoadAssemblies (89ms)
+		EndReloadAssembly (1022ms)
+			LoadAssemblies (4056ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (135ms)
+			SetupTypeCache (602ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (355ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (329ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (143ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (155ms)
-				ProcessInitializeOnLoadMethodAttributes (47ms)
+				RefreshPlugins (147ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (124ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012728 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 158.00 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.990 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1991ms)
-		BeginReloadAssembly (99ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (1782ms)
-			LoadAssemblies (107ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (461ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (103ms)
-			SetupLoadedEditorAssemblies (1055ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (158ms)
-				BeforeProcessingInitializeOnLoad (126ms)
-				ProcessInitializeOnLoadAttributes (446ms)
-				ProcessInitializeOnLoadMethodAttributes (314ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Setting a NavMeshArea cost less than one can give unexpected results.
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.43 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6722 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 72 unused Assets / (2.5 MB). Loaded Objects now: 7229.
-Memory consumption went from 434.4 MB to 432.0 MB.
-Total: 4.453700 ms (FindLiveObjects: 0.606800 ms CreateObjectMapping: 0.189400 ms MarkObjects: 3.054700 ms  DeleteObjects: 0.601300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 5976.248540 seconds.
-  path: Assets/LevelGeometry/Props/StrobeLight/StrobeLight.prefab
-  artifactKey: Guid(565ad59ccd6d95748b74230274830305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LevelGeometry/Props/StrobeLight/StrobeLight.prefab using Guid(565ad59ccd6d95748b74230274830305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc47af02caa2fc6d0b5cc788fdda0fb') in 1.436056 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 147.130100 seconds.
-  path: Assets/Scenes/Menus/MainMenu/MainMenu.unity
-  artifactKey: Guid(b421948375e8a734ba68fee6ea470a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Menus/MainMenu/MainMenu.unity using Guid(b421948375e8a734ba68fee6ea470a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9cc17a3a9bc63e117bf08677d4457e8') in 0.008084 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.916900 seconds.
-  path: Assets/Scenes/Menus/MainMenu/MainMenu_1.unity
-  artifactKey: Guid(b421948375e8a734ba68fee6ea470a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Menus/MainMenu/MainMenu_1.unity using Guid(b421948375e8a734ba68fee6ea470a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2a6587408ce2c92500d3589a839070') in 0.007507 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.828481 seconds.
-  path: Assets/Scenes/Menus/MainMenu/MainMenu_1 1.unity
-  artifactKey: Guid(d225e13c5c3ac914080791fc264d8161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Menus/MainMenu/MainMenu_1 1.unity using Guid(d225e13c5c3ac914080791fc264d8161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfbdda9022204185b731409cdf9a4ae5') in 0.006673 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.911897 seconds.
-  path: Assets/Scenes/Menus/MainMenu/MainMenu_2.unity
-  artifactKey: Guid(d225e13c5c3ac914080791fc264d8161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Menus/MainMenu/MainMenu_2.unity using Guid(d225e13c5c3ac914080791fc264d8161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846b42ad159647c8e1a6b63b2434eab6') in 0.006160 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 161.277131 seconds.
-  path: Assets/Entities/Humanoid/Base/BaseNPC.prefab
-  artifactKey: Guid(9faa53979bf2d604a935788b0ad89fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Humanoid/Base/BaseNPC.prefab using Guid(9faa53979bf2d604a935788b0ad89fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 9.830 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 9.944 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 1.988 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 8.874 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 9.344 ms.
-d3d12: upload buffer was too small for the requested resource! Size: 16777216. Requested: 20558000.
-d3d12: upload buffer was full! Waited for COPY queue for 12.260 ms.
- -> (artifact id: 'b60b9d4d4f0141e2f9cf18443d21bc07') in 0.681401 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.150391 seconds.
-  path: Assets/Entities/Humanoid/Civilian/Civilian.prefab
-  artifactKey: Guid(29c59befd8bd7d946a981c29dfc88989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Entities/Humanoid/Civilian/Civilian.prefab using Guid(29c59befd8bd7d946a981c29dfc88989) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 12.497 ms.
- -> (artifact id: '1be1a584fbec8d8097cd974abfb1a53a') in 0.184470 seconds 
+Registered in 0.011345 seconds.

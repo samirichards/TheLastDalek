@@ -31,6 +31,7 @@ public class GunStickAimController : MonoBehaviour
         Quaternion targetRotation = Quaternion.LookRotation(directionToTarget, Player._PropController.getBodyBase.transform.up);
         targetRotation *= Quaternion.Euler(0, Offset, 0); // Apply the offset
 
+        Player._lookAtAnimator.SetLookTarget(target);
         StartCoroutine(AimGunstickCoroutine(initialRotation, targetRotation, duration, cooldown));
     }
 
@@ -38,6 +39,7 @@ public class GunStickAimController : MonoBehaviour
     {
         Player._PropController.StopAnimator();
         float elapsedTime = 0f;
+        
 
         while (elapsedTime < duration)
         {
@@ -55,6 +57,7 @@ public class GunStickAimController : MonoBehaviour
         yield return new WaitForSeconds(cooldown);
 
         // Reset gunstick to its default position
+        Player._lookAtAnimator.ClearLookTarget();
         isFiring = false;
         Player._PropController.getGunStickObject.transform.localRotation = initialPosition;
         Player._PropController.StartAnimator();
