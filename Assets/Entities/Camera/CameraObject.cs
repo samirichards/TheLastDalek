@@ -13,6 +13,7 @@ public class CameraObject : MonoBehaviour
     [SerializeField]public SceneMusicMapping sceneMusicMapping;
     [SerializeField] public float MusicVolume = 0.75f;
     [SerializeField] public bool IsStaticCamera = false;
+    [SerializeField] public AnimationCurve CameraShakeCurve;
 
     public static GameObject CameraObjectReference;
     // Start is called before the first frame update
