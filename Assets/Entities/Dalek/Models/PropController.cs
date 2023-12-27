@@ -94,17 +94,17 @@ public class PropController : MonoBehaviour
             case SoundClips.ExterminateVO:
                 int SelectedExterminateVOClip = Random.Range(0, _exterminateVO.Length);
                 SpeechAudioSource.PlayOneShot(_exterminateVO[SelectedExterminateVOClip]);
-                StartCoroutine(VaryLightIntensity(_exterminateVO[SelectedExterminateVOClip].length, _lightClusterGroup));
+                StartCoroutine(EmitterVOFlash(_exterminateVO[SelectedExterminateVOClip].length));
                 break;
             case SoundClips.ChantVO:
                 int SelectedChantVoClip = Random.Range(0, _chantVO.Length);
                 SpeechAudioSource.PlayOneShot(_chantVO[SelectedChantVoClip]);
-                StartCoroutine(VaryLightIntensity(_chantVO[SelectedChantVoClip].length, _lightClusterGroup));
+                StartCoroutine(EmitterVOFlash(_chantVO[SelectedChantVoClip].length));
                 break;
             case SoundClips.DeathVO:
                 int SelectedDeathVO = Random.Range(0, _deathVO.Length);
                 SpeechAudioSource.PlayOneShot(_deathVO[SelectedDeathVO]);
-                StartCoroutine(VaryLightIntensity(_deathVO[SelectedDeathVO].length, _lightClusterGroup));
+                StartCoroutine(EmitterVOFlash(_deathVO[SelectedDeathVO].length));
                 break;
             case SoundClips.DamageSFX:
                 int SelectedDamageSFXClip = Random.Range(0, _damageSFX.Length);
@@ -285,7 +285,7 @@ public class PropController : MonoBehaviour
         }
     }
 
-    private float GetAudioAmplitude()
+    protected float GetAudioAmplitude()
     {
         float[] spectrum = new float[256];
         SpeechAudioSource.GetSpectrumData(spectrum, 0, FFTWindow.Rectangular);
@@ -303,6 +303,42 @@ public class PropController : MonoBehaviour
             return 0;
         }
         return amplitude;
+    }
+
+    protected virtual IEnumerator EmitterVOFlash(float duration)
+    {
+        float startTime = Time.time;
+        float endTime = startTime + duration;
+
+        SetEmittersActive(false);
+
+        while (Time.time < endTime)
+        {
+            // Use the normalized time to vary the light intensity
+            float amplitude = GetAudioAmplitude(); // Implement a method to get audio amplitude
+            float intensity = Mathf.Lerp(0f, 1f, amplitude);
+
+            if (intensity > 0.25f)
+            {
+                SetEmittersActive(true);
+            }
+            else
+            {
+                SetEmittersActive(false);
+            }
+
+            yield return null; // Wait for the next frame
+        }
+
+        SetEmittersActive(false);
+    } 
+
+    public virtual void SetEmittersActive(bool state)
+    {
+        foreach (Light bulb in _lightClusterGroup.Select(a => a.GetComponent<Light>()))
+        {
+            bulb.enabled = state;
+        }
     }
 
     public GameObject getPlungerObject => _plungerObject;

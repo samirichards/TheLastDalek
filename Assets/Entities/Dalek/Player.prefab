@@ -438,6 +438,8 @@ MonoBehaviour:
   LaserType: 0
   RaygunBroadBeamCastAngle: 12
   RaygunBroadBeamRaycastCount: 5
+  CollisionExplosionPrefab: {fileID: 3487991302742936757, guid: 37c0f4ec70250d043be29beae27f0b86,
+    type: 3}
   GunTurnTime: 0.2
   LockOnBeamDuration: 0.75
   reticleObject: {fileID: 5014804461522483714}

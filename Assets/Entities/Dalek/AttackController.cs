@@ -27,6 +27,7 @@ public class AttackController : MonoBehaviour
     private LineRenderer RaygunLine;
     [SerializeField]private float RaygunBroadBeamCastAngle = 1f;
     [SerializeField]private int RaygunBroadBeamRaycastCount = 9;
+    [SerializeField] private GameObject CollisionExplosionPrefab;
 
     [SerializeField] private float GunTurnTime = 0.2f;
     [SerializeField] private float LockOnBeamDuration = 0.66f;
@@ -46,6 +47,7 @@ public class AttackController : MonoBehaviour
     [SerializeField] private GameObject _lockOnGlyphPrefab;
     private bool hasPlayedLockOnReadySound = false;
     [SerializeField] private AttackTypes AttackType = AttackTypes.Standard;
+
 
     private Volume lockOnVolume;
 
@@ -303,6 +305,7 @@ public class AttackController : MonoBehaviour
         {
 
         }
+        //Unused behavior to make beam spread vertically as well as horizontally
 
         for (int x = 0; x < RaygunBroadBeamRaycastCount; x++)
         {
@@ -376,7 +379,8 @@ public class AttackController : MonoBehaviour
         Debug.DrawRay(Player._PropController.getGunStickObject.transform.position, fwd, Color.green, 10f);
         if (Physics.Raycast(Player._PropController.getGunStickObject.transform.position, fwd, out hit, DeathRayBeamMaxRange))
         {
-            RaygunLine.SetPosition(1, hit.point);
+            //Continue the beam past the collider a little bit to look like its actually hitting the model itself
+            RaygunLine.SetPosition(1, hit.point + (fwd * 0.33f));
             RaygunLine.enabled = true;
             StartCoroutine(HideDeathRayBeam(LockOnBeamDuration));
             Debug.Log("Death ray beam hit: " + hit.collider.gameObject.name);
@@ -387,6 +391,8 @@ public class AttackController : MonoBehaviour
                 npcAI.Damage(info);
                 AudioSource.PlayClipAtPoint(Player._PropController.RaygunBeamHit, hit.point, 1f);
             }
+            Instantiate(CollisionExplosionPrefab, hit.point, Quaternion.Euler(fwd));
+            CollisionExplosionPrefab.GetComponent<EnergyDischargeCollisionController>().SetLightType(1);
 
         }
         else

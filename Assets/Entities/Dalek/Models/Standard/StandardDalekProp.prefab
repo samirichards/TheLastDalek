@@ -446,7 +446,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0
+  m_Intensity: 159.15494
   m_Range: 0.33
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -489,7 +489,7 @@ Light:
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 1
-  m_ColorTemperature: 4614
+  m_ColorTemperature: 4756
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
@@ -508,7 +508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 0
+  m_Intensity: 2000
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -1309,7 +1309,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5418114528871980629}
-  - component: {fileID: 6993716721653695542}
+  - component: {fileID: -1454021519076810180}
   - component: {fileID: -5144811810489289677}
   - component: {fileID: 4009600980454365650}
   - component: {fileID: 687978367087507712}
@@ -1340,7 +1340,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6993716721653695542
+--- !u!114 &-1454021519076810180
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1349,7 +1349,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4646257798248416495}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64f7db1926b35d94d9b95d388b528db8, type: 3}
+  m_Script: {fileID: 11500000, guid: 13687ca5bd29f634f9c740a326c50ae9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _plungerObject: {fileID: 1467971733419946611}
@@ -1373,7 +1373,8 @@ MonoBehaviour:
   RaygunBeamFireLoop: {fileID: 8300000, guid: a74cf5c217c90174ba92267aea2d4312, type: 3}
   RaygunBeamHit: {fileID: 8300000, guid: 8eb27d967e3a15b46b84716b8055c372, type: 3}
   _exterminateVO:
-  - {fileID: 8300000, guid: b3ab4e7df8079144f85b1535b46722b7, type: 3}
+  - {fileID: 8300000, guid: e18b75a6a87115343a14d7ed865866f6, type: 3}
+  - {fileID: 8300000, guid: a3829cc83a5d68d49a0c9aff77afdffa, type: 3}
   _damageSFX:
   - {fileID: 8300000, guid: ff10af457df59a442b4f3946bd4e69c8, type: 3}
   _deathVO:
@@ -1387,13 +1388,13 @@ MonoBehaviour:
   ElevateStart: {fileID: 8300000, guid: 6e0201081df011544926369c4e8514eb, type: 3}
   ElevateLoop: {fileID: 8300000, guid: efde4abf4f44205498ef27e18076dcfd, type: 3}
   ElevateEnd: {fileID: 8300000, guid: 762e0ac672b369a42ae062ebc1865979, type: 3}
-  MovementVolume: 0.5
+  MovementVolume: 10.5
   ElevateVolume: 1
   _animator: {fileID: 7611548696717091269}
   InteractionPoint: {fileID: 9185731362729835718}
   _rayGunDischargePrefab: {fileID: 434682360272248152, guid: 2c63ab9a46b0b21489d16f9266e0adbe,
     type: 3}
-  _rayGunBeamColour: {r: 0, g: 0.17519331, b: 1, a: 0}
+  _rayGunBeamColour: {r: 0, g: 0.1764706, b: 1, a: 0}
   _rayGunBeamMaterial: {fileID: 2100000, guid: 98c1ff939380fc04a97ba470576a0e85, type: 2}
   _pointsMultiplier: 1
   _movementSpeedMultiplier: 1
@@ -2191,7 +2192,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0
+  m_Intensity: 159.15494
   m_Range: 0.33
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -2234,7 +2235,7 @@ Light:
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 1
-  m_ColorTemperature: 4614
+  m_ColorTemperature: 4756
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
@@ -2253,7 +2254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 0
+  m_Intensity: 2000
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
