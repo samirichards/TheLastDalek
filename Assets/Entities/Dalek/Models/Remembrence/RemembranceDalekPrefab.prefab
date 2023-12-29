@@ -904,6 +904,7 @@ MonoBehaviour:
   ElevateEnd: {fileID: 8300000, guid: 762e0ac672b369a42ae062ebc1865979, type: 3}
   MovementVolume: 0.15
   ElevateVolume: 1
+  isElevating: 0
   _animator: {fileID: 9006636374069875098}
   InteractionPoint: {fileID: 8632583771506758734}
   _rayGunDischargePrefab: {fileID: 434682360272248152, guid: 5ea575959ee37564aa34cd9c493a740a,
@@ -922,6 +923,14 @@ MonoBehaviour:
   activeEmittersMaterial: {fileID: 2100000, guid: ba40733a3f3621f4dbcf6976ee5c9cdf,
     type: 2}
   emitters: {fileID: 7416426443739105632}
+  Gib_Eyestalk: {fileID: 8921740826215802127, guid: 4e55f0024d4f6c74a8e0f5633829ae40,
+    type: 3}
+  Gib_Head: {fileID: 5510885164468450760, guid: 1d6c8cba0c9581740b443b2ba53e95ae,
+    type: 3}
+  Gib_Neck: {fileID: 1442603074753117115, guid: 33d891f016afad14c95191f45bf7baa2,
+    type: 3}
+  ExplosionPrefab: {fileID: 5238309018396283319, guid: 0cf8c24c97720b64898fc466bb0cbe37,
+    type: 3}
 --- !u!82 &537355253223092832
 AudioSource:
   m_ObjectHideFlags: 0

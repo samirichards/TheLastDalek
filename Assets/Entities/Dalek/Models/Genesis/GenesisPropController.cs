@@ -2,17 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GenesisPropController : MonoBehaviour
+public class GenesisPropController : PropController
 {
-    // Start is called before the first frame update
-    void Start()
+    [Header("Genesis Specific Properties")]
+    [SerializeField] private Material inactiveEmittersMaterial;
+    [SerializeField] private Material activeEmittersMaterial;
+    [SerializeField] private MeshRenderer emitters;
+    public override void SetEmittersActive(bool state)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (state)
+        {
+            emitters.materials = new Material[] { activeEmittersMaterial };
+        }
+        else
+        {
+            emitters.materials = new Material[] { inactiveEmittersMaterial };
+        }
     }
 }

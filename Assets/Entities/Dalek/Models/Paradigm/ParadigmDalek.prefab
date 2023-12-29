@@ -546,6 +546,7 @@ MonoBehaviour:
   ElevateEnd: {fileID: 8300000, guid: 762e0ac672b369a42ae062ebc1865979, type: 3}
   MovementVolume: 0.5
   ElevateVolume: 1
+  isElevating: 0
   _animator: {fileID: 8083103799038143244}
   InteractionPoint: {fileID: 6171794242469781127}
   _rayGunDischargePrefab: {fileID: 434682360272248152, guid: 2c63ab9a46b0b21489d16f9266e0adbe,
@@ -564,6 +565,17 @@ MonoBehaviour:
   activeEmittersMaterial: {fileID: 2100000, guid: a047c17ce46b60e448101317c6e7214a,
     type: 2}
   emitters: {fileID: 7055679452496312823}
+  rank: 0
+  skinnedComponents:
+  - {fileID: 3525511373386452187}
+  - {fileID: 2165959155253780386}
+  - {fileID: 1269989802481308114}
+  rankSkins:
+  - {fileID: 2100000, guid: 8f98a8ffa21b9664e945a65618763fe5, type: 2}
+  - {fileID: 2100000, guid: ab07ed9fe29dfb845a3994b10621fc69, type: 2}
+  - {fileID: 2100000, guid: 24ed50821fbcc8346a02cd7c4024efde, type: 2}
+  - {fileID: 2100000, guid: b331b195a3a0e4246ace82436d9a3a8a, type: 2}
+  - {fileID: 2100000, guid: 23993cd8b1479f044ad1524a5d888d12, type: 2}
 --- !u!95 &8083103799038143244
 Animator:
   serializedVersion: 4
@@ -969,7 +981,6 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 8f98a8ffa21b9664e945a65618763fe5, type: 2}
-  - {fileID: 2100000, guid: 456e179bc4149df4295f255148b72479, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

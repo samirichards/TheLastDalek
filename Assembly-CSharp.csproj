@@ -95,6 +95,7 @@
     <Compile Include="Assets\Scripts\Options.cs" />
     <Compile Include="Assets\Entities\Dalek\GunStickAimController.cs" />
     <Compile Include="Assets\Entities\Dalek\Models\Remembrence\RemembranceDalekPropController.cs" />
+    <Compile Include="Assets\Entities\Dalek\Models\Paradigm\ParadigmPropController.cs" />
     <Compile Include="Assets\VolumetricLines\BuiltInRenderPipeline\ExampleScenes\ExampleScripts\CannonBehavior.cs" />
     <Compile Include="Assets\Entities\Dalek\LockOn\LockOnReticle.cs" />
     <Compile Include="Assets\Shared\Scripts\ProximityActivate.cs" />
@@ -116,6 +117,7 @@
     <Compile Include="Assets\LevelGeometry\Door\DoorControls\ControlsScript.cs" />
     <Compile Include="Assets\VolumetricLines\BuiltInRenderPipeline\ExampleScenes\ExampleScripts\ShotBehavior.cs" />
     <Compile Include="Assets\LevelGeometry\Mine\Mine.cs" />
+    <Compile Include="Assets\Entities\Dalek\Models\Genesis\GenesisPropController.cs" />
     <Compile Include="Assets\Particles\Explosion\Explosion.cs" />
     <Compile Include="Assets\Textures\Cursor\CursorControl.cs" />
     <Compile Include="Assets\Entities\Dalek\ChestRotateController.cs" />
@@ -133,8 +135,6 @@
     <Compile Include="Assets\Entities\Dalek\Inventory\InventoryController.cs" />
     <Compile Include="Assets\Entities\Camera\CameraObject.cs" />
     <Compile Include="Assets\Scenes\Menus\MainMenu\Dalek_LookManager.cs" />
-    <Compile Include="Assets\Entities\Dalek\Models\Paradigm\ParadigmPropController.cs" />
-    <Compile Include="Assets\Entities\Dalek\Models\Genesis\GenesisPropController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -21,7 +21,8 @@ public class PropController : MonoBehaviour
         PlungerAttack,
         Death,
         StartUp,
-        Stun
+        Stun,
+        Elevate
     }
 
     [Header("Physical Components ---")]
@@ -58,6 +59,7 @@ public class PropController : MonoBehaviour
     [SerializeField] private AudioClip ElevateEnd;
     [SerializeField] private float MovementVolume = 1.0f;
     [SerializeField] private float ElevateVolume = 1.0f;
+    [SerializeField] private bool isElevating = false;
 
     [Header("Animations ---")] 
     [SerializeField] private Animator _animator;
@@ -84,6 +86,20 @@ public class PropController : MonoBehaviour
             _animator.enabled = true;
             _animator.SetBool("DisplayMode", true);
         }
+        StartBehavior();
+    }
+
+    public virtual void StartBehavior()
+    {
+
+    }
+
+    public void SetElevation(bool state)
+    {
+        isElevating = state;
+        _animator.enabled = isElevating;
+        _animator.SetBool("IsElevating", isElevating);
+        //TODO finish
     }
 
 
@@ -143,6 +159,10 @@ public class PropController : MonoBehaviour
                 break;
             case AnimationClips.Death:
                 PlaySoundClip(SoundClips.DeathVO);
+                _animator.enabled = true;
+                _animator.Play("Death");
+                break;
+            case AnimationClips.Elevate:
                 break;
         }
     }
@@ -360,4 +380,5 @@ public class PropController : MonoBehaviour
     public float getStealthMultiplier => _stealthMultiplier;
     public float getHealthMultiplier => MaxHealthMultiplier;
     public AttackController.AttackTypes getAttackType => _attackType;
+    public bool getElevating => isElevating;
 }
