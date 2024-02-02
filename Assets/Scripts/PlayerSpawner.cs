@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,12 +12,7 @@ public class PlayerSpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (!GameObject.Find("Player"))
-        {
-            GameObject temp = Instantiate(PlayerPrefab);
-            temp.transform.position = DefaultSpawnLocation;
-            temp.GetComponent<Player>().cameraInstance.SetTracker();
-        }
+
     }
 
     // Update is called once per frame
@@ -27,6 +23,35 @@ public class PlayerSpawner : MonoBehaviour
 
     void Awake()
     {
+        if (!GameObject.Find("Player"))
+        {
+            GameObject temp = Instantiate(PlayerPrefab, DefaultSpawnLocation, Quaternion.identity);
+            DontDestroyOnLoad(temp);
+            if (GameObject.FindGameObjectWithTag("CameraObject") == null)
+            {
+                var cameraObject = Instantiate(CameraPrefab, transform.position, transform.rotation);
+                DontDestroyOnLoad(cameraObject);
+                cameraObject.GetComponent<CameraObject>().SetTracker();
+            }
+            else
+            {
+                //temp.GetComponent<Player>().cameraInstance.SetTracker();
+            }
+            OnDalekSpawned?.Invoke(this, new PlayerSpawnedArgs(temp));
+        }
+    }
 
+    public static event EventHandler<PlayerSpawnedArgs> OnDalekSpawned;
+
+    public static EventHandler DalekSpawned;
+}
+
+public class PlayerSpawnedArgs : EventArgs
+{
+    public GameObject player;
+
+    public PlayerSpawnedArgs(GameObject _player)
+    {
+        player = _player;
     }
 }

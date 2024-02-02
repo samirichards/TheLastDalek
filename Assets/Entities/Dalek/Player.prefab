@@ -195,7 +195,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 859279906901890729}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b55cdcf214299a14f833e490da823dc2, type: 3}
   m_Name: 
@@ -223,7 +223,7 @@ MonoBehaviour:
   Unlocks:
     UnlockedItems: []
   equippedItems: []
-  ForceUnlockAllWeapons: 0
+  ForceUnlockAllWeapons: 1
 --- !u!114 &4569004593978924019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -484,7 +484,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a774ba6a4ae676343897c67d6c26bb52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: 0
+  Health: 100
   MaxHealth: 100
   IsAlive: 1
   CanHackStuff: 0

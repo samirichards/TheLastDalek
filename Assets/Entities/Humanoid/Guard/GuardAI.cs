@@ -32,7 +32,6 @@ public class GuardAI : BaseAI
         RifleObject.SetActive(false);
         SpecialWeaponObject.SetActive(false);
         PistolObject.SetActive(false);
-        DalekTarget = GameObject.Find("Player");
         switch (equippedWeapon)
         {
             case EquippedWeapon.Rifle:
@@ -52,6 +51,12 @@ public class GuardAI : BaseAI
                 CharacterAnimator.SetBool("WeaponType", false);
                 break;
         }
+    }
+
+    protected override void OnDalekSpawned(object sender, PlayerSpawnedArgs e)
+    {
+        DalekTarget = GameObject.FindGameObjectWithTag("Player");
+        AttackTarget = GameObject.FindGameObjectWithTag("Player");
     }
 
     public override void CustomUpdateBehaviour()
@@ -135,12 +140,10 @@ public class GuardAI : BaseAI
         {
             AttackInProgress = false;
             AiState = State.Chase;
-            DalekTarget = GameObject.Find("Player");
             ChaseTarget = DalekTarget;
         }
         else
         {
-            DalekTarget = GameObject.Find("Player");
             if (DalekTarget.GetComponent<PlayerComponent>().IsAlive == false)
             {
                 this.AiState = State.Idle;

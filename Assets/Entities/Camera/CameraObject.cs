@@ -14,6 +14,8 @@ public class CameraObject : MonoBehaviour
     [SerializeField] public float MusicVolume = 0.75f;
     [SerializeField] public bool IsStaticCamera = false;
     [SerializeField] public AnimationCurve CameraShakeCurve;
+    private bool isSet = false;
+    [SerializeField] private Quaternion rotation;
 
     public static GameObject CameraObjectReference;
     // Start is called before the first frame update
@@ -41,6 +43,11 @@ public class CameraObject : MonoBehaviour
     }
     void Start()
     {
+        SetTracker();
+    }
+
+    public void SetTracker()
+    {
         if (!IsStaticCamera)
         {
             if (_Instance == null)
@@ -55,6 +62,7 @@ public class CameraObject : MonoBehaviour
             CameraObjectReference = gameObject;
             DontDestroyOnLoad(CameraObjectReference);
             TrackerTarget = Player.GetPlayerReference();
+            isSet = (TrackerTarget != null);
         }
 
         UnityEngine.SceneManagement.SceneManager.sceneLoaded += OnSceneLoaded;
@@ -63,11 +71,7 @@ public class CameraObject : MonoBehaviour
         PlayMusicForScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
         GameSettings.OnOptionsChanged += UpdateSettings;
         UpdateSettings(GameSettings.GetSettings());
-    }
-
-    public void SetTracker()
-    {
-        TrackerTarget = Player.GetPlayerReference();
+        this.transform.rotation = rotation;
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
@@ -109,13 +113,13 @@ public class CameraObject : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!IsStaticCamera)
+        if (!IsStaticCamera && isSet)
         {
             Vector3 newPosition = TrackerTarget.transform.position;
             newPosition.y++;
             transform.position = newPosition;
         }
-        if (!MusicPlayer.isPlaying)
+        if (!MusicPlayer.isPlaying && isSet)
         {
             PlayMusicForScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
         }

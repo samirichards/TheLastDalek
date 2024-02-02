@@ -20,7 +20,7 @@ public class Turret : DamageableComponent
     [SerializeField] private AudioClip[] DamageSounds;
     [SerializeField] private AudioClip[] FireSounds;
     [SerializeField] private float DeathCooldownMinDuration;
-    public GameObject AttackTarget;
+    public GameObject AttackTarget = null;
     public float DeathCooldown;
     public float Cooldown = 0.0f;
     private Animator _animator;
@@ -38,10 +38,20 @@ public class Turret : DamageableComponent
     // Start is called before the first frame update
     void Start()
     {
-        AttackTarget = GameObject.Find("Player");
+        PlayerSpawner.OnDalekSpawned += OnDalekSpawned;
         _animator.Play("Idle");
         StartCoroutine(FSM());
         Health = MaxHealth;
+    }
+
+    private void OnDalekSpawned(object sender, PlayerSpawnedArgs e)
+    {
+        AttackTarget = e.player;
+    }
+
+    private void OnDestroy()
+    {
+        PlayerSpawner.OnDalekSpawned -= OnDalekSpawned;
     }
 
     void Awake()
@@ -94,7 +104,7 @@ public class Turret : DamageableComponent
     {
         while (gameObject)
         {
-            if (!GameManager.IsGamePaused && (CurrentState != TurretState.Shutdown))
+            if (!GameManager.IsGamePaused && (CurrentState != TurretState.Shutdown) && AttackTarget != null)
             {
                 if (DeathCooldown > 0)
                 {
@@ -131,11 +141,6 @@ public class Turret : DamageableComponent
             yield return null;
         }
         yield return null;
-    }
-
-    void FixedUpdate()
-    {
-        
     }
 
     void Shoot(float damage)

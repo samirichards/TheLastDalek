@@ -45,12 +45,12 @@ public class Movement : MonoBehaviour
         audioSource = gameObject.AddComponent(typeof(AudioSource)) as AudioSource;
         audioSource2 = gameObject.AddComponent(typeof(AudioSource)) as AudioSource;
         ElevationTargets = new List<GameObject>();
-        propController = GetComponentInChildren<PropController>();
     }
 
     void Start()
     {
         _baseSpeed = _baseSpeed * Player._PropController.getMovementSpeedMultiplier;
+        propController = GetComponentInChildren<PropController>();
     }
 
     private void FixedUpdate()

@@ -67,16 +67,9 @@ public class PlayerComponent : MonoBehaviour
 
     void Start()
     {
-        MaxHealth = MaxHealth * Player._PropController.getHealthMultiplier;
+        MaxHealth *= Player._PropController.getHealthMultiplier;
         Health = MaxHealth;
         ShieldHealth = ShieldMaxHealth;
-    }
-
-    void FixedUpdate()
-    {
-        //healthBarSlider.value = Health * 0.01f;
-        //shieldBarSlider.value = shieldManager.ShieldHealth * 0.01f;
-        //ShieldBar.SetActive(shieldManager.ShieldEnabled);
     }
 
     void Update()
@@ -145,11 +138,6 @@ public class PlayerComponent : MonoBehaviour
     public void SetShieldDisabled()
     {
         ShieldEffective = false;
-    }
-
-    public void DamageShield(DamageInfo info)
-    {
-
     }
 
     public void Damage(DamageInfo _damageInfo)

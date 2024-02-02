@@ -6,7 +6,7 @@ public class EnergyPelletController : MonoBehaviour
 {
     private Vector3 SpawnLocation;
     private float TravelledDistance = 0.0f;
-    [SerializeField] float Range = 300f;
+    [SerializeField] float Range = 100f;
     [SerializeField] float ProjectileSpeed = 50f;
     [SerializeField] GameObject[] CollisionIgnore;
     [SerializeField] private AudioClip[] HitSounds;

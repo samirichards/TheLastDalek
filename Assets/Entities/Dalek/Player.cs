@@ -28,7 +28,7 @@ public class Player : MonoBehaviour
     [SerializeField] public static InventoryController _inventoryController;
     [SerializeField] public static PropController _PropController;
     [Header("Selected Dalek Model ---")]
-    [SerializeField] private SelectedDalek _selectedDalek = SelectedDalek.StandardDalek;
+    [SerializeField] public SelectedDalek _selectedDalek = SelectedDalek.StandardDalek;
     [SerializeField] private GameObject[] DalekModels;
     public CameraObject cameraInstance;
 
@@ -76,6 +76,7 @@ public class Player : MonoBehaviour
             model.SetActive(false);
         }
         DalekModels[(int)_selectedDalek].SetActive(true);
+        _PropController = DalekModels[(int)_selectedDalek].GetComponent<PropController>();
     }
 
     
@@ -88,8 +89,7 @@ public class Player : MonoBehaviour
             _Instance = this;
 
             PlayerPrefab = _PlayerPrefab;
-            UpdateModel();
-            playerObjectReference = GameObject.Find("Player");
+            playerObjectReference = this.gameObject;
             //_inventoryManager = playerObjectReference.GetComponent<InventoryManager>();
             _movement = playerObjectReference.GetComponent<Movement>();
             _collider = playerObjectReference.GetComponent<BoxCollider>();
@@ -102,7 +102,7 @@ public class Player : MonoBehaviour
             _cursorControl = playerObjectReference.GetComponent<CursorControl>();
             _interactionController = playerObjectReference.GetComponent<InteractionController>();
             _inventoryController = playerObjectReference.GetComponentInChildren<InventoryController>();
-            _PropController = playerObjectReference.GetComponentInChildren<PropController>();
+                    UpdateModel();
         }
         else if (_Instance != this)
         {
@@ -118,6 +118,5 @@ public class Player : MonoBehaviour
     void Start()
     {
         _inventoryController.RunUpdateAbilities();
-        cameraInstance = GameObject.Find("CameraObject").GetComponent<CameraObject>();
     }
 }

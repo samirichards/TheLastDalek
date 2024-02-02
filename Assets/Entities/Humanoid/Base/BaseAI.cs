@@ -116,6 +116,12 @@ public class BaseAI : MonoBehaviour
     {
         _gameManagerComponent = GameManager.Instance;
         CharacterAnimator = MainBody.GetComponent<Animator>();
+        PlayerSpawner.OnDalekSpawned += OnDalekSpawned;
+    }
+
+    private void OnDestroy()
+    {
+        PlayerSpawner.OnDalekSpawned -= OnDalekSpawned;
     }
 
     /// <summary>
@@ -137,9 +143,13 @@ public class BaseAI : MonoBehaviour
         controller.enabled = true;
         agent.updatePosition = true;
         agent.updateRotation = true;
-        DalekTarget = GameObject.FindWithTag("Player");
         SetDefaults();
         StartCoroutine("FSM");
+    }
+
+    protected virtual void OnDalekSpawned(object sender, PlayerSpawnedArgs e)
+    {
+        DalekTarget = GameObject.FindGameObjectWithTag("Player");
     }
 
     Vector3 RandomNavMeshLocation(float radius)
@@ -159,6 +169,10 @@ public class BaseAI : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (DalekTarget == null)
+        {
+            DalekTarget = GameObject.FindGameObjectWithTag("Player");
+        }
         RaycastHit hit;
         if (Vector3.Distance(transform.position, DalekTarget.transform.position) <= SightRange && IsAlive)
         {
@@ -196,7 +210,7 @@ public class BaseAI : MonoBehaviour
     {
         while (IsAlive)
         {
-            if (!GameManager.IsGamePaused)
+            if (!GameManager.IsGamePaused && DalekTarget != null)
             {
                 switch (AiState)
                 {
@@ -400,7 +414,7 @@ public class BaseAI : MonoBehaviour
                     AiState = State.Flee;
                     break;
                 case NPCType.Hostile:
-                    ChaseTarget = GameObject.Find("Player");
+                    ChaseTarget = DalekTarget;
                     AiState = State.Chase;
                     break;
                 default:
@@ -416,7 +430,6 @@ public class BaseAI : MonoBehaviour
 
     public virtual void Chase()
     {
-        DalekTarget = GameObject.Find("Player");
         ChaseTarget = DalekTarget;
         agent.speed = MaxSpeed;
         if (ChaseTarget != null)
@@ -447,7 +460,7 @@ public class BaseAI : MonoBehaviour
                 else
                 {
                     DropChaseTimer = 0f;
-                    ChaseTarget = null;
+                    ChaseTarget = DalekTarget;
                     agent.SetDestination(this.transform.position);
                     if (npcType == NPCType.Hostile)
                     {

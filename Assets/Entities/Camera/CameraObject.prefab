@@ -292,6 +292,13 @@ MonoBehaviour:
   sceneMusicMapping: {fileID: 11400000, guid: 53662017f7232aa4684055d5969c5a26, type: 2}
   MusicVolume: 0.66
   IsStaticCamera: 0
+  CameraShakeCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  rotation: {x: 0.31598538, y: 0.3596048, z: -0.13088544, w: 0.86816275}
 --- !u!114 &799941672737185575
 MonoBehaviour:
   m_ObjectHideFlags: 0
