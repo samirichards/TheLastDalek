@@ -13,12 +13,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2024-02-02T15:32:28.982+00:00
-  initializedAtString: 2024-02-02T15:31:26.392+00:00
+  lastUpdatedAtString: 2024-02-08T22:56:38.443+00:00
+  initializedAtString: 2024-02-08T19:48:45.308+00:00
   entries:
-  - path: Assets\Entities\Camera\CameraObject.cs
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Camera\CameraObject.cs
-    projectPath: Assets\Entities\Camera\CameraObject.cs
+  - path: Assembly-CSharp.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assembly-CSharp.Player.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assembly-CSharp.Player.csproj
+    projectPath: Assembly-CSharp.Player.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assembly-CSharp-Editor.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assembly-CSharp-Editor.csproj
+    projectPath: Assembly-CSharp-Editor.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assembly-CSharp-Editor-firstpass.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assembly-CSharp-Editor-firstpass.csproj
+    projectPath: Assembly-CSharp-Editor-firstpass.csproj
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -28,40 +46,40 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Entities\Dalek\Models\Genesis\Gibs.meta
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Models\Genesis\Gibs.meta
-    projectPath: Assets\Entities\Dalek\Models\Genesis\Gibs.meta
+  - path: Assets\Entities\Camera\CameraShake.cs
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Camera\CameraShake.cs
+    projectPath: Assets\Entities\Camera\CameraShake.cs
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Entities\Dalek\Models\Standard\Dead.anim
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Models\Standard\Dead.anim
-    projectPath: Assets\Entities\Dalek\Models\Standard\Dead.anim
+  - path: Assets\Entities\Camera\CameraShake.cs.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Camera\CameraShake.cs.meta
+    projectPath: Assets\Entities\Camera\CameraShake.cs.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Entities\Dalek\Models\Standard\Dead.anim.meta
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Models\Standard\Dead.anim.meta
-    projectPath: Assets\Entities\Dalek\Models\Standard\Dead.anim.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Entities\Dalek\Models\Standard\StandardDalekProp 1.controller
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Models\Standard\StandardDalekProp
-      1.controller
-    projectPath: Assets\Entities\Dalek\Models\Standard\StandardDalekProp 1.controller
+  - path: Assets\Entities\Dalek\AttackController.cs
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\AttackController.cs
+    projectPath: Assets\Entities\Dalek\AttackController.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Entities\Dalek\Movement.cs
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Movement.cs
-    projectPath: Assets\Entities\Dalek\Movement.cs
+  - path: Assets\Entities\Dalek\Models\Paradigm\DroneBody.mat
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Models\Paradigm\DroneBody.mat
+    projectPath: Assets\Entities\Dalek\Models\Paradigm\DroneBody.mat
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Entities\Dalek\Player.cs
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Player.cs
-    projectPath: Assets\Entities\Dalek\Player.cs
+  - path: Assets\Entities\Dalek\Models\Paradigm\Glass Light.mat
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Models\Paradigm\Glass
+      Light.mat
+    projectPath: Assets\Entities\Dalek\Models\Paradigm\Glass Light.mat
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Entities\Dalek\Models\Standard\StandardDalekProp.prefab
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Models\Standard\StandardDalekProp.prefab
+    projectPath: Assets\Entities\Dalek\Models\Standard\StandardDalekProp.prefab
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -71,57 +89,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Entities\Dalek\PlayerComponent.cs
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\PlayerComponent.cs
-    projectPath: Assets\Entities\Dalek\PlayerComponent.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Entities\Humanoid\Base\BaseAI.cs
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Base\BaseAI.cs
-    projectPath: Assets\Entities\Humanoid\Base\BaseAI.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Entities\Humanoid\Base\BaseNPC.prefab
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Base\BaseNPC.prefab
-    projectPath: Assets\Entities\Humanoid\Base\BaseNPC.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Entities\Humanoid\Guard\Guard.prefab
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Guard\Guard.prefab
-    projectPath: Assets\Entities\Humanoid\Guard\Guard.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Entities\Humanoid\Guard\GuardAI.cs
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Guard\GuardAI.cs
-    projectPath: Assets\Entities\Humanoid\Guard\GuardAI.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Assets\Entities\Projecties\DalekGun\Standard\EnergyDischarge_Collision.prefab
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Projecties\DalekGun\Standard\EnergyDischarge_Collision.prefab
     projectPath: Assets\Entities\Projecties\DalekGun\Standard\EnergyDischarge_Collision.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Entities\Projecties\EnergyPellet\EnergyPelletController.cs
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Projecties\EnergyPellet\EnergyPelletController.cs
-    projectPath: Assets\Entities\Projecties\EnergyPellet\EnergyPelletController.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Entities\Turret\Turret.cs
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Turret\Turret.cs
-    projectPath: Assets\Entities\Turret\Turret.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scenes\BaseScene.unity
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Scenes\BaseScene.unity
-    projectPath: Assets\Scenes\BaseScene.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -131,111 +101,45 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scenes\DevScene2\DevScene2.unity
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Scenes\DevScene2\DevScene2.unity
-    projectPath: Assets\Scenes\DevScene2\DevScene2.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scenes\Floor_1\F1_R0.unity
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Scenes\Floor_1\F1_R0.unity
-    projectPath: Assets\Scenes\Floor_1\F1_R0.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scenes\Floor_1\F1_R1.unity
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Scenes\Floor_1\F1_R1.unity
-    projectPath: Assets\Scenes\Floor_1\F1_R1.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scenes\Floor_1\F1_R1_2.unity
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Scenes\Floor_1\F1_R1_2.unity
-    projectPath: Assets\Scenes\Floor_1\F1_R1_2.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scenes\Floor_1\F1_R1_3.unity
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Scenes\Floor_1\F1_R1_3.unity
-    projectPath: Assets\Scenes\Floor_1\F1_R1_3.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scenes\Floor_1\F1_R2.unity
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Scenes\Floor_1\F1_R2.unity
-    projectPath: Assets\Scenes\Floor_1\F1_R2.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scenes\Floor_1\F1_R3.unity
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Scenes\Floor_1\F1_R3.unity
-    projectPath: Assets\Scenes\Floor_1\F1_R3.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scenes\Floor_2\F2_R0.unity
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Scenes\Floor_2\F2_R0.unity
-    projectPath: Assets\Scenes\Floor_2\F2_R0.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scenes\Floor_2\F2_R1.unity
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Scenes\Floor_2\F2_R1.unity
-    projectPath: Assets\Scenes\Floor_2\F2_R1.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scenes\Floor_2\F2_R2.unity
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Scenes\Floor_2\F2_R2.unity
-    projectPath: Assets\Scenes\Floor_2\F2_R2.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scenes\Floor_2\F2_R2_1.unity
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Scenes\Floor_2\F2_R2_1.unity
-    projectPath: Assets\Scenes\Floor_2\F2_R2_1.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scenes\Floor_2\F2_R3.unity
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Scenes\Floor_2\F2_R3.unity
-    projectPath: Assets\Scenes\Floor_2\F2_R3.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scenes\Floor_2\F2_R3_1.unity
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Scenes\Floor_2\F2_R3_1.unity
-    projectPath: Assets\Scenes\Floor_2\F2_R3_1.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scenes\Floor_2\F2_R4.unity
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Scenes\Floor_2\F2_R4.unity
-    projectPath: Assets\Scenes\Floor_2\F2_R4.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scenes\Floor_3\F3_R0.unity
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Scenes\Floor_3\F3_R0.unity
-    projectPath: Assets\Scenes\Floor_3\F3_R0.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scenes\Menus\MainMenu\MainMenu_1.unity
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Scenes\Menus\MainMenu\MainMenu_1.unity
-    projectPath: Assets\Scenes\Menus\MainMenu\MainMenu_1.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scenes\Menus\MainMenu\MainMenu_2.unity
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Scenes\Menus\MainMenu\MainMenu_2.unity
-    projectPath: Assets\Scenes\Menus\MainMenu\MainMenu_2.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Assets\Scripts\PlayerSpawner.cs
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Scripts\PlayerSpawner.cs
     projectPath: Assets\Scripts\PlayerSpawner.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Sounds\DeathRay\Raygun-Fire-New.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\DeathRay\Raygun-Fire-New.wav
+    projectPath: Assets\Sounds\DeathRay\Raygun-Fire-New.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\DeathRay\Raygun-Fire-New.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\DeathRay\Raygun-Fire-New.wav.meta
+    projectPath: Assets\Sounds\DeathRay\Raygun-Fire-New.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Bee\1900b0aEDbg.dag
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\1900b0aEDbg.dag
+    projectPath: Library\Bee\1900b0aEDbg.dag
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\1900b0aEDbg.dag.json
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\1900b0aEDbg.dag.json
+    projectPath: Library\Bee\1900b0aEDbg.dag.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\1900b0aEDbg.dag_derived
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\1900b0aEDbg.dag_derived
+    projectPath: Library\Bee\1900b0aEDbg.dag_derived
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\1900b0aEDbg-inputdata.json
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\1900b0aEDbg-inputdata.json
+    projectPath: Library\Bee\1900b0aEDbg-inputdata.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -254,6 +158,12 @@ MonoBehaviour:
   - path: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.ref.dll
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.ref.dll
     projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.ref.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.rsp
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.rsp
+    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.rsp
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -299,6 +209,18 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\Bee\backend_profiler1.traceevents
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\backend_profiler1.traceevents
+    projectPath: Library\Bee\backend_profiler1.traceevents
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\buildprogram0.traceevents
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\buildprogram0.traceevents
+    projectPath: Library\Bee\buildprogram0.traceevents
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\Bee\fullprofile.json
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\fullprofile.json
     projectPath: Library\Bee\fullprofile.json
@@ -326,12 +248,6 @@ MonoBehaviour:
   - path: Library\Bee\TundraBuildState.state.map
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\TundraBuildState.state.map
     projectPath: Library\Bee\TundraBuildState.state.map
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\EditorSnapSettings.asset
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\EditorSnapSettings.asset
-    projectPath: Library\EditorSnapSettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -407,9 +323,21 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
+    projectPath: Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\StateCache\PrefabStageHierarchy\15\15a31e9b486b758ee395b86574783a19.json
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\StateCache\PrefabStageHierarchy\15\15a31e9b486b758ee395b86574783a19.json
     projectPath: Library\StateCache\PrefabStageHierarchy\15\15a31e9b486b758ee395b86574783a19.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\StateCache\PrefabStageHierarchy\25\25abe9a4400218e632116493494960ff.json
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\StateCache\PrefabStageHierarchy\25\25abe9a4400218e632116493494960ff.json
+    projectPath: Library\StateCache\PrefabStageHierarchy\25\25abe9a4400218e632116493494960ff.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -424,22 +352,514 @@ MonoBehaviour:
     projectPath: Logs\AssetImportWorker0-prev.log
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
   - path: Logs\AssetImportWorker1-prev.log
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Logs\AssetImportWorker1-prev.log
     projectPath: Logs\AssetImportWorker1-prev.log
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Logs\shadercompiler-UnityShaderCompiler.exe0.log
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Logs\shadercompiler-UnityShaderCompiler.exe0.log
-    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe0.log
+    workTreeStatus: 5
+  - path: Unity.Burst.CodeGen.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Burst.CodeGen.csproj
+    projectPath: Unity.Burst.CodeGen.csproj
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: UserSettings\EditorUserSettings.asset
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\UserSettings\EditorUserSettings.asset
-    projectPath: UserSettings\EditorUserSettings.asset
+  - path: Unity.Burst.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Burst.csproj
+    projectPath: Unity.Burst.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Burst.Editor.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Burst.Editor.csproj
+    projectPath: Unity.Burst.Editor.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Burst.Player.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Burst.Player.csproj
+    projectPath: Unity.Burst.Player.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.CollabProxy.Editor.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.CollabProxy.Editor.csproj
+    projectPath: Unity.CollabProxy.Editor.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.InputSystem.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.InputSystem.csproj
+    projectPath: Unity.InputSystem.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.InputSystem.Player.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.InputSystem.Player.csproj
+    projectPath: Unity.InputSystem.Player.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Mathematics.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Mathematics.csproj
+    projectPath: Unity.Mathematics.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Mathematics.Editor.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Mathematics.Editor.csproj
+    projectPath: Unity.Mathematics.Editor.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Mathematics.Player.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Mathematics.Player.csproj
+    projectPath: Unity.Mathematics.Player.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.PlasticSCM.Editor.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.PlasticSCM.Editor.csproj
+    projectPath: Unity.PlasticSCM.Editor.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Postprocessing.Editor.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Postprocessing.Editor.csproj
+    projectPath: Unity.Postprocessing.Editor.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Postprocessing.Runtime.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Postprocessing.Runtime.csproj
+    projectPath: Unity.Postprocessing.Runtime.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Postprocessing.Runtime.Player.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Postprocessing.Runtime.Player.csproj
+    projectPath: Unity.Postprocessing.Runtime.Player.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.RenderPipelines.Core.Editor.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.RenderPipelines.Core.Editor.csproj
+    projectPath: Unity.RenderPipelines.Core.Editor.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.RenderPipelines.Core.Runtime.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.RenderPipelines.Core.Runtime.csproj
+    projectPath: Unity.RenderPipelines.Core.Runtime.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.RenderPipelines.Core.Runtime.Player.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.RenderPipelines.Core.Runtime.Player.csproj
+    projectPath: Unity.RenderPipelines.Core.Runtime.Player.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.RenderPipelines.Core.ShaderLibrary.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.RenderPipelines.Core.ShaderLibrary.csproj
+    projectPath: Unity.RenderPipelines.Core.ShaderLibrary.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.RenderPipelines.Core.ShaderLibrary.Player.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.RenderPipelines.Core.ShaderLibrary.Player.csproj
+    projectPath: Unity.RenderPipelines.Core.ShaderLibrary.Player.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.RenderPipelines.HighDefinition.Config.Runtime.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.RenderPipelines.HighDefinition.Config.Runtime.csproj
+    projectPath: Unity.RenderPipelines.HighDefinition.Config.Runtime.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.RenderPipelines.HighDefinition.Config.Runtime.Player.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.RenderPipelines.HighDefinition.Config.Runtime.Player.csproj
+    projectPath: Unity.RenderPipelines.HighDefinition.Config.Runtime.Player.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.RenderPipelines.HighDefinition.Editor.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.RenderPipelines.HighDefinition.Editor.csproj
+    projectPath: Unity.RenderPipelines.HighDefinition.Editor.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.RenderPipelines.HighDefinition.Runtime.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.RenderPipelines.HighDefinition.Runtime.csproj
+    projectPath: Unity.RenderPipelines.HighDefinition.Runtime.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.RenderPipelines.HighDefinition.Runtime.Player.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.RenderPipelines.HighDefinition.Runtime.Player.csproj
+    projectPath: Unity.RenderPipelines.HighDefinition.Runtime.Player.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj
+    projectPath: Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player.csproj
+    projectPath: Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Rider.Editor.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Rider.Editor.csproj
+    projectPath: Unity.Rider.Editor.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Searcher.Editor.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Searcher.Editor.csproj
+    projectPath: Unity.Searcher.Editor.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Services.Core.Analytics.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Services.Core.Analytics.csproj
+    projectPath: Unity.Services.Core.Analytics.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Services.Core.Analytics.Player.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Services.Core.Analytics.Player.csproj
+    projectPath: Unity.Services.Core.Analytics.Player.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Services.Core.Configuration.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Services.Core.Configuration.csproj
+    projectPath: Unity.Services.Core.Configuration.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Services.Core.Configuration.Editor.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Services.Core.Configuration.Editor.csproj
+    projectPath: Unity.Services.Core.Configuration.Editor.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Services.Core.Configuration.Player.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Services.Core.Configuration.Player.csproj
+    projectPath: Unity.Services.Core.Configuration.Player.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Services.Core.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Services.Core.csproj
+    projectPath: Unity.Services.Core.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Services.Core.Device.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Services.Core.Device.csproj
+    projectPath: Unity.Services.Core.Device.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Services.Core.Device.Player.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Services.Core.Device.Player.csproj
+    projectPath: Unity.Services.Core.Device.Player.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Services.Core.Editor.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Services.Core.Editor.csproj
+    projectPath: Unity.Services.Core.Editor.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Services.Core.Environments.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Services.Core.Environments.csproj
+    projectPath: Unity.Services.Core.Environments.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Services.Core.Environments.Internal.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Services.Core.Environments.Internal.csproj
+    projectPath: Unity.Services.Core.Environments.Internal.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Services.Core.Environments.Internal.Player.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Services.Core.Environments.Internal.Player.csproj
+    projectPath: Unity.Services.Core.Environments.Internal.Player.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Services.Core.Environments.Player.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Services.Core.Environments.Player.csproj
+    projectPath: Unity.Services.Core.Environments.Player.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Services.Core.Internal.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Services.Core.Internal.csproj
+    projectPath: Unity.Services.Core.Internal.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Services.Core.Internal.Player.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Services.Core.Internal.Player.csproj
+    projectPath: Unity.Services.Core.Internal.Player.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Services.Core.Networking.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Services.Core.Networking.csproj
+    projectPath: Unity.Services.Core.Networking.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Services.Core.Networking.Player.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Services.Core.Networking.Player.csproj
+    projectPath: Unity.Services.Core.Networking.Player.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Services.Core.Player.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Services.Core.Player.csproj
+    projectPath: Unity.Services.Core.Player.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Services.Core.Registration.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Services.Core.Registration.csproj
+    projectPath: Unity.Services.Core.Registration.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Services.Core.Registration.Player.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Services.Core.Registration.Player.csproj
+    projectPath: Unity.Services.Core.Registration.Player.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Services.Core.Scheduler.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Services.Core.Scheduler.csproj
+    projectPath: Unity.Services.Core.Scheduler.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Services.Core.Scheduler.Player.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Services.Core.Scheduler.Player.csproj
+    projectPath: Unity.Services.Core.Scheduler.Player.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Services.Core.Telemetry.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Services.Core.Telemetry.csproj
+    projectPath: Unity.Services.Core.Telemetry.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Services.Core.Telemetry.Player.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Services.Core.Telemetry.Player.csproj
+    projectPath: Unity.Services.Core.Telemetry.Player.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Services.Core.Threading.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Services.Core.Threading.csproj
+    projectPath: Unity.Services.Core.Threading.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Services.Core.Threading.Player.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Services.Core.Threading.Player.csproj
+    projectPath: Unity.Services.Core.Threading.Player.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.ShaderGraph.Editor.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.ShaderGraph.Editor.csproj
+    projectPath: Unity.ShaderGraph.Editor.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.ShaderGraph.Utilities.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.ShaderGraph.Utilities.csproj
+    projectPath: Unity.ShaderGraph.Utilities.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.TextMeshPro.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.TextMeshPro.csproj
+    projectPath: Unity.TextMeshPro.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.TextMeshPro.Editor.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.TextMeshPro.Editor.csproj
+    projectPath: Unity.TextMeshPro.Editor.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.TextMeshPro.Player.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.TextMeshPro.Player.csproj
+    projectPath: Unity.TextMeshPro.Player.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Timeline.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Timeline.csproj
+    projectPath: Unity.Timeline.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Timeline.Editor.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Timeline.Editor.csproj
+    projectPath: Unity.Timeline.Editor.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.Timeline.Player.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.Timeline.Player.csproj
+    projectPath: Unity.Timeline.Player.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.VisualEffectGraph.Editor.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.VisualEffectGraph.Editor.csproj
+    projectPath: Unity.VisualEffectGraph.Editor.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.VisualEffectGraph.Runtime.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.VisualEffectGraph.Runtime.csproj
+    projectPath: Unity.VisualEffectGraph.Runtime.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.VisualEffectGraph.Runtime.Player.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.VisualEffectGraph.Runtime.Player.csproj
+    projectPath: Unity.VisualEffectGraph.Runtime.Player.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.VisualScripting.Core.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.VisualScripting.Core.csproj
+    projectPath: Unity.VisualScripting.Core.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.VisualScripting.Core.Editor.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.VisualScripting.Core.Editor.csproj
+    projectPath: Unity.VisualScripting.Core.Editor.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.VisualScripting.Core.Player.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.VisualScripting.Core.Player.csproj
+    projectPath: Unity.VisualScripting.Core.Player.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.VisualScripting.Flow.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.VisualScripting.Flow.csproj
+    projectPath: Unity.VisualScripting.Flow.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.VisualScripting.Flow.Editor.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.VisualScripting.Flow.Editor.csproj
+    projectPath: Unity.VisualScripting.Flow.Editor.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.VisualScripting.Flow.Player.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.VisualScripting.Flow.Player.csproj
+    projectPath: Unity.VisualScripting.Flow.Player.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.VisualScripting.SettingsProvider.Editor.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.VisualScripting.SettingsProvider.Editor.csproj
+    projectPath: Unity.VisualScripting.SettingsProvider.Editor.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.VisualScripting.Shared.Editor.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.VisualScripting.Shared.Editor.csproj
+    projectPath: Unity.VisualScripting.Shared.Editor.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.VisualScripting.State.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.VisualScripting.State.csproj
+    projectPath: Unity.VisualScripting.State.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.VisualScripting.State.Editor.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.VisualScripting.State.Editor.csproj
+    projectPath: Unity.VisualScripting.State.Editor.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.VisualScripting.State.Player.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.VisualScripting.State.Player.csproj
+    projectPath: Unity.VisualScripting.State.Player.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.VisualStudio.Editor.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.VisualStudio.Editor.csproj
+    projectPath: Unity.VisualStudio.Editor.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.VSCode.Editor.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Unity.VSCode.Editor.csproj
+    projectPath: Unity.VSCode.Editor.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: UnityEditor.TestRunner.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\UnityEditor.TestRunner.csproj
+    projectPath: UnityEditor.TestRunner.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: UnityEditor.UI.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\UnityEditor.UI.csproj
+    projectPath: UnityEditor.UI.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: UnityEngine.TestRunner.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\UnityEngine.TestRunner.csproj
+    projectPath: UnityEngine.TestRunner.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: UnityEngine.TestRunner.Player.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\UnityEngine.TestRunner.Player.csproj
+    projectPath: UnityEngine.TestRunner.Player.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: UnityEngine.UI.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\UnityEngine.UI.csproj
+    projectPath: UnityEngine.UI.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: UnityEngine.UI.Player.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\UnityEngine.UI.Player.csproj
+    projectPath: UnityEngine.UI.Player.csproj
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3

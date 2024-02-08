@@ -46,6 +46,8 @@ public class AttackController : MonoBehaviour
     [SerializeField] private AudioClip _lockOnCancelSound;
     [SerializeField] private GameObject _lockOnGlyphPrefab;
     private bool hasPlayedLockOnReadySound = false;
+    [SerializeField] private float LockOnCameraShakeDuration = 0.5f;
+    [SerializeField] private float LockOnCameraShakeIntensity = 1f;
     [SerializeField] private AttackTypes AttackType = AttackTypes.Standard;
 
 
@@ -402,6 +404,7 @@ public class AttackController : MonoBehaviour
             StartCoroutine(HideDeathRayBeam(LockOnBeamDuration));
             Debug.Log("Death ray beam hit nothing");
         }
+        GameObject.FindWithTag("MainCamera").GetComponent<CameraShake>().StartCameraShake(LockOnCameraShakeDuration, LockOnCameraShakeIntensity);
 
         WeaponCooldown = 1f;
     }

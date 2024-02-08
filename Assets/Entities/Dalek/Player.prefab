@@ -456,7 +456,9 @@ MonoBehaviour:
   _lockOnStartSound: {fileID: 8300000, guid: b390c3d2912365847b2da08ea6039452, type: 3}
   _lockOnCancelSound: {fileID: 8300000, guid: dbb98c58ea4513f41ba767b6f8ae444e, type: 3}
   _lockOnGlyphPrefab: {fileID: 0}
-  AttackType: 0
+  LockOnCameraShakeDuration: 0.25
+  LockOnCameraShakeIntensity: 0.033
+  AttackType: 3
 --- !u!114 &4255033672329479532
 MonoBehaviour:
   m_ObjectHideFlags: 0

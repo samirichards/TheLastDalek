@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2327193268499296234}
+  - component: {fileID: 5744718355279312677}
   - component: {fileID: 7499860836543413984}
   - component: {fileID: 2486698611210191073}
   - component: {fileID: 137016903041347468}
@@ -40,6 +41,42 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5744718355279312677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4475718880981589932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db3f784f50a46c949afeb63c8abdedfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 3.1881967
+      outSlope: 3.1881967
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.034965035
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: -0
+      outSlope: -0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.22877121
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!20 &7499860836543413984
 Camera:
   m_ObjectHideFlags: 0
@@ -322,7 +359,7 @@ MonoBehaviour:
     type: 3}
   ArtifactScreenCloseClip: {fileID: 8300000, guid: b0cc194fb527d544781adcd9e3e5ddd9,
     type: 3}
-  UpgradeAudioClip: {fileID: 8300000, guid: 6f4bc172768ec83458d9377cfdc3271f, type: 3}
+  UpgradeAudioClip: {fileID: 8300000, guid: db9200280ebeb8f4b88a4d812a79756a, type: 3}
 --- !u!114 &1441894720544520903
 MonoBehaviour:
   m_ObjectHideFlags: 0
