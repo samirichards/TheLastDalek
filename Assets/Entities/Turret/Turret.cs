@@ -42,6 +42,7 @@ public class Turret : DamageableComponent
         _animator.Play("Idle");
         StartCoroutine(FSM());
         Health = MaxHealth;
+        //AttackTarget = GameObject.FindGameObjectWithTag("Player");
     }
 
     private void OnDalekSpawned(object sender, PlayerSpawnedArgs e)

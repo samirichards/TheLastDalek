@@ -6538,6 +6538,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1441264208802859151, guid: 25e8ff2d42f96f742b1670acc98d2ced,
+        type: 3}
+      propertyPath: DamageStat
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5854156094234375418, guid: 25e8ff2d42f96f742b1670acc98d2ced,
         type: 3}
       propertyPath: m_Name

@@ -9,10 +9,15 @@ public class PlayerSpawner : MonoBehaviour
     [SerializeField] public GameObject PlayerPrefab;
 
     [SerializeField] public GameObject CameraPrefab;
+    GameObject playerInstance;
+    bool playerSpawned = false;
     // Start is called before the first frame update
     void Start()
     {
-
+        if (playerSpawned)
+        {
+            OnDalekSpawned.Invoke(this, new PlayerSpawnedArgs(playerInstance));
+        }
     }
 
     // Update is called once per frame
@@ -25,8 +30,8 @@ public class PlayerSpawner : MonoBehaviour
     {
         if (!GameObject.Find("Player"))
         {
-            GameObject temp = Instantiate(PlayerPrefab, DefaultSpawnLocation, Quaternion.identity);
-            DontDestroyOnLoad(temp);
+            playerInstance = Instantiate(PlayerPrefab, DefaultSpawnLocation, Quaternion.identity);
+            DontDestroyOnLoad(playerInstance);
             if (GameObject.FindGameObjectWithTag("CameraObject") == null)
             {
                 var cameraObject = Instantiate(CameraPrefab, transform.position, transform.rotation);
@@ -37,7 +42,7 @@ public class PlayerSpawner : MonoBehaviour
             {
                 //temp.GetComponent<Player>().cameraInstance.SetTracker();
             }
-            OnDalekSpawned?.Invoke(this, new PlayerSpawnedArgs(temp));
+            playerSpawned = (playerInstance != null);
         }
     }
 

@@ -125,6 +125,7 @@
     <Compile Include="Assets\Entities\Projecties\Bullet\Bullet.cs" />
     <Compile Include="Assets\Entities\Dalek\Movement.cs" />
     <Compile Include="Assets\Items\InventoryObject.cs" />
+    <Compile Include="Assets\Entities\Camera\CameraShake.cs" />
     <Compile Include="Assets\Scripts\SceneManager.cs" />
     <Compile Include="Assets\Entities\Projecties\DalekGun\EnergyDischargeController.cs" />
     <Compile Include="Assets\Items\GroundItem.cs" />
@@ -135,7 +136,6 @@
     <Compile Include="Assets\Entities\Dalek\Inventory\InventoryController.cs" />
     <Compile Include="Assets\Entities\Camera\CameraObject.cs" />
     <Compile Include="Assets\Scenes\Menus\MainMenu\Dalek_LookManager.cs" />
-    <Compile Include="Assets\Entities\Camera\CameraShake.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
