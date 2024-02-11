@@ -2412,7 +2412,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 848542366}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
@@ -3572,7 +3572,7 @@ Light:
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 1
-  m_ColorTemperature: 17861
+  m_ColorTemperature: 5180
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
@@ -3587,7 +3587,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1523433218}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.84, y: 2.88, z: -7.82}
+  m_LocalPosition: {x: 2.19, y: 2.88, z: -7.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5814,6 +5814,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -1454021519076810180, guid: 3732b4c58914f9442ade98ccb73a1a06,
+        type: 3}
+      propertyPath: InDisplayMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 480040718756239965, guid: 3732b4c58914f9442ade98ccb73a1a06,
         type: 3}
       propertyPath: LookatTarget
@@ -5839,10 +5844,15 @@ PrefabInstance:
       propertyPath: EyestalkMoveSpeed
       value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: 1821229250149971298, guid: 3732b4c58914f9442ade98ccb73a1a06,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2765263899953439936, guid: 3732b4c58914f9442ade98ccb73a1a06,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4268988540699321720, guid: 3732b4c58914f9442ade98ccb73a1a06,
         type: 3}
@@ -5932,7 +5942,7 @@ PrefabInstance:
     - target: {fileID: 5679096926692371214, guid: 3732b4c58914f9442ade98ccb73a1a06,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6993716721653695542, guid: 3732b4c58914f9442ade98ccb73a1a06,
         type: 3}
@@ -5943,6 +5953,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Intensity
       value: 14.241441
+      objectReference: {fileID: 0}
+    - target: {fileID: 8398448280553837814, guid: 3732b4c58914f9442ade98ccb73a1a06,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8777685487162858991, guid: 3732b4c58914f9442ade98ccb73a1a06,
         type: 3}

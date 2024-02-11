@@ -79,6 +79,9 @@ public class PropController : MonoBehaviour
     [Header("Static Display Settings")] 
     [SerializeField] private bool InDisplayMode = false;
 
+
+    private bool wasMoving = false;
+
     void Start()
     {
         if (InDisplayMode)
@@ -223,6 +226,7 @@ public class PropController : MonoBehaviour
             MovementAudioSource.clip = MovementLoop;
             MovementAudioSource.loop = true;
             MovementAudioSource.volume = MovementVolume;
+            wasMoving = true;
 
             if (!MovementAudioSource.isPlaying)
             {
@@ -246,20 +250,21 @@ public class PropController : MonoBehaviour
             if (MovementAudioSource.isPlaying)
             {
                 MovementAudioSource.Stop();
-                /*
+
                 if (wasElevating)
                 {
                     // ElevateEnd sound should play here
                     MovementAudioSource.volume = MovementVolume;
                     MovementAudioSource.PlayOneShot(ElevateEnd);
                 }
-                else
+                if(wasMoving)
                 {
                     // MovementEnd sound should play here if MovementLoop was playing
                     MovementAudioSource.volume = MovementVolume;
                     MovementAudioSource.PlayOneShot(MovementEnd);
+                    wasMoving = false;
                 }
-                */
+                
             }
         }
     }
@@ -272,6 +277,12 @@ public class PropController : MonoBehaviour
         MovementAudioSource.Stop();
         SpeechAudioSource.loop = false;
         SpeechAudioSource.Stop();
+        if (wasMoving)
+        {
+            MovementAudioSource.volume = MovementVolume;
+            MovementAudioSource.PlayOneShot(MovementEnd);
+            wasMoving = false;
+        }
     }
 
     private IEnumerator VaryLightIntensity(float duration, GameObject[] lightSources)

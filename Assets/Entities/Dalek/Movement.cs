@@ -58,7 +58,6 @@ public class Movement : MonoBehaviour
         if (!GameManager.IsGamePaused)
         {
             Move();
-            propController.MovementAudio(IsMoving, IsElevating, IsMovementEnhanced, wasElevating);
             HandleElevate();
         }
     }
@@ -114,6 +113,7 @@ public class Movement : MonoBehaviour
         {
             IsMoving = false;
         }
+        propController.MovementAudio(IsMoving, IsElevating, IsMovementEnhanced, wasElevating);
     }
 }
 
