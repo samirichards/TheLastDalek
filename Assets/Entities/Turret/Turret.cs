@@ -38,16 +38,16 @@ public class Turret : DamageableComponent
     // Start is called before the first frame update
     void Start()
     {
-        PlayerSpawner.OnDalekSpawned += OnDalekSpawned;
         _animator.Play("Idle");
         StartCoroutine(FSM());
         Health = MaxHealth;
-        //AttackTarget = GameObject.FindGameObjectWithTag("Player");
+        AttackTarget = GameObject.FindGameObjectWithTag("Player");
     }
 
     private void OnDalekSpawned(object sender, PlayerSpawnedArgs e)
     {
         AttackTarget = e.player;
+        AttackTarget = GameObject.FindGameObjectWithTag("Player");
     }
 
     private void OnDestroy()
@@ -58,6 +58,7 @@ public class Turret : DamageableComponent
     void Awake()
     {
         _animator = GetComponent<Animator>();
+        PlayerSpawner.OnDalekSpawned += OnDalekSpawned;
     }
 
     // Update is called once per frame

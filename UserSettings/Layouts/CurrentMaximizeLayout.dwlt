@@ -226,9 +226,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: f8df0000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 8cd8fcff9245fdff9645fdffa445fdff9646fdff9846fdffbc4afdff204efdff3a8dfdff468dfdffe293fdffdab0fffff2b4ffff76bfffff06eeffff06fbfffff4ffffff
+      m_ExpandedIDs: 06fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -576,9 +576,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.9430622, y: -1.2597059, z: -4.814602}
+    m_Target: {x: 0.55097747, y: 0.4941429, z: 3.2004745}
     speed: 2
-    m_Value: {x: 1.9430622, y: -1.2597059, z: -4.814602}
+    m_Value: {x: 0.55097747, y: 0.4941429, z: 3.2004745}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -625,9 +625,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.43998563, y: -0.40335006, z: 0.2405017, w: -0.7686224}
+    m_Target: {x: -0.05729104, y: -0.24644864, z: 0.019854164, w: -0.96979403}
     speed: 2
-    m_Value: {x: -0.43855125, y: -0.40351513, z: 0.24057272, w: -0.7661418}
+    m_Value: {x: -0.05718044, y: -0.24439394, z: 0.019719813, w: -0.96778774}
   m_Size:
     m_Target: 3.9585702
     speed: 2
@@ -956,10 +956,10 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: b83c3c4bda7959741a9cdf5874e323ec,
+  m_AnimatorController: {fileID: 9100000, guid: 4ca479bfdc8f8b143bd96291dc478f52,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: -8144447240487427327, guid: b83c3c4bda7959741a9cdf5874e323ec,
+  - m_Target: {fileID: 4320641183212973977, guid: 4ca479bfdc8f8b143bd96291dc478f52,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -2848,22 +2848,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes/Menus/MainMenu
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes/Menus/MainMenu
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\samir\Documents\Game Projects\TheLastDalek
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 906}
-    m_SelectedIDs: eedf0000
-    m_LastClickedID: 57326
-    m_ExpandedIDs: 00000000868e0000888e00008a8e00008c8e00008e8e0000908e0000928e0000948e0000968e0000988e00009a8e00009c8e00009e8e0000a08e0000848f0000ae90000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 8e980000
+    m_LastClickedID: 39054
+    m_ExpandedIDs: 000000008e98000090980000929800009498000096980000989800009a9800009c9800009e980000a0980000a2980000a4980000a6980000a898000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2891,7 +2891,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000868e0000888e00008a8e00008c8e00008e8e0000908e0000928e0000948e0000968e0000988e00009a8e00009c8e00009e8e0000a08e000000ca9a3bffffff7f
+    m_ExpandedIDs: 000000008e98000090980000929800009498000096980000989800009a9800009c9800009e980000a0980000a2980000a4980000a6980000a898000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2916,9 +2916,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: f8df0000
-    m_LastClickedInstanceID: 57336
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000c2790000143b06000e8b0000c88a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -2970,7 +2970,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 629
-    width: 1460
+    width: 1461
     height: 362
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -3007,7 +3007,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 58680
+  m_LastSelectedObjectID: 81614
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -3035,7 +3035,7 @@ MonoBehaviour:
   - {fileID: 20}
   - {fileID: 21}
   m_Selected: 0
-  m_LastSelected: 2
+  m_LastSelected: 1
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -3099,9 +3099,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1466
+    x: 1461
     y: 73
-    width: 453
+    width: 458
     height: 918
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
