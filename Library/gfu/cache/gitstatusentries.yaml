@@ -13,24 +13,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2024-02-25T20:43:56.673+00:00
-  initializedAtString: 2024-02-25T20:34:52.284+00:00
+  lastUpdatedAtString: 2024-02-28T23:25:33.166+00:00
+  initializedAtString: 2024-02-28T23:22:37.199+00:00
   entries:
-  - path: Assets\Entities\Turret\Turret.cs
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Turret\Turret.cs
-    projectPath: Assets\Entities\Turret\Turret.cs
+  - path: Assets\Entities\Dalek\Models\Paradigm\ParadigmDalek.prefab
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Models\Paradigm\ParadigmDalek.prefab
+    projectPath: Assets\Entities\Dalek\Models\Paradigm\ParadigmDalek.prefab
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Readme.asset
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Readme.asset
-    projectPath: Assets\Readme.asset
+  - path: Assets\Entities\Dalek\Models\PropController.cs
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Models\PropController.cs
+    projectPath: Assets\Entities\Dalek\Models\PropController.cs
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Readme.asset.meta
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Readme.asset.meta
-    projectPath: Assets\Readme.asset.meta
+    workTreeStatus: 3
+  - path: Assets\Entities\Dalek\Models\Remembrence\RemembranceDalekPrefab.prefab
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Models\Remembrence\RemembranceDalekPrefab.prefab
+    projectPath: Assets\Entities\Dalek\Models\Remembrence\RemembranceDalekPrefab.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Entities\Dalek\Player.prefab
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Player.prefab
+    projectPath: Assets\Entities\Dalek\Player.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Artifacts\a1\a1c0d6bae7b9e58a1dbbec78035b23ae
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Artifacts\a1\a1c0d6bae7b9e58a1dbbec78035b23ae
+    projectPath: Library\Artifacts\a1\a1c0d6bae7b9e58a1dbbec78035b23ae
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -94,21 +106,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\gfu\cache\branches.yaml
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\gfu\cache\branches.yaml
-    projectPath: Library\gfu\cache\branches.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\gfu\cache\gitlocks.yaml
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\gfu\cache\gitlocks.yaml
     projectPath: Library\gfu\cache\gitlocks.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\gfu\cache\gitlog.yaml
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\gfu\cache\gitlog.yaml
-    projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -130,9 +130,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\LastSceneManagerSetup.txt
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\LastSceneManagerSetup.txt
-    projectPath: Library\LastSceneManagerSetup.txt
+  - path: Library\InspectorExpandedItems.asset
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -178,9 +178,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: UserSettings\EditorUserSettings.asset
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\UserSettings\EditorUserSettings.asset
-    projectPath: UserSettings\EditorUserSettings.asset
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Logs\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe0.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3

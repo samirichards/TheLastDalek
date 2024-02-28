@@ -247,7 +247,7 @@ public class PropController : MonoBehaviour
         {
             // Stop all sounds when not moving or not elevating
             //TODO come back and fix this, refactoring broke it
-            if (MovementAudioSource.isPlaying)
+            if (MovementAudioSource.isPlaying && (!IsMoving || !isElevating))
             {
                 MovementAudioSource.Stop();
 
@@ -260,8 +260,10 @@ public class PropController : MonoBehaviour
                 if(wasMoving)
                 {
                     // MovementEnd sound should play here if MovementLoop was playing
-                    MovementAudioSource.volume = MovementVolume;
-                    MovementAudioSource.PlayOneShot(MovementEnd);
+                    //MovementAudioSource.volume = MovementVolume;
+                    //MovementAudioSource.PlayOneShot(MovementEnd);
+                    //Little hack to make it always play over whatever is causing it to stop when it shouldn't
+                    AudioSource.PlayClipAtPoint(MovementEnd, transform.position, MovementVolume);
                     wasMoving = false;
                 }
                 
