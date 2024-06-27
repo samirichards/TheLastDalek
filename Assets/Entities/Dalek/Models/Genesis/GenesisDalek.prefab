@@ -386,18 +386,16 @@ MonoBehaviour:
   _plungerObject: {fileID: 1056731841450511632}
   _gunStickObject: {fileID: 3957862970839491054}
   _bodyBase: {fileID: 3998772355794403072}
-  _centerObject: {fileID: 3998772355794403072}
+  _centerObject: {fileID: 5606404102814894445}
   _headObject: {fileID: 3860034787757595458}
   _eyeStalkObject: {fileID: 3768886594763017522}
   _gattlingGunHolderObject: {fileID: 3957862970839491054}
-  _lightClusterGroup:
-  - {fileID: 0}
-  - {fileID: 0}
+  _lightClusterGroup: []
   SpeechAudioSource: {fileID: 7652273629325276450}
   GeneralAudioSource: {fileID: 9131176361579418098}
   MovementAudioSource: {fileID: 302916156558234790}
   _rayGunQuickFire:
-  - {fileID: 8300000, guid: ffcb5b1db33ce6d478d1bd273379e4f7, type: 3}
+  - {fileID: 8300000, guid: aa0301a9d1c640b4883ef8f71427e146, type: 3}
   _plungerQuickAttack:
   - {fileID: 8300000, guid: 8094a7657b550a548a3f0051678d4e20, type: 3}
   RaygunBeamFireOpen: {fileID: 8300000, guid: ffcb5b1db33ce6d478d1bd273379e4f7, type: 3}
@@ -421,6 +419,7 @@ MonoBehaviour:
   ElevateEnd: {fileID: 8300000, guid: 762e0ac672b369a42ae062ebc1865979, type: 3}
   MovementVolume: 0.5
   ElevateVolume: 1
+  isElevating: 0
   _animator: {fileID: 7424909566033796268}
   InteractionPoint: {fileID: 5606404102814894445}
   _rayGunDischargePrefab: {fileID: 434682360272248152, guid: 2c63ab9a46b0b21489d16f9266e0adbe,
@@ -432,7 +431,7 @@ MonoBehaviour:
   _damageMultiplier: 0.25
   _stealthMultiplier: 1.333
   MaxHealthMultiplier: 0.8
-  _attackType: 2
+  _attackType: 0
   InDisplayMode: 0
   inactiveEmittersMaterial: {fileID: 2100000, guid: 292d64b2e42d690439590488edb2a6dc,
     type: 2}

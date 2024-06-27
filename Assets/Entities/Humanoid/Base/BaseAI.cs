@@ -608,7 +608,6 @@ public class BaseAI : MonoBehaviour
     void Die(DamageInfo _damageInfo)
     {
         GameManager.IncrementExterminations();
-        CharacterAnimator.SetBool("IsAlive", false);
         SoundSource.PlayOneShot(DeathSounds[Mathf.RoundToInt(Random.Range(0, DeathSounds.Length))]);
         agent.SetDestination(transform.position);
         agent.isStopped = true;
@@ -627,16 +626,27 @@ public class BaseAI : MonoBehaviour
         {
             try
             {
-                SkeletonObject.SetActive(true);
-                CharacterAnimator.SetTrigger("Exterminate");
-                SkeletonObject.GetComponent<Animator>().SetTrigger("Exterminate");
-                StartCoroutine(RagdollTimer(5));
+                if (!_damageInfo.DestroyTarget)
+                {
+                    SkeletonObject.SetActive(true);
+                    CharacterAnimator.SetTrigger("Exterminate");
+                    SkeletonObject.GetComponent<Animator>().SetTrigger("Exterminate");
+                    StartCoroutine(RagdollTimer(5));
+                    StartCoroutine(SkeletonReveal(SkeletonRevealTime));
+                    CharacterAnimator.SetBool("IsAlive", false);
+                }
+                else
+                {
+                    SkeletonObject.SetActive(true);
+                    StartCoroutine(SkeletonReveal(SkeletonRevealTime));
+                    CharacterAnimator.speed = 0;
+                    CharacterAnimator.SetBool("IsAlive", false);
+                }
             }
             catch (Exception e)
             {
                 Debug.Log(e.ToString());
             }
-            StartCoroutine(SkeletonReveal(SkeletonRevealTime));
             return;
         }
         CharacterAnimator.SetInteger("AnimationState", -1);

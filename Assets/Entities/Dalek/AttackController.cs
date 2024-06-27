@@ -112,13 +112,22 @@ public class AttackController : MonoBehaviour
                     }
                     else
                     {
+                        Player._PropController.OnFire();
                         HandleGunStick();
                     }
                 }
             }
             else
             {
-                PlungerQuickAttack();
+                if (AttackType != AttackTypes.HeavyOnly)
+                {
+                    PlungerQuickAttack();
+                }
+                else
+                {
+                    Player._PropController.OnFire();
+                    HandleGunStick();
+                }
             }
         }
         else
@@ -209,6 +218,7 @@ public class AttackController : MonoBehaviour
                 if (lockOnTime < LockOnThreshold)
                 {
                     weaponSoundSource.PlayOneShot(_lockOnCancelSound);
+                    Player._PropController.OnFire();
                     HandleGunStick();
                 }
             }
@@ -264,7 +274,7 @@ public class AttackController : MonoBehaviour
         {
             return;
         }
-
+        Player._PropController.OnRapidFire();
         FireGunStick(LaserType);
     }
 
@@ -279,12 +289,13 @@ public class AttackController : MonoBehaviour
                 HandleGunStickBroadBeam(LaserType);
                 break;
             case AttackTypes.HeavyOnly:
-                Debug.Log("Heavy only attack type not implemented");
+                FireGunStick(LaserType);
                 break;
             case AttackTypes.BeamOnly:
                 HandleGunStickBeam();
                 break;
         }
+        GetComponentInChildren<PropController>()?.OnFire();
     }
 
     public void HandleGunStickBroadBeam(uint AttackStrength)
@@ -372,7 +383,8 @@ public class AttackController : MonoBehaviour
         {
             return;
         }
-        
+        Player._PropController.OnFire();
+
         //weaponSoundSource.volume = 0.5f;
         RaycastHit hit;
         Vector3 fwd = Player._PropController.getGunStickObject.transform.TransformDirection(Vector3.forward);
@@ -429,6 +441,7 @@ public class AttackController : MonoBehaviour
             return;
         }
         Player._PropController.PlayAnimationClip(PropController.AnimationClips.PlungerAttack);
+        Player._PropController.OnMelee();
         WeaponCooldown = PlungerAttackRate;
 
 

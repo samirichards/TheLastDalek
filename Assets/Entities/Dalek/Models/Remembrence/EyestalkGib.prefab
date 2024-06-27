@@ -64,6 +64,7 @@ MeshRenderer:
   - {fileID: 2100000, guid: 71908ec32b611b043863348c8e89caef, type: 2}
   - {fileID: 2100000, guid: 1d367db3e0c59e74899864d028b24610, type: 2}
   - {fileID: 2100000, guid: f1a86dd287734d94391a37048f5132e1, type: 2}
+  - {fileID: 2100000, guid: 71908ec32b611b043863348c8e89caef, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -143,7 +144,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 0.66
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0

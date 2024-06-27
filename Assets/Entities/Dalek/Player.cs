@@ -56,7 +56,8 @@ public class Player : MonoBehaviour
         StandardDalek,
         ImperialDalek,
         ParadigmDalek,
-        GenesisDalek
+        GenesisDalek,
+        SpecialWeaponsDalek
     }
 
     public static GameObject GetPlayerReference()

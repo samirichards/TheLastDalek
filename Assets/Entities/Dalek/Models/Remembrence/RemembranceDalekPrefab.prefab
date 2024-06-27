@@ -878,10 +878,10 @@ MonoBehaviour:
   GeneralAudioSource: {fileID: 2776170809751130664}
   MovementAudioSource: {fileID: 5067051758596414994}
   _rayGunQuickFire:
-  - {fileID: 8300000, guid: 8fe1a79726185ec4ca17f14bb6f47ac4, type: 3}
+  - {fileID: 8300000, guid: 279af4309b470f14b83ee59cf713400c, type: 3}
   _plungerQuickAttack:
   - {fileID: 8300000, guid: 8094a7657b550a548a3f0051678d4e20, type: 3}
-  RaygunBeamFireOpen: {fileID: 8300000, guid: 17b146d3ee66675498c397d3864e2fc9, type: 3}
+  RaygunBeamFireOpen: {fileID: 8300000, guid: 279af4309b470f14b83ee59cf713400c, type: 3}
   RaygunBeamFireLoop: {fileID: 8300000, guid: a74cf5c217c90174ba92267aea2d4312, type: 3}
   RaygunBeamHit: {fileID: 8300000, guid: 04def0b74a2e79e4f96827c685db2782, type: 3}
   _exterminateVO:
@@ -910,7 +910,7 @@ MonoBehaviour:
   _rayGunDischargePrefab: {fileID: 434682360272248152, guid: 5ea575959ee37564aa34cd9c493a740a,
     type: 3}
   _rayGunBeamColour: {r: 0.98039216, g: 0.5529412, b: 0.003921569, a: 0}
-  _rayGunBeamMaterial: {fileID: 2100000, guid: 98c1ff939380fc04a97ba470576a0e85, type: 2}
+  _rayGunBeamMaterial: {fileID: 2100000, guid: 533d55f65122f554ba28dc1df8ee02d9, type: 2}
   _pointsMultiplier: 1.2
   _movementSpeedMultiplier: 1.15
   _damageMultiplier: 0.95

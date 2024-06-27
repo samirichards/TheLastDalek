@@ -33,7 +33,7 @@ public class PropController : MonoBehaviour
     [SerializeField] private GameObject _headObject;
     [SerializeField] private GameObject _eyeStalkObject;
     [SerializeField] private GameObject _gattlingGunHolderObject;
-    [SerializeField] private GameObject[] _lightClusterGroup;
+    [SerializeField] private Light[] _lightClusterGroup;
 
     [Header("Audio ---")]
     [SerializeField] private AudioSource SpeechAudioSource;
@@ -90,6 +90,36 @@ public class PropController : MonoBehaviour
             _animator.SetBool("DisplayMode", true);
         }
         StartBehavior();
+    }
+
+    public virtual void OnFire()
+    {
+        Debug.Log(gameObject.name + " OnFire() default behavior");
+    }
+
+    public virtual void OnPreFire()
+    {
+        Debug.Log(gameObject.name + " OnPreFire() default behavior");
+    }
+
+    public virtual void OnRapidFire()
+    {
+        Debug.Log(gameObject.name + " OnRapidFire() default behavior");
+    }
+
+    public virtual void OnRapidFireEnd()
+    {
+        Debug.Log(gameObject.name + " OnRapidFireEnd() default behavior");
+    }
+
+    public virtual void OnMelee()
+    {
+        Debug.Log(gameObject.name + " OnMelee() default behavior");
+    }
+
+    public virtual void OnHit(Vector3 hitOriginDirection)
+    {
+        Debug.Log(gameObject.name + " OnHit() default behavior, hit from " + hitOriginDirection.normalized);
     }
 
     public virtual void StartBehavior()
@@ -287,12 +317,12 @@ public class PropController : MonoBehaviour
         }
     }
 
-    private IEnumerator VaryLightIntensity(float duration, GameObject[] lightSources)
+    private IEnumerator VaryLightIntensity(float duration, Light[] lightSources)
     {
         float startTime = Time.time;
         float endTime = startTime + duration;
 
-        foreach (Light bulb in lightSources.Select(a=>a.GetComponent<Light>()))
+        foreach (Light bulb in lightSources)
         {
             bulb.enabled = true;
         }
@@ -304,7 +334,7 @@ public class PropController : MonoBehaviour
             float intensity = Mathf.Lerp(0f, 1f, amplitude);
 
             // Apply the intensity to the light source
-            foreach (Light bulb in lightSources.Select(a => a.GetComponent<Light>()))
+            foreach (Light bulb in lightSources)
             {
                 bulb.intensity = intensity * 10;
             }
@@ -312,7 +342,7 @@ public class PropController : MonoBehaviour
             yield return null; // Wait for the next frame
         }
 
-        foreach (Light bulb in lightSources.Select(a => a.GetComponent<Light>()))
+        foreach (Light bulb in lightSources)
         {
             bulb.enabled = false;
         }
@@ -366,9 +396,10 @@ public class PropController : MonoBehaviour
         SetEmittersActive(false);
     } 
 
+    //The only dalek type which doesn't override this behavior is the Standard dalek, every other type works by changing the material on the emitter bulbs, maybe the standard dalek should follow, it would look more realistic
     public virtual void SetEmittersActive(bool state)
     {
-        foreach (Light bulb in _lightClusterGroup.Select(a => a.GetComponent<Light>()))
+        foreach (Light bulb in _lightClusterGroup)
         {
             bulb.enabled = state;
         }

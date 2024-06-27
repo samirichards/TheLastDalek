@@ -139,7 +139,7 @@ public class EnergyDischargeController : MonoBehaviour
                 if (other.gameObject.tag == "NPC")
                 {
                     AudioSource.PlayClipAtPoint(ImpactSounds[RayType], transform.position);
-                    other.gameObject.GetComponent<BaseAI>().Damage(new DamageInfo(_damageStat, gameObject, DamageType.DeathRay));
+                    other.gameObject.GetComponent<BaseAI>().Damage(new DamageInfo(_damageStat, gameObject, DamageType.DeathRay, true));
                 }
 
                 if (other.gameObject.GetComponent<DamageableComponent>())
