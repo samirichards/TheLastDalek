@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class StandardDalekPropController : PropController
 {
+
+    [Header("Standard Specific Properties")]
+    [SerializeField] private Material inactiveEmittersMaterial;
+    [SerializeField] private Material activeEmittersMaterial;
+    [SerializeField] private MeshRenderer emitters;
     protected override IEnumerator EmitterVOFlash(float duration)
     {
         float startTime = Time.time;
@@ -30,5 +35,17 @@ public class StandardDalekPropController : PropController
         }
 
         SetEmittersActive(false);
+    }
+
+    public override void SetEmittersActive(bool state)
+    {
+        if (state)
+        {
+            emitters.materials = new Material[] { activeEmittersMaterial };
+        }
+        else
+        {
+            emitters.materials = new Material[] { inactiveEmittersMaterial };
+        }
     }
 }
