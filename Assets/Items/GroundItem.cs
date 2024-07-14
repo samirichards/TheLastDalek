@@ -23,13 +23,21 @@ public class GroundItem : MonoBehaviour, ISerializationCallbackReceiver
         {
             Destroy(gameObject);
         }
+        if (_item.WorldModel != null)
+        {
+            //Worldmodel should be attached
+
+        }
     }
 
     public void OnBeforeSerialize()
     {
         _item._itemTier = ItemTier;
-        GetComponentInChildren<SpriteRenderer>().sprite = _item.ItemModelTexture[_item._itemTier];
-        EditorUtility.SetDirty(GetComponentInChildren<SpriteRenderer>());
+        if (_item.WorldModel == null)
+        {
+            GetComponentInChildren<SpriteRenderer>().sprite = _item.ItemModelTexture[_item._itemTier];
+            EditorUtility.SetDirty(GetComponentInChildren<SpriteRenderer>());
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
