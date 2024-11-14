@@ -88,6 +88,7 @@ MonoBehaviour:
   SkinExterminationMaterial: {fileID: 2100000, guid: 8d45234155ecf48468d57430f8641700,
     type: 2}
   SkeletonRevealTime: 1
+  skinnedMeshRenderer: {fileID: 12736415948561262}
   MaxIdleTime: 10
   MaxWanderRadius: 50
   MaxWanderCooldown: 5
@@ -948,7 +949,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 7dbc537dda5c66e47a25e0127e5791f7, type: 2}
+      objectReference: {fileID: 2100000, guid: fb7c5427b57f34441877b04b502a6969, type: 2}
     - target: {fileID: 17856900135852021, guid: 8d11729d6da93c14786437dbad642810,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -1337,6 +1338,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8d11729d6da93c14786437dbad642810, type: 3}
+--- !u!137 &12736415948561262 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 17856900135852021, guid: 8d11729d6da93c14786437dbad642810,
+    type: 3}
+  m_PrefabInstance: {fileID: 5153902256213147}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &547457899539802992 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8d11729d6da93c14786437dbad642810,

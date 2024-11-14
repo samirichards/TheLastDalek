@@ -634,13 +634,19 @@ public class BaseAI : MonoBehaviour
                     StartCoroutine(RagdollTimer(5));
                     StartCoroutine(SkeletonReveal(SkeletonRevealTime));
                     CharacterAnimator.SetBool("IsAlive", false);
+                    StartCoroutine(DeleteNPC(10));
                 }
                 else
                 {
-                    SkeletonObject.SetActive(true);
-                    StartCoroutine(SkeletonReveal(SkeletonRevealTime));
+                    foreach (var item in MainBody.GetComponentsInChildren<Rigidbody>())
+                    {
+                        item.useGravity = false;
+                    }
+                    Ragdoll();
                     CharacterAnimator.speed = 0;
                     CharacterAnimator.SetBool("IsAlive", false);
+                    StartCoroutine(Dissolve(1.5f, _damageInfo));
+                    StartCoroutine(DeleteNPC(4f));
                 }
             }
             catch (Exception e)
@@ -690,5 +696,55 @@ public class BaseAI : MonoBehaviour
     {
         yield return new WaitForSeconds(time);
         Ragdoll(); 
+    }
+
+
+    IEnumerator DeleteNPC(float time)
+    {
+        yield return new WaitForSeconds(time);
+        Destroy(gameObject);
+    }
+
+    IEnumerator Dissolve(float time, DamageInfo damageInfo)
+    {
+        //Fairly heavy operation, but it only happens on death so idc
+        var skinnedMeshRenderers = GetComponentsInChildren<SkinnedMeshRenderer>();
+        float currentTime = 0;
+
+
+        foreach (var skinnedMeshRenderer in skinnedMeshRenderers)
+        {
+            foreach (var material in skinnedMeshRenderer.materials)
+            {
+                material.SetColor("_DissolveColour", damageInfo.DissolveColour);
+            }
+        }
+
+        while (skinnedMeshRenderers[0].materials[0].GetFloat("_DissolveAmount") < 1 && currentTime < time)
+        {
+            foreach (var skinnedMesh in skinnedMeshRenderers)
+            {
+                if (skinnedMesh.materials.Length > 0)
+                {
+                    foreach (var material in skinnedMesh.materials)
+                    {
+                        
+                        material.SetFloat("_DissolveAmount", currentTime / time);
+                    }
+                    
+                }
+            }
+            currentTime += Time.deltaTime;
+            yield return new WaitForEndOfFrame();
+        }
+
+
+        foreach (var skinnedMesh in skinnedMeshRenderers)
+        {
+            foreach (var material in skinnedMesh.materials)
+            {
+                material.SetFloat("_DissolveAmount", 1);
+            }
+        }
     }
 }

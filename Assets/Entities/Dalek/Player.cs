@@ -44,7 +44,10 @@ public class Player : MonoBehaviour
                 _Instance = playerObjectReference.GetComponent<Player>();
                 _Instance.name = _Instance.GetType().ToString();
                 // mark root as DontDestroyOnLoad();
-                DontDestroyOnLoad(playerObjectReference);
+                if (!Application.isEditor)
+                {
+                    DontDestroyOnLoad(playerObjectReference);
+                }
                 
             }
             return _Instance;

@@ -29,6 +29,9 @@ public class AttackController : MonoBehaviour
     [SerializeField]private int RaygunBroadBeamRaycastCount = 9;
     [SerializeField] private GameObject CollisionExplosionPrefab;
 
+
+    public bool ShouldTargetDissolve = false;
+
     [SerializeField] private float GunTurnTime = 0.2f;
     [SerializeField] private float LockOnBeamDuration = 0.66f;
     [SerializeField] private LockOnReticle reticleObject;
@@ -508,7 +511,7 @@ public class AttackController : MonoBehaviour
         WeaponCooldown = EnableGattlingGun ? GunStickDefaultFireRate * GattlingGunFireRateModifier : GunStickDefaultFireRate;
         GameObject go = Instantiate(Player._PropController.getRayGunDischargePrefab, Player._PropController.getGunStickObject.transform.position, Player._PropController.getGunStickObject.transform.rotation);
         go.transform.Rotate(0.0f, 0, 0.0f, Space.Self);
-        go.GetComponent<EnergyDischargeController>().SetData(AttackStrength);
+        go.GetComponent<EnergyDischargeController>().SetData(AttackStrength, ShouldTargetDissolve);
         GameObject.Destroy(go, 3f);
     }
 }

@@ -8,6 +8,7 @@ public class DamageInfo
     public GameObject DamageSource;
     public DamageType DamageType;
     public bool DestroyTarget;
+    public Color DissolveColour;
 
     public DamageInfo(float damageValue, GameObject damageSource, DamageType damageType)
     {
@@ -22,6 +23,15 @@ public class DamageInfo
         DamageSource = damageSource;
         DamageType = damageType;
         DestroyTarget = _destroyTarget;
+    }
+
+    public DamageInfo(float damageValue, GameObject damageSource, DamageType damageType, bool _destroyTarget, Color _dissolveColour)
+    {
+        DamageValue = damageValue;
+        DamageSource = damageSource;
+        DamageType = damageType;
+        DestroyTarget = _destroyTarget;
+        DissolveColour = _dissolveColour;
     }
 }
 

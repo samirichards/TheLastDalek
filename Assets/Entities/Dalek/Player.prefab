@@ -442,6 +442,7 @@ MonoBehaviour:
   RaygunBroadBeamRaycastCount: 5
   CollisionExplosionPrefab: {fileID: 3487991302742936757, guid: 37c0f4ec70250d043be29beae27f0b86,
     type: 3}
+  ShouldTargetDissolve: 0
   GunTurnTime: 0.2
   LockOnBeamDuration: 0.75
   reticleObject: {fileID: 5014804461522483714}
@@ -1483,6 +1484,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4654364046407247333, guid: 96162c6933812aa4386031a6e54aff07,
+        type: 3}
+      propertyPath: _attackType
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6860897218152554147, guid: 96162c6933812aa4386031a6e54aff07,
         type: 3}

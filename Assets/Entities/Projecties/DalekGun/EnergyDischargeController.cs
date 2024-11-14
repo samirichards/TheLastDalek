@@ -17,6 +17,7 @@ public class EnergyDischargeController : MonoBehaviour
     private float TravelledDistance = 0.0f;
     [SerializeField] float Range = 300f;
     [SerializeField] float ProjectileSpeed = 50f;
+    public bool DestroyTarget = false; 
     private uint r;
     private uint RayType { 
         set{
@@ -61,7 +62,7 @@ public class EnergyDischargeController : MonoBehaviour
         lightEmitter = GetComponent<Light>();
     }
 
-    public void SetData(uint _rayType)
+    public void SetData(uint _rayType, bool _destroyTarget)
     {
         RayType = _rayType;
         switch (RayType)
@@ -95,6 +96,8 @@ public class EnergyDischargeController : MonoBehaviour
                 _damageStat = 200f;
                 break;
         }
+
+        DestroyTarget = _destroyTarget;
     }
 
 
@@ -139,7 +142,9 @@ public class EnergyDischargeController : MonoBehaviour
                 if (other.gameObject.tag == "NPC")
                 {
                     AudioSource.PlayClipAtPoint(ImpactSounds[RayType], transform.position);
-                    other.gameObject.GetComponent<BaseAI>().Damage(new DamageInfo(_damageStat, gameObject, DamageType.DeathRay, true));
+
+                    var dissolveColour = GetComponent<Light>().color;
+                    other.gameObject.GetComponent<BaseAI>().Damage(new DamageInfo(_damageStat, gameObject, DamageType.DeathRay, DestroyTarget, dissolveColour * 150));
                 }
 
                 if (other.gameObject.GetComponent<DamageableComponent>())

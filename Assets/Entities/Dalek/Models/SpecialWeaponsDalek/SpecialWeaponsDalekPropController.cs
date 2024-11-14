@@ -28,7 +28,14 @@ public class SpecialWeaponsDalekPropController: PropController
 
     public override void OnFire()
     {
-        GameObject.FindWithTag("MainCamera").GetComponent<CameraShake>().StartCameraShake(ShootCameraShakeDuration, ShootCameraShakeIntensity);
+        //GameObject.FindWithTag("MainCamera").GetComponent<CameraShake>().StartCameraShake(ShootCameraShakeDuration, ShootCameraShakeIntensity);
         base.OnFire();
+    }
+
+
+    public override void StartBehavior()
+    {
+        GetComponentInParent<AttackController>().ShouldTargetDissolve = true;
+        base.StartBehavior();
     }
 }
