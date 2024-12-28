@@ -13,8 +13,11 @@ public class PlayerComponent : MonoBehaviour
     public float MaxHealth = 100f;
     public bool IsAlive = true;
 
-    [Header("CoreAbilities ---")] private bool _canSeeStuff = false;
+    [Header("Core Abilities ---")] private bool _canSeeStuff = false;
     [SerializeField] private bool CanHackStuff = false;
+
+    [Header("Damage Effects ---")]
+    public GameObject SteamPrefab;
 
     public bool CanSeeHiddenObjects
     {
@@ -161,7 +164,25 @@ public class PlayerComponent : MonoBehaviour
         {
             audioSource.PlayOneShot(BulletImpactSounds[Mathf.RoundToInt(Random.Range(0, BulletImpactSounds.Length))]);
             audioSource.PlayOneShot(SteamReleaseSounds[Mathf.RoundToInt(Random.Range(0, SteamReleaseSounds.Length))]);
-            //CharacterAnimator.Play(Animator.StringToHash("Damage"), -1, 0);
+
+            if (_damageInfo.ImpactLocation != null)
+            {
+                // Instantiate steam prefab at the exact position of the impact
+                var steam = Instantiate(SteamPrefab, _damageInfo.ImpactLocation.position, Quaternion.identity);
+
+                // Optional: Parent the steam to the player if needed
+                steam.transform.SetParent(gameObject.transform);
+
+                // Calculate the direction to mirror
+                Vector3 incomingDirection = (_damageInfo.ImpactLocation.position - _damageInfo.DamageSource.transform.position).normalized;
+                Vector3 mirroredDirection = -incomingDirection; // Reverse the direction
+
+                // Set the rotation of the steam effect to face the mirrored direction
+                steam.transform.rotation = Quaternion.LookRotation(mirroredDirection);
+
+                // Apply additional rotation if needed (e.g., making the steam blow upward slightly)
+                steam.transform.Rotate(new Vector3(90, 0, 0), Space.Self);
+            }
         }
 
         if (Health <= 0f && IsAlive)

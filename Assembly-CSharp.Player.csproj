@@ -91,6 +91,7 @@
     <Compile Include="Assets\Scripts\Billboard.cs" />
     <Compile Include="Assets\Entities\Dalek\LockOnController.cs" />
     <Compile Include="Assets\LevelGeometry\Props\Tardis\Tardis.cs" />
+    <Compile Include="Assets\Materials\Materials.cs" />
     <Compile Include="Assets\Scenes\Menus\MainMenu\Mainmenu.cs" />
     <Compile Include="Assets\Scripts\LevelTransitionManager.cs" />
     <Compile Include="Assets\Scripts\Options.cs" />
@@ -121,13 +122,16 @@
     <Compile Include="Assets\Entities\Dalek\Models\Genesis\GenesisPropController.cs" />
     <Compile Include="Assets\Particles\Explosion\Explosion.cs" />
     <Compile Include="Assets\Textures\Cursor\CursorControl.cs" />
+    <Compile Include="Assets\Materials\WalkableSurface.cs" />
     <Compile Include="Assets\Entities\Dalek\ChestRotateController.cs" />
+    <Compile Include="Assets\Entities\Dalek\SteamVent.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Entities\Projecties\Bullet\Bullet.cs" />
     <Compile Include="Assets\Entities\Dalek\Movement.cs" />
     <Compile Include="Assets\Items\InventoryObject.cs" />
     <Compile Include="Assets\Entities\Camera\CameraShake.cs" />
     <Compile Include="Assets\Scripts\SceneManager.cs" />
+    <Compile Include="Assets\Entities\Humanoid\Base\FootStepController.cs" />
     <Compile Include="Assets\Entities\Projecties\DalekGun\EnergyDischargeController.cs" />
     <Compile Include="Assets\Items\GroundItem.cs" />
     <Compile Include="Assets\Entities\Camera\CameraEffect.cs" />

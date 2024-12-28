@@ -508,6 +508,7 @@ MonoBehaviour:
   _eyeStalkObject: {fileID: 6340885247329689585}
   _gattlingGunHolderObject: {fileID: 2269582375850724129}
   _lightClusterGroup: []
+  _gunstickEndPoint: {fileID: 0}
   SpeechAudioSource: {fileID: 543956122003780145}
   GeneralAudioSource: {fileID: 1313211645698707788}
   MovementAudioSource: {fileID: 8926883056431550589}
@@ -548,6 +549,7 @@ MonoBehaviour:
   ElevateVolume: 1
   isElevating: 0
   _animator: {fileID: 8083103799038143244}
+  _gunstickFireAnimationName: 
   InteractionPoint: {fileID: 6171794242469781127}
   _rayGunDischargePrefab: {fileID: 434682360272248152, guid: 2c63ab9a46b0b21489d16f9266e0adbe,
     type: 3}

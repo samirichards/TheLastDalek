@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
 using VolumetricLines;
 
@@ -19,7 +20,7 @@ public class EnergyDischargeController : MonoBehaviour
     [SerializeField] float ProjectileSpeed = 50f;
     public bool DestroyTarget = false; 
     private uint r;
-    private uint RayType { 
+    public uint RayType { 
         set{
             if (value > 2)
             {
@@ -139,34 +140,41 @@ public class EnergyDischargeController : MonoBehaviour
             if (EnableReflection == false || ReflectionCount >= MaxReflections)
             {
 
-                if (other.gameObject.tag == "NPC")
+                if (other.gameObject.GetComponent<BaseAI>() != null || other.gameObject.GetComponentInParent<BaseAI>() != null)
                 {
                     AudioSource.PlayClipAtPoint(ImpactSounds[RayType], transform.position);
 
                     var dissolveColour = GetComponent<Light>().color;
                     other.gameObject.GetComponent<BaseAI>().Damage(new DamageInfo(_damageStat, gameObject, DamageType.DeathRay, DestroyTarget, dissolveColour * 150));
+                    Destroy(gameObject);
+                    return;
                 }
 
-                if (other.gameObject.GetComponent<DamageableComponent>())
+                if (other.gameObject.GetComponent<DamageableComponent>() != null || other.gameObject.GetComponentInParent<DamageableComponent>() != null)
                 {
                     AudioSource.PlayClipAtPoint(RichochetClip, transform.position);
                     other.gameObject.GetComponent<DamageableComponent>().Damage(new DamageInfo(_damageStat, gameObject, DamageType.DeathRay));
+                    Destroy(gameObject);
+                    return;
                 }
                 else
                 {
                     AudioSource.PlayClipAtPoint(RichochetClip, transform.position);
-                    Instantiate(CollisionExplosionPrefab, transform.position, Quaternion.FromToRotation(transform.position, Vector3.Reflect(transform.position, other.contacts[0].normal)));
-                    CollisionExplosionPrefab.GetComponent<EnergyDischargeCollisionController>().SetLightType(RayType);
+                    var collision = Instantiate(CollisionExplosionPrefab, transform.position, Quaternion.FromToRotation(transform.position, Vector3.Reflect(transform.position, other.contacts[0].normal)));
+                    collision.GetComponent<EnergyDischargeCollisionController>().SetLightType(RayType);
+                    Destroy(gameObject);
+                    return;
                 }
-                Destroy(gameObject);
             }
             else
             {
+                Destroy(gameObject);
                 return;
                 //GetComponent<Rigidbody>().velocity = Vector3.Reflect(GetComponent<Rigidbody>().velocity, other.contacts[0].normal);
                 //ReflectionCount++;
             }
-            Destroy(gameObject);
         }
+        Destroy(gameObject);
+        return;
     }
 }

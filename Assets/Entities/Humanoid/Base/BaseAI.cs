@@ -12,13 +12,12 @@ using Random = UnityEngine.Random;
 
 public class BaseAI : MonoBehaviour
 {
+
+    [Header("General")]
     private GameManager _gameManagerComponent;
     protected Animator CharacterAnimator;
-
     public float MaxHealth = 100f;
-
     public float Health;
-
     [SerializeField] protected float MaxSpeed = 2.6f;
     [SerializeField] protected float WalkSpeedPercentage = 0.5f;
     [SerializeField] protected float FearfulWalkSpeedPercentage = 0.25f;
@@ -31,25 +30,29 @@ public class BaseAI : MonoBehaviour
     [SerializeField] protected LayerMask TargetMask;
     [SerializeField] protected bool DalekInLOS = false;
     [SerializeField] protected bool isOnGround = true;
-    [SerializeField] protected AudioClip[] DamageVOs;
-    [SerializeField] protected AudioClip[] HitSounds;
-    [SerializeField] protected AudioClip[] DeathSounds;
-    [SerializeField] protected AudioSource SoundSource;
-    [SerializeField] protected State AiState;
-    [SerializeField] protected EmotionState Emotion;
-    [SerializeField] protected NPCType npcType;
+    public delegate void NPCDeathHandler(BaseAI npc);
+    public static event NPCDeathHandler OnNPCDeath;
 
+
+    [Header("Extermination Effects")]
     [SerializeField] protected GameObject SkeletonObject;
     [SerializeField] protected GameObject MainBody;
     [SerializeField] protected Material SkinExterminationMaterial;
     [SerializeField] public float SkeletonRevealTime = 0.666f;
 
 
+    [Header("AI:General")]
+    [SerializeField] protected State AiState;
+    [SerializeField] protected EmotionState Emotion;
+    [SerializeField] protected NPCType npcType;
+
     //Idle Variables
+    [Header("AI:Idle")]
     [SerializeField] protected float MaxIdleTime = 10.0f;
     protected float IdleTime = 0.0f;
 
     //Wander Variables
+    [Header("AI:Wander")]
     [SerializeField] protected float MaxWanderRadius = 30.0f;
     protected Vector3 WanderDestination;
     protected bool WanderLocationSet = false;
@@ -57,6 +60,7 @@ public class BaseAI : MonoBehaviour
     protected float WanderCooldown = 0.0f;
 
     //Flee Variables
+    [Header("AI:Flee")]
     [SerializeField] protected float MaxFleeRadius = 50.0f;
     protected Vector3 FleeDestination;
     protected bool FleeLocationSet = false;
@@ -64,6 +68,7 @@ public class BaseAI : MonoBehaviour
     protected float FleeCooldown = 0.0f;
 
     //Attack/chase Variables
+    [Header("AI:Attack/chase")]
     [SerializeField] protected float AttackDistance = 12.0f;
     [SerializeField] protected float ChaseStopDistance = 12.0f;
     [SerializeField] protected GameObject ChaseTarget;
@@ -72,6 +77,7 @@ public class BaseAI : MonoBehaviour
     protected float DropChaseTimer = 0.0f;
 
     //Patrol Variables
+    [Header("AI:Patrol")]
     [SerializeField] protected Transform[] patrolPoints;
     protected int CurrentPatrolIndex = 0;
     [SerializeField] protected bool patrolIsCyclical;
@@ -80,8 +86,11 @@ public class BaseAI : MonoBehaviour
 
     [SerializeField] protected float HeadlessChickenFactor = 1f;
 
-    public delegate void NPCDeathHandler(BaseAI npc);
-    public static event NPCDeathHandler OnNPCDeath;
+    [Header("Sounds")]
+    [SerializeField] protected AudioClip[] DamageVOs;
+    [SerializeField] protected AudioClip[] HitSounds;
+    [SerializeField] protected AudioClip[] DeathSounds;
+    [SerializeField] protected AudioSource SoundSource;
 
     public enum State
     {
@@ -628,6 +637,28 @@ public class BaseAI : MonoBehaviour
             {
                 if (!_damageInfo.DestroyTarget)
                 {
+                    //var energyDischarge = _damageInfo.DamageSource.GetComponent<EnergyDischargeController>();
+                    //if (energyDischarge != null)
+                    //{
+                    //    switch (energyDischarge.RayType)
+                    //    {
+                    //        case 0:
+                    //            SkinExterminationMaterial.SetColor("_EmissionColour", energyDischarge.L1_Color * 30);
+                    //            SkinExterminationMaterial.SetColor("_SkinColour", energyDischarge.L1_Color * 30);
+                    //            break;
+                    //        case 1:
+                    //            SkinExterminationMaterial.SetColor("_EmissionColour", energyDischarge.L2_Color * 30);
+                    //            SkinExterminationMaterial.SetColor("_SkinColour", energyDischarge.L2_Color * 30);
+                    //            break;
+                    //        case 2:
+                    //            SkinExterminationMaterial.SetColor("_EmissionColour", energyDischarge.L3_Color * 30);
+                    //            SkinExterminationMaterial.SetColor("_SkinColour", energyDischarge.L3_Color * 30);
+                    //            break;
+                    //        default:
+                    //            break;
+                    //    }
+                    //}
+
                     SkeletonObject.SetActive(true);
                     CharacterAnimator.SetTrigger("Exterminate");
                     SkeletonObject.GetComponent<Animator>().SetTrigger("Exterminate");

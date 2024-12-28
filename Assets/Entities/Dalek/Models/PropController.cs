@@ -34,6 +34,7 @@ public class PropController : MonoBehaviour
     [SerializeField] private GameObject _eyeStalkObject;
     [SerializeField] private GameObject _gattlingGunHolderObject;
     [SerializeField] private Light[] _lightClusterGroup;
+    [SerializeField] private GameObject _gunstickEndPoint;
 
     [Header("Audio ---")]
     [SerializeField] private AudioSource SpeechAudioSource;
@@ -63,6 +64,7 @@ public class PropController : MonoBehaviour
 
     [Header("Animations ---")] 
     [SerializeField] private Animator _animator;
+    [SerializeField] private string _gunstickFireAnimationName;
 
     [Header("Other Stats ---")] 
     [SerializeField] private GameObject InteractionPoint;
@@ -94,6 +96,14 @@ public class PropController : MonoBehaviour
 
     public virtual void OnFire()
     {
+        if (string.IsNullOrEmpty(_gunstickFireAnimationName))
+        {
+            _animator.SetTrigger(_gunstickFireAnimationName);
+        }
+        else
+        {
+            Debug.Log(gameObject.name + " OnFire() animation not set");
+        }
         Debug.Log(gameObject.name + " OnFire() default behavior");
     }
 

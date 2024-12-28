@@ -9,6 +9,7 @@ public class DamageInfo
     public DamageType DamageType;
     public bool DestroyTarget;
     public Color DissolveColour;
+    public Transform ImpactLocation;
 
     public DamageInfo(float damageValue, GameObject damageSource, DamageType damageType)
     {

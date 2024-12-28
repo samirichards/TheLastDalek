@@ -13,24 +13,85 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2024-11-14T20:37:16.416+00:00
-  initializedAtString: 2024-11-14T16:55:17.459+00:00
+  lastUpdatedAtString: 2024-12-28T02:36:18.415+00:00
+  initializedAtString: 2024-12-28T01:49:57.118+00:00
   entries:
-  - path: Assets\Entities\Dalek\AttackController.cs
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\AttackController.cs
-    projectPath: Assets\Entities\Dalek\AttackController.cs
+  - path: Assembly-CSharp.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Entities\Dalek\Models\SpecialWeaponsDalek\SpecialWeaponsDalekPropController.cs
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Models\SpecialWeaponsDalek\SpecialWeaponsDalekPropController.cs
-    projectPath: Assets\Entities\Dalek\Models\SpecialWeaponsDalek\SpecialWeaponsDalekPropController.cs
+  - path: Assembly-CSharp.Player.csproj
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assembly-CSharp.Player.csproj
+    projectPath: Assembly-CSharp.Player.csproj
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Entities\Dalek\Player.cs
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Player.cs
-    projectPath: Assets\Entities\Dalek\Player.cs
+  - path: Assets\Entities\Dalek\Models\Paradigm\ParadigmDalek.prefab
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Models\Paradigm\ParadigmDalek.prefab
+    projectPath: Assets\Entities\Dalek\Models\Paradigm\ParadigmDalek.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Entities\Dalek\Models\PropController.cs
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Models\PropController.cs
+    projectPath: Assets\Entities\Dalek\Models\PropController.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Entities\Dalek\Models\SpecialWeaponsDalek\Idle.anim
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Models\SpecialWeaponsDalek\Idle.anim
+    projectPath: Assets\Entities\Dalek\Models\SpecialWeaponsDalek\Idle.anim
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Entities\Dalek\Models\SpecialWeaponsDalek\Idle.anim.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Models\SpecialWeaponsDalek\Idle.anim.meta
+    projectPath: Assets\Entities\Dalek\Models\SpecialWeaponsDalek\Idle.anim.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Entities\Dalek\Models\SpecialWeaponsDalek\SpecialWeaponsDalek.controller
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Models\SpecialWeaponsDalek\SpecialWeaponsDalek.controller
+    projectPath: Assets\Entities\Dalek\Models\SpecialWeaponsDalek\SpecialWeaponsDalek.controller
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Entities\Dalek\Models\SpecialWeaponsDalek\SpecialWeaponsDalek.controller.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Models\SpecialWeaponsDalek\SpecialWeaponsDalek.controller.meta
+    projectPath: Assets\Entities\Dalek\Models\SpecialWeaponsDalek\SpecialWeaponsDalek.controller.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Entities\Dalek\Models\SpecialWeaponsDalek\SpecialWeaponsDalek.prefab
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Models\SpecialWeaponsDalek\SpecialWeaponsDalek.prefab
+    projectPath: Assets\Entities\Dalek\Models\SpecialWeaponsDalek\SpecialWeaponsDalek.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Entities\Dalek\Models\Standard\GunstickPulse.anim
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Models\Standard\GunstickPulse.anim
+    projectPath: Assets\Entities\Dalek\Models\Standard\GunstickPulse.anim
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Entities\Dalek\Models\Standard\GunstickPulse.anim.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Models\Standard\GunstickPulse.anim.meta
+    projectPath: Assets\Entities\Dalek\Models\Standard\GunstickPulse.anim.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Entities\Dalek\Models\Standard\StandardDalekProp 1.controller
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Models\Standard\StandardDalekProp
+      1.controller
+    projectPath: Assets\Entities\Dalek\Models\Standard\StandardDalekProp 1.controller
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Entities\Dalek\Models\Standard\StandardDalekProp.prefab
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\Models\Standard\StandardDalekProp.prefab
+    projectPath: Assets\Entities\Dalek\Models\Standard\StandardDalekProp.prefab
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -40,6 +101,84 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Assets\Entities\Dalek\PlayerComponent.cs
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\PlayerComponent.cs
+    projectPath: Assets\Entities\Dalek\PlayerComponent.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Entities\Dalek\SteamParticles.vfx
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\SteamParticles.vfx
+    projectPath: Assets\Entities\Dalek\SteamParticles.vfx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Entities\Dalek\SteamParticles.vfx.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\SteamParticles.vfx.meta
+    projectPath: Assets\Entities\Dalek\SteamParticles.vfx.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Entities\Dalek\SteamVent.cs
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\SteamVent.cs
+    projectPath: Assets\Entities\Dalek\SteamVent.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Entities\Dalek\SteamVent.cs.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\SteamVent.cs.meta
+    projectPath: Assets\Entities\Dalek\SteamVent.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Entities\Dalek\SteamVent.prefab
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\SteamVent.prefab
+    projectPath: Assets\Entities\Dalek\SteamVent.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Entities\Dalek\SteamVent.prefab.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Dalek\SteamVent.prefab.meta
+    projectPath: Assets\Entities\Dalek\SteamVent.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Entities\Humanoid\Base\Animations\Idle.anim
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Base\Animations\Idle.anim
+    projectPath: Assets\Entities\Humanoid\Base\Animations\Idle.anim
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Entities\Humanoid\Base\Animations\Idle.anim.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Base\Animations\Idle.anim.meta
+    projectPath: Assets\Entities\Humanoid\Base\Animations\Idle.anim.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Entities\Humanoid\Base\Animations\RunForwards.anim
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Base\Animations\RunForwards.anim
+    projectPath: Assets\Entities\Humanoid\Base\Animations\RunForwards.anim
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Entities\Humanoid\Base\Animations\RunForwards.anim.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Base\Animations\RunForwards.anim.meta
+    projectPath: Assets\Entities\Humanoid\Base\Animations\RunForwards.anim.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Entities\Humanoid\Base\Animations\WalkForwards.anim
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Base\Animations\WalkForwards.anim
+    projectPath: Assets\Entities\Humanoid\Base\Animations\WalkForwards.anim
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Entities\Humanoid\Base\Animations\WalkForwards.anim.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Base\Animations\WalkForwards.anim.meta
+    projectPath: Assets\Entities\Humanoid\Base\Animations\WalkForwards.anim.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Assets\Entities\Humanoid\Base\BaseAI.cs
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Base\BaseAI.cs
     projectPath: Assets\Entities\Humanoid\Base\BaseAI.cs
@@ -58,51 +197,27 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Entities\Humanoid\Base\BaseNPCTexture.renderTexture
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Base\BaseNPCTexture.renderTexture
-    projectPath: Assets\Entities\Humanoid\Base\BaseNPCTexture.renderTexture
+  - path: Assets\Entities\Humanoid\Base\ExterminationSkinEffectNew.mat
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Base\ExterminationSkinEffectNew.mat
+    projectPath: Assets\Entities\Humanoid\Base\ExterminationSkinEffectNew.mat
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Entities\Humanoid\Base\ExterminationSkinEffectNew.shadergraph
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Base\ExterminationSkinEffectNew.shadergraph
+    projectPath: Assets\Entities\Humanoid\Base\ExterminationSkinEffectNew.shadergraph
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Entities\Humanoid\Base\FootStepController.cs
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Base\FootStepController.cs
+    projectPath: Assets\Entities\Humanoid\Base\FootStepController.cs
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Entities\Humanoid\Base\BaseNPCTexture.renderTexture.meta
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Base\BaseNPCTexture.renderTexture.meta
-    projectPath: Assets\Entities\Humanoid\Base\BaseNPCTexture.renderTexture.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Entities\Humanoid\Base\DissolveMaterial.mat
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Base\DissolveMaterial.mat
-    projectPath: Assets\Entities\Humanoid\Base\DissolveMaterial.mat
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Entities\Humanoid\Base\DissolveMaterial.mat.meta
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Base\DissolveMaterial.mat.meta
-    projectPath: Assets\Entities\Humanoid\Base\DissolveMaterial.mat.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Entities\Humanoid\Base\DissolveShader.shadergraph
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Base\DissolveShader.shadergraph
-    projectPath: Assets\Entities\Humanoid\Base\DissolveShader.shadergraph
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Entities\Humanoid\Base\DissolveShader.shadergraph.meta
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Base\DissolveShader.shadergraph.meta
-    projectPath: Assets\Entities\Humanoid\Base\DissolveShader.shadergraph.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Entities\Humanoid\Civilian\Civilian.mat
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Civilian\Civilian.mat
-    projectPath: Assets\Entities\Humanoid\Civilian\Civilian.mat
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Entities\Humanoid\Civilian\Civilian.mat.meta
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Civilian\Civilian.mat.meta
-    projectPath: Assets\Entities\Humanoid\Civilian\Civilian.mat.meta
+  - path: Assets\Entities\Humanoid\Base\FootStepController.cs.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Base\FootStepController.cs.meta
+    projectPath: Assets\Entities\Humanoid\Base\FootStepController.cs.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -112,9 +227,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Entities\Humanoid\Guard\visor.mat
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Guard\visor.mat
-    projectPath: Assets\Entities\Humanoid\Guard\visor.mat
+  - path: Assets\Entities\Humanoid\Guard\Guard.prefab
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Humanoid\Guard\Guard.prefab
+    projectPath: Assets\Entities\Humanoid\Guard\Guard.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Entities\Projecties\Bullet\Bullet.cs
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Projecties\Bullet\Bullet.cs
+    projectPath: Assets\Entities\Projecties\Bullet\Bullet.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -124,12 +245,30 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Entities\Projecties\DalekGun\Standard\EnergyDischarge_Collision.prefab
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Entities\Projecties\DalekGun\Standard\EnergyDischarge_Collision.prefab
-    projectPath: Assets\Entities\Projecties\DalekGun\Standard\EnergyDischarge_Collision.prefab
+  - path: Assets\Materials\Materials.cs
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Materials\Materials.cs
+    projectPath: Assets\Materials\Materials.cs
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Materials.cs.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Materials\Materials.cs.meta
+    projectPath: Assets\Materials\Materials.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\WalkableSurface.cs
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Materials\WalkableSurface.cs
+    projectPath: Assets\Materials\WalkableSurface.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\WalkableSurface.cs.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Materials\WalkableSurface.cs.meta
+    projectPath: Assets\Materials\WalkableSurface.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Assets\Scenes\DevScene\DevScene.unity
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Scenes\DevScene\DevScene.unity
     projectPath: Assets\Scenes\DevScene\DevScene.unity
@@ -139,6 +278,552 @@ MonoBehaviour:
   - path: Assets\Scripts\DamageInfo.cs
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Scripts\DamageInfo.cs
     projectPath: Assets\Scripts\DamageInfo.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Sounds\NPC\Movement.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement.meta
+    projectPath: Assets\Sounds\NPC\Movement.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_dirt1.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_dirt1.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_dirt1.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_dirt1.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_dirt1.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_dirt1.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_dirt2.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_dirt2.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_dirt2.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_dirt2.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_dirt2.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_dirt2.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_dirt3.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_dirt3.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_dirt3.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_dirt3.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_dirt3.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_dirt3.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_dirt4.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_dirt4.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_dirt4.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_dirt4.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_dirt4.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_dirt4.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_duct1.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_duct1.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_duct1.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_duct1.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_duct1.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_duct1.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_duct2.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_duct2.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_duct2.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_duct2.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_duct2.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_duct2.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_duct3.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_duct3.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_duct3.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_duct3.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_duct3.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_duct3.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_duct4.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_duct4.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_duct4.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_duct4.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_duct4.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_duct4.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_grate1.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_grate1.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_grate1.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_grate1.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_grate1.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_grate1.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_grate2.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_grate2.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_grate2.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_grate2.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_grate2.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_grate2.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_grate3.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_grate3.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_grate3.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_grate3.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_grate3.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_grate3.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_grate4.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_grate4.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_grate4.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_grate4.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_grate4.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_grate4.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_jump1.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_jump1.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_jump1.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_jump1.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_jump1.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_jump1.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_jump2.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_jump2.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_jump2.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_jump2.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_jump2.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_jump2.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_ladder1.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_ladder1.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_ladder1.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_ladder1.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_ladder1.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_ladder1.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_ladder2.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_ladder2.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_ladder2.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_ladder2.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_ladder2.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_ladder2.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_ladder3.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_ladder3.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_ladder3.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_ladder3.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_ladder3.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_ladder3.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_ladder4.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_ladder4.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_ladder4.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_ladder4.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_ladder4.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_ladder4.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_metal1.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_metal1.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_metal1.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_metal1.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_metal1.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_metal1.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_metal2.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_metal2.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_metal2.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_metal2.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_metal2.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_metal2.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_metal3.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_metal3.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_metal3.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_metal3.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_metal3.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_metal3.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_metal4.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_metal4.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_metal4.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_metal4.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_metal4.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_metal4.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_slosh1.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_slosh1.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_slosh1.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_slosh1.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_slosh1.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_slosh1.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_slosh2.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_slosh2.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_slosh2.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_slosh2.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_slosh2.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_slosh2.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_slosh3.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_slosh3.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_slosh3.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_slosh3.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_slosh3.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_slosh3.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_slosh4.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_slosh4.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_slosh4.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_slosh4.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_slosh4.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_slosh4.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_step1.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_step1.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_step1.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_step1.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_step1.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_step1.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_step2.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_step2.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_step2.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_step2.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_step2.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_step2.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_step3.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_step3.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_step3.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_step3.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_step3.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_step3.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_step4.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_step4.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_step4.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_step4.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_step4.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_step4.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_swim1.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_swim1.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_swim1.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_swim1.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_swim1.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_swim1.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_swim2.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_swim2.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_swim2.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_swim2.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_swim2.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_swim2.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_swim3.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_swim3.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_swim3.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_swim3.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_swim3.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_swim3.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_swim4.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_swim4.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_swim4.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_swim4.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_swim4.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_swim4.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_tile1.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_tile1.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_tile1.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_tile1.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_tile1.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_tile1.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_tile2.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_tile2.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_tile2.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_tile2.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_tile2.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_tile2.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_tile3.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_tile3.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_tile3.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_tile3.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_tile3.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_tile3.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_tile4.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_tile4.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_tile4.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_tile4.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_tile4.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_tile4.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_tile5.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_tile5.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_tile5.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_tile5.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_tile5.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_tile5.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_wade1.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_wade1.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_wade1.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_wade1.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_wade1.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_wade1.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_wade2.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_wade2.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_wade2.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_wade2.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_wade2.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_wade2.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_wade3.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_wade3.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_wade3.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_wade3.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_wade3.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_wade3.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_wade4.wav
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_wade4.wav
+    projectPath: Assets\Sounds\NPC\Movement\pl_wade4.wav
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sounds\NPC\Movement\pl_wade4.wav.meta
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Sounds\NPC\Movement\pl_wade4.wav.meta
+    projectPath: Assets\Sounds\NPC\Movement\pl_wade4.wav.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Bee\1900b0aEDbg.dag
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\1900b0aEDbg.dag
+    projectPath: Library\Bee\1900b0aEDbg.dag
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\1900b0aEDbg.dag.json
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\1900b0aEDbg.dag.json
+    projectPath: Library\Bee\1900b0aEDbg.dag.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\1900b0aEDbg.dag_derived
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\1900b0aEDbg.dag_derived
+    projectPath: Library\Bee\1900b0aEDbg.dag_derived
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\1900b0aEDbg-inputdata.json
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\1900b0aEDbg-inputdata.json
+    projectPath: Library\Bee\1900b0aEDbg-inputdata.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -157,6 +842,12 @@ MonoBehaviour:
   - path: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.ref.dll
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.ref.dll
     projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.ref.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.rsp
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.rsp
+    projectPath: Library\Bee\artifacts\1900b0aEDbg.dag\Assembly-CSharp.rsp
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -199,6 +890,18 @@ MonoBehaviour:
   - path: Library\Bee\backend_profiler0.traceevents
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\backend_profiler0.traceevents
     projectPath: Library\Bee\backend_profiler0.traceevents
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\backend_profiler1.traceevents
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\backend_profiler1.traceevents
+    projectPath: Library\Bee\backend_profiler1.traceevents
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\buildprogram0.traceevents
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\buildprogram0.traceevents
+    projectPath: Library\Bee\buildprogram0.traceevents
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -268,9 +971,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\LastSceneManagerSetup.txt
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\LastSceneManagerSetup.txt
-    projectPath: Library\LastSceneManagerSetup.txt
+  - path: Library\InspectorExpandedItems.asset
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -322,6 +1025,18 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\StateCache\PrefabStageHierarchy\4c\4c008835721eff46cf7687e14196d0f6.json
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\StateCache\PrefabStageHierarchy\4c\4c008835721eff46cf7687e14196d0f6.json
+    projectPath: Library\StateCache\PrefabStageHierarchy\4c\4c008835721eff46cf7687e14196d0f6.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\StateCache\PrefabStageHierarchy\87\8762de6b51708e4fded1bc060baac34c.json
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\StateCache\PrefabStageHierarchy\87\8762de6b51708e4fded1bc060baac34c.json
+    projectPath: Library\StateCache\PrefabStageHierarchy\87\8762de6b51708e4fded1bc060baac34c.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\StateCache\PrefabStageHierarchy\c2\c264c43c60ed985a4a22bf7bf28e13b8.json
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\StateCache\PrefabStageHierarchy\c2\c264c43c60ed985a4a22bf7bf28e13b8.json
     projectPath: Library\StateCache\PrefabStageHierarchy\c2\c264c43c60ed985a4a22bf7bf28e13b8.json
@@ -334,9 +1049,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\StateCache\SceneView\d6\d688e6389b359840ce1adc9e13cefa85.json
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\StateCache\SceneView\d6\d688e6389b359840ce1adc9e13cefa85.json
-    projectPath: Library\StateCache\SceneView\d6\d688e6389b359840ce1adc9e13cefa85.json
+  - path: Library\StateCache\SceneView\d0\d0d5da15d1f92fc78af753ebdbdf8fc1.json
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\StateCache\SceneView\d0\d0d5da15d1f92fc78af753ebdbdf8fc1.json
+    projectPath: Library\StateCache\SceneView\d0\d0d5da15d1f92fc78af753ebdbdf8fc1.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -358,27 +1073,21 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\UIElements\EditorWindows\Unity.UI.Builder.Builder.pref
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\UIElements\EditorWindows\Unity.UI.Builder.Builder.pref
-    projectPath: Library\UIElements\EditorWindows\Unity.UI.Builder.Builder.pref
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\UIElements\EditorWindows\UnityEditor.ShaderGraph.Drawing.MaterialGraphEditWindow.pref
     fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\UIElements\EditorWindows\UnityEditor.ShaderGraph.Drawing.MaterialGraphEditWindow.pref
     projectPath: Library\UIElements\EditorWindows\UnityEditor.ShaderGraph.Drawing.MaterialGraphEditWindow.pref
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Logs\shadercompiler-UnityShaderCompiler.exe0.log
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Logs\shadercompiler-UnityShaderCompiler.exe0.log
-    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe0.log
+  - path: Library\UIElements\EditorWindows\UnityEditor.VFX.UI.VFXViewWindow.pref
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Library\UIElements\EditorWindows\UnityEditor.VFX.UI.VFXViewWindow.pref
+    projectPath: Library\UIElements\EditorWindows\UnityEditor.VFX.UI.VFXViewWindow.pref
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: UserSettings\EditorUserSettings.asset
-    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\UserSettings\EditorUserSettings.asset
-    projectPath: UserSettings\EditorUserSettings.asset
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\Users\samir\Documents\Game Projects\TheLastDalek\Logs\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe0.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3

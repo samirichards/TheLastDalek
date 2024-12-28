@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    private Vector3 SpawnLocation;
+    public Vector3 SpawnLocation;
     private float TravelledDistance = 0.0f;
     [SerializeField] float Range = 100f;
     [SerializeField] float ProjectileSpeed = 50f;
@@ -14,6 +14,7 @@ public class Bullet : MonoBehaviour
     public AudioClip RichochetClip;
     public GameObject BulletOriginalSource;
     public float defaultAttackStrength = 10f;
+    public float friendlyFireModifier = 0.666f;
 
 
     // Start is called before the first frame update
@@ -63,20 +64,27 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (!(other.CompareTag("NPC")))
+        if (other.tag == "Player")
         {
-            if (other.tag == "Player")
-            {
-                other.GetComponent<PlayerComponent>().Damage(new DamageInfo(defaultAttackStrength, gameObject, DamageType.Bullet));
-                Destroy(gameObject);
-            }
-            if (other.tag == "Terrain")
-            {
-                AudioSource.PlayClipAtPoint(RichochetClip, transform.position);
-                Destroy(gameObject);
-            }
+            var _damageInfo = new DamageInfo(defaultAttackStrength, BulletOriginalSource, DamageType.Bullet);
+            _damageInfo.ImpactLocation = this.transform;
+            other.GetComponent<PlayerComponent>().Damage(_damageInfo);
+            Destroy(gameObject);
+        }
+        if (other.CompareTag("NPC"))
+        {
+            //If the bullet hits another NPC, it should do a bit less damage
+            var _damageInfo = new DamageInfo(defaultAttackStrength * friendlyFireModifier, BulletOriginalSource, DamageType.Bullet);
+            _damageInfo.ImpactLocation = this.transform;
+            other.GetComponent<BaseAI>().Damage(_damageInfo);
+            Destroy(gameObject);
+        }
+        if (other.tag == "Terrain")
+        {
             AudioSource.PlayClipAtPoint(RichochetClip, transform.position);
             Destroy(gameObject);
         }
+        AudioSource.PlayClipAtPoint(RichochetClip, transform.position);
+        Destroy(gameObject);
     }
 }

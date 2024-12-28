@@ -952,6 +952,7 @@ GameObject:
   - component: {fileID: 3251370667584950207}
   - component: {fileID: 4555112684606313196}
   - component: {fileID: 3569693048661251864}
+  - component: {fileID: 6435418844273910152}
   m_Layer: 0
   m_Name: SpecialWeaponsDalek
   m_TagString: Untagged
@@ -995,6 +996,7 @@ MonoBehaviour:
   _eyeStalkObject: {fileID: 0}
   _gattlingGunHolderObject: {fileID: 862699533689370089}
   _lightClusterGroup: []
+  _gunstickEndPoint: {fileID: 0}
   SpeechAudioSource: {fileID: 3251370667584950207}
   GeneralAudioSource: {fileID: 4555112684606313196}
   MovementAudioSource: {fileID: 3569693048661251864}
@@ -1025,7 +1027,8 @@ MonoBehaviour:
   MovementVolume: 1
   ElevateVolume: 1
   isElevating: 0
-  _animator: {fileID: 0}
+  _animator: {fileID: 6435418844273910152}
+  _gunstickFireAnimationName: 
   InteractionPoint: {fileID: 8822462669519871054}
   _rayGunDischargePrefab: {fileID: 434682360272248152, guid: 5ea575959ee37564aa34cd9c493a740a,
     type: 3}
@@ -1333,6 +1336,26 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &6435418844273910152
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6306360437808676801}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 49266182e99df5744a30cdf6e8b5cbeb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6625476756795583168
 GameObject:
   m_ObjectHideFlags: 0

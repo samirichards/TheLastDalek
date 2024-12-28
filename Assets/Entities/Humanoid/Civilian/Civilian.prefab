@@ -67,28 +67,14 @@ MonoBehaviour:
     m_Bits: 641
   DalekInLOS: 0
   isOnGround: 1
-  DamageVOs:
-  - {fileID: 8300000, guid: 6844083cda934f24c8397f51cd4d8458, type: 3}
-  - {fileID: 8300000, guid: 8ff150985d876f84484d05e709a30934, type: 3}
-  - {fileID: 8300000, guid: d2e2b1b206f0dc34099586f4d6cde4cf, type: 3}
-  - {fileID: 8300000, guid: 52a1fd75852881245bb19261008f58c8, type: 3}
-  - {fileID: 8300000, guid: 13a1134e20c1974498eceef76dd5e855, type: 3}
-  HitSounds:
-  - {fileID: 8300000, guid: 8612655d93ab2dd47b7f1a318e168b33, type: 3}
-  - {fileID: 8300000, guid: 53a2a8af6c045ef4594bc7e3da5726a3, type: 3}
-  - {fileID: 8300000, guid: 4828888a3672f3e4ba5bd565afebc7c8, type: 3}
-  DeathSounds:
-  - {fileID: 8300000, guid: 9cf385d1cc0338a4693a810664fee653, type: 3}
-  SoundSource: {fileID: 4002243365402132536}
-  AiState: 0
-  Emotion: 1
-  npcType: 0
   SkeletonObject: {fileID: 3848628479373081125}
   MainBody: {fileID: 9024118981859822096}
   SkinExterminationMaterial: {fileID: 2100000, guid: 8d45234155ecf48468d57430f8641700,
     type: 2}
   SkeletonRevealTime: 0.666
-  skinnedMeshRenderer: {fileID: 7409521235770796893}
+  AiState: 0
+  Emotion: 1
+  npcType: 0
   MaxIdleTime: 10
   MaxWanderRadius: 15
   MaxWanderCooldown: 5
@@ -104,6 +90,19 @@ MonoBehaviour:
   walkPatrolPath: 0
   returnToPathWhenPossible: 0
   HeadlessChickenFactor: 1
+  DamageVOs:
+  - {fileID: 8300000, guid: 6844083cda934f24c8397f51cd4d8458, type: 3}
+  - {fileID: 8300000, guid: 8ff150985d876f84484d05e709a30934, type: 3}
+  - {fileID: 8300000, guid: d2e2b1b206f0dc34099586f4d6cde4cf, type: 3}
+  - {fileID: 8300000, guid: 52a1fd75852881245bb19261008f58c8, type: 3}
+  - {fileID: 8300000, guid: 13a1134e20c1974498eceef76dd5e855, type: 3}
+  HitSounds:
+  - {fileID: 8300000, guid: 8612655d93ab2dd47b7f1a318e168b33, type: 3}
+  - {fileID: 8300000, guid: 53a2a8af6c045ef4594bc7e3da5726a3, type: 3}
+  - {fileID: 8300000, guid: 4828888a3672f3e4ba5bd565afebc7c8, type: 3}
+  DeathSounds:
+  - {fileID: 8300000, guid: 9cf385d1cc0338a4693a810664fee653, type: 3}
+  SoundSource: {fileID: 4002243365402132536}
 --- !u!195 &533628594510818382
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -179,9 +178,9 @@ AudioSource:
   Priority: 1
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 1000
+  MaxDistance: 100
   Pan2D: 0
-  rolloffMode: 2
+  rolloffMode: 0
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -931,6 +930,12 @@ CharacterJoint:
   m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!95 &2348592154098584272 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 81c57c3989323c54da05587cf1b24661,
+    type: 3}
+  m_PrefabInstance: {fileID: 8213850724511020865}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4666149105377954040 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5675652271248031815, guid: 81c57c3989323c54da05587cf1b24661,
@@ -1456,12 +1461,6 @@ CharacterJoint:
   m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
---- !u!137 &7409521235770796893 stripped
-SkinnedMeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 1670446206406663196, guid: 81c57c3989323c54da05587cf1b24661,
-    type: 3}
-  m_PrefabInstance: {fileID: 8213850724511020865}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &7601543597701624001 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1766376526291797888, guid: 81c57c3989323c54da05587cf1b24661,
@@ -1556,6 +1555,61 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 8213850724511020865}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &165208302699985942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9024118981859822096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d93a5577ed9c414ea17d73ab226621a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 2348592154098584272}
+  StepSoundsConcrete:
+  - {fileID: 8300000, guid: f0355ff44b93294428d1e8aec57de4bb, type: 3}
+  - {fileID: 8300000, guid: e5e6445c5330d4642879d79535ae8d09, type: 3}
+  - {fileID: 8300000, guid: 860442d755ff2ac4d993b8064058541a, type: 3}
+  - {fileID: 8300000, guid: cf1b7f69b55a7fc4183c8f5a00ced163, type: 3}
+  StepSoundsTile:
+  - {fileID: 8300000, guid: 5ced955bf0bc76044bb182aacc770fea, type: 3}
+  - {fileID: 8300000, guid: 1c0161a214cc086479c1937633403381, type: 3}
+  - {fileID: 8300000, guid: 7def4326a69699f45a492a853961365f, type: 3}
+  - {fileID: 8300000, guid: 59500028e4157254482e9a0f7c984535, type: 3}
+  - {fileID: 8300000, guid: 3af59f40da50c8a46b71c43ada9b8d6b, type: 3}
+  StepSoundsMetal:
+  - {fileID: 8300000, guid: c7c69438eed78ac449000c4ae03a1c75, type: 3}
+  - {fileID: 8300000, guid: 325bc9d0a0e233e45bd5fc73d97747fb, type: 3}
+  - {fileID: 8300000, guid: 4ea29549af7bd6143965aec25042a760, type: 3}
+  - {fileID: 8300000, guid: 3098c073ce9e8644bbe136b8871a41d2, type: 3}
+  StepSoundsGrate:
+  - {fileID: 8300000, guid: cb911dba1af1e784ba362d16b0666ec5, type: 3}
+  - {fileID: 8300000, guid: d64672a21701efe4cbab1a85e6d53fc2, type: 3}
+  - {fileID: 8300000, guid: f8f7c39c21a865349a0b54481487a1c3, type: 3}
+  - {fileID: 8300000, guid: 46caf29106f412944a9a3ed48d771d95, type: 3}
+  StepSoundsHollow:
+  - {fileID: 8300000, guid: 7a9cd4fdcf122ff4cb727553612fa08d, type: 3}
+  - {fileID: 8300000, guid: 0f083c4d119c37d489a8d9030971b497, type: 3}
+  - {fileID: 8300000, guid: ff4569e6411700243a2ae6f86ab7a5a4, type: 3}
+  - {fileID: 8300000, guid: b39bf8ceeec0f2d408eb5b2ac7a2113e, type: 3}
+  StepSoundsDirt:
+  - {fileID: 8300000, guid: fa3cd7b85758bdd41a4b8131463469fd, type: 3}
+  - {fileID: 8300000, guid: 6dba8c39e4678354a9111d301ff07ed5, type: 3}
+  - {fileID: 8300000, guid: b253eba64fb2b054b9c45c66eb7dc35b, type: 3}
+  - {fileID: 8300000, guid: 7220465eb9f1f98458e6aef8f90a4d56, type: 3}
+  StepSoundsWet:
+  - {fileID: 8300000, guid: 3e0769aa9c979b64587cdda9e955b03d, type: 3}
+  - {fileID: 8300000, guid: 3eabf9f00a726334abe7e9c241cc64ec, type: 3}
+  - {fileID: 8300000, guid: 95145aba686484049a02e1eb9c83969d, type: 3}
+  - {fileID: 8300000, guid: 9a93be517ae433348ad3fd4359d082a5, type: 3}
+  StepSoundsWater:
+  - {fileID: 8300000, guid: 04aca7c0fc3b8254b994dcde79199df6, type: 3}
+  - {fileID: 8300000, guid: efd05b0f40b518b40b3b85ce6d068018, type: 3}
+  - {fileID: 8300000, guid: 6078053bd7b466340b70880ee806a17a, type: 3}
+  - {fileID: 8300000, guid: 62deaa0240500a44ea814f3b68b33b7c, type: 3}
+  walkVolume: 0.4
 --- !u!1 &9040248879285596889 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8320365392235035240, guid: 81c57c3989323c54da05587cf1b24661,
