@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class FireAlarm : DamageableComponent
 {
+    public delegate void FireAlarmHitHandeller(FireAlarm FireAlarm);
+    public static event FireAlarmHitHandeller OnFireAlarmHit;
     void Awake()
     {
         MaxHealth = 1;
@@ -24,6 +26,6 @@ public class FireAlarm : DamageableComponent
 
     protected override void OnBreak(DamageInfo damageInfo)
     {
-        Debug.Log("Fire alarm destroyed, let's get wet");
+        OnFireAlarmHit.Invoke(this);
     }
 }

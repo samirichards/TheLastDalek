@@ -196,7 +196,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 859279906901890729}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b55cdcf214299a14f833e490da823dc2, type: 3}
   m_Name: 
@@ -522,7 +522,7 @@ BoxCollider:
   m_GameObject: {fileID: 859279906901890729}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.5, y: 0.3, z: 1.75}
   m_Center: {x: 0, y: 0.15, z: 0.2}
@@ -1486,11 +1486,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4654364046407247333, guid: 96162c6933812aa4386031a6e54aff07,
-        type: 3}
-      propertyPath: _attackType
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6860897218152554147, guid: 96162c6933812aa4386031a6e54aff07,
         type: 3}

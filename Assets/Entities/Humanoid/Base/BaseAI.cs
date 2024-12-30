@@ -686,6 +686,24 @@ public class BaseAI : MonoBehaviour
             }
             return;
         }
+        if (_damageInfo.DamageType == DamageType.Electric)
+        {
+            try
+            {
+                SkeletonObject.SetActive(true);
+                CharacterAnimator.SetTrigger("Electrocute");
+                SkeletonObject.GetComponent<Animator>().SetTrigger("Electrocute");
+                StartCoroutine(RagdollTimer(5));
+                StartCoroutine(SkeletonReveal(2f));
+                CharacterAnimator.SetBool("IsAlive", false);
+                StartCoroutine(DeleteNPC(10));
+            }
+            catch (Exception e)
+            {
+                Debug.Log(e.ToString());
+            }
+            return;
+        }
         CharacterAnimator.SetInteger("AnimationState", -1);
         Ragdoll();
         //CharacterAnimator.Play(Animator.StringToHash("Exterminating"), -1, 0.125f);

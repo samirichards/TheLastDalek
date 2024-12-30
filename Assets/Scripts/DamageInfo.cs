@@ -44,5 +44,6 @@ public enum DamageType
     EnergyDischarge = 3,
     Fire = 4,
     Collision = 5,
-    Point = 6
+    Point = 6,
+    Electric = 7
 }

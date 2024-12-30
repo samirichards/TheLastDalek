@@ -30,7 +30,7 @@ public class FootStepController : MonoBehaviour
         }
         Debug.DrawRay((transform.position + Vector3.up), Vector3.down * 2f, Color.red, 2f);
         RaycastHit hit;
-        if (Physics.Raycast((transform.position + Vector3.up), Vector3.down, out hit, 2f, LayerMask.GetMask("Ground")))
+        if (Physics.Raycast((transform.position + Vector3.up), Vector3.down, out hit, 2f, LayerMask.GetMask("Ground", "Water", "Floor")))
         {
             var surfaceInfo = hit.collider.GetComponent<WalkableSurface>();
             if (surfaceInfo != null)

@@ -824,6 +824,10 @@
       <Project>{66032EED-2FA6-A552-D342-07FD87617B43}</Project>
       <Name>Unity.Services.Core.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Cinemachine.Player.csproj">
+      <Project>{C371B847-A145-2982-F8AE-3FECB8B95E15}</Project>
+      <Name>Cinemachine.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Analytics.Player.csproj">
       <Project>{16194646-C5E1-5BA0-F5DF-9D270193DF05}</Project>
       <Name>Unity.Services.Core.Analytics.Player</Name>
