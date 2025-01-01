@@ -13,18 +13,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2024-12-29T20:48:01.102+00:00
-  initializedAtString: 2024-12-29T14:38:59.939+00:00
-  localBranches:
-  - name: Alpha1
-    tracking: origin/Alpha1
-  - name: AlphaRelease1
-    tracking: origin/AlphaRelease1
-  - name: main
-    tracking: origin/main
+  lastUpdatedAtString: 2025-01-01T03:07:33.860+00:00
+  initializedAtString: 2025-01-01T03:07:33.841+00:00
+  localBranches: []
   remoteBranches:
-  - name: origin/Alpha1
-    tracking: '[None]'
   - name: origin/HEAD
     tracking: '[None]'
   - name: origin/main
@@ -38,41 +30,17 @@ MonoBehaviour:
     function: 0
     token: 
   localConfigBranches:
-    keys:
-    - Alpha1
-    - AlphaRelease1
-    - main
-    values:
-    - name: Alpha1
-      remote:
-        name: origin
-        url: https://github.com/samirichards/TheLastDalek
-      trackingBranch: Alpha1
-    - name: AlphaRelease1
-      remote:
-        name: origin
-        url: https://github.com/samirichards/TheLastDalek
-      trackingBranch: AlphaRelease1
-    - name: main
-      remote:
-        name: origin
-        url: https://github.com/samirichards/TheLastDalek
-      trackingBranch: main
+    keys: []
+    values: []
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
-      - Alpha1
       - HEAD
       - main
     subKeyValues:
     - Values:
-      - name: Alpha1
-        remote:
-          name: origin
-          url: https://github.com/samirichards/TheLastDalek
-        trackingBranch: 
       - name: HEAD
         remote:
           name: origin

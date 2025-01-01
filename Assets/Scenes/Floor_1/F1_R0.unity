@@ -3928,7 +3928,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 837646915}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4033,7 +4033,7 @@ GameObject:
   m_Component:
   - component: {fileID: 868006423}
   - component: {fileID: 868006424}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plane (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4671,7 +4671,8 @@ GameObject:
   - component: {fileID: 1087907008}
   - component: {fileID: 1087907007}
   - component: {fileID: 1087907006}
-  m_Layer: 0
+  - component: {fileID: 1087907010}
+  m_Layer: 10
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4758,6 +4759,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1087907010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087907005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cddfa6c2d9cf0da41a8dba3fac7942a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialType: 0
 --- !u!1 &1196340215
 GameObject:
   m_ObjectHideFlags: 0
@@ -5115,7 +5129,7 @@ GameObject:
   - component: {fileID: 1357812236}
   - component: {fileID: 1357812235}
   - component: {fileID: 1357812234}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plane (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5401,7 +5415,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1467380432}
   - component: {fileID: 1467380433}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plane (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6561,7 +6575,7 @@ GameObject:
   - component: {fileID: 1990353154}
   - component: {fileID: 1990353153}
   - component: {fileID: 1990353152}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plane (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

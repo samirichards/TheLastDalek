@@ -90,6 +90,7 @@ public class CameraObject : MonoBehaviour
 
     public void PlayMusicForScene(string sceneName)
     {
+        MusicPlayer = GetComponent<AudioSource>();
         foreach (var mapping in sceneMusicMapping.sceneMusicPairs)
         {
             if (mapping.sceneName == sceneName)
