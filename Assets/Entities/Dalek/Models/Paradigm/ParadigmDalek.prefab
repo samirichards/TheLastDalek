@@ -580,7 +580,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23993cd8b1479f044ad1524a5d888d12, type: 2}
 --- !u!95 &8083103799038143244
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -597,7 +597,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!82 &543956122003780145
 AudioSource:
   m_ObjectHideFlags: 0

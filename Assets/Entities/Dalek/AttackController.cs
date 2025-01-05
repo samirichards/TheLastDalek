@@ -6,6 +6,11 @@ using UnityEngine.Rendering;
 [RequireComponent(typeof(LineRenderer))]
 public class AttackController : MonoBehaviour
 {
+    /// <summary>
+    /// Rework all of this shit tbh, it's so ass
+    /// It should have some form of mild aim assist, on top of the lock on stuff
+    /// How weapons are fired rn is such a tangled mess of nested ifs
+    /// </summary>
     public bool GunStickEnabled = true;
     [SerializeField] float GunStickDefaultFireRate = 0.5f;
     [SerializeField] private float GattlingGunFireRateModifier = 0.2f;
