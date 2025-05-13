@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.VFX;
 
 public class EnergyPelletController : MonoBehaviour
 {
@@ -27,13 +28,19 @@ public class EnergyPelletController : MonoBehaviour
     void Start()
     {
         SpawnLocation = transform.position;
+        AudioSource.PlayClipAtPoint(HitSounds[Random.Range(0, HitSounds.Length)], transform.position);
+
     }
 
     private void FixedUpdate()
     {
-        if (TravelledDistance > 0.5)
+        if (TravelledDistance > 0.5 && ProjectileSpeed > 0)
         {
             GetComponent<SphereCollider>().enabled = true;
+        }
+        else if(ProjectileSpeed == 0f)
+        {
+            GetComponent<SphereCollider>().enabled = false;
         }
         if (TravelledDistance > Range)
         {
@@ -63,25 +70,42 @@ public class EnergyPelletController : MonoBehaviour
         Debug.Log("Energy pellet hit: " + other.gameObject.tag);
         if (other.gameObject.GetComponent<DamageableComponent>())
         {
-            AudioSource.PlayClipAtPoint(HitSounds[Random.Range(0, HitSounds.Length)], transform.position);
             other.gameObject.GetComponent<DamageableComponent>().Damage(stats);
+            StartCoroutine(DeleteThis(5f));
+            return;
+
         }
         if (other.gameObject.GetComponent<BaseAI>())
         {
-            AudioSource.PlayClipAtPoint(HitSounds[Random.Range(0, HitSounds.Length)], transform.position);
             other.gameObject.GetComponent<BaseAI>().Damage(stats);
+            StartCoroutine(DeleteThis(5f));
+            return;
         }
         if (other.tag == "Player")
         {
             other.GetComponent<PlayerComponent>().Damage(stats);
-            Destroy(gameObject);
+            StartCoroutine(DeleteThis(5f));
+            return;
+        }
+        if (other.tag == "Hole")
+        {
+            return;
         }
         if (other.tag == "Terrain")
         {
-            AudioSource.PlayClipAtPoint(HitSounds[Random.Range(0, HitSounds.Length)], transform.position);
-            Destroy(gameObject);
+            StartCoroutine(DeleteThis(5f));
+            return;
         }
-        AudioSource.PlayClipAtPoint(HitSounds[Random.Range(0, HitSounds.Length)], transform.position);
+        StartCoroutine(DeleteThis(5f));
+        return;
+    }
+
+    IEnumerator DeleteThis(float time)
+    {
+        ProjectileSpeed = 0f;
+        this.GetComponentInChildren<MeshRenderer>().enabled = false;
+        this.GetComponentInChildren<VisualEffect>().Stop();
+        yield return new WaitForSeconds(time);
         Destroy(gameObject);
     }
 }

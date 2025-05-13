@@ -32,6 +32,11 @@ public class BaseAI : MonoBehaviour
     [SerializeField] protected bool isOnGround = true;
     public delegate void NPCDeathHandler(BaseAI npc);
     public static event NPCDeathHandler OnNPCDeath;
+    private int DeathRayHitCounter = 0;
+    List<Material> originalMaterials;
+    List<Coroutine> deathCoroutines = new List<Coroutine>();
+    private bool StartedDissolveEffect = false;
+    [SerializeField] private GameObject Head;
 
 
     [Header("Extermination Effects")]
@@ -126,6 +131,11 @@ public class BaseAI : MonoBehaviour
         _gameManagerComponent = GameManager.Instance;
         CharacterAnimator = MainBody.GetComponent<Animator>();
         PlayerSpawner.OnDalekSpawned += OnDalekSpawned;
+        originalMaterials = new List<Material>();
+        foreach (SkinnedMeshRenderer meshRenderer in MainBody.GetComponentsInChildren<SkinnedMeshRenderer>())
+        {
+            originalMaterials.Add(meshRenderer.material);
+        }
     }
 
     private void OnDestroy()
@@ -213,6 +223,7 @@ public class BaseAI : MonoBehaviour
             DalekInLOS = false;
         }
         CharacterAnimator.SetBool("IsFearful", Emotion == EmotionState.Scared);
+        
     }
 
     IEnumerator FSM()
@@ -542,6 +553,66 @@ public class BaseAI : MonoBehaviour
         MaxSpeed = 0.0f;
     }
 
+    public void PlungerSlowKill(DamageInfo source)
+    {
+        agent.SetDestination(transform.position);
+        agent.isStopped = true;
+        agent.enabled = false;
+        controller.enabled = false;
+        controller.Move(Vector3.zero);
+        MaxSpeed = 0.0f;
+
+
+        var plungerHead = source.DamageSource.GetComponentInChildren<PropController>().getPlungerHead;
+        var plungerForward = plungerHead.transform.forward;
+        var offsetPosition = plungerHead.transform.position + plungerForward * -2f; 
+
+        this.transform.position = offsetPosition;
+
+        Ragdoll();
+
+        CharacterAnimator.SetInteger("AnimationState", -1);
+        AiState = State.Dead;
+        IsAlive = false;
+        GameManager.IncrementExterminations();
+        OnNPCDeath?.Invoke(this);
+        DeathBehaviour();
+        CharacterAnimator.SetBool("IsAlive", false);
+        StartCoroutine(ConnectHeadWithDalekPlunger(3.25f, plungerHead));
+        StartCoroutine(DisableCollisionAfterTime(0.01f));
+    }
+
+    IEnumerator ConnectHeadWithDalekPlunger(float duration, GameObject plungerHead)
+    {
+        var currentTime = 0f;
+
+        // Ensure the head's Rigidbody is kinematic
+        var headRigidbody = Head.GetComponent<Rigidbody>();
+        if (headRigidbody != null)
+        {
+            headRigidbody.isKinematic = true;
+        }
+
+        while (currentTime < duration)
+        {
+            Head.transform.position = plungerHead.transform.position + (plungerHead.transform.forward * -0.25f);
+
+            Vector3 directionToPlunger = (plungerHead.transform.position - Head.transform.position).normalized;
+            Quaternion targetRotation = Quaternion.LookRotation(directionToPlunger);
+            Head.transform.rotation = targetRotation;
+
+            currentTime += Time.deltaTime;
+            yield return null;
+        }
+
+        // Optionally reset the Rigidbody state after the coroutine
+        if (headRigidbody != null)
+        {
+            headRigidbody.isKinematic = false;
+        }
+        deathCoroutines.Add(StartCoroutine(DeleteNPC(10)));
+    }
+
     public void Damage(DamageInfo _damageInfo)
     {
         Health -= _damageInfo.DamageValue;
@@ -575,6 +646,29 @@ public class BaseAI : MonoBehaviour
             SoundSource.PlayOneShot(DamageVOs[Mathf.RoundToInt(Random.Range(0, HitSounds.Length))]);
             //Don't play a hit vo if they will be dead
         }
+        DeathRayHitCounter++;
+        if (DeathRayHitCounter > 1 && IsAlive == false && StartedDissolveEffect == false)
+        {
+            GetComponent<CapsuleCollider>().enabled = false;
+            GetComponent<Collider>().enabled = false;
+            StartedDissolveEffect = true;
+            foreach (var item in deathCoroutines)
+            {
+                StopCoroutine(item);
+            }
+            var mats = originalMaterials;
+            foreach (SkinnedMeshRenderer meshRenderer in MainBody.GetComponentsInChildren<SkinnedMeshRenderer>())
+            {
+                meshRenderer.material = mats[0];
+                mats.RemoveAt(0);
+            }
+            mats.Clear();
+            SkeletonObject.SetActive(false);
+            Ragdoll();
+            CharacterAnimator.SetBool("IsAlive", false);
+            deathCoroutines.Add(StartCoroutine(Dissolve(0.33f, _damageInfo)));
+            StartCoroutine(DeleteNPC(0.5f));
+        }
     }
 
     public virtual void CustomUpdateBehaviour()
@@ -588,6 +682,16 @@ public class BaseAI : MonoBehaviour
         CharacterAnimator.SetFloat("MovementMagnitude", agent.velocity.magnitude / MaxSpeed);
         isOnGround = controller.isGrounded;
         CustomUpdateBehaviour();
+    }
+
+    void Freeze()
+    {
+        Rigidbody[] npcRigid = MainBody.GetComponentsInChildren<Rigidbody>();
+        foreach (Rigidbody rigid in npcRigid)
+        {
+            rigid.isKinematic = true;
+        }
+        CharacterAnimator.enabled = false;
     }
 
     void Ragdoll()
@@ -624,8 +728,7 @@ public class BaseAI : MonoBehaviour
         controller.enabled = false;
         controller.Move(Vector3.zero);
         MaxSpeed = 0.0f;
-        GetComponent<CapsuleCollider>().enabled = false;
-        GetComponent<Collider>().enabled = false;
+        StartCoroutine(DisableCollisionAfterTime(SkeletonRevealTime));
         AiState = State.Dead;
         IsAlive = false;
         //CharacterAnimator.enabled = false;
@@ -662,10 +765,10 @@ public class BaseAI : MonoBehaviour
                     SkeletonObject.SetActive(true);
                     CharacterAnimator.SetTrigger("Exterminate");
                     SkeletonObject.GetComponent<Animator>().SetTrigger("Exterminate");
-                    StartCoroutine(RagdollTimer(5));
-                    StartCoroutine(SkeletonReveal(SkeletonRevealTime));
+                    deathCoroutines.Add(StartCoroutine(RagdollTimer(5)));
+                    deathCoroutines.Add(StartCoroutine(SkeletonReveal(SkeletonRevealTime)));
                     CharacterAnimator.SetBool("IsAlive", false);
-                    StartCoroutine(DeleteNPC(10));
+                    deathCoroutines.Add(StartCoroutine(DeleteNPC(10)));
                 }
                 else
                 {
@@ -676,8 +779,8 @@ public class BaseAI : MonoBehaviour
                     Ragdoll();
                     CharacterAnimator.speed = 0;
                     CharacterAnimator.SetBool("IsAlive", false);
-                    StartCoroutine(Dissolve(1.5f, _damageInfo));
-                    StartCoroutine(DeleteNPC(4f));
+                    deathCoroutines.Add(StartCoroutine(Dissolve(1.5f, _damageInfo)));
+                    deathCoroutines.Add(StartCoroutine(DeleteNPC(4f)));
                 }
             }
             catch (Exception e)
@@ -693,10 +796,10 @@ public class BaseAI : MonoBehaviour
                 SkeletonObject.SetActive(true);
                 CharacterAnimator.SetTrigger("Electrocute");
                 SkeletonObject.GetComponent<Animator>().SetTrigger("Electrocute");
-                StartCoroutine(RagdollTimer(5));
-                StartCoroutine(SkeletonReveal(2f));
+                deathCoroutines.Add(StartCoroutine(RagdollTimer(5)));
+                deathCoroutines.Add(StartCoroutine(SkeletonReveal(2f)));
                 CharacterAnimator.SetBool("IsAlive", false);
-                StartCoroutine(DeleteNPC(10));
+                deathCoroutines.Add(StartCoroutine(DeleteNPC(10)));
             }
             catch (Exception e)
             {
@@ -709,13 +812,19 @@ public class BaseAI : MonoBehaviour
         //CharacterAnimator.Play(Animator.StringToHash("Exterminating"), -1, 0.125f);
     }
 
+    IEnumerator DisableCollisionAfterTime(float delayTime)
+    {
+        yield return new WaitForSeconds(delayTime);
+        GetComponent<CapsuleCollider>().enabled = false;
+        GetComponent<Collider>().enabled = false;
+    }
+
     IEnumerator SkeletonReveal(float SkeletonRevealTime)
     {
         //This approach is done since some models can have several meshes with several materials, this prevents only part of the model showing the skeleton
-        List<Material> originalMaterials = new List<Material>();
+        var mats = originalMaterials;
         foreach (SkinnedMeshRenderer meshRenderer in MainBody.GetComponentsInChildren<SkinnedMeshRenderer>())
         {
-            originalMaterials.Add(meshRenderer.material);
             meshRenderer.material = SkinExterminationMaterial;
         }
 
@@ -725,10 +834,10 @@ public class BaseAI : MonoBehaviour
         // Switch back to the original materials
         foreach (SkinnedMeshRenderer meshRenderer in MainBody.GetComponentsInChildren<SkinnedMeshRenderer>())
         {
-            meshRenderer.material = originalMaterials[0];
-            originalMaterials.RemoveAt(0);
+            meshRenderer.material = mats[0];
+            mats.RemoveAt(0);
         }
-        originalMaterials.Clear();
+        mats.Clear();
 
         try
         {

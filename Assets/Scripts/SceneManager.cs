@@ -11,15 +11,21 @@ public class SceneManager : MonoBehaviour
     [SerializeField] private List<DoorInteractionBehavior> ControlledDoors;
     [Header("Fire Alarm Stuff")]
     [SerializeField] public bool IsLevelWaterlogged = false;
-    [SerializeField] public GameObject Water;
-    [SerializeField] public AudioSource FireAlarmAudio;
-    [SerializeField] public GameObject Sprinklers;
+    [SerializeField] public GameObject? Water;
+    [SerializeField] public AudioSource? FireAlarmAudio;
+    [SerializeField] public GameObject? Sprinklers;
     // Start is called before the first frame update
     void Start()
     {
         IsLevelWaterlogged = false;
-        Water.SetActive(false);
-        Sprinklers.SetActive(false);
+        if (Water != null)
+        {
+            Water.SetActive(false);
+        }
+        if (Sprinklers != null)
+        {
+            Sprinklers.SetActive(false);
+        }
     }
 
     // Update is called once per frame
@@ -31,7 +37,10 @@ public class SceneManager : MonoBehaviour
     public void SetSceneIsWaterlogged()
     {
         IsLevelWaterlogged = true;
-        Water.SetActive(true);
+        if (Water != null)
+        {
+            Water.SetActive(true);
+        }
     }
 
     void Awake()
@@ -50,8 +59,14 @@ public class SceneManager : MonoBehaviour
     {
         SetSceneIsWaterlogged();
         //Start some fire alarms and also trigger the levels sprinklers
-        Sprinklers.SetActive(true);
-        FireAlarmAudio.Play();
+        if (Sprinklers != null)
+        {
+            Sprinklers.SetActive(true);
+        }
+        if (FireAlarmAudio != null)
+        {
+            FireAlarmAudio.Play();
+        }
     }
 
     public void UnlockAllDoors()
@@ -59,7 +74,7 @@ public class SceneManager : MonoBehaviour
         Debug.Log("Unlocking all controlled doors in scene");
         foreach (DoorInteractionBehavior door in ControlledDoors)
         {
-            door.IsOpen = true;
+            door.SetIsOpen(true);
         }
     }
 

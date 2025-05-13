@@ -67,6 +67,7 @@ MonoBehaviour:
     m_Bits: 1665
   DalekInLOS: 0
   isOnGround: 1
+  Head: {fileID: 7344921171580440789}
   SkeletonObject: {fileID: 3848628479373081125}
   MainBody: {fileID: 924124832298004938}
   SkinExterminationMaterial: {fileID: 2100000, guid: 8d45234155ecf48468d57430f8641700,
@@ -1767,7 +1768,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &634943037198603269
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1784,7 +1785,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &179886616597962058
 MonoBehaviour:
   m_ObjectHideFlags: 0

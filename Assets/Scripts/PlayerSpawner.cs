@@ -14,7 +14,7 @@ public class PlayerSpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (playerSpawned)
+        if (playerSpawned && OnDalekSpawned != null)
         {
             OnDalekSpawned.Invoke(this, new PlayerSpawnedArgs(playerInstance));
         }

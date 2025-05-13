@@ -14,6 +14,7 @@ public class Terminal : InteractionBehavior
     private Light _light;
 
     [SerializeField] public ActionType actionType = ActionType.Dumb;
+    [SerializeField] private string UnlockTarget;
     public List<DoorInteractionBehavior> ControlledDoors;
     // Start is called before the first frame update
     void Start()
@@ -39,12 +40,12 @@ public class Terminal : InteractionBehavior
         DisableTurrets,
         ExtendTimer,
         Recharge,
-        Dumb
+        Dumb,
+        UnlockFeature
     }
 
     public override void Interact(GameObject interactingCharacter)
     {
-        Debug.Log("Custom Interaction Behavior - Terminal:");
         switch (actionType)
         {
             case ActionType.ShowDialog:
@@ -54,7 +55,7 @@ public class Terminal : InteractionBehavior
                 Debug.Log("Unlock Doors");
                 foreach (DoorInteractionBehavior controlledDoor in ControlledDoors)
                 {
-                    controlledDoor.IsOpen = true;
+                    controlledDoor.SetIsOpen(true);
                 }
                 _light.color = Color.green;
                 break;
@@ -83,6 +84,9 @@ public class Terminal : InteractionBehavior
             case ActionType.Dumb:
                 Debug.Log("Do Nothing");
                 this.GetComponent<AudioSource>().PlayOneShot(InteractionSound);
+                break;
+            case ActionType.UnlockFeature:
+                GameManager.Unlock(UnlockTarget);
                 break;
             default:
                 Debug.Log("Do Nothing");

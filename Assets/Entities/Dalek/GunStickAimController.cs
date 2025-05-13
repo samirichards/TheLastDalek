@@ -35,6 +35,51 @@ public class GunStickAimController : MonoBehaviour
         StartCoroutine(AimGunstickCoroutine(initialRotation, targetRotation, duration, cooldown));
     }
 
+    public void AimGunstickTowardsQuickFire(Vector3 target)
+    {
+        if (!IsSwivelAllowed || isFiring)
+            return;
+
+        // Calculate the direction from the gun's position to the target
+        Vector3 directionToTarget = Player._PropController.getGunStickObject.transform.position - target;
+
+        // Gradually interpolate the rotation over the specified duration
+        Quaternion initialRotation = Player._PropController.getGunStickObject.transform.rotation;
+        Quaternion targetRotation = Quaternion.LookRotation(directionToTarget, Player._PropController.getBodyBase.transform.up);
+        targetRotation *= Quaternion.Euler(0, Offset, 0); // Apply the offset
+
+        Player._lookAtAnimator.SetLookTarget(target);
+        StartCoroutine(AimGunstickQuickFireCoroutine(initialRotation, targetRotation, 0.1f));
+    }
+
+    private IEnumerator AimGunstickQuickFireCoroutine(Quaternion startRotation, Quaternion targetRotation, float duration)
+    {
+        Player._PropController.StopAnimator();
+        float elapsedTime = 0f;
+
+
+        while (elapsedTime < duration)
+        {
+            Player._PropController.getGunStickObject.transform.rotation = Quaternion.Slerp(startRotation, targetRotation, elapsedTime / duration);
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+
+        // Mark as firing and set cooldown time
+        isFiring = true;
+        GetComponent<AttackController>().HandleGunStick();
+        fireTime = Time.time;
+
+        // Wait for the cooldown before resetting the gunstick
+        yield return new WaitForSeconds(Mathf.Abs(GetComponent<AttackController>().GunStickDefaultFireRate - 0.1f));
+
+        // Reset gunstick to its default position
+        Player._lookAtAnimator.ClearLookTarget();
+        isFiring = false;
+        Player._PropController.getGunStickObject.transform.localRotation = initialPosition;
+        Player._PropController.StartAnimator();
+    }
+
     private IEnumerator AimGunstickCoroutine(Quaternion startRotation, Quaternion targetRotation, float duration, float cooldown)
     {
         Player._PropController.StopAnimator();

@@ -4,31 +4,11 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ElevateSceneChangeDoorInteractionBehavior : DoorInteractionBehavior
+public class ElevateSceneChangeDoorInteractionBehavior : SceneChangeDoorInteractionBehavior
 {
-    [SerializeField] public BoxCollider SceneChangeTrigger;
-    [SerializeField] public string TargetSceneName;
-    [SerializeField] public Vector3 TargetSceneLoadLocation;
-    public override void Interact(GameObject interactingCharacter)
+    protected override void OnTriggerEnter(Collider other)
     {
-
-    }
-
-    void FixedUpdate()
-    {
-        SceneChangeTrigger.enabled = IsOpen;
-        GetComponent<Animator>().SetBool("Door_IsOpen", IsOpen);
-        SceneChangeTrigger.enabled = IsOpen;
-    }
-
-    void Awake()
-    {
-
-    }
-
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.tag == "Player")
+        if (other.tag == "Player" && DoorEnabled)
         {
             if (Player._inventoryController.EquippedItems.Any(a=>a.ItemTitle == "Elevate"))
             {

@@ -13,7 +13,8 @@ public class PropController : MonoBehaviour
         DamageSFX,
         DeathVO,
         ChantVO,
-        StartUp
+        StartUp,
+        PlungerSlowKill
     }
 
     public enum AnimationClips
@@ -22,11 +23,13 @@ public class PropController : MonoBehaviour
         Death,
         StartUp,
         Stun,
-        Elevate
+        Elevate,
+        PlungerSlowKill
     }
 
     [Header("Physical Components ---")]
     [SerializeField] private GameObject _plungerObject;
+    [SerializeField] private GameObject _plungerHead;
     [SerializeField] private GameObject _gunStickObject;
     [SerializeField] private GameObject _bodyBase;
     [SerializeField] private GameObject _centerObject;
@@ -50,6 +53,7 @@ public class PropController : MonoBehaviour
     [SerializeField] private AudioClip[] _deathVO;
     [SerializeField] private AudioClip[] _chantVO;
     [SerializeField] private AudioClip StartUpClip;
+    [SerializeField] private AudioClip PlungerSlowKill;
 
     [Header("Audio (Movement) ---")]
     [SerializeField] private AudioClip MovementStart;
@@ -127,6 +131,11 @@ public class PropController : MonoBehaviour
         Debug.Log(gameObject.name + " OnMelee() default behavior");
     }
 
+    public virtual void OnMeleeSlowKill()
+    {
+        Debug.Log(gameObject.name + " OnMeleeSlowKill() default behavior");
+    }
+
     public virtual void OnHit(Vector3 hitOriginDirection)
     {
         Debug.Log(gameObject.name + " OnHit() default behavior, hit from " + hitOriginDirection.normalized);
@@ -180,6 +189,9 @@ public class PropController : MonoBehaviour
             case SoundClips.StartUp:
                 GeneralAudioSource.PlayOneShot(StartUpClip);
                 break;
+            case SoundClips.PlungerSlowKill:
+                GeneralAudioSource.PlayOneShot(PlungerSlowKill);
+                break;  
             default:
                 break;
         }
@@ -207,6 +219,11 @@ public class PropController : MonoBehaviour
                 break;
             case AnimationClips.Elevate:
                 break;
+            case AnimationClips.PlungerSlowKill:
+                _animator.enabled = true;
+                PlaySoundClip(SoundClips.PlungerSlowKill);
+                _animator.SetTrigger("PlungerSlowAttack");
+                break; 
         }
     }
 
@@ -416,6 +433,7 @@ public class PropController : MonoBehaviour
     }
 
     public GameObject getPlungerObject => _plungerObject;
+    public GameObject getPlungerHead => _plungerHead;
     public GameObject getGunStickObject => _gunStickObject;
     public GameObject getBodyBase => _bodyBase;
     public GameObject getCenterObject => _centerObject;

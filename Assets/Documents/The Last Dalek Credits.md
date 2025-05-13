@@ -31,3 +31,17 @@
 "MK1 Dalek Skaro" (https://skfb.ly/6YRvP) by timblewee is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 
 "Special Weapons Dalek" (https://skfb.ly/6YnrV) by timblewee is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"RaspBerry Pi Cam V2.1" (https://skfb.ly/6SPRX) by F2A is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"Gears" (https://skfb.ly/6SJNJ) by Helindu is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"Industrial Pipes" (https://skfb.ly/6THNP) by Dumokan Art is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"Arrow Icon Flat Style Direction Pointer Symbol" (https://skfb.ly/pu6u7) by B1Blender is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"Crate box" (https://skfb.ly/RMpW) by KloWorks is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"Wood Crate" (https://skfb.ly/6WXGs) by Elliot Whitehouse is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"Low Poly | Pallets" (https://skfb.ly/oxwyB) by Den1121 is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).

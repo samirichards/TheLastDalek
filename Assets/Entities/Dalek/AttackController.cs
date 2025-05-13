@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Rendering;
 
@@ -12,7 +13,7 @@ public class AttackController : MonoBehaviour
     /// How weapons are fired rn is such a tangled mess of nested ifs
     /// </summary>
     public bool GunStickEnabled = true;
-    [SerializeField] float GunStickDefaultFireRate = 0.5f;
+    [SerializeField] public float GunStickDefaultFireRate = 0.5f;
     [SerializeField] private float GattlingGunFireRateModifier = 0.2f;
     [SerializeField] float PlungerAttackRate = 1f;
     private float WeaponCooldown = 0.0f;
@@ -33,6 +34,10 @@ public class AttackController : MonoBehaviour
     [SerializeField]private float RaygunBroadBeamCastAngle = 1f;
     [SerializeField]private int RaygunBroadBeamRaycastCount = 9;
     [SerializeField] private GameObject CollisionExplosionPrefab;
+    [SerializeField] public float AimAssistAngle = 38f;
+    [SerializeField] public float AimAssistMaxRange = 35f;
+    private bool AimAssistEnabled = true;
+    [SerializeField] private float PlungerRange = 20f;
 
 
     public bool ShouldTargetDissolve = false;
@@ -40,6 +45,7 @@ public class AttackController : MonoBehaviour
     [SerializeField] private float GunTurnTime = 0.2f;
     [SerializeField] private float LockOnBeamDuration = 0.66f;
     [SerializeField] private LockOnReticle reticleObject;
+    [SerializeField] private AimAssistReticle aimAssistReticleObject;
     [SerializeField] private float LockOnThreshold = 0.3f;
     [SerializeField] private float LockOnBaseTime = 1.5f;
     [SerializeField] private float LockOnProgress = 0f;
@@ -58,6 +64,8 @@ public class AttackController : MonoBehaviour
     [SerializeField] private float LockOnCameraShakeIntensity = 1f;
     [SerializeField] private AttackTypes AttackType = AttackTypes.Standard;
 
+    private List<BaseAI> eligableTargets;
+
 
     private Volume lockOnVolume;
 
@@ -72,6 +80,7 @@ public class AttackController : MonoBehaviour
     void Awake()
     {
         RaygunLine = GetComponent<LineRenderer>();
+        eligableTargets = new List<BaseAI>();
     }
 
     void Start()
@@ -120,8 +129,19 @@ public class AttackController : MonoBehaviour
                     }
                     else
                     {
-                        Player._PropController.OnFire();
-                        HandleGunStick();
+                        if (AimAssistEnabled && eligableTargets.Count > 0)
+                        {
+                            var targetLocation = eligableTargets.First().transform.position;
+                            targetLocation.y += 1;
+                            //Without this the dalek aims at their feet
+                            GetComponent<GunStickAimController>().AimGunstickTowardsQuickFire(targetLocation);
+                        }
+                        else
+                        {
+                            Player._PropController.OnFire();
+                            HandleGunStick();
+                        }
+
                     }
                 }
             }
@@ -150,27 +170,52 @@ public class AttackController : MonoBehaviour
             {
                 lockOnStarted = false;
                 // Check if the mouse is over an NPC's collider
-                RaycastHit hit;
-                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-
-                if (Physics.Raycast(ray, out hit, Mathf.Infinity))
+                //RaycastHit hit;
+                //Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                //Ditch the whole mouse thing, it wouldn't translate well to controller, so just use the same target as aim assist
+                if (AimAssistEnabled)
                 {
-                    if (hit.collider.CompareTag("NPC")) // Replace "NPC" with your NPC tag
+                    if (eligableTargets.Count > 0)
                     {
                         lockOnStarted = true;
-                        LockOnTarget = hit.collider.gameObject;
+                        LockOnTarget = eligableTargets.First().gameObject;
                         LockOnProgress = 0f;
                         reticleObject.SetLockOnTarget(LockOnTarget);
                     }
                     else
                     {
-                        // Handle the case when the mouse is not over an NPC
                         LockOnProgress = 0f;
                         lockOnTime = 0.0f;
                         lockOnStarted = false;
                         LockOnTarget = null;
                     }
                 }
+                else
+                {
+                    LockOnProgress = 0f;
+                    lockOnTime = 0.0f;
+                    lockOnStarted = false;
+                    LockOnTarget = null;
+                }
+
+                //if (Physics.Raycast(ray, out hit, Mathf.Infinity))
+                //{
+                //    if (hit.collider.CompareTag("NPC")) // Replace "NPC" with your NPC tag
+                //    {
+                //        lockOnStarted = true;
+                //        LockOnTarget = hit.collider.gameObject;
+                //        LockOnProgress = 0f;
+                //        reticleObject.SetLockOnTarget(LockOnTarget);
+                //    }
+                //    else
+                //    {
+                //        // Handle the case when the mouse is not over an NPC
+                //        LockOnProgress = 0f;
+                //        lockOnTime = 0.0f;
+                //        lockOnStarted = false;
+                //        LockOnTarget = null;
+                //    }
+                //}
             }
 
             if (lockOnStarted && LockOnTarget)
@@ -218,10 +263,21 @@ public class AttackController : MonoBehaviour
             {
                 if (LockOnReady && LockOnTarget != null)
                 {
-                    Debug.Log("Fire at locked on target, which is a " + LockOnTarget.name);
-                    var targetPosition = LockOnTarget.transform.position;
-                    targetPosition.y++;
-                    GetComponent<GunStickAimController>().AimGunstickTowards(targetPosition, GunTurnTime, LockOnBeamDuration);
+                    if (this.GetComponent<InventoryController>().EquippedItems.Select(a=>a.ItemTitle).Contains("Gun"))
+                    {
+                        Debug.Log("Fire at locked on target, which is a " + LockOnTarget.name);
+                        var targetPosition = LockOnTarget.transform.position;
+                        targetPosition.y++;
+                        GetComponent<GunStickAimController>().AimGunstickTowards(targetPosition, GunTurnTime, LockOnBeamDuration);
+                    }
+                    else
+                    {
+                        Debug.Log("Lockeed onto target with no gun, begin plunger attack if in range");
+                        if (Vector3.Distance(this.transform.position, LockOnTarget.transform.position) < PlungerRange)
+                        {
+                            StartCoroutine(PlungerSlowAttack(LockOnTarget));
+                        }
+                    }
                 }
                 if (lockOnTime < LockOnThreshold)
                 {
@@ -255,6 +311,22 @@ public class AttackController : MonoBehaviour
             LockOnReady = false;
             LockOnTarget = null;
         }
+
+        //Just bolting on the partial lock on stuff here until I can be bothered to change it properly
+        //Should raycast out continuously, and try to aim at the nearest/closest to the center line target within a cone of about 15 degrees
+        //Should show targeting reticule on who it is aiming at
+        if (AimAssistEnabled)
+        {
+            if (eligableTargets.Count > 0)
+            {
+                //Should be sorted by distance but isn't rn
+                aimAssistReticleObject.SetLockOnTarget(eligableTargets.First().gameObject);
+            }
+            else
+            {
+                aimAssistReticleObject.ClearLockOnTarget();
+            }
+        }
     }
 
     void FixedUpdate()
@@ -263,6 +335,55 @@ public class AttackController : MonoBehaviour
         {
 
         }
+
+        RaycastHit HitTarget;
+        int beamCount = (int)AimAssistAngle;
+
+        float verticalStartAngle = -AimAssistAngle / 8f;
+        float horizontalStartAngle = -AimAssistAngle / 2f;
+
+        float horizontalAngleIncrement = AimAssistAngle / (float)(beamCount - 1);
+        float verticalAngleIncrement = (AimAssistAngle / (float)(beamCount - 1))*4;
+        var hitList = new List<BaseAI>();
+
+        //for (int y = 0; y < (beamCount / 8); y++)
+        //{
+            for (int x = 0; x < beamCount; x++)
+            {
+                float currentHorizontalAngle = horizontalStartAngle + x * horizontalAngleIncrement;
+                //float currentVerticalAngle = verticalStartAngle + y * verticalAngleIncrement;
+                float currentVerticalAngle = 0; //verticalStartAngle + y * verticalAngleIncrement;
+
+                Vector3 rayDirection = Quaternion.Euler(currentVerticalAngle, currentHorizontalAngle, 0) * Player._PropController.getGunStickObject.transform.forward;
+                Ray ray = new Ray(Player._PropController.getGunStickObject.transform.position, rayDirection);
+
+                if (Physics.Raycast(ray, out HitTarget, AimAssistMaxRange))
+                {
+                    var hitBaseAi = HitTarget.collider.gameObject.GetComponent<BaseAI>();
+                    if (hitBaseAi)
+                    {
+                        Debug.DrawRay(ray.origin, ray.direction * AimAssistMaxRange, Color.red, 0.02f);
+                        //Add or remove it from the target list depending on if it's already there or if there is something close
+                        if (!hitList.Contains(hitBaseAi))
+                        {
+                            hitList.Add(hitBaseAi);
+                        }
+                    }
+                    else
+                    {
+                        Debug.DrawRay(ray.origin, ray.direction * AimAssistMaxRange, Color.green, 0.02f);
+                    }
+                }
+                else
+                {
+                    Debug.DrawRay(ray.origin, ray.direction * AimAssistMaxRange, Color.green, 0.02f);
+                }
+
+            }
+       //}
+        eligableTargets.Where(a => !hitList.Contains(a));
+        eligableTargets.RemoveAll(a => !hitList.Contains(a));
+        eligableTargets.AddRange(hitList.Distinct());
     }
 
     void HandleGattlingGunActions()
@@ -437,6 +558,20 @@ public class AttackController : MonoBehaviour
         RaygunLine.enabled = false;
         RaygunLine.SetPosition(0, transform.position);
         RaygunLine.SetPosition(1, transform.position);
+        GetComponent<Movement>().MovementEnabled = true;
+    }
+
+    private IEnumerator PlungerSlowAttack(GameObject target)
+    {
+        GetComponent<Movement>().MovementEnabled = false;
+        Player._PropController.PlayAnimationClip(PropController.AnimationClips.PlungerSlowKill);
+        Player._PropController.OnMeleeSlowKill();
+        var targetObject = target.GetComponent<BaseAI>();
+        var damage = new DamageInfo(targetObject.Health, this.gameObject, DamageType.Plunger);
+
+
+        targetObject.PlungerSlowKill(damage);
+        yield return new WaitForSeconds(3.2f);
         GetComponent<Movement>().MovementEnabled = true;
     }
 

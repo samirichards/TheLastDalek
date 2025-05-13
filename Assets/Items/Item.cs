@@ -16,7 +16,7 @@ public class Item : ScriptableObject
     [SerializeField] public List<Sprite> ItemTextures;
     [SerializeField] public List<string> ItemDescription;
     [SerializeField] public List<Sprite> ItemModelTexture;
-    [SerializeField] public GameObject? WorldModel;
+    [SerializeField] public List<GameObject> WorldModels;
     public bool isSelected = false;
     public Item()
     {

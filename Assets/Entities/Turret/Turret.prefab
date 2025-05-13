@@ -114,8 +114,8 @@ GameObject:
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &7204511059644732878
 Transform:
@@ -900,7 +900,7 @@ MonoBehaviour:
     type: 3}
   AttackRange: 6
   WakeRange: 10
-  Damage: 15
+  DamageStat: 0
   MaxFireRate: 2
   ProjectileSpeed: 10
   BurstFire: 0
@@ -919,7 +919,7 @@ MonoBehaviour:
   CurrentState: 0
 --- !u!95 &733657706435980561
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -936,7 +936,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!82 &328071164781075113
 AudioSource:
   m_ObjectHideFlags: 0

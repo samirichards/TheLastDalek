@@ -35,6 +35,10 @@ public class Hole : MonoBehaviour
             other.gameObject.GetComponent<Movement>().ElevationTargets.Add(gameObject);
             Collider.enabled = false;
         }
+        else
+        {
+            Collider.enabled = true;
+        }
     }
 
     void OnTriggerExit(Collider other)
@@ -47,5 +51,10 @@ public class Hole : MonoBehaviour
             }
             Collider.enabled = true;
         }
+        else
+        {
+            Collider.enabled = false;
+        }
+        //This change basically makes it so that the collider is only there if the dalek approaches, allowing turret pellets to fly over, not tried it with NPCs yet but oh well
     }
 }

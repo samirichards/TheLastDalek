@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public static bool IsGamePaused { get; private set; } = false;
     public static bool IsOnNormalPauseScreen = false;
     public static bool IsArtifactScreenShown = false;
+    public static bool IsUnlockScreenShown = false;
     private static InGameUI inGameUiRef;
     private static GameObject CameraObjectReference;
     public static AudioSource _audioSource;
@@ -22,6 +23,7 @@ public class GameManager : MonoBehaviour
     private static GameObject _PauseMenu;
     private static GameObject _ItemUpgradeScreen;
     private static GameObject _ArtifactScreen;
+    private static GameObject _UnlockScreen;
     private static TextMeshProUGUI _TotalExterminationsCount;
 
     [SerializeField] public GameObject UpgradeScreenTitle;
@@ -29,6 +31,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] public GameObject PauseMenu;
     [SerializeField] public GameObject ItemUpgradeScreen;
     [SerializeField] public GameObject ArtifactScreen;
+    [SerializeField] public GameObject UnlockScreen;
     [SerializeField] public GameObject TotalExterminationsCount;
 
 
@@ -72,6 +75,7 @@ public class GameManager : MonoBehaviour
             _PauseMenu = PauseMenu;
             _ItemUpgradeScreen = ItemUpgradeScreen;
             _ArtifactScreen = ArtifactScreen;
+            _UnlockScreen = UnlockScreen;
             _TotalExterminationsCount = TotalExterminationsCount.GetComponent<TextMeshProUGUI>();
             _itemDatabase = itemDatabase;
         }
@@ -93,6 +97,12 @@ public class GameManager : MonoBehaviour
 
     }
     */
+
+    public static void Unlock(string unlock)
+    {
+        //Do some stuff to find what is trying to be unlocked, if found show the unlock screen
+        ShowUnlockScreen();
+    }
 
     public static void ShowUpgradeScreen(int itemID, int itemTier)
     {
@@ -128,6 +138,8 @@ public class GameManager : MonoBehaviour
     public static void ShowArtifactScreen()
     {
         _ItemUpgradeScreen.SetActive(false);
+        IsUnlockScreenShown = false;
+        _UnlockScreen.SetActive(false);
         Player._PropController.StopSound();
         IsArtifactScreenShown = true;
         IsOnNormalPauseScreen = false;
@@ -149,10 +161,37 @@ public class GameManager : MonoBehaviour
         Player._inventoryController.RunUpdateAbilities();
     }
 
+    public static void ShowUnlockScreen()
+    {
+        _ItemUpgradeScreen.SetActive(false);
+        Player._PropController.StopSound();
+        IsUnlockScreenShown = true;
+        IsOnNormalPauseScreen = false;
+        IsGamePaused = true;
+        _audioSource.PlayOneShot(_UpgradeAudioClip);
+        _UnlockScreen.SetActive(true);
+        Time.timeScale = 0f;
+    }
+
+    public static void HideUnlockScreen()
+    {
+        IsUnlockScreenShown = false;
+        _audioSource.PlayOneShot(_ArtifactScreenCloseClip);
+        IsOnNormalPauseScreen = false;
+        IsGamePaused = false;
+        Time.timeScale = 1.0f;
+        _UnlockScreen.SetActive(false);
+        _ArtifactScreen.SetActive(false);
+        _ItemUpgradeScreen.SetActive(false);
+        Player._inventoryController.RunUpdateAbilities();
+    }
+
     public static void ResumeGame()
     {
         IsOnNormalPauseScreen = false;
         _PauseMenu.SetActive(false);
+        _UnlockScreen.SetActive(false);
+        IsUnlockScreenShown = false;
         IsGamePaused = false;
         Time.timeScale = 1.0f;
     }
@@ -162,6 +201,8 @@ public class GameManager : MonoBehaviour
         Player._PropController.StopSound();
         IsOnNormalPauseScreen = true;
         _PauseMenu.SetActive(true);
+        _UnlockScreen.SetActive(false);
+        IsUnlockScreenShown = false;
         IsGamePaused = true;
         Time.timeScale = 0f;
         _TotalExterminationsCount.text = _TotalExterminations.ToString();

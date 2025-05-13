@@ -59,7 +59,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Shared\Ramps\Editor\RampAssetEditor.cs" />
+    <Compile Include="Assets\Scripts\Editor\ShowOnlyAttribute.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+    <Compile Include="Assets\Scripts\Editor\ShowOnlyDrawer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Cineware by Maxon\Plugins\Editor\native\maxon_login\resource\modules\crypt.module\build.txt" />

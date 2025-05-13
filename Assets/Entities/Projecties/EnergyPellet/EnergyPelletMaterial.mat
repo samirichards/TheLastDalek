@@ -61,8 +61,8 @@ Material:
     - _DoubleSidedNormalMode: 2
     - _DstBlend: 10
     - _ElectricityAmount: 16.76
-    - _ElectricityScale: 11.75
-    - _ElectricityThickness: 3
+    - _ElectricityScale: 38.68
+    - _ElectricityThickness: 35.9
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
     - _OpaqueCullMode: 2
@@ -103,7 +103,7 @@ Material:
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _ElectricitySpeed: {r: 1.29, g: 1.31, b: 0, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _NoiseSpeed: {r: 0.1, g: -0.5, b: 0, a: 0}
+    - _NoiseSpeed: {r: 1.98, g: 2.64, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &6860484553350269477
 MonoBehaviour:

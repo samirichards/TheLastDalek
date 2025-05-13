@@ -249,6 +249,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _plungerObject: {fileID: 8076400687365393076}
+  _plungerHead: {fileID: 0}
   _gunStickObject: {fileID: 4074312394422958883}
   _bodyBase: {fileID: 2056518737696252722}
   _centerObject: {fileID: 2499395709132203612}
@@ -256,6 +257,7 @@ MonoBehaviour:
   _eyeStalkObject: {fileID: 7843878651322256601}
   _gattlingGunHolderObject: {fileID: 5300928489251197010}
   _lightClusterGroup: []
+  _gunstickEndPoint: {fileID: 0}
   SpeechAudioSource: {fileID: 6883674727310524805}
   GeneralAudioSource: {fileID: 7815170335587013948}
   MovementAudioSource: {fileID: 2125102292230666949}
@@ -278,6 +280,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 9031bf818025c5d4991770ca83717dc7, type: 3}
   - {fileID: 8300000, guid: 43221cef9aa899c48bf73c3ede60d257, type: 3}
   StartUpClip: {fileID: 8300000, guid: 29f6efa8bbfa7324dabd00063d757b82, type: 3}
+  PlungerSlowKill: {fileID: 0}
   MovementStart: {fileID: 8300000, guid: 76358eddeb4da5d409be78673d945fdf, type: 3}
   MovementLoop: {fileID: 8300000, guid: 409853afe778e5b49b61db8edb0498ef, type: 3}
   MovementEnd: {fileID: 8300000, guid: 70295906c1a9dfc419a6f49fb15c0249, type: 3}
@@ -288,6 +291,7 @@ MonoBehaviour:
   ElevateVolume: 1
   isElevating: 0
   _animator: {fileID: 4861379843748005393}
+  _gunstickFireAnimationName: 
   InteractionPoint: {fileID: 2499395709132203612}
   _rayGunDischargePrefab: {fileID: 434682360272248152, guid: 5ea575959ee37564aa34cd9c493a740a,
     type: 3}
@@ -603,7 +607,7 @@ AudioSource:
     m_RotationOrder: 4
 --- !u!95 &4861379843748005393
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -620,7 +624,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &654972403119731155
 GameObject:
   m_ObjectHideFlags: 0
@@ -2553,9 +2558,14 @@ MonoBehaviour:
   RaygunBroadBeamRaycastCount: 5
   CollisionExplosionPrefab: {fileID: 3487991302742936757, guid: 37c0f4ec70250d043be29beae27f0b86,
     type: 3}
+  AimAssistAngle: 38
+  AimAssistMaxRange: 35
+  PlungerRange: 20
+  ShouldTargetDissolve: 0
   GunTurnTime: 0.2
   LockOnBeamDuration: 0.75
   reticleObject: {fileID: 8190350625055286354}
+  aimAssistReticleObject: {fileID: 0}
   LockOnThreshold: 0.3
   LockOnBaseTime: 1
   LockOnProgress: 0
@@ -2603,6 +2613,7 @@ MonoBehaviour:
   MaxHealth: 100
   IsAlive: 1
   CanHackStuff: 0
+  SteamPrefab: {fileID: 0}
   ShieldMaxHealth: 100
   ShieldHealth: 100
   ShieldRechargeRate: 6.66
@@ -5787,6 +5798,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _plungerObject: {fileID: 9175226637710931274}
+  _plungerHead: {fileID: 0}
   _gunStickObject: {fileID: 2924218510711136196}
   _bodyBase: {fileID: 3827795870660170982}
   _centerObject: {fileID: 1884500022687167397}
@@ -5796,6 +5808,7 @@ MonoBehaviour:
   _lightClusterGroup:
   - {fileID: 4318851326244352033}
   - {fileID: 747523459485291814}
+  _gunstickEndPoint: {fileID: 0}
   SpeechAudioSource: {fileID: 435025674192915003}
   GeneralAudioSource: {fileID: 6561411635693358427}
   MovementAudioSource: {fileID: 2373951561595850281}
@@ -5816,6 +5829,7 @@ MonoBehaviour:
   _chantVO:
   - {fileID: 8300000, guid: 517854d85afd06f42b2cc1aafde7db8c, type: 3}
   StartUpClip: {fileID: 8300000, guid: 29f6efa8bbfa7324dabd00063d757b82, type: 3}
+  PlungerSlowKill: {fileID: 0}
   MovementStart: {fileID: 8300000, guid: 76358eddeb4da5d409be78673d945fdf, type: 3}
   MovementLoop: {fileID: 8300000, guid: 409853afe778e5b49b61db8edb0498ef, type: 3}
   MovementEnd: {fileID: 8300000, guid: 70295906c1a9dfc419a6f49fb15c0249, type: 3}
@@ -5826,6 +5840,7 @@ MonoBehaviour:
   ElevateVolume: 1
   isElevating: 0
   _animator: {fileID: 4272838295754509613}
+  _gunstickFireAnimationName: 
   InteractionPoint: {fileID: 1884500022687167397}
   _rayGunDischargePrefab: {fileID: 434682360272248152, guid: 2c63ab9a46b0b21489d16f9266e0adbe,
     type: 3}
@@ -5838,6 +5853,9 @@ MonoBehaviour:
   MaxHealthMultiplier: 1
   _attackType: 0
   InDisplayMode: 0
+  inactiveEmittersMaterial: {fileID: 0}
+  activeEmittersMaterial: {fileID: 0}
+  emitters: {fileID: 0}
 --- !u!82 &435025674192915003
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6128,7 +6146,7 @@ AudioSource:
     m_RotationOrder: 4
 --- !u!95 &4272838295754509613
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6145,7 +6163,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &4030585728591545556
 GameObject:
   m_ObjectHideFlags: 0
@@ -9167,6 +9186,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _plungerObject: {fileID: 3480871581730299009}
+  _plungerHead: {fileID: 0}
   _gunStickObject: {fileID: 5337280297181862669}
   _bodyBase: {fileID: 5209461381525921986}
   _centerObject: {fileID: 5209461381525921986}
@@ -9176,6 +9196,7 @@ MonoBehaviour:
   _lightClusterGroup:
   - {fileID: 0}
   - {fileID: 0}
+  _gunstickEndPoint: {fileID: 0}
   SpeechAudioSource: {fileID: 2252411504389692839}
   GeneralAudioSource: {fileID: 8266000960999251010}
   MovementAudioSource: {fileID: 4596898372415328077}
@@ -9196,6 +9217,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 8ad0282e0978972419f28939d5922008, type: 3}
   - {fileID: 8300000, guid: df64d84aedff2184c918f20b813f0139, type: 3}
   StartUpClip: {fileID: 8300000, guid: 29f6efa8bbfa7324dabd00063d757b82, type: 3}
+  PlungerSlowKill: {fileID: 0}
   MovementStart: {fileID: 8300000, guid: 76358eddeb4da5d409be78673d945fdf, type: 3}
   MovementLoop: {fileID: 8300000, guid: 409853afe778e5b49b61db8edb0498ef, type: 3}
   MovementEnd: {fileID: 8300000, guid: 70295906c1a9dfc419a6f49fb15c0249, type: 3}
@@ -9206,6 +9228,7 @@ MonoBehaviour:
   ElevateVolume: 1
   isElevating: 0
   _animator: {fileID: 1977747405980436009}
+  _gunstickFireAnimationName: 
   InteractionPoint: {fileID: 4184261895406159458}
   _rayGunDischargePrefab: {fileID: 434682360272248152, guid: 2c63ab9a46b0b21489d16f9266e0adbe,
     type: 3}
@@ -9513,7 +9536,7 @@ AudioSource:
     m_RotationOrder: 4
 --- !u!95 &1977747405980436009
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -9530,7 +9553,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6142471803707491999
 GameObject:
   m_ObjectHideFlags: 0
@@ -10305,6 +10329,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _plungerObject: {fileID: 2777300095870860523}
+  _plungerHead: {fileID: 0}
   _gunStickObject: {fileID: 4192521658009584054}
   _bodyBase: {fileID: 5984212110026860002}
   _centerObject: {fileID: 3477796238071751460}
@@ -10312,6 +10337,7 @@ MonoBehaviour:
   _eyeStalkObject: {fileID: 8726315167586904848}
   _gattlingGunHolderObject: {fileID: 4192521658009584054}
   _lightClusterGroup: []
+  _gunstickEndPoint: {fileID: 0}
   SpeechAudioSource: {fileID: 4106272113621241564}
   GeneralAudioSource: {fileID: 6108627995250545737}
   MovementAudioSource: {fileID: 2488311911601218204}
@@ -10342,6 +10368,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: acc60f31e2741c14182866dbf6d988a1, type: 3}
   - {fileID: 8300000, guid: 10faecb3e142b4a4dadd09cc4ec62a59, type: 3}
   StartUpClip: {fileID: 8300000, guid: 29f6efa8bbfa7324dabd00063d757b82, type: 3}
+  PlungerSlowKill: {fileID: 0}
   MovementStart: {fileID: 8300000, guid: 49094fc7a6669ff4f9b9b456b33685be, type: 3}
   MovementLoop: {fileID: 8300000, guid: 99c8864b505ff51408ade6275752d4c9, type: 3}
   MovementEnd: {fileID: 8300000, guid: a8d1ca84a6edcd0499fe56c74ee6d3ba, type: 3}
@@ -10352,6 +10379,7 @@ MonoBehaviour:
   ElevateVolume: 1
   isElevating: 0
   _animator: {fileID: 4653880946961834993}
+  _gunstickFireAnimationName: 
   InteractionPoint: {fileID: 3477796238071751460}
   _rayGunDischargePrefab: {fileID: 434682360272248152, guid: 2c63ab9a46b0b21489d16f9266e0adbe,
     type: 3}
@@ -10382,7 +10410,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23993cd8b1479f044ad1524a5d888d12, type: 2}
 --- !u!95 &4653880946961834993
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -10399,7 +10427,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!82 &4106272113621241564
 AudioSource:
   m_ObjectHideFlags: 0
@@ -12716,6 +12745,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0

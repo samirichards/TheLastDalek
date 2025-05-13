@@ -6330,6 +6330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _plungerObject: {fileID: 1467971733419946611}
+  _plungerHead: {fileID: 4752533506634908173}
   _gunStickObject: {fileID: 267761356205467618}
   _bodyBase: {fileID: 4646257798248416495}
   _centerObject: {fileID: 9185731362729835718}
@@ -6359,6 +6360,7 @@ MonoBehaviour:
   _chantVO:
   - {fileID: 8300000, guid: 16d29546323e3b44eb9cc0ecbb34794f, type: 3}
   StartUpClip: {fileID: 8300000, guid: 29f6efa8bbfa7324dabd00063d757b82, type: 3}
+  PlungerSlowKill: {fileID: 8300000, guid: a95978f7d4bc7ac41807f97fa726661b, type: 3}
   MovementStart: {fileID: 8300000, guid: 76358eddeb4da5d409be78673d945fdf, type: 3}
   MovementLoop: {fileID: 8300000, guid: 409853afe778e5b49b61db8edb0498ef, type: 3}
   MovementEnd: {fileID: 8300000, guid: 70295906c1a9dfc419a6f49fb15c0249, type: 3}
@@ -6677,7 +6679,7 @@ AudioSource:
     m_RotationOrder: 4
 --- !u!95 &7611548696717091269
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6694,7 +6696,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &4752533506634908173
 GameObject:
   m_ObjectHideFlags: 0
@@ -6789,7 +6792,7 @@ MeshCollider:
   m_GameObject: {fileID: 4752533506634908173}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30

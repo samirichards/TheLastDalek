@@ -429,6 +429,7 @@ MonoBehaviour:
   SparkPrefab: {fileID: 3487991302742936757, guid: 37c0f4ec70250d043be29beae27f0b86,
     type: 3}
   actionType: 5
+  UnlockTarget: 
   ControlledDoors: []
 --- !u!65 &8478091906578767199
 BoxCollider:
@@ -499,8 +500,8 @@ GameObject:
   m_Name: Desk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2592675178892611041
 Transform:

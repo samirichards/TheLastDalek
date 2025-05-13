@@ -296,6 +296,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Range: 300
   ProjectileSpeed: 60
+  DestroyTarget: 0
   audioSource: {fileID: 6621710610338958501}
   level1Material: {fileID: 2100000, guid: 2fd7388613bd8fa4bafeb943b3baeec8, type: 2}
   level2Material: {fileID: 2100000, guid: 0561340400c7e224ca1eb8c17de90916, type: 2}

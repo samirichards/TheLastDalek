@@ -5,7 +5,6 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
-using static UnityEditor.Experimental.GraphView.GraphView;
 
 public class InGameUI : MonoBehaviour
 {
@@ -15,12 +14,14 @@ public class InGameUI : MonoBehaviour
     [SerializeField] public static GameObject PauseMenu;
     [SerializeField] public static GameObject ItemUpgradeScreen;
     [SerializeField] public static GameObject ArtifactScreen;
+    [SerializeField] public static GameObject UnlockScreen;
 
     [SerializeField] public Slider HealthBar;
     [SerializeField] public Slider ShieldHealth;
     [SerializeField] public GameObject ShieldHealthContainer;
 
     [SerializeField] private Button UpgradeToArtifactButton;
+    [SerializeField] private Button UnlockCloseButton;
 
     [SerializeField] private GameObject ItemSelectionSlotA;
     [SerializeField] private GameObject ItemSelectionSlotB;
@@ -64,12 +65,18 @@ public class InGameUI : MonoBehaviour
         UpdateSelectedItems();
     }
 
+    public void CloseUnlockScreen()
+    {
+
+    }
+
     void Awake()
     {
         if (_inGameUiInstance == null)
         {
             _inGameUiInstance = this;
             UpgradeToArtifactButton.onClick.AddListener(() => { GoToArtifactScreen(); });
+            UnlockCloseButton.onClick.AddListener(()=> { CloseUnlockScreen(); });
             UICanvasRef = GameObject.FindWithTag("InGameUI");
             //PauseMenu = GameObject.FindWithTag("PauseMenu");
             //ItemUpgradeScreen = GameObject.FindWithTag("ItemUpgradeScreen");

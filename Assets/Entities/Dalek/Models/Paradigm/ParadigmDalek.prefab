@@ -501,6 +501,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _plungerObject: {fileID: 677444751019997644}
+  _plungerHead: {fileID: 0}
   _gunStickObject: {fileID: 2269582375850724129}
   _bodyBase: {fileID: 2095773980352036537}
   _centerObject: {fileID: 6171794242469781127}
@@ -539,6 +540,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: acc60f31e2741c14182866dbf6d988a1, type: 3}
   - {fileID: 8300000, guid: 10faecb3e142b4a4dadd09cc4ec62a59, type: 3}
   StartUpClip: {fileID: 8300000, guid: 29f6efa8bbfa7324dabd00063d757b82, type: 3}
+  PlungerSlowKill: {fileID: 0}
   MovementStart: {fileID: 8300000, guid: 49094fc7a6669ff4f9b9b456b33685be, type: 3}
   MovementLoop: {fileID: 8300000, guid: 99c8864b505ff51408ade6275752d4c9, type: 3}
   MovementEnd: {fileID: 8300000, guid: a8d1ca84a6edcd0499fe56c74ee6d3ba, type: 3}
