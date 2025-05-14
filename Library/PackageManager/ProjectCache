@@ -288,10 +288,14 @@ m_ResolvedPackages:
     - 2.5.2
     - 2.6.0
     - 2.7.1
+    - 2.8.1
+    - 2.8.2
     compatible:
     - 2.5.2
     - 2.6.0
     - 2.7.1
+    - 2.8.1
+    - 2.8.2
     verified: 2.5.2
   dependencies: []
   resolvedDependencies: []
@@ -399,11 +403,13 @@ m_ResolvedPackages:
     - 3.0.31
     - 3.0.34
     - 3.0.35
+    - 3.0.36
     compatible:
     - 3.0.31
     - 3.0.34
     - 3.0.35
-    verified: 3.0.35
+    - 3.0.36
+    verified: 3.0.36
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -655,6 +661,9 @@ m_ResolvedPackages:
     - 1.11.1
     - 1.11.2
     - 1.12.0
+    - 1.13.0
+    - 1.13.1
+    - 1.14.0
     compatible:
     - 1.7.0
     - 1.8.0-pre.1
@@ -668,6 +677,9 @@ m_ResolvedPackages:
     - 1.11.1
     - 1.11.2
     - 1.12.0
+    - 1.13.0
+    - 1.13.1
+    - 1.14.0
     verified: 1.7.0
   dependencies:
   - name: com.unity.modules.uielements
@@ -3784,10 +3796,14 @@ m_ResolvedPackages:
     - 1.8.17
     - 1.8.18
     - 1.8.19
+    - 1.8.20
+    - 1.8.21
     compatible:
     - 1.8.18
     - 1.8.19
-    verified: 1.8.19
+    - 1.8.20
+    - 1.8.21
+    verified: 1.8.21
   dependencies:
   - name: com.unity.mathematics
     version: 1.2.1

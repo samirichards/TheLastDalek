@@ -44,6 +44,7 @@ public class EnergyDischargeController : MonoBehaviour
     [SerializeField] AudioClip RichochetClip;
     [SerializeField] GameObject[] CollisionIgnore;
     [SerializeField] private GameObject CollisionExplosionPrefab;
+    [SerializeField] private GameObject CollisionExplosionSmallPrefab;
     public Color L1_Color;
     public Color L2_Color;
     public Color L3_Color;
@@ -145,7 +146,7 @@ public class EnergyDischargeController : MonoBehaviour
                     AudioSource.PlayClipAtPoint(ImpactSounds[RayType], transform.position);
 
                     var dissolveColour = GetComponent<Light>().color;
-                    other.gameObject.GetComponent<BaseAI>().Damage(new DamageInfo(_damageStat, gameObject, DamageType.DeathRay, DestroyTarget, dissolveColour * 150));
+                    other.gameObject.GetComponent<BaseAI>().Damage(new DamageInfo(_damageStat, gameObject, DamageType.DeathRay, DestroyTarget, dissolveColour * 150, transform));
                     Destroy(gameObject);
                     return;
                 }
@@ -153,7 +154,12 @@ public class EnergyDischargeController : MonoBehaviour
                 if (other.gameObject.GetComponent<DamageableComponent>() != null || other.gameObject.GetComponentInParent<DamageableComponent>() != null)
                 {
                     AudioSource.PlayClipAtPoint(RichochetClip, transform.position);
-                    other.gameObject.GetComponent<DamageableComponent>().Damage(new DamageInfo(_damageStat, gameObject, DamageType.DeathRay));
+                    other.gameObject.GetComponent<DamageableComponent>().Damage(new DamageInfo(_damageStat, gameObject, DamageType.DeathRay, transform));
+                    if (other.gameObject.GetComponent<PhysicsObject>() || other.gameObject.GetComponentInParent<PhysicsObject>())
+                    {
+                        var collision = Instantiate(CollisionExplosionSmallPrefab, transform.position, Quaternion.FromToRotation(transform.position, Vector3.Reflect(transform.position, other.contacts[0].normal)));
+                        collision.GetComponent<EnergyDischargeCollisionController>().SetLightType(RayType);
+                    }
                     Destroy(gameObject);
                     return;
                 }

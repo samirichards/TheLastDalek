@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.VFX;
 
 public abstract class DamageableComponent : MonoBehaviour
 {
@@ -39,7 +40,16 @@ public abstract class DamageableComponent : MonoBehaviour
     /// <param name="damageInfo">This will be provided through calling of the Damage Function in the base class</param>
     protected virtual void OnBreak(DamageInfo damageInfo)
     {
-        Debug.Log("Default Destroy behavior, " + gameObject.name + " Destroyed");
+        Debug.Log("Default Destroy behavior, " + gameObject.name + " Destroyed after 5 seconds");
+        StartCoroutine(DeleteThis(5f));
+    }
+
+    protected virtual IEnumerator DeleteThis(float time)
+    {
+        this.GetComponentInChildren<MeshRenderer>().enabled = false;
+        this.GetComponentInChildren<VisualEffect>().Stop();
+        this.GetComponent<BoxCollider>().enabled = false;
+        yield return new WaitForSeconds(time);
         Destroy(gameObject);
     }
 }

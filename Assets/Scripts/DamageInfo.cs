@@ -18,12 +18,30 @@ public class DamageInfo
         DamageType = damageType;
         DestroyTarget = false;
     }
+
+    public DamageInfo(float damageValue, GameObject damageSource, DamageType damageType, Transform _impactLocation)
+    {
+        DamageValue = damageValue;
+        DamageSource = damageSource;
+        DamageType = damageType;
+        DestroyTarget = false;
+        ImpactLocation = _impactLocation;
+    }
     public DamageInfo(float damageValue, GameObject damageSource, DamageType damageType, bool _destroyTarget)
     {
         DamageValue = damageValue;
         DamageSource = damageSource;
         DamageType = damageType;
         DestroyTarget = _destroyTarget;
+    }
+
+    public DamageInfo(float damageValue, GameObject damageSource, DamageType damageType, bool _destroyTarget, Transform _impactLocation)
+    {
+        DamageValue = damageValue;
+        DamageSource = damageSource;
+        DamageType = damageType;
+        DestroyTarget = _destroyTarget;
+        ImpactLocation = _impactLocation;
     }
 
     public DamageInfo(float damageValue, GameObject damageSource, DamageType damageType, bool _destroyTarget, Color _dissolveColour)
@@ -33,6 +51,16 @@ public class DamageInfo
         DamageType = damageType;
         DestroyTarget = _destroyTarget;
         DissolveColour = _dissolveColour;
+    }
+
+    public DamageInfo(float damageValue, GameObject damageSource, DamageType damageType, bool _destroyTarget, Color _dissolveColour, Transform _impactLocation)
+    {
+        DamageValue = damageValue;
+        DamageSource = damageSource;
+        DamageType = damageType;
+        DestroyTarget = _destroyTarget;
+        DissolveColour = _dissolveColour;
+        ImpactLocation = _impactLocation;
     }
 }
 
@@ -45,5 +73,6 @@ public enum DamageType
     Fire = 4,
     Collision = 5,
     Point = 6,
-    Electric = 7
+    Electric = 7,
+    Explosion = 8
 }

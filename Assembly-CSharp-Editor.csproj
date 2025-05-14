@@ -60,8 +60,14 @@
   <ItemGroup>
     <Compile Include="Assets\Shared\Ramps\Editor\RampAssetEditor.cs" />
     <Compile Include="Assets\Scripts\Editor\ShowOnlyAttribute.cs" />
+    <Compile Include="Assets\Scripts\Editor\CreatePhysSoundMaterial.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+    <Compile Include="Assets\Scripts\Editor\PhysSoundObjectLiteEditor.cs" />
+    <Compile Include="Assets\Scripts\Editor\PhysSoundTypeEditor.cs" />
+    <Compile Include="Assets\Scripts\Editor\PhysSoundObjectEditor.cs" />
     <Compile Include="Assets\Scripts\Editor\ShowOnlyDrawer.cs" />
+    <Compile Include="Assets\Scripts\Editor\PhysSoundMaterialEditor.cs" />
+    <Compile Include="Assets\Scripts\Editor\PhysSoundTerrainEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Cineware by Maxon\Plugins\Editor\native\maxon_login\resource\modules\crypt.module\build.txt" />

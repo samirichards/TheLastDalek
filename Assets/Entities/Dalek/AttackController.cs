@@ -362,7 +362,7 @@ public class AttackController : MonoBehaviour
                     var hitBaseAi = HitTarget.collider.gameObject.GetComponent<BaseAI>();
                     if (hitBaseAi)
                     {
-                        Debug.DrawRay(ray.origin, ray.direction * AimAssistMaxRange, Color.red, 0.02f);
+                        //Debug.DrawRay(ray.origin, ray.direction * AimAssistMaxRange, Color.red, 0.02f);
                         //Add or remove it from the target list depending on if it's already there or if there is something close
                         if (!hitList.Contains(hitBaseAi))
                         {
@@ -371,12 +371,12 @@ public class AttackController : MonoBehaviour
                     }
                     else
                     {
-                        Debug.DrawRay(ray.origin, ray.direction * AimAssistMaxRange, Color.green, 0.02f);
+                        //Debug.DrawRay(ray.origin, ray.direction * AimAssistMaxRange, Color.green, 0.02f);
                     }
                 }
                 else
                 {
-                    Debug.DrawRay(ray.origin, ray.direction * AimAssistMaxRange, Color.green, 0.02f);
+                    //Debug.DrawRay(ray.origin, ray.direction * AimAssistMaxRange, Color.green, 0.02f);
                 }
 
             }
@@ -612,7 +612,7 @@ public class AttackController : MonoBehaviour
                     var turretAI = HitTarget.collider.GetComponent<Turret>();
                     if (npcAI != null)
                     {
-                        DamageInfo info = new DamageInfo(PlungerDamage, gameObject, DamageType.Plunger);
+                        DamageInfo info = new DamageInfo(PlungerDamage, gameObject, DamageType.Plunger, HitTarget.transform);
                         npcAI.Damage(info);
                         var playerComponent = GetComponent<PlayerComponent>();
                         if (playerComponent.Health < playerComponent.MaxHealth)
@@ -627,10 +627,17 @@ public class AttackController : MonoBehaviour
                     }
                     if (turretAI != null)
                     {
-                        DamageInfo info = new DamageInfo(PlungerDamage * 4, gameObject, DamageType.Plunger);
+                        DamageInfo info = new DamageInfo(PlungerDamage * 4, gameObject, DamageType.Plunger, HitTarget.transform);
                         turretAI.Damage(info);
                         return;
                     }
+                    else if(HitTarget.collider.gameObject.GetComponent<DamageableComponent>() && HitTarget.collider.gameObject.GetComponent<ExplosiveBarrel>() == null)
+                    {
+                        DamageInfo info = new DamageInfo(PlungerDamage, gameObject, DamageType.Plunger, HitTarget.transform);
+                        HitTarget.collider.gameObject.GetComponent<DamageableComponent>().Damage(info);
+                        return;
+                    }
+                    //Extremely messy but I really can't be arsed to untangle it and make it neat, so I'm just adding to the slop pile by making it do a check for if it isn't a barrel
                 }
                 else
                 {

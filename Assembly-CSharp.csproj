@@ -67,6 +67,7 @@
     <Compile Include="Assets\LevelGeometry\Door\ElevateSceneChange\ElevateSceneChangeDoorInteractionBehavior.cs" />
     <Compile Include="Assets\Entities\Dalek\Inventory\ItemSlot.cs" />
     <Compile Include="Assets\VolumetricLines\BuiltInRenderPipeline\ExampleScenes\ExampleScripts\CreateSinShapedLineStrip.cs" />
+    <Compile Include="Assets\Scripts\Physics\PhysSoundObject.cs" />
     <Compile Include="Assets\Scripts\ArtifactScreen.cs" />
     <Compile Include="Assets\Shared\Ramps\Runtime\RampAsset.cs" />
     <Compile Include="Assets\Items\Item.cs" />
@@ -74,8 +75,10 @@
     <Compile Include="Assets\Entities\Dalek\LookAtAnimator.cs" />
     <Compile Include="Assets\Entities\Dalek\AttackController.cs" />
     <Compile Include="Assets\Shared\Scripts\SimpleCameraController.cs" />
+    <Compile Include="Assets\Scripts\Physics\PhysSoundObjectLite.cs" />
     <Compile Include="Assets\Entities\Dalek\PlayerComponent.cs" />
     <Compile Include="Assets\Entities\Turret\Turret.cs" />
+    <Compile Include="Assets\Scripts\Physics\PhysSoundObjectBase.cs" />
     <Compile Include="Assets\Scripts\PlayerSpawner.cs" />
     <Compile Include="Assets\LevelGeometry\FireAlarm\FireAlarm.cs" />
     <Compile Include="Assets\Shared\Scripts\SimpleCharacterMotor.cs" />
@@ -83,15 +86,19 @@
     <Compile Include="Assets\StarterParticles\RotateFlareHolder.cs" />
     <Compile Include="Assets\LevelGeometry\Barrel\ExplosiveBarrel.cs" />
     <Compile Include="Assets\Entities\Humanoid\Base\BaseAI.cs" />
+    <Compile Include="Assets\Scripts\Physics\PhysSoundBase.cs" />
     <Compile Include="Assets\Items\ItemDatabaseObject.cs" />
     <Compile Include="Assets\Shared\Scripts\AdjustTimeScale.cs" />
     <Compile Include="Assets\Entities\Dalek\Models\SpecialWeaponsDalek\SpecialWeaponsDalekPropController.cs" />
+    <Compile Include="Assets\Scripts\Physics\PhysSoundMaterial.cs" />
     <Compile Include="Assets\Scripts\ExplosionManager.cs" />
+    <Compile Include="Assets\Scripts\Physics\Utilities\Range.cs" />
     <Compile Include="Assets\VolumetricLines\Scripts\VolumetricLineBehavior.cs" />
     <Compile Include="Assets\LevelGeometry\Door\DoorControls\ControlsInteractionBehaviour.cs" />
     <Compile Include="Assets\Entities\Projecties\EnergyPellet\EnergyPelletController.cs" />
     <Compile Include="Assets\Scripts\Billboard.cs" />
     <Compile Include="Assets\Entities\Dalek\LockOnController.cs" />
+    <Compile Include="Assets\Scripts\Physics\PhysSoundTerrain.cs" />
     <Compile Include="Assets\LevelGeometry\Props\Tardis\Tardis.cs" />
     <Compile Include="Assets\Materials\Materials.cs" />
     <Compile Include="Assets\Scenes\Menus\MainMenu\Mainmenu.cs" />
@@ -100,16 +107,20 @@
     <Compile Include="Assets\Entities\Dalek\GunStickAimController.cs" />
     <Compile Include="Assets\Entities\Dalek\Models\Remembrence\RemembranceDalekPropController.cs" />
     <Compile Include="Assets\Entities\Dalek\Models\Paradigm\ParadigmPropController.cs" />
+    <Compile Include="Assets\Scripts\Physics\PhysSoundTypeList.cs" />
     <Compile Include="Assets\VolumetricLines\BuiltInRenderPipeline\ExampleScenes\ExampleScripts\CannonBehavior.cs" />
     <Compile Include="Assets\Entities\Dalek\LockOn\LockOnReticle.cs" />
     <Compile Include="Assets\Shared\Scripts\ProximityActivate.cs" />
     <Compile Include="Assets\Entities\Humanoid\Civilian\CivilianAI.cs" />
     <Compile Include="Assets\Entities\Projecties\DalekGun\EnergyDischargeCollisionController.cs" />
     <Compile Include="Assets\LevelGeometry\Door\SceneChange\SceneChangeDoorInteractionBehavior.cs" />
+    <Compile Include="Assets\LevelGeometry\PhysicsObject.cs" />
     <Compile Include="Assets\Entities\Humanoid\Guard\GuardAI.cs" />
     <Compile Include="Assets\Scripts\InteractiveObject.cs" />
     <Compile Include="Assets\LevelGeometry\Hole\Hole.cs" />
     <Compile Include="Assets\Entities\Dalek\Models\Standard\StandardDalekPropController.cs" />
+    <Compile Include="Assets\LevelGeometry\Crate\Small\LooseCrate.cs" />
+    <Compile Include="Assets\Scripts\Physics\PhysSoundTempAudioPool.cs" />
     <Compile Include="Assets\Scripts\InteractionBehavior.cs" />
     <Compile Include="Assets\Entities\Dalek\Player.cs" />
     <Compile Include="Assets\VolumetricLines\Scripts\VolumetricLineStripBehavior.cs" />
@@ -129,7 +140,9 @@
     <Compile Include="Assets\Entities\Dalek\SteamVent.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Entities\Projecties\Bullet\Bullet.cs" />
+    <Compile Include="Assets\Scripts\Physics\PhysSoundTempAudio.cs" />
     <Compile Include="Assets\Entities\Dalek\Movement.cs" />
+    <Compile Include="Assets\Particles\Packing_Peanuts\PackingPeanuts.cs" />
     <Compile Include="Assets\Items\InventoryObject.cs" />
     <Compile Include="Assets\Entities\Camera\CameraShake.cs" />
     <Compile Include="Assets\Scripts\SceneManager.cs" />
@@ -142,6 +155,7 @@
     <Compile Include="Assets\Entities\Dalek\SpeechController.cs" />
     <Compile Include="Assets\Scripts\SceneMusicMapping.cs" />
     <Compile Include="Assets\Entities\Dalek\Inventory\InventoryController.cs" />
+    <Compile Include="Assets\Scripts\Physics\Utilities\FoldoutList.cs" />
     <Compile Include="Assets\Entities\Camera\CameraObject.cs" />
     <Compile Include="Assets\Scenes\Menus\MainMenu\Dalek_LookManager.cs" />
   </ItemGroup>

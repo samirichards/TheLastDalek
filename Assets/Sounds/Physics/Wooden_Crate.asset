@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1a46b85acec488479294b28044c0b36, type: 3}
+  m_Name: Wooden_Crate
+  m_EditorClassIdentifier: 
+  MaterialTypeKey: 0
+  FallbackTypeIndex: 1
+  FallbackTypeKey: 0
+  VolumeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  RelativeVelocityThreshold:
+    Min: 2
+    Max: 8
+  PitchRandomness: 0.15
+  TimeScalePitch: 0
+  SlidePitchMod: 0.01
+  SlideVolMultiplier: 1
+  ImpactNormalBias: 0.75
+  ScaleMod: 0.5
+  CollisionMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  UseCollisionVelocity: 1
+  ScaleImpactVolume: 1
+  AudioSets:
+  - Key: 0
+    Impacts:
+    - {fileID: 8300000, guid: 51f9d564ad0a4e44da556cc2e029f96b, type: 3}
+    - {fileID: 8300000, guid: dcb13d0b0a71168418fdff13c3a14732, type: 3}
+    - {fileID: 8300000, guid: 52a5fae59863af447921330bf7277d6b, type: 3}
+    - {fileID: 8300000, guid: 008fcffa10d763e4589cc3a99b00fd29, type: 3}
+    - {fileID: 8300000, guid: 679d771571082ba438e894e7d3228ac0, type: 3}
+    - {fileID: 8300000, guid: 178553bb04b11c24289a5b1a9cb4ec10, type: 3}
+    - {fileID: 8300000, guid: 569b4b512c265b244bad8ad6e21d6046, type: 3}
+    - {fileID: 8300000, guid: b86eeb1dfb93ca449bb118769ebca7f3, type: 3}
+    - {fileID: 8300000, guid: c6259d4ecf6603f4d89396dd4413045b, type: 3}
+    - {fileID: 8300000, guid: b86eeb1dfb93ca449bb118769ebca7f3, type: 3}
+    - {fileID: 8300000, guid: c6259d4ecf6603f4d89396dd4413045b, type: 3}
+    Slide: {fileID: 8300000, guid: e3c81a0fdd9c82048a0f961da1297c58, type: 3}
+  - Key: 1
+    Impacts:
+    - {fileID: 8300000, guid: 736ed8d755a616143b6e5907ad373838, type: 3}
+    - {fileID: 8300000, guid: 2234a1ce1a2bf7b49a4369cf31b1e35f, type: 3}
+    - {fileID: 8300000, guid: 617d39bad02426644a6d73236ecde817, type: 3}
+    Slide: {fileID: 8300000, guid: e3c81a0fdd9c82048a0f961da1297c58, type: 3}
+  - Key: 3
+    Impacts:
+    - {fileID: 8300000, guid: c62288fec77659b48b8c2aa0413bde06, type: 3}
+    - {fileID: 8300000, guid: 66b5f8548a16a2247b8acc51c9e947d9, type: 3}
+    - {fileID: 8300000, guid: a0d59e76c089909489643f043273c060, type: 3}
+    - {fileID: 8300000, guid: 2a7341fc843b57d4396bff8b2775f71e, type: 3}
+    - {fileID: 8300000, guid: ff174608bb74d10418f419e2727a0bc1, type: 3}
+    Slide: {fileID: 0}
