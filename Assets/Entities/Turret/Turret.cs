@@ -80,18 +80,29 @@ public class Turret : DamageableComponent
 
             if (CurrentState == TurretState.Alert || CurrentState == TurretState.Attacking)
             {
-
-                // turret control:
-                Vector3 targetPosTurret = new Vector3(AttackTarget.transform.position.x, TurretHead.transform.position.y, AttackTarget.transform.position.z);
-                Quaternion turretRotationFinal = Quaternion.LookRotation(
-                    forward: targetPosTurret - TurretHead.transform.position,
-                    upwards: TurretBase.transform.up
-                );
-                float turretDegreesToFinal = Quaternion.Angle(TurretHead.transform.rotation, turretRotationFinal);
-                TurretHead.transform.rotation = Quaternion.Lerp(
-                    TurretHead.transform.rotation, turretRotationFinal,
-                    (60 / turretDegreesToFinal) * Time.deltaTime
-                );
+                if (FireInOneDirection)
+                {
+                    // Set turret head to face SingleFireDirection
+                    if (SingleFireDirection != Vector3.zero)
+                    {
+                        Quaternion fixedRotation = Quaternion.LookRotation(SingleFireDirection.normalized, TurretBase.transform.up);
+                        TurretHead.transform.rotation = fixedRotation;
+                    }
+                }
+                else
+                {
+                    // turret control:
+                    Vector3 targetPosTurret = new Vector3(AttackTarget.transform.position.x, TurretHead.transform.position.y, AttackTarget.transform.position.z);
+                    Quaternion turretRotationFinal = Quaternion.LookRotation(
+                        forward: targetPosTurret - TurretHead.transform.position,
+                        upwards: TurretBase.transform.up
+                    );
+                    float turretDegreesToFinal = Quaternion.Angle(TurretHead.transform.rotation, turretRotationFinal);
+                    TurretHead.transform.rotation = Quaternion.Lerp(
+                        TurretHead.transform.rotation, turretRotationFinal,
+                        (60 / turretDegreesToFinal) * Time.deltaTime
+                    );
+                }
             }
 
             if (CurrentState == TurretState.Attacking)

@@ -12,6 +12,7 @@ public class GuardAI : BaseAI
     [SerializeField] protected GameObject SpecialWeaponObject;
     [SerializeField] protected EquippedWeapon equippedWeapon;
     [SerializeField] protected GameObject BulletPrefab;
+    [SerializeField] protected GameObject SpecialWeaponProjectilePrefab;
 
     [SerializeField] protected float PistolFireRate = 1.2f;
     [SerializeField] protected float RifleFireRate = 0.66666f;
@@ -117,7 +118,7 @@ public class GuardAI : BaseAI
         CharacterAnimator.SetTrigger("Shoot");
         WeaponCooldown = RifleFireRate;
 
-        GameObject go = Instantiate(BulletPrefab, PistolObject.transform.position, PistolObject.transform.rotation);
+        GameObject go = Instantiate(BulletPrefab, RifleObject.transform.position, RifleObject.transform.rotation);
         go.transform.LookAt(new Vector3(AttackTarget.transform.position.x, AttackTarget.transform.position.y + 1, AttackTarget.transform.position.z));
         go.GetComponent<Bullet>().SetData(gameObject, 5f);
         GameObject.Destroy(go, 4f);
@@ -132,6 +133,11 @@ public class GuardAI : BaseAI
         weaponSoundSource.PlayOneShot(SpecialWeaponShootSounds[Mathf.RoundToInt(Random.Range(0, SpecialWeaponShootSounds.Length))]);
         CharacterAnimator.SetTrigger("Shoot");
         WeaponCooldown = SpecialWeaponFireRate;
+
+        GameObject go = Instantiate(SpecialWeaponProjectilePrefab, SpecialWeaponObject.transform.position, SpecialWeaponObject.transform.rotation);
+        go.transform.LookAt(new Vector3(AttackTarget.transform.position.x, AttackTarget.transform.position.y + 1, AttackTarget.transform.position.z));
+        go.GetComponent<EnergyPelletRaygunController>().SetData(new DamageInfo(10f, gameObject, DamageType.EnergyDischarge), 0.1f);
+        GameObject.Destroy(go, 4f);
     }
 
     public override void Attack()

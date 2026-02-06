@@ -5,29 +5,107 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638714346778928569
-    m_Hash: 1653164049
+      ticks: 639059323977139295
+    m_Hash: 703778631
   m_LockFileStatus:
     m_FilePath: H:/Users/samir/Documents/Game Projects/TheLastDalek/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638714347239151146
-    m_Hash: 3143601045
+      ticks: 639059324661867716
+    m_Hash: 4270854387
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: H:/Users/samir/Documents/Game Projects/TheLastDalek/Packages
-m_EditorVersion: 2021.3.45f1 (0da89fac8e79)
+m_EditorVersion: 2022.3.62f3 (96770f904ca7)
 m_ResolvedPackages:
-- packageId: com.unity.cinemachine@2.10.1
+- packageId: com.unity.ai.navigation@1.1.6
   testable: 0
   isDirectDependency: 1
-  version: 2.10.1
+  version: 1.1.6
   source: 1
-  resolvedPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.cinemachine@2.10.1
+  resolvedPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.ai.navigation@1.1.6
+  assetPath: Packages/com.unity.ai.navigation
+  name: com.unity.ai.navigation
+  displayName: AI Navigation
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: High-level NavMesh components for building and using NavMeshes at
+    runtime and at edit time.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.1.6
+    compatible:
+    - 1.1.6
+    recommended: 1.1.6
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.ai
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.ai
+    version: 1.0.0
+  keywords:
+  - carving
+  - mesh
+  - navigation
+  - navmesh
+  - NavMesh
+  - navmesh agent
+  - navmesh link
+  - navmeshlink
+  - navmesh modifier
+  - navmeshmodifier
+  - navmesh modifier volume
+  - navmeshmodifiervolume
+  - navmesh obstacle
+  - navmesh surface
+  - navmeshsurface
+  - offmesh link
+  - off-mesh link
+  - pathfinding
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@1.1/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation.git
+    revision: f6af42e7acca43eff2b426b1afd4925248486b1d
+    path: 
+  unityLifecycle:
+    version: 1.1.6
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.cinemachine@2.10.3
+  testable: 0
+  isDirectDependency: 1
+  version: 2.10.3
+  source: 1
+  resolvedPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.cinemachine@2.10.3
   assetPath: Packages/com.unity.cinemachine
   name: com.unity.cinemachine
   displayName: Cinemachine
@@ -36,7 +114,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: cinematography
-  type: assets
+  type: 
   description: "Smart camera tools for passionate creators. \n\nNew starting from
     2.7.1: Are you looking for the Cinemachine menu? It has moved to the GameObject
     menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version
@@ -115,6 +193,8 @@ m_ResolvedPackages:
     - 2.10.1
     - 2.10.2
     - 2.10.3
+    - 2.10.4
+    - 2.10.5
     - 3.0.0-pre.3
     - 3.0.0-pre.4
     - 3.0.0-pre.5
@@ -127,11 +207,28 @@ m_ResolvedPackages:
     - 3.1.1
     - 3.1.2
     - 3.1.3
+    - 3.1.4
+    - 3.1.5
     compatible:
-    - 2.10.1
-    - 2.10.2
     - 2.10.3
-    verified: 2.10.3
+    - 2.10.4
+    - 2.10.5
+    - 3.0.0-pre.3
+    - 3.0.0-pre.4
+    - 3.0.0-pre.5
+    - 3.0.0-pre.6
+    - 3.0.0-pre.7
+    - 3.0.0-pre.8
+    - 3.0.0-pre.9
+    - 3.0.1
+    - 3.1.0
+    - 3.1.1
+    - 3.1.2
+    - 3.1.3
+    - 3.1.4
+    - 3.1.5
+    recommended: 2.10.5
+    deprecated: []
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.31
@@ -177,24 +274,29 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638551642370000000
+  datePublishedTicks: 638666077203430000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.cinemachine@2.10/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.cinemachine.git
-    revision: 99f33a2a49de6506040887bf2cadade68d040e47
+    revision: fa616229e5cf36a8c640e862aff6eb686dbef444
     path: 
   unityLifecycle:
-    version: 2.10.1
+    version: 2.10.3
     nextVersion: 
     recommendedVersion: 
-- packageId: com.unity.collab-proxy@2.5.2
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.collab-proxy@2.7.1
   testable: 0
   isDirectDependency: 1
-  version: 2.5.2
+  version: 2.7.1
   source: 1
-  resolvedPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.collab-proxy@2.5.2
+  resolvedPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.collab-proxy@2.7.1
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -290,13 +392,28 @@ m_ResolvedPackages:
     - 2.7.1
     - 2.8.1
     - 2.8.2
+    - 2.9.1
+    - 2.9.2
+    - 2.9.3
+    - 2.10.0
+    - 2.10.1
+    - 2.10.2
+    - 2.11.2
+    - 2.11.3
     compatible:
-    - 2.5.2
-    - 2.6.0
     - 2.7.1
     - 2.8.1
     - 2.8.2
-    verified: 2.5.2
+    - 2.9.1
+    - 2.9.2
+    - 2.9.3
+    - 2.10.0
+    - 2.10.1
+    - 2.10.2
+    - 2.11.2
+    - 2.11.3
+    recommended: 2.7.1
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -314,6 +431,7 @@ m_ResolvedPackages:
   - teams
   - version
   - vcs
+  - uvcs
   registry:
     id: main
     name: 
@@ -324,24 +442,29 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638630364536670000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.5/manual/index.html
+  datePublishedTicks: 638751271186710000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.7/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: c402e6396d3ea20ecb2d59eac908e7e0a30cd7e6
+    revision: cf9c21f84be18cbe2d6a93ec7cfbeb01b4310bbe
     path: 
   unityLifecycle:
-    version: 2.5.2
+    version: 2.7.1
     nextVersion: 
     recommendedVersion: 
-- packageId: com.unity.ide.rider@3.0.31
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.ide.rider@3.0.36
   testable: 0
   isDirectDependency: 1
-  version: 3.0.31
+  version: 3.0.36
   source: 1
-  resolvedPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.ide.rider@3.0.31
+  resolvedPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.ide.rider@3.0.36
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -350,7 +473,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: The JetBrains Rider Editor package provides an integration for using
     the JetBrains Rider IDE as a code editor for Unity. It adds support for generating
     .csproj files for code completion and auto-discovery of installations.
@@ -404,12 +527,17 @@ m_ResolvedPackages:
     - 3.0.34
     - 3.0.35
     - 3.0.36
+    - 3.0.37
+    - 3.0.38
+    - 3.0.39
     compatible:
-    - 3.0.31
-    - 3.0.34
-    - 3.0.35
     - 3.0.36
-    verified: 3.0.36
+    - 3.0.37
+    - 3.0.38
+    - 3.0.39
+    recommended: 3.0.39
+    deprecated:
+    - 3.0.37
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -427,18 +555,23 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638548308080000000
+  datePublishedTicks: 638799562419060000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: ccd778a2275ff09f1a83bc924cfb2fb4d5b63566
+    revision: b5315083ab3861d21f6ab2ed0d9514daf04bf208
     path: 
   unityLifecycle:
-    version: 3.0.31
+    version: 3.0.36
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.ide.visualstudio@2.0.22
   testable: 0
   isDirectDependency: 1
@@ -486,10 +619,17 @@ m_ResolvedPackages:
     - 2.0.21
     - 2.0.22
     - 2.0.23
+    - 2.0.25
+    - 2.0.26
+    - 2.0.27
     compatible:
     - 2.0.22
     - 2.0.23
-    verified: 2.0.23
+    - 2.0.25
+    - 2.0.26
+    - 2.0.27
+    recommended: 2.0.27
+    deprecated: []
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.9
@@ -525,6 +665,11 @@ m_ResolvedPackages:
     version: 2.0.22
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.ide.vscode@1.2.5
   testable: 0
   isDirectDependency: 1
@@ -562,7 +707,8 @@ m_ResolvedPackages:
     - 1.2.5
     compatible:
     - 1.2.5
-    verified: 1.2.5
+    recommended: 1.2.5
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -588,12 +734,17 @@ m_ResolvedPackages:
     version: 1.2.5
     nextVersion: 
     recommendedVersion: 
-- packageId: com.unity.inputsystem@1.7.0
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.inputsystem@1.14.0
   testable: 0
   isDirectDependency: 1
-  version: 1.7.0
+  version: 1.14.0
   source: 1
-  resolvedPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.inputsystem@1.7.0
+  resolvedPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.inputsystem@1.14.0
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -602,7 +753,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: A new input system which can be used as a more extensible and customizable
     alternative to Unity's classic input system in UnityEngine.Input.
   status: 0
@@ -664,23 +815,22 @@ m_ResolvedPackages:
     - 1.13.0
     - 1.13.1
     - 1.14.0
+    - 1.14.1
+    - 1.14.2
+    - 1.15.0
+    - 1.16.0
+    - 1.17.0
+    - 1.18.0
     compatible:
-    - 1.7.0
-    - 1.8.0-pre.1
-    - 1.8.0-pre.2
-    - 1.8.0
-    - 1.8.1
-    - 1.8.2
-    - 1.9.0
-    - 1.10.0
-    - 1.11.0
-    - 1.11.1
-    - 1.11.2
-    - 1.12.0
-    - 1.13.0
-    - 1.13.1
     - 1.14.0
-    verified: 1.7.0
+    - 1.14.1
+    - 1.14.2
+    - 1.15.0
+    - 1.16.0
+    - 1.17.0
+    - 1.18.0
+    recommended: 1.14.2
+    deprecated: []
   dependencies:
   - name: com.unity.modules.uielements
     version: 1.0.0
@@ -692,8 +842,6 @@ m_ResolvedPackages:
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.uielementsnative
     version: 1.0.0
   keywords:
   - input
@@ -714,18 +862,23 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638277060810000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.inputsystem@1.7/manual/index.html
+  datePublishedTicks: 638780752796560000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.inputsystem@1.14/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/InputSystem.git
-    revision: e29989176f3a8473ba30854e4bfae953083eba28
+    revision: 5ac6cb14e03a4e4e5faf7bd8fbd915105ae3ff55
     path: 
   unityLifecycle:
-    version: 1.7.0
+    version: 1.14.0
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.postprocessing@3.4.0
   testable: 0
   isDirectDependency: 1
@@ -786,9 +939,14 @@ m_ResolvedPackages:
     - 3.2.2
     - 3.3.0
     - 3.4.0
+    - 3.5.0
+    - 3.5.1
     compatible:
     - 3.4.0
-    verified: 3.4.0
+    - 3.5.0
+    - 3.5.1
+    recommended: 3.4.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -818,12 +976,17 @@ m_ResolvedPackages:
     version: 3.4.0
     nextVersion: 
     recommendedVersion: 
-- packageId: com.unity.render-pipelines.high-definition@12.1.15
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.render-pipelines.high-definition@14.0.12
   testable: 0
   isDirectDependency: 1
-  version: 12.1.15
+  version: 14.0.12
   source: 2
-  resolvedPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.15
+  resolvedPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.render-pipelines.high-definition@14.0.12
   assetPath: Packages/com.unity.render-pipelines.high-definition
   name: com.unity.render-pipelines.high-definition
   displayName: High Definition RP
@@ -940,10 +1103,11 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 12.1.15
+    - 14.0.12
     compatible:
-    - 12.1.15
-    verified: 12.1.15
+    - 14.0.12
+    recommended: 14.0.12
+    deprecated: []
   dependencies:
   - name: com.unity.mathematics
     version: 1.2.4
@@ -958,18 +1122,18 @@ m_ResolvedPackages:
   - name: com.unity.modules.terrain
     version: 1.0.0
   - name: com.unity.render-pipelines.core
-    version: 12.1.15
+    version: 14.0.12
   - name: com.unity.shadergraph
-    version: 12.1.15
+    version: 14.0.12
   - name: com.unity.visualeffectgraph
-    version: 12.1.15
+    version: 14.0.12
   - name: com.unity.render-pipelines.high-definition-config
-    version: 12.1.15
+    version: 14.0.12
   resolvedDependencies:
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.burst
-    version: 1.8.18
+    version: 1.8.21
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.modules.video
@@ -987,7 +1151,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.terrain
     version: 1.0.0
   - name: com.unity.render-pipelines.core
-    version: 12.1.15
+    version: 14.0.12
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.imgui
@@ -995,13 +1159,13 @@ m_ResolvedPackages:
   - name: com.unity.modules.physics
     version: 1.0.0
   - name: com.unity.shadergraph
-    version: 12.1.15
+    version: 14.0.12
   - name: com.unity.searcher
-    version: 4.9.1
+    version: 4.9.2
   - name: com.unity.visualeffectgraph
-    version: 12.1.15
+    version: 14.0.12
   - name: com.unity.render-pipelines.high-definition-config
-    version: 12.1.15
+    version: 14.0.12
   keywords:
   - graphics
   - performance
@@ -1027,9 +1191,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 12.1.15
+    version: 14.0.12
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.test-framework@1.1.33
   testable: 0
   isDirectDependency: 1
@@ -1126,7 +1295,8 @@ m_ResolvedPackages:
     - 2.0.1-exp.2
     - 2.0.1-pre.12
     - 2.0.1-pre.18
-    verified: 1.1.33
+    recommended: 1.1.33
+    deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -1166,12 +1336,17 @@ m_ResolvedPackages:
     version: 1.1.33
     nextVersion: 
     recommendedVersion: 
-- packageId: com.unity.textmeshpro@3.0.6
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.textmeshpro@3.0.7
   testable: 0
   isDirectDependency: 1
-  version: 3.0.6
+  version: 3.0.7
   source: 1
-  resolvedPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.textmeshpro@3.0.6
+  resolvedPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.textmeshpro@3.0.7
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -1180,7 +1355,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Text Rendering
-  type: asset
+  type: assets
   description: 'TextMeshPro is the ultimate text solution for Unity. It''s the perfect
     replacement for Unity''s UI Text and the legacy Text Mesh.
 
@@ -1300,10 +1475,12 @@ m_ResolvedPackages:
     - 3.2.0-pre.10
     - 3.2.0-pre.11
     - 3.2.0-pre.12
+    - 3.2.0-pre.13
+    - 3.2.0-pre.14
+    - 3.2.0-pre.15
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     compatible:
-    - 3.0.6
     - 3.0.7
     - 3.0.8
     - 3.0.9
@@ -1319,7 +1496,13 @@ m_ResolvedPackages:
     - 3.2.0-pre.10
     - 3.2.0-pre.11
     - 3.2.0-pre.12
-    verified: 3.0.9
+    - 3.2.0-pre.13
+    - 3.2.0-pre.14
+    - 3.2.0-pre.15
+    - 4.0.0-pre.1
+    - 4.0.0-pre.2
+    recommended: 3.0.9
+    deprecated: []
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -1346,24 +1529,29 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637547111200000000
-  documentationUrl: 
+  datePublishedTicks: 638410382150000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.textmeshpro@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.textmeshpro.git
-    revision: 01e57e3b7de18af9dfe9baaa0a0ff5cc4765c899
+    revision: 5c364f204e10eaec84fcbff640ad4d833774c1ed
     path: 
   unityLifecycle:
-    version: 3.0.6
+    version: 3.0.7
     nextVersion: 
     recommendedVersion: 
-- packageId: com.unity.timeline@1.6.5
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.timeline@1.7.7
   testable: 0
   isDirectDependency: 1
-  version: 1.6.5
+  version: 1.7.7
   source: 1
-  resolvedPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.timeline@1.6.5
+  resolvedPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.timeline@1.7.7
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1372,7 +1560,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: Use Unity Timeline to create cinematic content, game-play sequences,
     audio sequences, and complex particle effects.
   status: 0
@@ -1467,17 +1655,9 @@ m_ResolvedPackages:
     - 1.8.6
     - 1.8.7
     - 1.8.8
+    - 1.8.9
+    - 1.8.10
     compatible:
-    - 1.6.5
-    - 1.7.0-pre.1
-    - 1.7.0-pre.2
-    - 1.7.0
-    - 1.7.1
-    - 1.7.2
-    - 1.7.3
-    - 1.7.4
-    - 1.7.5
-    - 1.7.6
     - 1.7.7
     - 1.8.0
     - 1.8.1
@@ -1488,7 +1668,10 @@ m_ResolvedPackages:
     - 1.8.6
     - 1.8.7
     - 1.8.8
-    verified: 1.6.5
+    - 1.8.9
+    - 1.8.10
+    recommended: 1.7.7
+    deprecated: []
   dependencies:
   - name: com.unity.modules.audio
     version: 1.0.0
@@ -1523,18 +1706,23 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638182037450000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.6/manual/index.html
+  datePublishedTicks: 638767785867400000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.7/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: 4ed67a7e62ce940db3d44dc5eca8fade1c664aed
+    revision: 36c3480685dcb744f098f1a1efe0623247ffab49
     path: 
   unityLifecycle:
-    version: 1.6.5
+    version: 1.7.7
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.ugui@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1564,7 +1752,11 @@ m_ResolvedPackages:
     - 3.0.0-exp.4
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated:
+    - 3.0.0-exp.1
+    - 3.0.0-exp.3
+    - 3.0.0-exp.4
   dependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
@@ -1602,6 +1794,11 @@ m_ResolvedPackages:
     version: 1.0.0
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.visualscripting@1.9.4
   testable: 0
   isDirectDependency: 1
@@ -1656,11 +1853,19 @@ m_ResolvedPackages:
     - 1.9.4
     - 1.9.5
     - 1.9.6
+    - 1.9.7
+    - 1.9.8
+    - 1.9.9
     compatible:
     - 1.9.4
     - 1.9.5
     - 1.9.6
-    verified: 1.9.6
+    - 1.9.7
+    - 1.9.8
+    - 1.9.9
+    recommended: 1.9.9
+    deprecated:
+    - 1.8.0-pre.1
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -1698,6 +1903,11 @@ m_ResolvedPackages:
     version: 1.9.4
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1722,7 +1932,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1748,6 +1959,11 @@ m_ResolvedPackages:
     version: 1.0.0
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.androidjni@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1771,7 +1987,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1797,6 +2014,11 @@ m_ResolvedPackages:
     version: 1.0.0
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.animation@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1821,7 +2043,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1847,6 +2070,11 @@ m_ResolvedPackages:
     version: 1.0.0
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.assetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1871,7 +2099,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1897,6 +2126,11 @@ m_ResolvedPackages:
     version: 1.0.0
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.audio@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1921,7 +2155,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1947,6 +2182,11 @@ m_ResolvedPackages:
     version: 1.0.0
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.cloth@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1971,7 +2211,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -2001,6 +2242,11 @@ m_ResolvedPackages:
     version: 1.0.0
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.director@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2025,7 +2271,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.audio
     version: 1.0.0
@@ -2059,6 +2306,11 @@ m_ResolvedPackages:
     version: 1.0.0
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.imageconversion@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2084,7 +2336,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2110,6 +2363,11 @@ m_ResolvedPackages:
     version: 1.0.0
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.imgui@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2134,7 +2392,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2160,6 +2419,11 @@ m_ResolvedPackages:
     version: 1.0.0
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.jsonserialize@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2184,7 +2448,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2210,6 +2475,11 @@ m_ResolvedPackages:
     version: 1.0.0
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.particlesystem@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2234,7 +2504,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2260,6 +2531,11 @@ m_ResolvedPackages:
     version: 1.0.0
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.physics@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2284,7 +2560,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2310,6 +2587,11 @@ m_ResolvedPackages:
     version: 1.0.0
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.physics2d@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2334,7 +2616,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2360,6 +2643,11 @@ m_ResolvedPackages:
     version: 1.0.0
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.screencapture@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2384,7 +2672,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.imageconversion
     version: 1.0.0
@@ -2414,6 +2703,11 @@ m_ResolvedPackages:
     version: 1.0.0
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.terrain@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2438,7 +2732,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2464,6 +2759,11 @@ m_ResolvedPackages:
     version: 1.0.0
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.terrainphysics@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2488,7 +2788,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -2522,6 +2823,11 @@ m_ResolvedPackages:
     version: 1.0.0
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.tilemap@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2545,7 +2851,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.physics2d
     version: 1.0.0
@@ -2575,6 +2882,11 @@ m_ResolvedPackages:
     version: 1.0.0
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.ui@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2599,7 +2911,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2625,6 +2938,11 @@ m_ResolvedPackages:
     version: 1.0.0
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.uielements@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2649,7 +2967,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
@@ -2657,16 +2976,12 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
-  - name: com.unity.modules.uielementsnative
-    version: 1.0.0
   resolvedDependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.uielementsnative
     version: 1.0.0
   keywords: []
   registry:
@@ -2691,6 +3006,11 @@ m_ResolvedPackages:
     version: 1.0.0
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.umbra@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2715,7 +3035,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2741,6 +3062,11 @@ m_ResolvedPackages:
     version: 1.0.0
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.unityanalytics@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2765,7 +3091,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -2799,6 +3126,11 @@ m_ResolvedPackages:
     version: 1.0.0
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.unitywebrequest@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2823,7 +3155,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2849,6 +3182,11 @@ m_ResolvedPackages:
     version: 1.0.0
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.unitywebrequestassetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2873,7 +3211,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.assetbundle
     version: 1.0.0
@@ -2907,6 +3246,11 @@ m_ResolvedPackages:
     version: 1.0.0
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.unitywebrequestaudio@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2931,7 +3275,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -2965,6 +3310,11 @@ m_ResolvedPackages:
     version: 1.0.0
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.unitywebrequesttexture@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2989,7 +3339,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -3023,6 +3374,11 @@ m_ResolvedPackages:
     version: 1.0.0
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.unitywebrequestwww@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -3047,7 +3403,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -3097,6 +3454,11 @@ m_ResolvedPackages:
     version: 1.0.0
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.vehicles@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -3121,7 +3483,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -3151,6 +3514,11 @@ m_ResolvedPackages:
     version: 1.0.0
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.video@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -3175,7 +3543,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.audio
     version: 1.0.0
@@ -3213,6 +3582,11 @@ m_ResolvedPackages:
     version: 1.0.0
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.vr@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -3237,7 +3611,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
@@ -3277,6 +3652,11 @@ m_ResolvedPackages:
     version: 1.0.0
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.wind@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -3301,7 +3681,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -3327,6 +3708,11 @@ m_ResolvedPackages:
     version: 1.0.0
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.xr@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -3351,7 +3737,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -3389,6 +3776,11 @@ m_ResolvedPackages:
     version: 1.0.0
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.subsystems@1.0.0
   testable: 0
   isDirectDependency: 0
@@ -3413,7 +3805,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
@@ -3443,67 +3836,11 @@ m_ResolvedPackages:
     version: 
     nextVersion: 
     recommendedVersion: 
-- packageId: com.unity.modules.uielementsnative@1.0.0
-  testable: 0
-  isDirectDependency: 0
-  version: 1.0.0
-  source: 2
-  resolvedPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
-  assetPath: Packages/com.unity.modules.uielementsnative
-  name: com.unity.modules.uielementsnative
-  displayName: UIElements Native
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: module
-  description: 
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 1.0.0
-    compatible:
-    - 1.0.0
-    verified: 1.0.0
-  dependencies:
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 
-    nextVersion: 
-    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.ext.nunit@1.0.6
   testable: 0
   isDirectDependency: 0
@@ -3541,7 +3878,8 @@ m_ResolvedPackages:
     - 2.0.3
     - 2.0.4
     - 2.0.5
-    verified: 1.0.6
+    recommended: 1.0.6
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -3570,6 +3908,11 @@ m_ResolvedPackages:
     version: 1.0.6
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.mathematics@1.2.6
   testable: 0
   isDirectDependency: 0
@@ -3610,11 +3953,14 @@ m_ResolvedPackages:
     - 1.2.6
     - 1.3.1
     - 1.3.2
+    - 1.3.3
     compatible:
     - 1.2.6
     - 1.3.1
     - 1.3.2
-    verified: 1.2.6
+    - 1.3.3
+    recommended: 1.2.6
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -3641,12 +3987,17 @@ m_ResolvedPackages:
     version: 1.2.6
     nextVersion: 
     recommendedVersion: 
-- packageId: com.unity.burst@1.8.18
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.burst@1.8.21
   testable: 0
   isDirectDependency: 0
-  version: 1.8.18
+  version: 1.8.21
   source: 1
-  resolvedPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.burst@1.8.18
+  resolvedPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.burst@1.8.21
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -3798,12 +4149,24 @@ m_ResolvedPackages:
     - 1.8.19
     - 1.8.20
     - 1.8.21
+    - 1.8.22
+    - 1.8.23
+    - 1.8.24
+    - 1.8.25
+    - 1.8.26
+    - 1.8.27
+    - 1.8.28
     compatible:
-    - 1.8.18
-    - 1.8.19
-    - 1.8.20
     - 1.8.21
-    verified: 1.8.21
+    - 1.8.22
+    - 1.8.23
+    - 1.8.24
+    - 1.8.25
+    - 1.8.26
+    - 1.8.27
+    - 1.8.28
+    recommended: 1.8.28
+    deprecated: []
   dependencies:
   - name: com.unity.mathematics
     version: 1.2.1
@@ -3825,24 +4188,29 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638622972693870000
+  datePublishedTicks: 638797336625580000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/burst.git
-    revision: 594a8d8794083be96fa510b2deea0954f971ecc9
+    revision: 941bff0925baa46012a2eff522313c170bf36c7a
     path: 
   unityLifecycle:
-    version: 1.8.18
+    version: 1.8.21
     nextVersion: 
     recommendedVersion: 
-- packageId: com.unity.render-pipelines.core@12.1.15
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.render-pipelines.core@14.0.12
   testable: 0
   isDirectDependency: 0
-  version: 12.1.15
+  version: 14.0.12
   source: 2
-  resolvedPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.render-pipelines.core@12.1.15
+  resolvedPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.render-pipelines.core@14.0.12
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Core RP Library
@@ -3961,14 +4329,17 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 12.1.15
+    - 14.0.12
     compatible:
-    - 12.1.15
-    verified: 12.1.15
+    - 14.0.12
+    recommended: 14.0.12
+    deprecated: []
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.terrain
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
@@ -3980,6 +4351,8 @@ m_ResolvedPackages:
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.terrain
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
@@ -4003,15 +4376,20 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 12.1.15
+    version: 14.0.12
     nextVersion: 
     recommendedVersion: 
-- packageId: com.unity.shadergraph@12.1.15
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.shadergraph@14.0.12
   testable: 0
   isDirectDependency: 0
-  version: 12.1.15
+  version: 14.0.12
   source: 2
-  resolvedPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.shadergraph@12.1.15
+  resolvedPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.shadergraph@14.0.12
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -4127,18 +4505,19 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 12.1.15
+    - 14.0.12
     compatible:
-    - 12.1.15
-    verified: 12.1.15
+    - 14.0.12
+    recommended: 14.0.12
+    deprecated: []
   dependencies:
   - name: com.unity.render-pipelines.core
-    version: 12.1.15
+    version: 14.0.12
   - name: com.unity.searcher
-    version: 4.9.1
+    version: 4.9.2
   resolvedDependencies:
   - name: com.unity.render-pipelines.core
-    version: 12.1.15
+    version: 14.0.12
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -4147,10 +4526,12 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.physics
     version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.searcher
-    version: 4.9.1
+    version: 4.9.2
   keywords: []
   registry:
     id: main
@@ -4171,15 +4552,20 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 12.1.15
+    version: 14.0.12
     nextVersion: 
     recommendedVersion: 
-- packageId: com.unity.visualeffectgraph@12.1.15
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.visualeffectgraph@14.0.12
   testable: 0
   isDirectDependency: 0
-  version: 12.1.15
+  version: 14.0.12
   source: 2
-  resolvedPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualeffectgraph@12.1.15
+  resolvedPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.visualeffectgraph@14.0.12
   assetPath: Packages/com.unity.visualeffectgraph
   name: com.unity.visualeffectgraph
   displayName: Visual Effect Graph
@@ -4264,20 +4650,21 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 12.1.15
+    - 14.0.12
     compatible:
-    - 12.1.15
-    verified: 12.1.15
+    - 14.0.12
+    recommended: 14.0.12
+    deprecated: []
   dependencies:
   - name: com.unity.shadergraph
-    version: 12.1.15
+    version: 14.0.12
   - name: com.unity.render-pipelines.core
-    version: 12.1.15
+    version: 14.0.12
   resolvedDependencies:
   - name: com.unity.shadergraph
-    version: 12.1.15
+    version: 14.0.12
   - name: com.unity.render-pipelines.core
-    version: 12.1.15
+    version: 14.0.12
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -4286,10 +4673,12 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.physics
     version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.searcher
-    version: 4.9.1
+    version: 4.9.2
   keywords:
   - vfx
   - visualeffect
@@ -4315,15 +4704,20 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 12.1.15
+    version: 14.0.12
     nextVersion: 
     recommendedVersion: 
-- packageId: com.unity.render-pipelines.high-definition-config@12.1.15
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.render-pipelines.high-definition-config@14.0.12
   testable: 0
   isDirectDependency: 0
-  version: 12.1.15
+  version: 14.0.12
   source: 2
-  resolvedPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.render-pipelines.high-definition-config@12.1.15
+  resolvedPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.render-pipelines.high-definition-config@14.0.12
   assetPath: Packages/com.unity.render-pipelines.high-definition-config
   name: com.unity.render-pipelines.high-definition-config
   displayName: High Definition RP Config
@@ -4383,16 +4777,17 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 12.1.15
+    - 14.0.12
     compatible:
-    - 12.1.15
-    verified: 12.1.15
+    - 14.0.12
+    recommended: 14.0.12
+    deprecated: []
   dependencies:
   - name: com.unity.render-pipelines.core
-    version: 12.1.15
+    version: 14.0.12
   resolvedDependencies:
   - name: com.unity.render-pipelines.core
-    version: 12.1.15
+    version: 14.0.12
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -4400,6 +4795,8 @@ m_ResolvedPackages:
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.terrain
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
@@ -4423,15 +4820,20 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 12.1.15
+    version: 14.0.12
     nextVersion: 
     recommendedVersion: 
-- packageId: com.unity.searcher@4.9.1
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.searcher@4.9.2
   testable: 0
   isDirectDependency: 0
-  version: 4.9.1
+  version: 4.9.2
   source: 1
-  resolvedPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.searcher@4.9.1
+  resolvedPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\PackageCache\com.unity.searcher@4.9.2
   assetPath: Packages/com.unity.searcher
   name: com.unity.searcher
   displayName: Searcher
@@ -4464,11 +4866,13 @@ m_ResolvedPackages:
     - 4.9.1
     - 4.9.2
     - 4.9.3
+    - 4.9.4
     compatible:
-    - 4.9.1
     - 4.9.2
     - 4.9.3
-    verified: 4.9.3
+    - 4.9.4
+    recommended: 4.9.4
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -4484,15 +4888,21 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637695653650000000
+  datePublishedTicks: 637831252240000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.searcher.git
-    revision: 9e68a2a9ba29bd6783bc91d15ff82bbd459f2163
+    revision: 7f9f75b04e97cf09c8ddc3968d059e74d6a2460a
     path: 
   unityLifecycle:
-    version: 4.9.1
+    version: 4.9.2
     nextVersion: 
     recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+m_BuiltInPackagesHash: 589add9c3ae0bc06545f5c61253b1928f3e64fad

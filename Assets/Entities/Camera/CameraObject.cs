@@ -43,7 +43,7 @@ public class CameraObject : MonoBehaviour
     }
     void Start()
     {
-        SetTracker();
+        //SetTracker();
     }
 
     public void SetTracker()

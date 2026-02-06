@@ -282,7 +282,7 @@ GameObject:
   - component: {fileID: -5614730578520680164}
   - component: {fileID: 799941672737185575}
   - component: {fileID: 1441894720544520903}
-  - component: {fileID: 7897822425199634193}
+  - component: {fileID: 4551734629387760517}
   m_Layer: 0
   m_Name: CameraObject
   m_TagString: CameraObject
@@ -375,7 +375,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LevelTransitionUIPanel: {fileID: 6558266394540368990}
   fadeDuration: 0.5
---- !u!82 &7897822425199634193
+--- !u!82 &4551734629387760517
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

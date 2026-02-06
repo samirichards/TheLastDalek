@@ -1,13 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
-public class Movement : MonoBehaviour
+public class Movement : MonoBehaviour, InputSystem_Actions.IPlayerActions
 {
     [SerializeField] private Rigidbody _rb;
+    [SerializeField] private CharacterController _controller;
     [SerializeField] private float _baseSpeed = 3f;
     [SerializeField] public float EnhancedSpeedModifier = 1.5f;
-    [SerializeField] private float _turnSpeed = 360;
+    [SerializeField] private float _turnSpeed = 720;
     [SerializeField] private AudioClip MovementStart;
     [SerializeField] private AudioClip MovementLoop;
     [SerializeField] private AudioClip MovementEnd;
@@ -27,17 +29,14 @@ public class Movement : MonoBehaviour
     private bool wasElevating = false;
     public List<GameObject> ElevationTargets;
     private PropController propController;
+    private Vector3 _direction;
 
 
     //TODO Come back here and finish elevate behavior
 
     private void Update()
     {
-        if (!GameManager.IsGamePaused)
-        {
-            GatherInput();
-            Look();
-        }
+
     }
 
     private void Awake()
@@ -45,6 +44,7 @@ public class Movement : MonoBehaviour
         audioSource = gameObject.AddComponent(typeof(AudioSource)) as AudioSource;
         audioSource2 = gameObject.AddComponent(typeof(AudioSource)) as AudioSource;
         ElevationTargets = new List<GameObject>();
+        _controller = GetComponent<CharacterController>();
     }
 
     void Start()
@@ -57,9 +57,27 @@ public class Movement : MonoBehaviour
     {
         if (!GameManager.IsGamePaused)
         {
-            Move();
-            HandleElevate();
+            if (MovementEnabled)
+            {
+                float finalSpeed = _baseSpeed;
+                if (IsMovementEnhanced)
+                {
+                    finalSpeed = (_baseSpeed * EnhancedSpeedModifier);
+                }
+                Vector3 toConvert = new Vector3(_direction.x, 0.1f, _direction.y);
+                _controller.SimpleMove(toConvert.ToIso() * finalSpeed * Time.deltaTime);
+                //_rb.velocity = toConvert.ToIso() * finalSpeed * Time.deltaTime;
+                //_rb.MovePosition(toConvert.ToIso() * finalSpeed * Time.deltaTime);
+                IsMoving = _direction.normalized.magnitude > 0.05f;
+                Look();
+            }
+            else
+            {
+                IsMoving = false;
+            }
+            propController.MovementAudio(IsMoving, IsElevating, IsMovementEnhanced, wasElevating);
         }
+        HandleElevate();
     }
 
     private void HandleElevate()
@@ -84,16 +102,12 @@ public class Movement : MonoBehaviour
         wasElevating = IsElevating; // Update the previous state
     }
 
-    private void GatherInput()
-    {
-        _input = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
-    }
-
     private void Look()
     {
-        if (_input == Vector3.zero) return;
+        if (_direction == Vector3.zero) return;
+        Vector3 toConvert = new Vector3(_direction.x, 0.1f, _direction.y);
 
-        var rot = Quaternion.LookRotation(_input.ToIso(), Vector3.up);
+        var rot = Quaternion.LookRotation(toConvert.ToIso(), Vector3.up);
         transform.rotation = Quaternion.RotateTowards(transform.rotation, rot, _turnSpeed * Time.deltaTime);
     }
 
@@ -106,7 +120,8 @@ public class Movement : MonoBehaviour
             {
                 finalSpeed = _baseSpeed * EnhancedSpeedModifier;
             }
-            _rb.MovePosition(transform.position + transform.forward * _input.normalized.magnitude * finalSpeed * Time.deltaTime);
+            _controller.Move(_input.ToIso() * finalSpeed * Time.deltaTime);
+            //_rb.MovePosition(transform.position + transform.forward * _input.normalized.magnitude * finalSpeed * Time.deltaTime);
             IsMoving = _input.normalized.magnitude > 0.05f;
         }
         else
@@ -114,6 +129,46 @@ public class Movement : MonoBehaviour
             IsMoving = false;
         }
         propController.MovementAudio(IsMoving, IsElevating, IsMovementEnhanced, wasElevating);
+    }
+
+    public void OnMove(InputAction.CallbackContext context)
+    {
+        _direction = context.ReadValue<Vector2>() * 40;
+    }
+
+    public void OnLook(InputAction.CallbackContext context)
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public void OnAttack(InputAction.CallbackContext context)
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public void OnInteract(InputAction.CallbackContext context)
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public void OnPrevious(InputAction.CallbackContext context)
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public void OnNext(InputAction.CallbackContext context)
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public void OnSprint(InputAction.CallbackContext context)
+    {
+        throw new System.NotImplementedException();
+    }
+
+    void InputSystem_Actions.IPlayerActions.OnFocus(InputAction.CallbackContext context)
+    {
+        throw new System.NotImplementedException();
     }
 }
 

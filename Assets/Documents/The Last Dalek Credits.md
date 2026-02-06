@@ -45,3 +45,5 @@
 "Wood Crate" (https://skfb.ly/6WXGs) by Elliot Whitehouse is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 
 "Low Poly | Pallets" (https://skfb.ly/oxwyB) by Den1121 is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"Sonic Screwdriver" (https://skfb.ly/orqSs) by Blue Speedster is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).

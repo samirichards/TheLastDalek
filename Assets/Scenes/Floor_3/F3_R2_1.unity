@@ -11512,6 +11512,7 @@ GameObject:
   - component: {fileID: 219332124}
   - component: {fileID: 219332123}
   - component: {fileID: 219332122}
+  - component: {fileID: 219332125}
   m_Layer: 10
   m_Name: Plane (1)
   m_TagString: Untagged
@@ -11599,6 +11600,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 219332120}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &219332125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219332120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cddfa6c2d9cf0da41a8dba3fac7942a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialType: 0
 --- !u!1 &221693086
 GameObject:
   m_ObjectHideFlags: 0
@@ -22535,6 +22549,7 @@ GameObject:
   - component: {fileID: 446324110}
   - component: {fileID: 446324109}
   - component: {fileID: 446324108}
+  - component: {fileID: 446324112}
   m_Layer: 10
   m_Name: Plane
   m_TagString: Untagged
@@ -22623,6 +22638,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &446324112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446324107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cddfa6c2d9cf0da41a8dba3fac7942a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialType: 0
 --- !u!1 &446611932
 GameObject:
   m_ObjectHideFlags: 0

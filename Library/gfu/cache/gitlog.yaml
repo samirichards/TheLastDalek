@@ -13,9 +13,166 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2025-05-14T18:12:27.858+01:00
-  initializedAtString: 2025-05-14T18:12:27.858+01:00
+  lastUpdatedAtString: 2026-02-04T13:41:36.750+00:00
+  initializedAtString: 2026-02-04T13:41:36.750+00:00
   log:
+  - commitID: 9e3428d632e1282a1e8a742a06eef6dafa57cc1c
+    mergeA: 
+    mergeB: 
+    authorName: Sami Richards
+    authorEmail: samirichards100@gmail.com
+    commitEmail: samirichards100@gmail.com
+    commitName: Sami Richards
+    summary: Modelled F4_R0
+    description: Added several physics objects as well as a small obstacle to show
+      the player that crates and stuff can be flung around
+    timeString: 2025-05-14T23:12:56.000+01:00
+    commitTimeString: 2025-05-14T23:12:56.000+01:00
+    changes:
+    - path: Assets\Scenes\Floor_4\F4_R0.meta
+      fullPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Scenes\Floor_4\F4_R0.meta
+      projectPath: Assets\Scenes\Floor_4\F4_R0.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\Floor_4\F4_R0.unity
+      fullPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Scenes\Floor_4\F4_R0.unity
+      projectPath: Assets\Scenes\Floor_4\F4_R0.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\Floor_4\F4_R0\NavMesh.asset
+      fullPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Scenes\Floor_4\F4_R0\NavMesh.asset
+      projectPath: Assets\Scenes\Floor_4\F4_R0\NavMesh.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\Floor_4\F4_R0\NavMesh.asset.meta
+      fullPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Assets\Scenes\Floor_4\F4_R0\NavMesh.asset.meta
+      projectPath: Assets\Scenes\Floor_4\F4_R0\NavMesh.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Bee\TundraBuildState.state.map
+      fullPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\TundraBuildState.state.map
+      projectPath: Library\Bee\TundraBuildState.state.map
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\Bee\backend_profiler0.traceevents
+      fullPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\backend_profiler0.traceevents
+      projectPath: Library\Bee\backend_profiler0.traceevents
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\Bee\fullprofile.json
+      fullPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\fullprofile.json
+      projectPath: Library\Bee\fullprofile.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\Bee\tundra.digestcache
+      fullPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Bee\tundra.digestcache
+      projectPath: Library\Bee\tundra.digestcache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\SceneVisibilityState.asset
+      fullPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\SceneVisibilityState.asset
+      projectPath: Library\SceneVisibilityState.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\Search\transactions.db
+      fullPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\Search\transactions.db
+      projectPath: Library\Search\transactions.db
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ShaderCache.db
+      fullPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache.db
+      projectPath: Library\ShaderCache.db
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ShaderCache\EditorEncounteredVariants
+      fullPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\ShaderCache\EditorEncounteredVariants
+      projectPath: Library\ShaderCache\EditorEncounteredVariants
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\SourceAssetDB
+      fullPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\SourceAssetDB
+      projectPath: Library\SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+      fullPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+      projectPath: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\UIElements\EditorWindows\UnityEditor.VFX.UI.VFXViewWindow.pref
+      fullPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\UIElements\EditorWindows\UnityEditor.VFX.UI.VFXViewWindow.pref
+      projectPath: Library\UIElements\EditorWindows\UnityEditor.VFX.UI.VFXViewWindow.pref
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\Logs\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UserSettings\EditorUserSettings.asset
+      fullPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\UserSettings\EditorUserSettings.asset
+      projectPath: UserSettings\EditorUserSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UserSettings\Layouts\default-2021.dwlt
+      fullPath: H:\Users\samir\Documents\Game Projects\TheLastDalek\UserSettings\Layouts\default-2021.dwlt
+      projectPath: UserSettings\Layouts\default-2021.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 9b60c2be43d1b51727332d8510ccb83d9df5720a
     mergeA: 
     mergeB: 
